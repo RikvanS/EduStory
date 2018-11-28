@@ -1,7 +1,8 @@
 @extends('layouts/app')
 
 @section('content')
-<p>Choice B</p>
+<p>Chapter 1 (choice b)</p>
 
-<p>Continue</p>
+
+<p><a href="/chapters/2">Continue</a></p>
 @endsection

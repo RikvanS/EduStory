@@ -4,8 +4,9 @@
 <p>Prologue</p>
 
 
-<p>Choice A</p>
 
-<p>Choice B</p>
+<p><a href="/chapters/1a">Choice A</a></p>
+
+<p><a href="/chapters/1b">Choice B</a></p>
 
 @endsection

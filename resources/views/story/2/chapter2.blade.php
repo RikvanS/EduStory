@@ -1,11 +1,8 @@
 @extends('layouts/app')
 
 @section('content')
-<p>Prologue</p>
+<p>Chapter 2</p>
 
 
-<p>Choice A</p>
-
-<p>Choice B</p>
-
+<p>The end</p>
 @endsection
