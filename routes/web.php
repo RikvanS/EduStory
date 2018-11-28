@@ -11,15 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ViewController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 Route::get('/chapters/prologue', 'ChapterController@prologue');
 Route::get('/chapters/1a', 'ChapterController@oneA');
 Route::get('/chapters/1b', 'ChapterController@oneB');
 Route::get('/chapters/2', 'ChapterController@two');
+
