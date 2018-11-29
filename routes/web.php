@@ -30,6 +30,9 @@ Route::get('/chapters/2', 'ChapterController@two');
 Route::post('/chapters/prologue/checkname', 'AjaxController@checkName');
 Route::get('/chapters/prologue/askname', 'AjaxController@askName');
 Route::post('/chapters/prologue/storename', 'AjaxController@storeName');
+Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
+Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
+Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
 /*---Falco------------------------------------------------*/
 

@@ -1,0 +1,1 @@
+<p>Dus je heet {{ Auth::user()->name }} en je bent {{ Auth::user()->age }} jaar oud. Welkom!</p>
