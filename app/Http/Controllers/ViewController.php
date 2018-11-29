@@ -12,4 +12,8 @@ class ViewController extends Controller
         return view('index');
     }
    
+    public function game()
+    {
+        return view('gametest');
+    }
 }
