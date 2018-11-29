@@ -21,4 +21,8 @@ class ChapterController extends Controller
     public function two() {
         return view('story/2/chapter2');
     }
+
+    public function epilogue() {
+        return view('story/epilogue/epilogue');
+    }
 }
