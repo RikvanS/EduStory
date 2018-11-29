@@ -10,6 +10,6 @@ class AjaxController extends Controller
         $name = request()->validate([
             'name' => 'required'
         ]);
-        return view('story/prologue/checkname', ['name' => $name]);
+        return view('story/0/checkname', ['name' => $name['name']]);
     }
 }

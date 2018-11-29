@@ -5,7 +5,6 @@
 <script>
 
 function loadDoc(method, url, myFunction, input) {
-    var data = input + "=" + document.getElementById(input).value;
     if (window.XMLHttpRequest) {
         var xhttp = new XMLHttpRequest();
     } else {
@@ -18,9 +17,13 @@ function loadDoc(method, url, myFunction, input) {
     }
     xhttp.open(method, url, true);
     if (method == 'POST') {
+        var data = input + "=" + document.getElementById(input).value;
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.setRequestHeader("X-CSRF-TOKEN", document.querySelector("meta[name='csrf-token']").getAttribute("content"));
+        xhttp.send(data);
+    } else {
+        xhttp.send();
     }
-    xhttp.send(data);
 }
 
 function changeDiv(xhttp) {
@@ -34,6 +37,7 @@ function changeDiv(xhttp) {
 
 <div id="change-div">
     <p>Hallo! Wat is jouw naam?</p>
+    @csrf
     <input id="name" name="name" type="text" class="text">
     <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'name')">Bevestig</button>
 </div>

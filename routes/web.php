@@ -28,6 +28,7 @@ Route::get('/chapters/2', 'ChapterController@two');
 /*---Dorieke------------------------------------------------*/
 
 Route::post('/chapters/prologue/checkname', 'AjaxController@checkName');
+Route::get('/test', 'AjaxController@testFunction');
 
 /*---Falco------------------------------------------------*/
 
