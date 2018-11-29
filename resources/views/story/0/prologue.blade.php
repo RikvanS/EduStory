@@ -3,14 +3,7 @@
 @section('content')
 
 <body onload="init();">
-
-<p>Prologue</p>
-
-    <canvas id="canvas"></canvas>
-
-    <div style="display:none" id="progressdiv">
-    <p><a href="/chapters/2">Door naar hoofdstuk 2</a></p>
-    </div>
+    <p><h2>Prologue</h2></p>
 
 <script>
 
@@ -41,13 +34,8 @@ function changeDiv(xhttp) {
 }
 
 </script>
-<p><a href="/chapters/1b">Choice B</a></p>
 
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
-
-
-
-<p><h2>Prologue</h2></p>
 
 <div>
     <p>Hier komt een stukje verhaal over iemand die in het water valt en wakker wordt in Groningen in de middeleeuwen. Iemand vraagt hem:</p>
@@ -58,6 +46,13 @@ function changeDiv(xhttp) {
     @csrf
     <input id="name" name="name" type="text" class="text">
     <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'name')">Bevestig</button>
+</div>
+
+<br>
+<canvas id="canvas"></canvas>
+
+<div style="display:none" id="progressdiv">
+<p><a href="/chapters/2">Door naar hoofdstuk 2</a></p>
 </div>
 </body>
 
