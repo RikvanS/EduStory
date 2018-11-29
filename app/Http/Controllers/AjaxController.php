@@ -12,4 +12,12 @@ class AjaxController extends Controller
         ]);
         return view('story/0/checkname', ['name' => $name['name']]);
     }
+
+    public function askName() {
+        return view('story/0/askname');
+    }
+
+    public function storeName(Request $request) {
+        //store name
+    }
 }

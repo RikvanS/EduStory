@@ -1,3 +1,4 @@
 <p>Dus je naam is {{ $name }}?</p>
-<button>Ja</button>
-<button onclick="loadDoc('GET', '/chapters/0/askname', changeDiv)">Nee</button>
+<input type="hidden" name="name" value="{{ $name }}">
+<button onclick="loadDoc('POST', '/chapters/prologue/storename', changeDiv, 'name')">Ja</button>
+<button onclick="loadDoc('GET', '/chapters/prologue/askname', changeDiv)">Nee</button>
