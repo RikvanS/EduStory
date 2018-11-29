@@ -41,7 +41,6 @@ function changeDiv(xhttp) {
 }
 
 </script>
-<p><a href="/chapters/1b">Choice B</a></p>
 
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
 
