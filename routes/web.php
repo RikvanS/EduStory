@@ -34,6 +34,8 @@ Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
 Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
+Route::get('/chapters/epilogue', 'ChapterController@epilogue');
+
 /*---Falco------------------------------------------------*/
 
 /*---Anna------------------------------------------------*/
