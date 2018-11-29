@@ -1,11 +1,4 @@
-@extends('layouts/app')
-
-@section('content')
-
-<script>
-
-function loadDoc(method, url, myFunction, input) {
-    var data = input + "=" + document.getElementById(input).value;
+function loadDoc(method, url, myFunction, data) {
     if (window.XMLHttpRequest) {
         var xhttp = new XMLHttpRequest();
     } else {
@@ -26,22 +19,3 @@ function loadDoc(method, url, myFunction, input) {
 function changeDiv(xhttp) {
     document.getElementById('change-div').innerHTML = xhttp.responseText;
 }
-
-</script>
-
-<p>Prologue</p>
-
-
-<div id="change-div">
-    <p>Hallo! Wat is jouw naam?</p>
-    <input id="name" name="name" type="text" class="text">
-    <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'name')">Bevestig</button>
-</div>
-
-
-
-<p><a href="/chapters/1a">Choice A</a></p>
-
-<p><a href="/chapters/1b">Choice B</a></p>
-
-@endsection

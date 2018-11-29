@@ -23,3 +23,15 @@ Route::get('/chapters/1a', 'ChapterController@oneA');
 Route::get('/chapters/1b', 'ChapterController@oneB');
 Route::get('/chapters/2', 'ChapterController@two');
 
+/*---Rik------------------------------------------------*/
+
+/*---Dorieke------------------------------------------------*/
+
+// Route::post('/chapters/prologue/checkname', )
+
+/*---Falco------------------------------------------------*/
+
+/*---Anna------------------------------------------------*/
+
+/*---Farhad------------------------------------------------*/
+
