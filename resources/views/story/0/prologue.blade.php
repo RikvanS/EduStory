@@ -43,7 +43,6 @@ function changeDiv(xhttp) {
 </script>
 <p><a href="/chapters/1b">Choice B</a></p>
 
-@endsection
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
 
 
@@ -61,5 +60,6 @@ function changeDiv(xhttp) {
     <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'name')">Bevestig</button>
 </div>
 </body>
-@endsection
 
+
+@endsection
