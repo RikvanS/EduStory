@@ -1,0 +1,166 @@
+body {
+    background-image: url(../images/chapters/431.jpg);
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+
+.head-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    border-bottom: 5px rgba(0, 0, 0, 0.288) solid;
+}
+
+#chapter1 {
+    background-image: url(../images/chapters/market.jpg);
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.header {
+    height: 150px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 255, 250, 0.356);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    top: 45%;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.521);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #FFFFFA;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 18px;
+}
+
+#log-title {
+    margin: 0 auto;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container {
+    background-color: rgba(255, 255, 250, 0);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h1 {
+    font-family: 'Almendra';
+}
+
+
+.subhead {
+    initial-letter: 2;
+}
+
+p {
+
+    font-family: 'Merriweather';
+    line-height: 34px;
+    font-size: 18px;
+}
+
+p::first-letter {
+    font-size: 34px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'MedievalSharp';
+}
+
+.button {
+    font-size: 20px;
+    font-family: 'Merriweather';
+    width: 250px;
+    height: 150px;
+    padding: 30px;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    margin: 30px;
+    opacity: 1;
+}
+
+#button-a {
+    background-image: url(../images/chapters/rsz_2stad.png);
+}
+
+#button-b {
+    background-image: url(../images/chapters/rsz_an-oriental-harbour-1650-52-bonaventura-the-elder-peeters-oil-painting.jpg);
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 2px solid #000;
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.815);
+}
