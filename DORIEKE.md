@@ -12,6 +12,8 @@
 <b>Middag</b><br />
 - Met team brainstormsessie<br />
 - Onderzoek en inspiratie opdoen<br />
+<br />
+<br />
 
 <h3>Dinsdag 27 november 2018</h3>
 <b>Ochtend</b><br />
@@ -22,6 +24,8 @@
 - Met team onderwerp voor het verhaal bedacht: reis langs Hanzesteden<br />
 - Met team moodboard gemaakt<br />
 - Met team teamnaam bedacht (Pixel Monkeys)<br />
+<br />
+<br />
 
 <h3>Woensdag 28 november 2018</h3>
 <b>Ochtend</b><br />
@@ -30,6 +34,8 @@
 <b>Middag</b><br />
 - In Laravel een skelet gemaakt voor de hoofdstuknavigatie met vertakkingen wat uiteindelijk in een epiloog view eindigt<br />
 - Met Rik een HerokuApp gemaakt die automatisch deployed vanuit de Github Master branch<br />
+<br />
+<br />
 
 <h3>Donderdag 29 november 2018</h3>
 <b>Ochtend</b><br />
@@ -39,6 +45,8 @@
 <b>Middag</b><br />
 - Verder gegaan met Ajax optimalisatie<br />
 - Met Falco de styling gemerged met het Laravel project<br />
+<br />
+<br />
 
 <h3>Vrijdag 28 november 2018</h3>
 <b>Ochtend</b><br />
@@ -49,6 +57,8 @@
 - Ajax bug opgelost<br />
 - Bug in sliding puzzel opgelost<br />
 - Begonnen met dit logboek<br />
+<br />
+<br />
 
 
 <a href="README.md">Terug</a>
