@@ -1,3 +1,5 @@
+window.onload = init();
+
 const PUZZLE_DIFFICULTY = 4;
 const PUZZLE_HOVER_TINT = '#009900';
  

@@ -4,3 +4,7 @@
 #logModal {
     z-index: -1;
 }
+
+body {
+    padding-top: 100px;
+}

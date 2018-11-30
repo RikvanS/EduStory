@@ -17,5 +17,6 @@
               
     </div>
     <script src="{{ URL::asset('js/chapter.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
