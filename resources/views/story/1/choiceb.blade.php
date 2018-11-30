@@ -1,4 +1,4 @@
-@extends('layouts/app')
+@extends('layouts/chapter')
 
 @section('content')
 <p><h2>Bergen</h2></p>

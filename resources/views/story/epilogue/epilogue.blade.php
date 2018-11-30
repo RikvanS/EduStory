@@ -1,4 +1,4 @@
-@extends('layouts/app')
+@extends('layouts/chapter')
 
 @section('content')
 <p><h2>Epiloog</h2></p>
