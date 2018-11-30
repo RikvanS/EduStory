@@ -3,4 +3,3 @@ CodeGorilla eindproject van team PixelMonkeys (Dorieke Berends, Anna Blaauw,  Fa
 
 <a href="DORIEKE.md">Test</a>
 
-<a href="REAMDE.md">Terug</a>
