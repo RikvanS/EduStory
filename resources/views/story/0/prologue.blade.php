@@ -1,7 +1,7 @@
 @extends('layouts/chapter')
 
 @section('content')
-
+<link href="{{ asset('css/test.css') }}" rel="stylesheet">
 <body onload="init();">
     <p><h2>Prologue</h2></p>
 
@@ -35,7 +35,7 @@ function changeDiv(xhttp) {
 
 </script>
 
-<script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
+
 
 <div>
     <p>Hier komt een stukje verhaal over iemand die in het water valt en wakker wordt in Groningen in de middeleeuwen. Iemand vraagt hem:</p>
@@ -58,3 +58,5 @@ function changeDiv(xhttp) {
 
 
 @endsection
+
+<script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
