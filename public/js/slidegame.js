@@ -1,4 +1,4 @@
-// window.onload = init();
+window.onload = init();
 
 const PUZZLE_DIFFICULTY = 4;
 const PUZZLE_HOVER_TINT = '#009900';
@@ -38,9 +38,6 @@ function setCanvas(){
     _canvas.width = _puzzleWidth;
     _canvas.height = _puzzleHeight;
     _canvas.style.border = "1px solid black";
-    // var myelement = _canvas.getBoundingClientRect();
-    // alert(myelement.top);
-    // mousey = myelement.top;
 }
 
 
@@ -229,7 +226,6 @@ function resetPuzzleAndCheckWin(){
         setTimeout(gameOver,500);
     }
 }
-
 
 
 function gameOver(){
