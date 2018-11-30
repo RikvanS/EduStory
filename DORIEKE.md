@@ -1,7 +1,7 @@
 <h1>Dorieke's activiteitenlog</h1>
 
 <p>Zie hieronder de gelogde activiteiten van Dorieke tijdens de projectweken.</p>
-<p>Klik <a href="README.md">hier</a> om terug te gaan.</p>
+<p>Klik <a href="https://github.com/RikvanS/EduStory">hier</a> om terug te gaan.</p>
 
 <h2>Week 1</h2>
 
@@ -61,4 +61,4 @@
 <br />
 
 
-<a href="README.md">Terug</a>
+<a href="https://github.com/RikvanS/EduStory">Terug</a>
