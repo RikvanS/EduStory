@@ -122,11 +122,11 @@ function shuffleArray(o){
 function onPuzzleClick(e){
     if(e.clientX || e.clientX == 0){
         _mouse.x = e.clientX - _canvas.offsetLeft;
-        _mouse.y = e.clientY - _canvas.offsetTop;
+        _mouse.y = e.clientY + window.pageYOffset - _canvas.offsetTop;
     }
     else if(e.offsetX || e.offsetX == 0){
         _mouse.x = e.offsetX - _canvas.offsetLeft;
-        _mouse.y = e.offsetY - _canvas.offsetTop;
+        _mouse.y = e.offsetY + window.pageYOffset - _canvas.offsetTop;
     }
     _currentPiece = checkPieceClicked();
     if(_currentPiece != null){
@@ -159,11 +159,11 @@ function updatePuzzle(e){
     _currentDropPiece = null;
     if(e.clientX || e.clientX == 0){
         _mouse.x = e.clientX - _canvas.offsetLeft;
-        _mouse.y = e.clientY - _canvas.offsetTop;
+        _mouse.y = e.clientY + window.pageYOffset - _canvas.offsetTop;
     }
     else if(e.offsetX || e.offsetX == 0){
         _mouse.x = e.offsetX - _canvas.offsetLeft;
-        _mouse.y = e.offsetY - _canvas.offsetTop;
+        _mouse.y = e.offsetY + window.pageYOffset - _canvas.offsetTop;
     }
     _stage.clearRect(0,0,_puzzleWidth,_puzzleHeight);
     var i;
