@@ -3,6 +3,8 @@
 @section('content')
 <p>In Lubek gebeurt er van alles!</p>
 
-<p><a href="/chapters/2a">Vaar naar Visby</a></p>
-<p><a href="/chapters/2b">Vaar naar Gdansk</a></p>
+<div class="buttons"> 
+    <a href="/chapters/1/setsail"><button type="button" id="button-a" class="button">Vaar naar Visby</button></a>
+    <a href="/chapters/1/setsail"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
+</div>    
 @endsection

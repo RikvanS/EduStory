@@ -10,8 +10,16 @@ class ChapterController extends Controller
         return view('story/0/prologue');
     }
 
+    public function prologueSetSail() {
+        return view('story/0/setsail');
+    }
+
     public function one() {
         return view('story/1/chapter1');
+    }
+
+    public function oneSetSail() {
+        return view('story/1/setsail');
     }
 
     public function twoA() {
@@ -20,6 +28,10 @@ class ChapterController extends Controller
 
     public function twoB() {
         return view('story/2/chapter2b');
+    }
+
+    public function twoSetSail() {
+        return view('story/2/setsail');
     }
 
     public function three() {
