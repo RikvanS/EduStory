@@ -2,12 +2,26 @@
 
 @section('content')
 
-    <p><h2>Prologue</h2></p>
-
-
+    <p><h2>Proloog</h2></p>
 
 <div>
-    <p>Hier komt een stukje verhaal over iemand die in het water valt en wakker wordt in Groningen in de middeleeuwen. Iemand vraagt hem:</p>
+    <p>Protagonist in de 21 eeuw: valt in het water</p>
+</div>
+
+<div>
+    <p>Paralax van golven terwijl de protagonist in het water valt hier</p>
+</div>
+
+<div>
+    <p>Tijdlijn die terugloopt van 2018 naar 1393</p>
+</div>
+
+<div>
+    <p>Hier komt een stuk verhaal over de protagonist die dingen meemaakt in Groningen n.a.v. Anna's onderzoek.</p>
+</div>
+
+<div>
+    <p>De protagonist beland in de haven (hoge der Aa), en wordt aangezien voor een scheepsjongen. Hij wordt aan boord van een schip getrokken. Als ze onderweg zijn, realiseert iemand wat er is gebeurd en vraagt aan de protagonist:</p>
 </div>
 
 <div id="change-div">
