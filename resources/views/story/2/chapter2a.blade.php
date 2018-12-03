@@ -1,9 +1,11 @@
 @extends('layouts/chapter')
 
 @section('content')
+
 <p><h2>Visby</h2></p>
 
 <p>Hier komt een stuk verhaal in Visby.</p>
+
 
 <canvas id="canvas"></canvas>
 
@@ -14,5 +16,6 @@
 @endsection
 
 @section('scripts')
+<script src="{{ URL::asset('js/ajax.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
 @endsection
