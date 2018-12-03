@@ -41,6 +41,10 @@ Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
 Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
+Route::get('/chapters/2a/hospital', 'AjaxController@hospital');
+Route::get('/chapters/2a/merchant', 'AjaxController@merchant');
+Route::get('/chapters/2a/repairship', 'AjaxController@repairShip');
+
 /*---Falco------------------------------------------------*/
 
 /*---Anna------------------------------------------------*/
