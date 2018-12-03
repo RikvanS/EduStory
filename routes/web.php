@@ -36,6 +36,11 @@ Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
 Route::get('/chapters/epilogue', 'ChapterController@epilogue');
 
+Route::get('/chapters/1', 'ChapterController@one');
+Route::get('/chapters/2a', 'ChapterController@twoA');
+Route::get('/chapters/2b', 'ChapterController@twoB');
+Route::get('/chapters/3', 'ChapterController@three');
+
 /*---Falco------------------------------------------------*/
 
 /*---Anna------------------------------------------------*/

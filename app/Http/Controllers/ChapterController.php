@@ -10,16 +10,20 @@ class ChapterController extends Controller
         return view('story/0/prologue');
     }
 
-    public function oneA() {
-        return view('story/1/choicea');
+    public function one() {
+        return view('story/1/chapter1');
     }
 
-    public function oneB() {
-        return view('story/1/choiceb');
+    public function twoA() {
+        return view('story/2/chapter2a');
     }
 
-    public function two() {
-        return view('story/2/chapter2');
+    public function twoB() {
+        return view('story/2/chapter2b');
+    }
+
+    public function three() {
+        return view('story/3/chapter3');
     }
 
     public function epilogue() {

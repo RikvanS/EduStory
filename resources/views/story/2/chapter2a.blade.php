@@ -23,5 +23,5 @@
             <button type="button" id="button-a" class="button">Naar Hamburg</button>
             <button type="button" id="button-b" class="button">Naar Bergen</button>
         </div>         
-<p><a href="/chapters/2">Vaar naar Lubek</a></p>
+<p><a href="/chapters/3">Vaar naar Riga</a></p>
 @endsection

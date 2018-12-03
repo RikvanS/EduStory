@@ -11,7 +11,7 @@
 <canvas id="canvas"></canvas>
 
 <div style="display:none" id="progressdiv">
-<p><a href="/chapters/2">Vaar naar Lubek</a></p>
+<p><a href="/chapters/3">Vaar naar Riga</a></p>
 </div>
 
 @endsection

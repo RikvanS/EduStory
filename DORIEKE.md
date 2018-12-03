@@ -59,7 +59,7 @@
 - Begonnen met dit logboek<br />
 <br />
 <br />
-<h2>Week 1</h2>
+<h2>Week 2</h2>
 
 <h3>Maandag 3 december 2018</h3>
 <b>Ochtend</b><br />
