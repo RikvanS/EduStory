@@ -1,4 +1,4 @@
-function loadDoc(method, url, myFunction, input) {
+function loadDoc(method, url, myFunction, div, input) {
     if (window.XMLHttpRequest) {
         var xhttp = new XMLHttpRequest();
     } else {
@@ -6,7 +6,7 @@ function loadDoc(method, url, myFunction, input) {
     }
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            myFunction(this);
+            myFunction(this, div);
         }                    
     }
     xhttp.open(method, url, true);
@@ -20,6 +20,6 @@ function loadDoc(method, url, myFunction, input) {
     }
 }
 
-function changeDiv(xhttp) {
-    document.getElementById('change-div').innerHTML = xhttp.responseText;
+function changeDiv(xhttp, div) {
+    document.getElementById(div).innerHTML = xhttp.responseText;
 }
