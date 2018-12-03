@@ -5,7 +5,7 @@
 <i class="fas fa-info-circle" id="infobutton"></i>
 <div id="infomodal" class="modal">
     <div class="modal-content">
-            <h1 id="log-title">Info</h1>
+            <h1 id="info-title">Info</h1>
             <p>Info tekst gebied</p>
     </div>
 </div>

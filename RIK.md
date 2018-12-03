@@ -16,3 +16,11 @@ Vrijdag: Pushen van styling brak Javascript game. Ochtend gevuld met presentatie
 
 Vrijdag 15:30 - 17:00:
 Kleine functionaliteit toevoegen, code opschonen.
+
+-------------
+
+Ma 3/12 2018 14:05
+Ochtend gespendeerd aan research, verhaallijn uitwerken en takenverdeling maken.
+Gehele verhaallijn is nu in principe present, enkel details nog uitwerken.
+Vanaf 14:00 tot 17:00 bezig met interactief element voor Hoofdstuk1 (Lübeck): Een memory game in JavaScript. In de verhaallijn stoot de protagonist per ongeluk de marktkraam om en moet helpen alles op te ruimen.
+
