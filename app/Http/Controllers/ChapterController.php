@@ -10,16 +10,32 @@ class ChapterController extends Controller
         return view('story/0/prologue');
     }
 
-    public function oneA() {
-        return view('story/1/choicea');
+    public function prologueSetSail() {
+        return view('story/0/setsail');
     }
 
-    public function oneB() {
-        return view('story/1/choiceb');
+    public function one() {
+        return view('story/1/chapter1');
     }
 
-    public function two() {
-        return view('story/2/chapter2');
+    public function oneSetSail() {
+        return view('story/1/setsail');
+    }
+
+    public function twoA() {
+        return view('story/2/chapter2a');
+    }
+
+    public function twoB() {
+        return view('story/2/chapter2b');
+    }
+
+    public function twoSetSail() {
+        return view('story/2/setsail');
+    }
+
+    public function three() {
+        return view('story/3/chapter3');
     }
 
     public function epilogue() {

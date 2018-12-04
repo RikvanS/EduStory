@@ -234,4 +234,4 @@ function gameOver(){
     document.onmouseup = null;
     reinitPuzzle();
     document.getElementById('progressdiv').style.display = 'block';
-}
+};

@@ -59,6 +59,17 @@
 - Begonnen met dit logboek<br />
 <br />
 <br />
+<h2>Week 2</h2>
+
+<h3>Maandag 3 december 2018</h3>
+<b>Ochtend</b><br />
+- Onderzoek gedaan naar Gdansk in de 14e eeuw<br />
+<br />
+<b>Middag</b><br />
+- Met team opzet verhaal geschreven<br />
+- Skelet voor verhaal uitgebouwd<br />
+<br />
+<br />
 
 
 <a href="https://github.com/RikvanS/EduStory">Terug</a>
