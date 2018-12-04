@@ -9,7 +9,22 @@
 <p>In de kunsthandel moet de protagonist een schilderij afleveren, en de handelaar vertelt hem over Lubek en kunstenaars.</p>
 <p>In het mysterieuze gebouw ziet de protagonist allemaal gereedschappen die vroeger gebruikt werden bij het bestrijden van de plaag. Een oude man vertelt hem erover.</p>
 
-<p>Op de markt leert de protagonist over verschillende handelswaren en waar ze vandaan komen. Hij doet een memory spel.</p>
+<p>"We zijn er eindelijk: De markt van Lübeck! Hier kunnen we alles vinden wat we maar willen, van Zweedse haring en koper tot hout en hars uit Riga, vachten uit Visby en honing
+    uit het achterland van Polen. Alle handelaren uit de verre omstreken komen hier samen" vertelde (de scheepsmaat die protagonist dingen bijbrengt).
+    "Laten we kijken hoeveel we hier kunnen krijgen voor onze spullen, misschien kunnen we ons ruim nog wat beter vullen als we slim handelen!"
+</p>
+<p>
+    Samen lopen jullie naar een goed gevulde, grote kraam met een grijnzende dikke man erachter.
+    "Welkom vrienden welkom! Kijk gerust naar mijn waren, als ik het niet heb is het nergens in Lübeck te vinden!" bulderde de man.
+    (scheepsmaat) en ik kijken onze ogen uit, de kraam is volgeladen met allerlei spullen:
+    Koper en vis uit Zweden, stof uit Nederland en België, vachten uit Visby, hout en hars uit Riga, graan en honing uit Rusland en Polen en zelfs grote brokken zout genaamd 'potas'.
+</p>
+<p>
+    Ik strek mijn hand uit om een mooi groot stuk koper beter te bekijken en stoot per ongeluk tegen de kraam! Hij wankelt twee keer en stort in onder het gewicht van alle spullen!
+    "Wat doe je nou?!" roept de marskramer vol ongeloof. "Kijk nou, alles ligt door elkaar!"
+    (scheepsmaat) en ik kijken elkaar aan vol schrik, wat een ellende.
+    "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
+    <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
 <div id="game"></div>
 <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
 
