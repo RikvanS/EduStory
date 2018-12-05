@@ -164,3 +164,71 @@ p::first-letter {
     border: 2px solid #000;
     box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.815);
 }
+
+.comments {
+    width: 500px;
+    line-height: 24px;
+}
+
+.comments .comment {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comments .comment p {
+    margin: 0 0 10px 0;
+}
+
+.bubble1, .bubble2 {
+    position: relative;
+    background: #fffffa;
+    border-radius: 10px;
+    padding: 20px;
+    color: #222;
+    font-family: 'Merriweather';
+    /*box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);*/
+}
+
+.bubble1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid #fffffa;
+    
+}
+
+.bubble2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 15px solid #fffffa;
+}
+
+.choice {
+    width: 420px;
+    text-align: left;
+    background: none;
+	color: inherit;
+    border: 1px solid transparent;
+    border-radius: 5px;
+	padding: 5px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.choice:hover {
+    background-color: rgba(173, 216, 230, 0.726);
+}
