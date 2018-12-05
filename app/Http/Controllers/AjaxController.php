@@ -47,4 +47,16 @@ class AjaxController extends Controller
         $user->update($age);
         return view('story/0/continue');
     }
+
+    public function hospital() {
+        return view('story/2/hospital');
+    }
+
+    public function merchant() {
+        return view('story/2/merchant');
+    }
+
+    public function repairShip() {
+        return view('story/2/repairship');
+    }
 }

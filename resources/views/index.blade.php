@@ -1,6 +1,14 @@
-Splash page/main page
-Placeholder.
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="{{ asset('js/infomodal.js') }}" defer></script>
+<link href="{{ asset('css/infomodal.css') }}" rel="stylesheet">
 
+<i class="fas fa-info-circle" id="infobutton"></i>
+<div id="infomodal" class="modal">
+    <div class="modal-content">
+            <h1 id="info-title">Info</h1>
+            <p>Info tekst gebied</p>
+    </div>
+</div>
 @guest
 <li class="nav-item">
     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -32,3 +40,4 @@ Placeholder.
     </div>
 </li>
 @endguest
+
