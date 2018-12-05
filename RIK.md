@@ -36,3 +36,10 @@ Post-lunch: Beginnen aan zeeslagje minigame.
 16:30:
 Zeeslag minigame research gedaan, morgen (5/12) hieraan beginnen.
 Verhaallijn voor marktkraam memory game geschreven en gepushed naar dev branch.
+
+--------------------
+5/12 10:00
+
+Morning standup gehouden, takenverdeling besproken, Anna gezamelijk up to speed gebracht.
+Mijn taak voor vandaag is de Zeeslag JS game voor in Visby.
+Als referentie/basis gebruik ik een codepen gevonden op https://codepen.io/collosic/pen/JpDfn
