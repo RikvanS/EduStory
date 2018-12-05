@@ -9,3 +9,11 @@
         <p>Modal text</p>
     </div>
 </div>
+<div id="mapModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 id="map-title"></h1>
+        <div>Map</div>
+        <p>Plaatsbeschrijving</p>
+    </div>
+</div>        
