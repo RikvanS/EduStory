@@ -22,7 +22,7 @@ html {
 	width: 380px; 
 	height: 740px;
 	margin: 25px auto;
-	border: 2px solid #73B1B7;
+	border: 2px solid white;
 	border-radius: 10px;
 	background-image: url(../images/wood.jpeg);
 }
@@ -35,9 +35,9 @@ html {
 .top {
 	width: 330px;
 	height: 330px;
-	background: #008B8B;
-	border-left: 1px solid #8DEEEE;
-	border-bottom: 1px solid #8DEEEE;
+	/* background: #008B8B; */
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
 
 }
 
@@ -45,9 +45,9 @@ html {
 	width: 330px;
 	height: 330px;
 	margin-top: 25px;
-	background: #008B8B;
-	border-left: 1px solid #8DEEEE;
-	border-bottom: 1px solid #8DEEEE;
+	/* background: #008B8B; */
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 .grid {
@@ -62,8 +62,8 @@ html {
 .aTops {
 	width: 29px;
 	height: 29px;
-	border-top: 1px solid #8DEEEE;
-	border-right: 1px solid #8DEEEE;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
 	display: table-cell;
 	vertical-align: middle;
 
@@ -76,8 +76,8 @@ html {
 	position: relative;
 	width: 29px;
 	height: 29px;
-	border-top: 1px solid #8DEEEE;
-	border-right: 1px solid #8DEEEE;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
 	display: block;
 	line-height: 29px;
 
@@ -90,8 +90,8 @@ html {
 	position: relative;
 	width: 29px;
 	height: 29px;
-	border-top: 1px solid #8DEEEE;
-	border-right: 1px solid #8DEEEE;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
 	display: inline-block;
 
 
@@ -102,7 +102,7 @@ html {
 }
 
 .hidezero {
-	color: #008B8B;
+	color: rgba(0, 139, 139, 0);
 }
 
 .hole {
@@ -110,7 +110,7 @@ html {
 	width: 10px;
 	height: 10px;
 	margin: 9px;
-	border: 1px solid #8DEEEE;
+	border: 1px solid white;
 	border-radius: 50%;
 	display: table;
 }
@@ -126,7 +126,7 @@ html {
 .topPanel {
 	width: 275px;
 	height: 350px;
-	border: 2px solid #73B1B7;
+	border: 2px solid white;
 	border-radius: 10px;
 	display: inline-block;
 	background-image: url(../images/wood.jpeg);
@@ -140,7 +140,7 @@ html {
 	display: block;
 
 	background: rgba(144,144,144,0.6);
-	border: 2px solid #73B1B7;
+	border: 2px solid white;
 	border-radius: 10px;
 
 	color: white;
@@ -184,24 +184,25 @@ html {
 	background: rgba(250, 10, 10, 0.7);
 }
 
-.carrier {
-	background: rgba(36,36,36,1);
+.galjoen {
+	/* background: rgba(36,36,36,1); */
+	background: black;
 }
 
-.battleship {
-	background: rgba(49,49,49,0.9);
+.fregat {
+	background: rgb(36, 36, 36);
 }
 
-.cruiser {
-	background: rgba(64,64,64,0.9);
+.kogge {
+	background: rgb(29, 29, 29);
 }
 
-.destroyer {
-	background: rgba(81,81,81,0.7);
+.gallei {
+	background: rgb(22, 22, 22);
 }
 
-.frigate {
-	background: rgba(100,100,100,0.7);
+.sloep {
+	background: rgb(15, 15, 15);
 }
 
 .hit {

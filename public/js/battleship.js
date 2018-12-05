@@ -5,11 +5,11 @@ var attemptedHits = [];
 // Object Constructors
 function Fleet(name) {
 	this.name = name;
-	this.shipDetails = [{ "name": "carrier", "length": 5 },
-						{ "name": "battleship", "length": 4 },
-						{ "name": "cruiser", "length": 3 },
-						{ "name": "destroyer", "length": 3 },
-						{ "name": "frigate", "length": 2 }];
+	this.shipDetails = [{ "name": "galjoen", "length": 5 },
+						{ "name": "fregat", "length": 4 },
+						{ "name": "kogge", "length": 3 },
+						{ "name": "gallei", "length": 3 },
+						{ "name": "sloep", "length": 2 }];
 	this.numOfShips = this.shipDetails.length;
 	this.ships = [];
 	this.currentShipSize = 0;
@@ -27,6 +27,10 @@ function Fleet(name) {
 		this.ships.splice(pos, 1);
 		if (this.ships.length == 0) {
 			$(".text").text(output.lost(this.name));
+			$('.section-progress-div').show();
+			$('html,body').animate({
+				scrollTop: $("#sub-content").offset().top
+			 });
 		}
 		return true;
 	};
@@ -73,17 +77,17 @@ function Ship(name){
 
 // Console obj
 var output = {
-	"welcome": " > Welcome to BattleShip.  Use the menu above to get started.",
-	"not": " > This option is not currently available.",
-	"player1": " > Would you like to place your own ships or have the computer randomly do it for you?",
-	"self": " > Use the mouse and the Horizontal and Vertial buttons to place your ships on the bottom grid.",
-	"overlap": " > You can not overlap ships.  Please try again.",
-	"start": " > Use the mouse to fire on the top grid.  Good Luck!",
-	placed: function(name) { return " > Your " + name + " been placed."; },
-	hit: function(name, type) { return " > " + name + "'s ship was hit." },
-	miss: function(name) { return " > " + name + " missed!" },
-	sunk: function(user, type) { return " > " + user + "'s " + type + " was sunk!" },
-	lost: function(name) { return " > " + name + " has lost his fleet!!  Game Over." },
+	"welcome": " > Piraten vallen jullie aan! Verdedig het schip! Klik hier boven op 'begin het gevecht'.",
+	"not": " > Er gebeurt niets, deze knop werkt hier niet.",
+	"player1": " > Wil je je schepen zelf plaatsen of de computer dit laten doen?",
+	"self": " > Gebruik je muis en de horizontaal en verticaal knoppen om schepen te plaatsen",
+	"overlap": " > Schepen kunnen niet overlappen",
+	"start": " > Gebruik je muis om vijandelijke schepen te beschieten!",
+	placed: function(name) { return " > Je " + name + " is geplaatst!"; },
+	hit: function(name, type) { return " > " + name + "'s schip is geraakt!" },
+	miss: function(name) { return " > " + name + " schoot mis." },
+	sunk: function(user, type) { return " > " + user + "'s " + type + " is gezonken!" },
+	lost: function(name) { return " > " + name + " is de hele vloot kwijt!!  Game Over." },
 };
 
 // Objects for playing the game and bot for playing the computer
@@ -100,7 +104,7 @@ var topBoard = {
 				var num = parseInt($(this).attr("class").slice(15));
 				var bool = cpuFleet.checkIfHit(num);
 				if (false == bool) {
-					$(".text").text(output.miss("You"));
+					$(".text").text(output.miss("Je"));
 					$(this).children().addClass("miss");
 				} else $(this).children().addClass("hit");
 				$(".top").find(".points").off("mouseenter").off("mouseover").off("mouseleave").off("click");
@@ -524,15 +528,15 @@ $(document).ready(function() {
 
 function gameSetup(t) {
 	$(t).off() && $(".two").off();
-	$(".one").addClass("self").removeClass("one").text("Place My Own");
-	$(".multi").addClass("random").removeClass("multi").text("Random");
-
+	$(".one").addClass("self").removeClass("one").text("Ik plaats ze zelf!");
+	$(".multi").addClass("random").removeClass("multi").text("De computer plaatst ze");
+	$('.random').show();
 	$(".self").off("click").on("click", function() {
 		$(".text").text(output.self);
 		selfSetup(playerFleet);
 	});
 	$(".random").off("click").on("click", function() {
-		playerFleet = new Fleet("Player 1");
+		playerFleet = new Fleet("Speler");
 		playerFleet.initShips();
 		randomSetup(playerFleet);
 	});
@@ -540,8 +544,8 @@ function gameSetup(t) {
 
 
 function selfSetup() {
-	$(".self").addClass("horz").removeClass("self").text("Horizontal");
-	$(".random").addClass("vert").removeClass("random").text("Vertical");
+	$(".self").addClass("horz").removeClass("self").text("Horizontaal");
+	$(".random").addClass("vert").removeClass("random").text("Verticaal");
 	
 	// initialize the fleet
 	playerFleet = new Fleet("Player 1");
@@ -578,7 +582,7 @@ function randomSetup(fleet) {
 
 function createCpuFleet() {
 	// create a random ship placement for the cpu's fleet
-	cpuFleet = new Fleet("CPU");
+	cpuFleet = new Fleet("Piraat");
 	cpuFleet.initShips();
 	randomSetup(cpuFleet);
 }
@@ -654,13 +658,13 @@ function setShip(location, ship, orientation, genericFleet, type) {
 	if (!(checkOverlap(location, ship.length, orientation, genericFleet))) {
 		if (orientation == "horz") {
 			genericFleet.ships[genericFleet.currentShip].populateHorzHits(location);
-			$(".text").text(output.placed(genericFleet.ships[genericFleet.currentShip].name + " has"));
+			$(".text").text(output.placed(genericFleet.ships[genericFleet.currentShip].name + ""));
 			for (var i = location; i < (location + ship.length); i++) {
 				$(".bottom ." + i).addClass(genericFleet.ships[genericFleet.currentShip].name);
 				$(".bottom ." + i).children().removeClass("hole");
 			}
 			if (++genericFleet.currentShip == genericFleet.numOfShips) {
-				$(".text").text(output.placed("ships have"));
+				$(".text").text(output.placed("schepen zijn"));
 				$(".bottom").find(".points").off("mouseenter");
 				// clear the call stack
 				setTimeout(createCpuFleet, 100);
@@ -672,14 +676,14 @@ function setShip(location, ship, orientation, genericFleet, type) {
 		} else {
 			var inc = 0;
 			genericFleet.ships[genericFleet.currentShip].populateVertHits(location);
-			$(".text").text(output.placed(genericFleet.ships[genericFleet.currentShip].name + " has"));
+			$(".text").text(output.placed(genericFleet.ships[genericFleet.currentShip].name + ""));
 			for (var i = location; i < (location + ship.length); i++) {
 				$(".bottom ." + (location + inc)).addClass(genericFleet.ships[genericFleet.currentShip].name);
 				$(".bottom ." + (location + inc)).children().removeClass("hole");
 				inc = inc + 10;
 			}
 			if (++genericFleet.currentShip == genericFleet.numOfShips) {
-				$(".text").text(output.placed("ships have"));
+				$(".text").text(output.placed("schepen zijn"));
 				$(".bottom").find(".points").off("mouseenter");
 				// clear the call stack
 				setTimeout(createCpuFleet, 100);
