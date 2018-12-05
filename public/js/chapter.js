@@ -1,6 +1,4 @@
-var logModal = document.getElementById('logModal');
-var mapModal = document.getElementById('mapModal');
-var modal = document.getElementsByClassName('modal');
+var modal = document.getElementById('logModal');
 
 var book = document.getElementById('book-btn');
 var map = document.getElementById('map-btn');
@@ -8,16 +6,15 @@ var map = document.getElementById('map-btn');
 var span = document.getElementsByClassName('close')[0];
 
 book.onclick = function() {
-    logModal.style.display = "block";
+    modal.style.display = "block";
 }
 
 map.onclick = function() {
-    mapModal.style.display = "block";
+    modal.style.display = "block";
 }
 
 span.onclick = function() {
-    logModal.style.display = "none";
-    mapModal.style.display = "none";
+    modal.style.display = "none";
 }
 
 window.onclick = function(event) {
