@@ -2,9 +2,35 @@
 
 @section('content')
 
+<link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <p><h2>Visby</h2></p>
 
 <p>Als het schip Visby nadert, wordt het aangevallen door piraten! Hier komt een zeeslagspelletje.</p>
+<div id="main">
+    <div class="board">
+      <div class="displays">
+        <div class="top">
+          <ul class="grid"></ul>
+        </div>
+        <div class="bottom">
+          <ul class="grid"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="topPanel">
+        <div class="layout">
+          <div class='buttons one'>One-Player</div>
+          <div class='buttons multi'></div>
+        </div>
+      </div>
+      <div class='console'>
+        <span class='text'></span></div>
+    </div>
+  </div>
+
+
 
 <p>Na de slag neemt de protagonist een scheepsmaat mee naar de ziekenhuiskerk.</p>
 
@@ -25,5 +51,6 @@
 
 @section('scripts')
 <script src="{{ URL::asset('js/ajax.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/battleship.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
 @endsection
