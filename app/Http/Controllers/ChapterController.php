@@ -38,6 +38,18 @@ class ChapterController extends Controller
         return view('story/3/chapter3');
     }
 
+    public function lubeck() {
+        return view('story/1/Lubeck');
+    }
+
+    public function artDealer() {
+        return view('story/1/artDealer');
+    }
+
+    public function artGallery() {
+        return view('story/1/artGallery');
+    }
+
     public function epilogue() {
         return view('story/epilogue/epilogue');
     }

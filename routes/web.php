@@ -51,3 +51,6 @@ Route::get('/chapters/2a/repairship', 'AjaxController@repairShip');
 
 /*---Farhad------------------------------------------------*/
 
+Route::get('/chapters/1/Lubeck', 'ChapterController@lubeck');
+Route::get('/chapters/1/artdealer', 'ChapterController@artDealer');
+Route::get('/chapters/1/artgallery', 'ChapterController@artGallery');
