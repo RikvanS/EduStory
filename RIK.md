@@ -43,3 +43,7 @@ Verhaallijn voor marktkraam memory game geschreven en gepushed naar dev branch.
 Morning standup gehouden, takenverdeling besproken, Anna gezamelijk up to speed gebracht.
 Mijn taak voor vandaag is de Zeeslag JS game voor in Visby.
 Als referentie/basis gebruik ik een codepen gevonden op https://codepen.io/collosic/pen/JpDfn
+
+15:00
+Zeeslag game toegevoegd aan project, gelokaliseerd, styling meer in lijn gebracht met verhaal. Getest, werkt volledig op Firefox en chrome.
+Verhaalstructuur aangepast, restant van hoofdstuk verborgen in hidden div die getoond wordt na voltooien van zeeslag, plus autoscroll naar de net getoonde div.
