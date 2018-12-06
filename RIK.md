@@ -59,3 +59,7 @@ Nu bezig met knoppen toevoegen aan minigames die de game over/succes events fire
 14:00
 Testknoppen aangemaakt.
 Volgende mini feature is een difficulty selector voor de slide game.
+
+15:30
+Difficulty radio selector optie toegevoegd aan slide game, standaard ingesteld op 4x4 met opties voor 5x5 en 6x6.
+
