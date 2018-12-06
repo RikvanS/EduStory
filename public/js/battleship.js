@@ -84,7 +84,7 @@ var output = {
 	"overlap": " > Schepen kunnen niet overlappen",
 	"start": " > Gebruik je muis om vijandelijke schepen te beschieten!",
 	placed: function(name) { return " > Je " + name + " is geplaatst!"; },
-	hit: function(name, type) { return " > " + name + "'s schip is geraakt!" },
+	hit: function(name, type) { return " > " + name + " z'n schip is geraakt!" },
 	miss: function(name) { return " > " + name + " schoot mis." },
 	sunk: function(user, type) { return " > " + user + "'s " + type + " is gezonken!" },
 	lost: function(name) { return " > " + name + " is de hele vloot kwijt!!  Game Over." },
@@ -548,7 +548,7 @@ function selfSetup() {
 	$(".random").addClass("vert").removeClass("random").text("Verticaal");
 	
 	// initialize the fleet
-	playerFleet = new Fleet("Player 1");
+	playerFleet = new Fleet("Speler");
 	playerFleet.initShips();
 	// light up the players ship board for placement
 	placeShip(playerFleet.ships[playerFleet.currentShip], playerFleet);
@@ -664,7 +664,7 @@ function setShip(location, ship, orientation, genericFleet, type) {
 				$(".bottom ." + i).children().removeClass("hole");
 			}
 			if (++genericFleet.currentShip == genericFleet.numOfShips) {
-				$(".text").text(output.placed("schepen zijn"));
+				$(".text").text(output.placed("vloot"));
 				$(".bottom").find(".points").off("mouseenter");
 				// clear the call stack
 				setTimeout(createCpuFleet, 100);
@@ -683,7 +683,7 @@ function setShip(location, ship, orientation, genericFleet, type) {
 				inc = inc + 10;
 			}
 			if (++genericFleet.currentShip == genericFleet.numOfShips) {
-				$(".text").text(output.placed("schepen zijn"));
+				$(".text").text(output.placed("vloot"));
 				$(".bottom").find(".points").off("mouseenter");
 				// clear the call stack
 				setTimeout(createCpuFleet, 100);
