@@ -29,10 +29,13 @@ class AjaxController extends Controller
     }
 
     public function checkAge(Request $request) {
-        $age = request()->validate([
-            'age' => ['required', 'integer']
-        ]);
-        return view('story/0/checkage', ['age' => $age['age']]);
+        $age = request('age');
+
+        if (is_int($age)) {
+            return view('story/0/checkage', ['age' => $age['age']]);
+        } else {
+            return view('story/0/askage');
+        }
     }
 
     public function askAge() {
