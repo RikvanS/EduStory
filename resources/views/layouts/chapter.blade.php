@@ -10,7 +10,6 @@
     <title>EduStory @yield('title')</title>
 </head>
 <body>
-    <div class="head-image" id="chapter1"></div>
     @include('includes/sidebar')
     <div class="container">
         @yield('content')

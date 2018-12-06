@@ -1,0 +1,21 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #FFFFFA;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 18px;
+}
