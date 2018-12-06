@@ -14,3 +14,7 @@
 <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
 
 @endsection
+
+@section('scripts')
+    
+@endsection

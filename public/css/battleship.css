@@ -35,7 +35,6 @@ html {
 .top {
 	width: 330px;
 	height: 330px;
-	/* background: #008B8B; */
 	border-left: 1px solid white;
 	border-bottom: 1px solid white;
 
@@ -45,7 +44,6 @@ html {
 	width: 330px;
 	height: 330px;
 	margin-top: 25px;
-	/* background: #008B8B; */
 	border-left: 1px solid white;
 	border-bottom: 1px solid white;
 }
@@ -185,7 +183,6 @@ html {
 }
 
 .galjoen {
-	/* background: rgba(36,36,36,1); */
 	background: black;
 }
 

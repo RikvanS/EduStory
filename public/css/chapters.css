@@ -1,32 +1,17 @@
 body {
-    background-image: url(../images/chapters/431.jpg);
+    background-image: url(../images/chapters/parchment.jpg);
     margin: 0 auto;
     padding-top: 250px;
     padding-bottom: 150px;
 }
 
-.head-image {
+/* .head-image {
     position: absolute;
     top: 0;
     width: 100%;
     height: 250px;
     border-bottom: 5px rgba(0, 0, 0, 0.288) solid;
-}
-
-#chapter1 {
-    background-image: url(../images/chapters/market.jpg);
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-.nav-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+} */
 
 .nav-icon {
     height: 60px;
@@ -36,19 +21,7 @@ ul {
 .nav-icon:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.header {
-    height: 150px;
-    top: 0px;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(255, 255, 250, 0.356);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-}
+} 
 
 .sidebar {
     position: fixed;
@@ -118,11 +91,6 @@ h2, h1 {
     font-family: 'Almendra';
 }
 
-
-.subhead {
-    initial-letter: 2;
-}
-
 p {
 
     font-family: 'Merriweather';
@@ -134,10 +102,6 @@ p::first-letter {
     font-size: 34px;
 }
 
-.title {
-    font-size: 48px;
-    font-family: 'MedievalSharp';
-}
 
 .button {
     font-size: 20px;
@@ -156,7 +120,7 @@ p::first-letter {
 }
 
 #button-b {
-    background-image: url(../images/chapters/rsz_an-oriental-harbour-1650-52-bonaventura-the-elder-peeters-oil-painting.jpg);
+    background-image: url(../images/chapters/rsz_harbour.jpg);
 }
 
 .button:hover {
