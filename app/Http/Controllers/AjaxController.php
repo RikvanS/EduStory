@@ -30,9 +30,10 @@ class AjaxController extends Controller
 
     public function checkAge(Request $request) {
         $age = request('age');
+        
 
-        if (is_int($age)) {
-            return view('story/0/checkage', ['age' => $age['age']]);
+        if (intval($age)) {
+            return view('story/0/checkage', ['age' => intval($age)]);
         } else {
             return view('story/0/askage');
         }
