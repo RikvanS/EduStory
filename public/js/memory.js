@@ -151,3 +151,10 @@ const resetGuesses = () => {
   });
 };
 
+
+//Verwijder dit voordat product live gaat, testknop functionaliteit. Niet live laten gaan!
+
+document.getElementById("complete-test").addEventListener('click', function (event) {
+  document.getElementById('progressdiv').style.display = 'block';
+
+});
