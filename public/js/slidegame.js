@@ -1,8 +1,9 @@
-window.onload = init();
+window.onload = preinit();
+// document.querySelector('input[name="diff"]:checked').value;
 
-const PUZZLE_DIFFICULTY = 4;
+var PUZZLE_DIFFICULTY = 4
 const PUZZLE_HOVER_TINT = '#009900';
- 
+
 var _canvas;
 var _stage;
  
@@ -17,10 +18,17 @@ var _currentDropPiece;
  
 var _mouse;
 
+function preinit(){
+    _img = new Image();
+    _img.addEventListener('load',onImage,false);
+    _img.src = "/images/rsz_cog2.jpg";
+}
+
 function init(){
     _img = new Image();
     _img.addEventListener('load',onImage,false);
     _img.src = "/images/rsz_cog2.jpg";
+    PUZZLE_DIFFICULTY = document.querySelector('input[name="diff"]:checked').value;
 }
 
 function onImage(e){
