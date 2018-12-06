@@ -15,11 +15,6 @@ Route::get('/', 'ViewController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/game', 'ViewController@game');
-
-
 /*---Rik------------------------------------------------*/
 
 /*---Dorieke------------------------------------------------*/
@@ -40,10 +35,6 @@ Route::post('/chapters/prologue/storename', 'AjaxController@storeName');
 Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
 Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
-
-Route::get('/chapters/2a/hospital', 'AjaxController@hospital');
-Route::get('/chapters/2a/merchant', 'AjaxController@merchant');
-Route::get('/chapters/2a/repairship', 'AjaxController@repairShip');
 
 /*---Falco------------------------------------------------*/
 

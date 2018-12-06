@@ -1,6 +1,7 @@
 @extends('layouts/chapter')
 
 @section('content')
+<link href="{{ asset('css/memory.css') }}" rel="stylesheet">
 <p>De protagonist moet aan het werk! Hij krijgt de opdracht om een schilderij af te leveren bij een kunsthandelaar, en daarna de kapitein mee te helpen op de markt.</p>
 
 <p>Hier komt een plaatje van twee huizen, een kunsthandel en een mysterieus gebouw.</p>
@@ -26,6 +27,8 @@
     "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
     <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
 <div id="game"></div>
+
+<button id="complete-test">Testknop spelvoltooiing</button>
 <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
 
 <p>Vlak voor ze willen vertrekken, heeft iemand slecht nieuws: er gaan geruchten over piraten in Visby. Willen ze toch naar Visby? Of beter een andere route?</p>
@@ -35,7 +38,10 @@
     <a href="/chapters/1/setsail"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
 </div>    
 
-<link href="{{ asset('css/memory.css') }}" rel="stylesheet">
-<script src="{{ asset('js/memory.js') }}"></script>
+
+
 @endsection
 
+@section('scripts')
+<script src="{{ asset('js/memory.js') }}"></script>
+@endsection

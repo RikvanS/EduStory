@@ -17,3 +17,7 @@
 
 <p><a href="/chapters/epilogue">Ga naar epiloog</a></p>
 @endsection
+
+@section('scripts')
+    
+@endsection
