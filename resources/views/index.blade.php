@@ -39,7 +39,7 @@
     </div>
 </li>
 @endguest
-
-@section('scripts')
 <script src="{{ asset('js/infomodal.js') }}"></script>
+@section('scripts')
+
 @endsection
