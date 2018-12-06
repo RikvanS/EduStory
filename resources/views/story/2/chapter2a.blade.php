@@ -28,6 +28,9 @@
         <span class='text'></span></div>
     </div>
   </div>
+<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+
+  <button id="complete-battleship">Testknop spelvoltooiing</button>
 
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
@@ -42,6 +45,9 @@
 
 <canvas id="canvas"></canvas>
 
+<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+<br>
+<button id="complete-slide">Testknop spelvoltooiing</button>
 <div style="display:none" id="progressdiv">
 <p>Uiteindelijk gaat hij weer het schip in en gaat door naar Riga</p>
 <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>

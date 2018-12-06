@@ -47,3 +47,15 @@ Als referentie/basis gebruik ik een codepen gevonden op https://codepen.io/collo
 15:00
 Zeeslag game toegevoegd aan project, gelokaliseerd, styling meer in lijn gebracht met verhaal. Getest, werkt volledig op Firefox en chrome.
 Verhaalstructuur aangepast, restant van hoofdstuk verborgen in hidden div die getoond wordt na voltooien van zeeslag, plus autoscroll naar de net getoonde div.
+
+----------------------
+
+6/12 13:30
+
+Ochtend gespendeerd aan opschonen van code. Alle ongebruikte, onnodige code/routes/views verwijderd. Code meer uniform gemaakt, elke view op zelfde manier gestructureerd.
+
+Nu bezig met knoppen toevoegen aan minigames die de game over/succes events firen zodat we tijdens testen snel door de pagina's kunnen lopen zonder eerst elk minigame te moeten voltooien.
+
+14:00
+Testknoppen aangemaakt.
+Volgende mini feature is een difficulty selector voor de slide game.
