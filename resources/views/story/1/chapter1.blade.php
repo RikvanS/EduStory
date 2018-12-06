@@ -1,6 +1,7 @@
 @extends('layouts/chapter')
 
 @section('content')
+<link href="{{ asset('css/memory.css') }}" rel="stylesheet">
 <p>De protagonist moet aan het werk! Hij krijgt de opdracht om een schilderij af te leveren bij een kunsthandelaar, en daarna de kapitein mee te helpen op de markt.</p>
 
 <p>Hier komt een plaatje van twee huizen, een kunsthandel en een mysterieus gebouw.</p>
@@ -35,7 +36,10 @@
     <a href="/chapters/1/setsail"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
 </div>    
 
-<link href="{{ asset('css/memory.css') }}" rel="stylesheet">
-<script src="{{ asset('js/memory.js') }}"></script>
+
+
 @endsection
 
+@section('scripts')
+<script src="{{ asset('js/memory.js') }}"></script>
+@endsection

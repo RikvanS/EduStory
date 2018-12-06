@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<script src="{{ asset('js/infomodal.js') }}" defer></script>
 <link href="{{ asset('css/infomodal.css') }}" rel="stylesheet">
 
 <i class="fas fa-info-circle" id="infobutton"></i>
@@ -41,3 +40,6 @@
 </li>
 @endguest
 
+@section('scripts')
+<script src="{{ asset('js/infomodal.js') }}"></script>
+@endsection

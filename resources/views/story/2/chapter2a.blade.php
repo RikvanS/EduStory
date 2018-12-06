@@ -1,9 +1,8 @@
 @extends('layouts/chapter')
 
 @section('content')
-
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <p><h2>Visby</h2></p>
 
 <p>Als het schip Visby nadert, wordt het aangevallen door piraten! Hier komt een zeeslagspelletje.</p>
@@ -51,7 +50,7 @@
 @endsection
 
 @section('scripts')
-<script src="{{ URL::asset('js/ajax.js') }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/battleship.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
 @endsection

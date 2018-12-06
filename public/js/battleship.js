@@ -86,7 +86,7 @@ var output = {
 	placed: function(name) { return " > Je " + name + " is geplaatst!"; },
 	hit: function(name, type) { return " > " + name + " z'n schip is geraakt!" },
 	miss: function(name) { return " > " + name + " schoot mis." },
-	sunk: function(user, type) { return " > " + user + "'s " + type + " is gezonken!" },
+	sunk: function(user, type) { return " > " + user + " z'n " + type + " is gezonken!" },
 	lost: function(name) { return " > " + name + " is de hele vloot kwijt!!  Game Over." },
 };
 
