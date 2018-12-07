@@ -7,6 +7,22 @@
         <span class="close">&times;</span>
         <h1 id="log-title">Logboek</h1>
         <p>Modal text</p>
+        <!-- Default Dynamic Section -->
+<div id="default-content" class="dynamic-content">
+    This is the default content
+  </div>
+  <!-- Dynamic Section 1 -->
+  <div id="lubeck" class="dynamic-content">
+    Lübeck section
+  </div>
+  <!-- Dynamic Section 2 -->
+  <div id="visby" class="dynamic-content">
+    Visby section
+  </div>
+  <!-- Dynamic Section 3 -->
+  <div id="danzig" class="dynamic-content">
+    Danzig section
+  </div>
     </div>
 </div>
 <div id="mapModal" class="modal">
