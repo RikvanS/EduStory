@@ -21,6 +21,16 @@ body {
 
 }
 
+.field {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(201, 201, 201);
+}
+
 #title {
     text-align: center;
     font-family: 'Almendra';
@@ -99,7 +109,7 @@ body {
     display: block;
     position: absolute;
     right: -15px;
-    bottom: 15px;
+    bottom: 45px;
     width: 0;
     height: 0;
     border-top: 8px solid transparent;
@@ -128,4 +138,16 @@ body {
 .nav-item:hover {
     border: 2px solid #000;
     background-color: lightblue;
+}
+
+#register-btn {
+    margin-top: 20px;
+}
+
+#character {
+    height: 610px;
+    width: 400px;
+    position: absolute;
+    right: 15px;
+    bottom: -90px;
 }
