@@ -20,7 +20,7 @@
     </div>
 </div>
 <div class="container">
-    <h2>Hallo reiziger!</h2>
+    <h2>Hallo Reiziger!</h2>
     <p>Welkom bij EduStory: het Hanze avontuur.<br> Ben je nieuw hier of ben je hier al eerder geweest?</p>
 @guest
 <div class="buttons">
@@ -34,26 +34,19 @@
 
 </div>
 @else
-<li class="nav-item">
-    <a class="nav-link" href="/chapters/prologue">{{ __('Proloog') }}</a>
-</li>
-<li class="nav-item dropdown">
-    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-        {{ Auth::user()->name }} <span class="caret"></span>
-    </a>
-
-    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="{{ route('logout') }}"
+<div class="buttons">
+    <a class="nav-link" href="/chapters/prologue"><button class="nav-item">{{ __('Proloog') }}</button></a>
+        <a href="{{ route('logout') }}"
            onclick="event.preventDefault();
                          document.getElementById('logout-form').submit();">
-            {{ __('Logout') }}
+
+        <button class="nav-item">Uitloggen</button>
         </a>
 
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
         </form>
-    </div>
-</li>
+</div>
 @endguest
 </div>
 <script src="{{ asset('js/infomodal.js') }}"></script>
