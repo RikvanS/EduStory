@@ -27,8 +27,14 @@
     "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
     <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
 <div id="game"></div>
+<button id="complete-test">Testknop spelvoltooiing</button>
+
 <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
+
+
+<p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
+
 
 <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerent. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
     Wil je toch naar Visby? Of beter een andere route?</p>
