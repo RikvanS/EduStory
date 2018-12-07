@@ -1,0 +1,131 @@
+body {
+    background: url(../images/splashharbor.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.headtitle {
+    width: 60%;
+    margin-left: 20%;
+    height: 100px;
+    background-color: rgba(255, 255, 250, 0);
+    top: 0;
+    position: fixed;
+    padding: 0;
+
+}
+
+#title {
+    text-align: center;
+    font-family: 'Almendra';
+    font-size: 56px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#subtitle {
+    text-align: center;
+    font-family: 'Almendra';
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #FFFFFA;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Merriweather';
+    line-height: 32px;
+}
+
+#infobutton {
+    width: auto;
+    height: auto;
+    padding: 0;
+    float: left;
+    margin: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#info-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    background-color: #FFFFFA;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 240px;
+    position: relative;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    line-height: 32px;
+    box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);
+}
+
+.container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -15px;
+    bottom: 15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 15px solid #fffffa;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.nav-item {
+    padding: 10px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+    border: 2px solid transparent;
+}
+
+.nav-item:hover {
+    border: 2px solid #000;
+    background-color: lightblue;
+}
