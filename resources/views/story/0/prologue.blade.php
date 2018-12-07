@@ -24,9 +24,13 @@
       Je bent nog wel aan de A kade, maar het lijkt anders dan eerder. Wat is er aan de hand? Alles lijkt net uit een film, of heel ouderwets.
       De grote pakhuizen zien er nieuw uit. Er worden goederen in en uit geladen. Je ziet zakken met graan, wol en huiden voorbij komen. Het komt uit hele ouderwetse boten, niet de vrachtwagens die je normaal bij de winkel ziet.
       Je loopt iets verder en je komt bij het Reitdiep. Ook hier zijn mensen overal bezig, en ze lijken nog steeds verkleed te zijn. Er komt een vrouw met een kind op de arm naar je toegelopen, ze reikt je een jas aan omdat je er zo koud en nat uitziet.
-      Je bedankt haar en loopt een van de pakhuizen binnen om op te warmen. De inrichting is anders dan je gewend bent, maar je kan goed zien dat dit een gebouw is van mensen die goed verdienen. Er hangen schilderijen aan de muur. <br>
-    </p>    
-      <p> <img src="../images/chapters/groningenkunst.jpg"><br></p>
+      Je bedankt haar en loopt een van de pakhuizen binnen om op te warmen. De inrichting is anders dan je gewend bent, maar je kan goed zien dat dit een gebouw is van mensen die goed verdienen. Er hangen schilderijen aan de muur.
+    </p> 
+</div>
+<div class="container">
+      <img src="../images/chapters/groningenkunst.jpg">
+</div>
+<div>
     <p>
       "Mooi he?" hoor je achter je iemand zeggen. Je kijkt om en ziet een man staan. "De baas heeft dit schilderij vorig jaar gekregen, omdat hij zo trots is op onze mooie stad".
       "Vorig jaar?" hoor je jezelf zeggen. "Ja" zegt de man, "in 1390 is de kunstenaar er aan begonnen". 1390? Voordat je verder kan vragen, neemt de man je mee naar buiten.
