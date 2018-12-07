@@ -8,31 +8,46 @@ $( document ).ready(function() {
 
     if(currentURL == "http://localhost:8000/chapters/1")
     {
-        var lubeck = 1;
+        lubeck++;
     }
 
     if(currentURL == "http://localhost:8000/chapters/2a")
     {
-        var visby = 1;
+        visby++;
     }
 
     if(currentURL == "http://localhost:8000/chapters/2b")
     {
-        var danzig = 1;
+        danzig++;
     }
 
-    if(lubeck == 1) 
+    if(lubeck == 0)
+    {
+        $('#lubeck').hide();
+    }
+
+    if(visby == 0)
+    {
+        $('#visby').hide();
+    }
+
+    if(danzig == 0)
+    {
+        $('#danzig').hide();
+    }
+
+    if(lubeck >= 1) 
     {
         $('#lubeck').show();
         
     }
 
-    else if(visby == 1) 
+     if(visby >= 1) 
     {
         $('#visby').show();
     }
 
-    else if(danzig == 1) 
+    if(danzig >= 1) 
     {
         $('#danzig').show();
     }
