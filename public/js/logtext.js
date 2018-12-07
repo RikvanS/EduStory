@@ -1,37 +1,38 @@
-var currentURL = window.location.href;
-
-var lubeck = 0;
-var visby = 0;
-var danzig = 0;
-
 $( document ).ready(function() {
+
+    var currentURL = window.location.href;
+
+    var lubeck = 0;
+    var visby = 0;
+    var danzig = 0;
+    
 
     if(currentURL == "http://localhost:8000/chapters/1")
     {
-        lubeck++;
+        ++lubeck;
     }
 
     if(currentURL == "http://localhost:8000/chapters/2a")
     {
-        visby++;
+        ++visby;
     }
 
     if(currentURL == "http://localhost:8000/chapters/2b")
     {
-        danzig++;
+        ++danzig;
     }
 
-    if(lubeck == 0)
+    if(lubeck === 0)
     {
         $('#lubeck').hide();
     }
 
-    if(visby == 0)
+    if(visby === 0)
     {
         $('#visby').hide();
     }
 
-    if(danzig == 0)
+    if(danzig === 0)
     {
         $('#danzig').hide();
     }
@@ -55,6 +56,8 @@ $( document ).ready(function() {
     else {
         $('#default-content').show();
     }
+
+    console.log(lubeck);
 });
 
 // $( document ).ready(function() {
