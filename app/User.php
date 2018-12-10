@@ -25,4 +25,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function progression()
+    {
+        return $this->hasMany('App\progression');
+    }
 }

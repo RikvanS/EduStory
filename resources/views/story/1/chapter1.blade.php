@@ -27,10 +27,8 @@
     "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
     <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
 <div id="game"></div>
-<<<<<<< HEAD
+
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
-=======
->>>>>>> 0b46c0adc5a35bae0bea9bf2c988e62ae30914ed
 <button id="complete-test">Testknop spelvoltooiing</button>
 
 <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 

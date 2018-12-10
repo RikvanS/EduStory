@@ -197,11 +197,11 @@ p::first-letter {
     background-color: rgba(173, 216, 230, 0.726);
 }
 
-/* Logboek modal tekst segmenten */
+/* Logboek modal tekst segmenten
 .dynamic-content {
     display:none;
 }
 
 .dynamic-content-shown {
     display: block;
-}
+} */
