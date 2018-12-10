@@ -25,10 +25,22 @@ class ChapterController extends Controller
         return view('story/1/chapter1');
     }
 
-    public function oneSetSail() {
+    /*public function oneSetSail() {
         $user = Auth::user();
         $user->updateProgression('setsail2');
         return view('story/1/setsail');
+    }*/
+
+    public function oneASetSail() {
+        $user = Auth::user();
+        $user->updateProgression('setsail2');
+        return view('story/1/setsail1a');
+    }
+
+    public function oneBSetSail() {
+        $user = Auth::user();
+        $user->updateProgression('setsail2');
+        return view('story/1/setsail1b');
     }
 
     public function twoA() {
