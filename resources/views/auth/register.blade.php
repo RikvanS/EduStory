@@ -2,6 +2,8 @@
 <link href="{{ asset('css/splash.css') }}" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet">
 
+<body>
+<img src="../images/character-splash.png" id="character">    
 <div class="headtitle">
     <h1 id="title">EduStory<h1>
     <h2 id="subtitle">Het Hanze avontuur</h2>
@@ -55,3 +57,5 @@
         @endif
     </div>
 </div>
+<script src="{{ asset('js/infomodal.js') }}"></script>
+</body>

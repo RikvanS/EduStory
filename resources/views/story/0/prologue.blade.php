@@ -28,7 +28,7 @@
     </p> 
 </div>
 <div class="container">
-      <img src="../images/chapters/groningenkunst.jpg">
+      <img src="/images/chapters/groningenkunst.jpg">
 </div>
 <div>
     <p>
