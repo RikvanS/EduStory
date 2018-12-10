@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\progression;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -29,5 +30,10 @@ class User extends Authenticatable
     public function progression()
     {
         return $this->hasMany('App\progression');
+    }
+
+    public function createProgression() {
+        $data = ['user_id' => $this->id];
+        progression::create($data);
     }
 }
