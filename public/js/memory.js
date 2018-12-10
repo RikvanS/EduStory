@@ -136,6 +136,7 @@ if (firstGuess === secondGuess) {
 
 if (matches == 9) {
   document.getElementById('progressdiv').style.display = 'block';
+  loadDoc('GET', '/chapters/danzig/danzig-memory', workplease);
 };
 });
 
@@ -156,5 +157,4 @@ const resetGuesses = () => {
 
 document.getElementById("complete-test").addEventListener('click', function (event) {
   document.getElementById('progressdiv').style.display = 'block';
-
 });
