@@ -17,6 +17,16 @@ Auth::routes();
 
 /*---Rik------------------------------------------------*/
 
+Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
+Route::get('/chapters/lubeck/lubeck-choice', 'ProgressionController@lubeckchoice');
+Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
+Route::get('/chapters/visby/visby-boatrepair', 'ProgressionController@visbyboatrepair');
+Route::get('/chapters/danzig/danzig-hanoi', 'ProgressionController@danzighanoi');
+Route::get('/chapters/danzig/danzig-memory', 'ProgressionController@danzigmemory');
+Route::get('/chapters/riga/riga-quiz', 'ProgressionController@rigaquiz');
+
+
+
 /*---Dorieke------------------------------------------------*/
 
 Route::get('/chapters/prologue', 'ChapterController@prologue');
