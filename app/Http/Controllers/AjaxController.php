@@ -8,11 +8,14 @@ use Illuminate\Support\Facades\Auth;
 
 class AjaxController extends Controller
 {
+
     public function checkName(Request $request) {
-        $name = request()->validate([
-            'name' => 'required'
-        ]);
-        return view('story/0/checkname', ['name' => $name['name']]);
+        if (request('name') != "") {
+            $name = request('name');
+            return view('story/0/checkname', ['name' => $name]);
+        } else {
+            return view('story/0/askname');
+        }
     }
 
     public function askName() {

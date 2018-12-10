@@ -63,3 +63,11 @@ Volgende mini feature is een difficulty selector voor de slide game.
 15:30
 Difficulty radio selector optie toegevoegd aan slide game, standaard ingesteld op 4x4 met opties voor 5x5 en 6x6.
 
+------------
+
+7/12 10:00
+
+In overleg met team vandaag vanuit huis aan het werken.
+Voor MVP oplevering 15:00 vanmiddag werkt team aan splash page, ik ga bezig met de logboek modal.
+Deze moet worden ingevuld aan de hand van de bezochte hoofdstukken, hier komen hints naar de afsluitende quiz in Riga.
+
