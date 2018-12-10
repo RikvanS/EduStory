@@ -20,7 +20,7 @@
     </div>
 </div>
 <div class="container">
-    <h2>{{ __('Registreren') }}</h2>
+    <h2>{{ __('Inloggen') }}</h2>
     <div class="">
         <form method="POST" action="{{ route('login') }}">
         @csrf
