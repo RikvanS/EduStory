@@ -29,6 +29,7 @@
 <div id="game"></div>
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+<input type="hidden" id="test-id" value="test">
 <button id="complete-test">Testknop spelvoltooiing</button>
 
 <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
@@ -42,8 +43,8 @@
     Wil je toch naar Visby? Of beter een andere route?</p>
 
 <div class="buttons" style="display:none" id="progressdiv"> 
-    <a href="/chapters/1/setsail"><button type="button" id="button-a" class="button">Vaar naar Visby</button></a>
-    <a href="/chapters/1/setsail"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
+    <a href="/chapters/1/setsail1a"><button type="button" id="button-a" class="button">Vaar naar Visby</button></a>
+    <a href="/chapters/1/setsail1b"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
 </div>    
 
 
@@ -51,5 +52,6 @@
 @endsection
 
 @section('scripts')
+<script src="{{ asset('js/ajax.js') }}"></script>
 <script src="{{ asset('js/memory.js') }}"></script>
 @endsection
