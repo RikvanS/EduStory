@@ -3,14 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ChapterController extends Controller
 {
     public function prologue() {
+        $user = Auth::user();
+        $user->updateProgression('prologue');
         return view('story/0/prologue');
     }
 
     public function prologueSetSail() {
+        $user = Auth::user();
+        $user->updateProgression('setsail1');
         return view('story/0/setsail');
     }
 
