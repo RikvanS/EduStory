@@ -18,10 +18,10 @@ class Progressions extends Migration
         $table->increments('id')->autoIncrement();
         $table->integer('user_id')->unsigned();
         $table->foreign('user_id')->references('id')->on('users');
-        $table->boolean('lubeck');
-        $table->boolean('visby');
-        $table->boolean('danzig');
-
+        $table->boolean('lubeck')->default(0);
+        $table->boolean('visby')->default(0);
+        $table->boolean('danzig')->default(0);
+        $table->boolean('riga')->default(0);
         });
     }
 

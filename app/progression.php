@@ -10,6 +10,7 @@ class progression extends Model
     {
         return $this->belongsTo('App\User');
     }
+    
     public $timestamps = false;
 
 }
