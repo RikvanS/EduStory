@@ -14,7 +14,7 @@
 </div>
 
 <div>
-    <p>Paralax van golven terwijl de protagonist in het water valt hier</p>
+    <p>!! Paralax van golven terwijl de protagonist in het water valt hier !!</p>
 </div>
 
 <div>
