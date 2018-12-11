@@ -18,8 +18,8 @@ Auth::routes();
 /*---Rik------------------------------------------------*/
 
 Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
-Route::get('//chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
-Route::get('//chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
+Route::get('/chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
+Route::get('/chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
 Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
 Route::get('/chapters/visby/visby-boatrepair', 'ProgressionController@visbyboatrepair');
 Route::get('/chapters/danzig/danzig-hanoi', 'ProgressionController@danzighanoi');

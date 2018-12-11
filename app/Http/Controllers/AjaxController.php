@@ -52,7 +52,7 @@ class AjaxController extends Controller
             'age' => ['required', 'integer']
         ]);
         $user->update($age);
-        $user->updateProgression('prologue-nameage');
+        $user->updateProgression('prologuenameage');
         return view('story/0/continue');
     }
 

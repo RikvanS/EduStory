@@ -22,7 +22,7 @@
     </div>
     <
     <script src="{{ URL::asset('js/chapter.js') }}"></script>
-    <script src="{{ URL::asset('js/logtext.js') }}"></script>
+
     @yield('scripts')
 </body>
 </html>

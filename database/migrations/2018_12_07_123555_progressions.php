@@ -29,17 +29,17 @@ class Progressions extends Migration
         $table->boolean('setsail2')->default(0);
         $table->boolean('setsail3')->default(0);
 
-        $table->boolean('prologue-nameage')->default(0);
-        $table->boolean('lubeck-story')->default(0);
-        $table->boolean('lubeck-choice')->nullable();
+        $table->boolean('prologuenameage')->default(0);
+        $table->boolean('lubeckstory')->default(0);
+        $table->tinyInteger('lubeckchoice')->default(0);
 
-        $table->boolean('visby-battleship')->default(0);
-        $table->boolean('visby-boatrepair')->default(0);
+        $table->boolean('visbybattleship')->default(0);
+        $table->boolean('visbyboatrepair')->default(0);
 
-        $table->boolean('danzig-hanoi')->default(0);
-        $table->boolean('danzig-memory')->default(0);
+        $table->boolean('danzighanoi')->default(0);
+        $table->boolean('danzigmemory')->default(0);
 
-        $table->boolean('riga-quiz')->default(0);
+        $table->boolean('rigaquiz')->default(0);
         });
     }
 

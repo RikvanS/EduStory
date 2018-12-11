@@ -42,10 +42,10 @@ class User extends Authenticatable
     }
 
     public function gotovisby($column) {
-        $this->progression->update([$column => false]);
+        $this->progression->update([$column => 1]);
     }
 
     public function gotodanzig($column) {
-        $this->progression->update([$column => true]);
+        $this->progression->update([$column => 2]);
     }
 }
