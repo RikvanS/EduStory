@@ -53,4 +53,3 @@ Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 /*---Anna------------------------------------------------*/
 
 /*---Farhad------------------------------------------------*/
-
