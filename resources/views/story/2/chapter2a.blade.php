@@ -31,6 +31,7 @@
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 
   <button id="complete-battleship">Testknop spelvoltooiing</button>
+  <input type="hidden" id="test-id" value="test">
 
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
@@ -64,4 +65,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/battleship.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
 @endsection

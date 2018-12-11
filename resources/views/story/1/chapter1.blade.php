@@ -29,6 +29,7 @@
 <div id="game"></div>
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+<input type="hidden" id="test-id" value="test">
 <button id="complete-test">Testknop spelvoltooiing</button>
 
 <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
@@ -51,5 +52,6 @@
 @endsection
 
 @section('scripts')
+<script src="{{ asset('js/ajax.js') }}"></script>
 <script src="{{ asset('js/memory.js') }}"></script>
 @endsection
