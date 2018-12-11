@@ -1,0 +1,31 @@
+#hanoi-parent {
+    margin-left: -1px;
+}
+
+img {
+    display: block;
+}
+
+#hanoi-table {
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(104, 72, 25);
+    border-collapse: collapse;
+}
+
+#hanoi-instructions {
+    background-color: rgb(104, 72, 25);
+    padding: 10px;
+}
+
+#hanoi-textarea {
+    background-color: rgb(104, 72, 25);
+    border: none;
+    width: 100%;
+    resize: none;
+    color: white;
+}
+
+#hanoi-row {
+    background: url("/images/hanoi/background5.jpg");
+}
