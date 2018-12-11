@@ -29,9 +29,9 @@
 <div id="game"></div>
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
-<input type="hidden" id="test-id" value="test">
+@if(Auth::user()->progression->danzigmemory == true)
 <button id="complete-test">Testknop spelvoltooiing</button>
-
+@endif
 <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
 

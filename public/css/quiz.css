@@ -64,6 +64,10 @@ button:hover{
     background-color: #38a;
 }
 
+#complete-rigaquiz {
+    
+}
+
 .quiz-background {
     background-image: url(../images/chapters/ships.jpg);
     background-color: blue;

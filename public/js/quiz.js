@@ -81,6 +81,7 @@ function showResults() {
         }
     });
     loadDoc('GET', '/chapters/riga/riga-quiz', workplease);
+    document.getElementById('progressdiv').style.display = 'block';
     resultsContainer.innerHTML = 'Je hebt ' + numCorrect + ' van de ' + myQuestions.length + ' vragen juist beantwoord!';
 }
 
@@ -112,6 +113,10 @@ function showNextSlide() {
 function showPreviousSlide() {
     showSlide(currentSlide - 1);
 }
+
+document.getElementById("complete-rigaquiz").addEventListener('click', function (event) {
+	document.getElementById('progressdiv').style.display = 'block';});
+  
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
