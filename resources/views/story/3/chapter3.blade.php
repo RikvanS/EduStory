@@ -27,7 +27,7 @@
         <div id="results"></div>
         </div>
         <script src="../js/quiz.js"></script>
-<p><a href="/chapters/epilogue">Ga naar epiloog</a></p>
+<p><a href="{{ asset('js/quiz.js') }}">Ga naar epiloog</a></p>
 @endsection
 
 @section('scripts')

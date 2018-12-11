@@ -241,7 +241,6 @@ function gameOver(){
     document.onmouseup = null;
     reinitPuzzle();
     document.getElementById('progressdiv').style.display = 'block';
-    loadDoc('GET', '/chapters/visby/visby-boatrepair', workplease);
 };
 
 //Verwijder dit voordat product live gaat, testknop functionaliteit. Niet live laten gaan!

@@ -758,5 +758,5 @@ function startGame() {
 //Verwijder dit voordat product live gaat, testknop functionaliteit. Niet live laten gaan!
 document.getElementById("complete-battleship").addEventListener('click', function (event) {
 	document.getElementById('sub-content').style.display = 'block';
-	loadDoc('GET', '/chapters/visby/visby-battleship', workplease);
+  
   });

@@ -17,14 +17,9 @@ function loadDoc(method, url, myFunction, div, input) {
         xhttp.send(data);
     } else {
         xhttp.send();
-        console.log('xhttp sent');
     }
 }
 
 function changeDiv(xhttp, div) {
     document.getElementById(div).innerHTML = xhttp.responseText;
-}
-
-function workplease() {
-    console.log('workplease called');
 }
