@@ -80,7 +80,7 @@ function showResults() {
             answerContainers[questionNumber].style.color = 'darkred';
         }
     });
-
+    loadDoc('GET', '/chapters/riga/riga-quiz', workplease);
     resultsContainer.innerHTML = 'Je hebt ' + numCorrect + ' van de ' + myQuestions.length + ' vragen juist beantwoord!';
 }
 
