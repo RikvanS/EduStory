@@ -4,3 +4,5 @@ CodeGorilla eindproject van team PixelMonkeys (Dorieke Berends, Anna Blaauw,  Fa
 <h2>Logs van teamleden</h2>
 <a href="DORIEKE.md">Dorieke</a><br />
 <a href = "RIK.md">Rik</a><br />
+
+test
