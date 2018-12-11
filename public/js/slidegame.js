@@ -1,8 +1,8 @@
-window.onload = init();
+window.onload = preinit();
 
-const PUZZLE_DIFFICULTY = 4;
+var PUZZLE_DIFFICULTY = 4
 const PUZZLE_HOVER_TINT = '#009900';
- 
+
 var _canvas;
 var _stage;
  
@@ -17,10 +17,17 @@ var _currentDropPiece;
  
 var _mouse;
 
+function preinit(){
+    _img = new Image();
+    _img.addEventListener('load',onImage,false);
+    _img.src = "/images/rsz_cog2.jpg";
+}
+
 function init(){
     _img = new Image();
     _img.addEventListener('load',onImage,false);
     _img.src = "/images/rsz_cog2.jpg";
+    PUZZLE_DIFFICULTY = document.querySelector('input[name="diff"]:checked').value;
 }
 
 function onImage(e){
@@ -234,4 +241,11 @@ function gameOver(){
     document.onmouseup = null;
     reinitPuzzle();
     document.getElementById('progressdiv').style.display = 'block';
+    loadDoc('GET', '/chapters/visby/visby-boatrepair', workplease);
 };
+
+//Verwijder dit voordat product live gaat, testknop functionaliteit. Niet live laten gaan!
+document.getElementById("complete-slide").addEventListener('click', function (event) {
+	document.getElementById('progressdiv').style.display = 'block';
+  
+  });

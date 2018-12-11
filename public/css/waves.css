@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: linear-gradient(rgb(100, 100, 100), #fff);
+}
+
+
+.ocean {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    margin: 0;
+    top: 0;
+}
+
+.boat {
+    width: 400px;
+    height: 418px;
+    top: 10px;
+    left: 450px;
+    position: absolute;
+    z-index: 13;
+    animation: rock-boat 3s ease-in-out infinite;
+}
+
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
+    overflow: hidden;
+    margin: 0;
+}
+
+.textcontainer {
+    position: absolute;
+    height: 1000px;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #006aff;
+    color: #FFFFFA;
+    z-index: 18;
+}
+
+.continue {
+    float: right;
+    background: none;
+    color: #006aff;;
+    background-color: #FFFFFA;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.continue:hover {
+    background-color: transparent;
+    color: #FFFFFA;
+    border: 2px solid #FFFFFA;; 
+}
+
+@keyframes waves {
+    0% {transform: translateX(0) translateZ(0) scaleY(1);}
+    0% {transform: translateX(-25%) translateZ(0) scaleY(.5);}
+    0% {transform: translateX(-50%) translateZ(0) scaleY(1);}
+}
+
+h2, h1 {
+    font-family: 'Almendra';
+}
+
+
+.subhead {
+    initial-letter: 2;
+}
+
+p {
+
+    font-family: 'Merriweather';
+    line-height: 32px;
+    font-size: 16px;
+}
+
+p::first-letter {
+    font-size: 34px;
+}
+
+@keyframes rock-boat {
+    0%   {transform: rotate(0) translateY(0);}
+    50%  {transform: rotate(-5deg) translateY(-10px);}
+    100% {transform: rotate(0) translateY(0);}
+}
+
+.regen {
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: 10px;
+    background: linear-gradient(rgba(204, 13, 13, 0.055), rgba(43, 42, 42, 0.774));
+    animation: drop linear infinite;
+    z-index: 20;
+}
+
+.extraregen {
+    display: none;
+}
+
+#bliksem {
+    position: absolute;
+    overflow: hidden;
+    z-index: 11;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    animation: flash 5s infinite;
+}
+
+@keyframes flash{ 
+    0%,  95%,  98% {background-color:transparent}
+    96%, 99%, 100% {background-color:#fff} 
+  }
+
+  @keyframes drop {
+    from{top: 0px;}
+    to{top: 1000px;}
+}

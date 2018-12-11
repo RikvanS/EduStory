@@ -7,3 +7,7 @@
 
 <p>--- Einde ---</p>
 @endsection
+
+@section('scripts')
+    
+@endsection

@@ -1,9 +1,8 @@
 @extends('layouts/chapter')
 
 @section('content')
-
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <p><h2>Visby</h2></p>
 
 <p>Als het schip Visby nadert, wordt het aangevallen door piraten! Hier komt een zeeslagspelletje.</p>
@@ -29,6 +28,10 @@
         <span class='text'></span></div>
     </div>
   </div>
+<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+
+  <button id="complete-battleship">Testknop spelvoltooiing</button>
+  <input type="hidden" id="test-id" value="test">
 
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
@@ -40,8 +43,16 @@
 
 <p>De boot is beschadigd tijdens het gevecht, en nu moet hij gerepareerd worden:</p>
 
-
+<div id="diff-set">
+  <input type="radio" name="diff" value="4" onclick="init();" checked> 4x4
+  <input type="radio" name="diff" value="5" onclick="init();"> 5x5
+  <input type="radio" name="diff" value="6" onclick="init();"> 6x6
+</div>
 <canvas id="canvas"></canvas>
+
+<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+<br>
+<button id="complete-slide">Testknop spelvoltooiing</button>
 
 <div style="display:none" id="progressdiv">
 <p>Uiteindelijk gaat hij weer het schip in en gaat door naar Riga</p>
@@ -51,7 +62,8 @@
 @endsection
 
 @section('scripts')
-<script src="{{ URL::asset('js/ajax.js') }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/battleship.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
 @endsection

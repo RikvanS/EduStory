@@ -15,12 +15,18 @@ Route::get('/', 'ViewController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/game', 'ViewController@game');
-
-
 /*---Rik------------------------------------------------*/
+
+Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
+Route::get('/chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
+Route::get('/chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
+Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
+Route::get('/chapters/visby/visby-boatrepair', 'ProgressionController@visbyboatrepair');
+Route::get('/chapters/danzig/danzig-hanoi', 'ProgressionController@danzighanoi');
+Route::get('/chapters/danzig/danzig-memory', 'ProgressionController@danzigmemory');
+Route::get('/chapters/riga/riga-quiz', 'ProgressionController@rigaquiz');
+
+
 
 /*---Dorieke------------------------------------------------*/
 
@@ -41,13 +47,11 @@ Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
 Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
-Route::get('/chapters/2a/hospital', 'AjaxController@hospital');
-Route::get('/chapters/2a/merchant', 'AjaxController@merchant');
-Route::get('/chapters/2a/repairship', 'AjaxController@repairShip');
-
 /*---Falco------------------------------------------------*/
-
+Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
+Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 /*---Anna------------------------------------------------*/
+
 
 /*---Farhad------------------------------------------------*/
 
@@ -55,3 +59,4 @@ Route::get('/chapters/1/Lubeck', 'ChapterController@lubeck');
 Route::get('/chapters/1/artdealer', 'ChapterController@artDealer');
 Route::get('/chapters/1/artgallery', 'ChapterController@artGallery');
 Route::get('/chapters/1/plague', 'ChapterController@plague');
+

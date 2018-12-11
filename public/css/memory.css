@@ -3,11 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-/* 
-body {
-  margin: 20px 0;
-  background: inherit;
-} */
 
 .grid {
   max-width: 960px;
@@ -40,7 +35,7 @@ body {
 }
 
 .front {
-  background: white url('/images/memory/qm.jpg') no-repeat center center / contain;
+  background: url('/images/memory/qm.jpg') no-repeat center center / contain;
 }
 
 .back {

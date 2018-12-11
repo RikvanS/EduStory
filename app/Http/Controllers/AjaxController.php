@@ -8,11 +8,14 @@ use Illuminate\Support\Facades\Auth;
 
 class AjaxController extends Controller
 {
+
     public function checkName(Request $request) {
-        $name = request()->validate([
-            'name' => 'required'
-        ]);
-        return view('story/0/checkname', ['name' => $name['name']]);
+        if (request('name') != "") {
+            $name = request('name');
+            return view('story/0/checkname', ['name' => $name]);
+        } else {
+            return view('story/0/askname');
+        }
     }
 
     public function askName() {
@@ -29,10 +32,14 @@ class AjaxController extends Controller
     }
 
     public function checkAge(Request $request) {
-        $age = request()->validate([
-            'age' => ['required', 'integer']
-        ]);
-        return view('story/0/checkage', ['age' => $age['age']]);
+        $age = request('age');
+        
+
+        if (intval($age)) {
+            return view('story/0/checkage', ['age' => intval($age)]);
+        } else {
+            return view('story/0/askage');
+        }
     }
 
     public function askAge() {
@@ -45,18 +52,8 @@ class AjaxController extends Controller
             'age' => ['required', 'integer']
         ]);
         $user->update($age);
+        $user->updateProgression('prologuenameage');
         return view('story/0/continue');
     }
 
-    public function hospital() {
-        return view('story/2/hospital');
-    }
-
-    public function merchant() {
-        return view('story/2/merchant');
-    }
-
-    public function repairShip() {
-        return view('story/2/repairship');
-    }
 }
