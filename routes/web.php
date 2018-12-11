@@ -51,4 +51,3 @@ Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 /*---Anna------------------------------------------------*/
 
 /*---Farhad------------------------------------------------*/
-
