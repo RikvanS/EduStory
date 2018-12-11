@@ -19,6 +19,16 @@ class ProgressionController extends Controller
         $user->updateProgression('lubeck-choice');
     }
 
+    public function gotovisby() {
+        $user = Auth::user();
+        $user->gotovisby('lubeck-choice');
+    }
+
+    public function gotodanzig() {
+        $user = Auth::user();
+        $user->gotodanzig('lubeck-choice');
+    }
+
     public function visbybattleship() {
         $user = Auth::user();
         $user->updateProgression('visby-battleship');
