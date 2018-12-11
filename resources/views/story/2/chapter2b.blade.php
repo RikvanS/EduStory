@@ -22,7 +22,10 @@
         </tr>
         <script src="/js/hanoi.js"></script>
 </div>
-
+@if(Auth::user()->progression->danzighanoi == true)
+<button id="complete-hanoi">Testknop spelvoltooiing</button>
+@endif
+<div style="display:none" id="progressdiv">
 <p>Daarna moeten er bouwmaterialen naar de kerk gebracht worden. Daar leert de protagonist over de bouw vd kerk en architecten.</p>
 
 <p>Vanaf de warenhuizen moet er graan/potas/teer ingeladen worden. Hier leert de protagonist over het effect van oorlogen op handelsroutes.</p>
@@ -30,7 +33,7 @@
 <p>Optioneel: protagonist krijgt een brief mee van de Duitse Orde voor de Lijfmansorde in Riga.</p>
 
 <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
-
+</div>
 @endsection
 
 @section('scripts')
