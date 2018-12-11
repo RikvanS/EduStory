@@ -3,7 +3,7 @@
 <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet">
 
 <body>
-<img src="../images/character-splash.png" id="character">
+<img src="../images/character-splash.webp" id="character">
 <div class="headtitle">
     <h1 id="title">EduStory<h1>
     <h2 id="subtitle">Het Hanze avontuur</h2>
