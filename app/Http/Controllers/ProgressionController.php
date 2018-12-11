@@ -11,36 +11,41 @@ class ProgressionController extends Controller
 
     public function lubeckstory() {
         $user = Auth::user();
-        $user->updateProgression('lubeck-story');
+        $user->updateProgression('lubeckstory');
     }
 
-    public function lubeckchoice() {
+    public function gotovisby() {
         $user = Auth::user();
-        $user->updateProgression('lubeck-choice');
+        $user->gotovisby('lubeckchoice');
+    }
+
+    public function gotodanzig() {
+        $user = Auth::user();
+        $user->gotodanzig('lubeckchoice');
     }
 
     public function visbybattleship() {
         $user = Auth::user();
-        $user->updateProgression('visby-battleship');
+        $user->updateProgression('visbybattleship');
     }
 
     public function visbyboatrepair() {
         $user = Auth::user();
-        $user->updateProgression('visby-boatrepair');
+        $user->updateProgression('visbyboatrepair');
     }
 
     public function danzighanoi() {
         $user = Auth::user();
-        $user->updateProgression('danzig-hanoi');
+        $user->updateProgression('danzighanoi');
     }
 
     public function danzigmemory() {
         $user = Auth::user();
-        $user->updateProgression('danzig-memory');
+        $user->updateProgression('danzigmemory');
     }
 
     public function rigaquiz() {
         $user = Auth::user();
-        $user->updateProgression('riga-quiz');
+        $user->updateProgression('rigaquiz');
     }
 }

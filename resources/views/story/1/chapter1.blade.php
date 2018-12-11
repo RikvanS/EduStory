@@ -43,8 +43,8 @@
     Wil je toch naar Visby? Of beter een andere route?</p>
 
 <div class="buttons" style="display:none" id="progressdiv"> 
-    <a href="/chapters/1/setsail1a"><button type="button" id="button-a" class="button">Vaar naar Visby</button></a>
-    <a href="/chapters/1/setsail1b"><button type="button" id="button-b" class="button">Vaar naar Gdansk</button></a>
+    <a href="/chapters/1/setsail1a"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></a>
+    <a href="/chapters/1/setsail1b"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></a>
 </div>    
 
 

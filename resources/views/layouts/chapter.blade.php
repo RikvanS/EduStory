@@ -12,6 +12,7 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <title>EduStory @yield('title')</title>
+    @yield('head')
 </head>
 <body>
     @include('includes/sidebar')
@@ -21,7 +22,7 @@
     </div>
     <
     <script src="{{ URL::asset('js/chapter.js') }}"></script>
-    <script src="{{ URL::asset('js/logtext.js') }}"></script>
+
     @yield('scripts')
 </body>
 </html>

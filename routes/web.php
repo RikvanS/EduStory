@@ -18,7 +18,8 @@ Auth::routes();
 /*---Rik------------------------------------------------*/
 
 Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
-Route::get('/chapters/lubeck/lubeck-choice', 'ProgressionController@lubeckchoice'); /* fix this */
+Route::get('/chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
+Route::get('/chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
 Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
 Route::get('/chapters/visby/visby-boatrepair', 'ProgressionController@visbyboatrepair');
 Route::get('/chapters/danzig/danzig-hanoi', 'ProgressionController@danzighanoi');
@@ -47,8 +48,8 @@ Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
 /*---Falco------------------------------------------------*/
-
+Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
+Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 /*---Anna------------------------------------------------*/
 
 /*---Farhad------------------------------------------------*/
-
