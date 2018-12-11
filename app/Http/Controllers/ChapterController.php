@@ -53,4 +53,8 @@ class ChapterController extends Controller
     public function epilogue() {
         return view('story/epilogue/epilogue');
     }
+    
+    public function plague() {
+        return view('story/1/plague');
+    }
 }

@@ -1,8 +1,5 @@
 @extends('layouts/chapter')
-@section("link")
 
-
-@stop
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
 <img src="{{URL::asset('/images/lubeck/artdealer.jpg')}}">
@@ -21,7 +18,7 @@
         <ul>
 
                 <li> <button type="button" onclick="choice1()" class="choice" id="choice-1"><p>Ik heb een kunstwerk uit Nederland. </p></li>
-                <li> <button type="button" onclick="choice2()" class="choice" id="choice-2"><p>Ik zou graag jullie kunst willen bekijken.  </p></li>
+                <li> <button type="button" onclick="choice2()" class="choice" id="choice-2"><p>Ik zou graag jullie kunstwerken willen bekijken.  </p></li>
             </ul>
 
 </div>
@@ -35,7 +32,7 @@
 <div style="display:none;" id="reaction-2" class="comment bubble2">
         <ul>
 
-                <li> <button type="button" onclick="choice3()" class="reaction-1" id="choice-3"><p>Ik wil er 1000 penningen voor. </p></li>
+                <li> <button type="button" onclick="choice3()" class="reaction-1" id="choice-3"><p>Ik wil er 1000 penningen voor hebben. </p></li>
                 
             </ul>
 
@@ -43,19 +40,26 @@
 
 <div style="display:none;" id="reaction-3" class="comment bubble1">
 
-        De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Maak alsjeblieft niets stuk
+        De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grote deels zijn onze opdrachtgevers
+        de kerk en adelijke families. Maak alsjeblieft niets stuk.
 </div>
 
-<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"><a> >Bekijk de gallerij </a>
+
+<div style="display:none;" id="reaction-4" class="comment bubble1">
+
+        1000 Penningen is ongeveer een half jaar werk voor een ongeschoolde arbeider. Je vraagt teveel. Ik geef je 250 penningen voor het schilderij.
+</div>
+
+<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a>
 
 
 </div>
 
-<div style="display:block;" id="pgallery" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 id="map-title">Gallerij</h1>
-            <div>Gallerij</div>
+<div id="pgallery" class="modal">
+        <div id="photomodal" class="modal-content">
+            <span class="hide">&times;</span>
+            
+            
             <div id="left"></div>
 
 <div id="wrapper">
@@ -125,4 +129,5 @@
     
 <script src="{{ URL::asset('js/artdealer.js') }}"></script>
 <script src="{{ URL::asset('js/artgallery.js') }}"></script>
+<script src="{{ URL::asset('js/chapter.js') }}"></script>
 @endsection
