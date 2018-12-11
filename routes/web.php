@@ -47,7 +47,8 @@ Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
 /*---Falco------------------------------------------------*/
-
+Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
+Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 /*---Anna------------------------------------------------*/
 
 /*---Farhad------------------------------------------------*/
