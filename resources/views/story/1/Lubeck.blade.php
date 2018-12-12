@@ -21,7 +21,7 @@
 </map>
 
 </div>
-
+test text please ignore
 <script src="{{ URL::asset('js/lubeck.js') }}"></script>
 <script src="{{ URL::asset('js/chapter.js') }}"></script>
 <script src="{{ URL::asset('js/resize.js') }}"></script>
