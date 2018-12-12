@@ -67,6 +67,11 @@ class ChapterController extends Controller
         return view('story/3/chapter3');
     }
 
+    public function lubeck() {
+        return view('story/1/lubeck');
+    }
+    
+
     public function artDealer() {
         $user = Auth::user();
         $user->updateProgression('lubeckstory');
