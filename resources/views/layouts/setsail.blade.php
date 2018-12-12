@@ -23,13 +23,13 @@
             </div>
     <div class="ocean">
         <div class="boat" style="background-image: url(/../images/chapters/ship-good.png)"></div>
-    <div class="wave" style="background-image: url(/../images/chapters/wave.png);
-    background-size: 50% 60px; animation: waves 4s linear infinite; opacity: 1; z-index: 14;"></div>
-    <div class="wave" style="background-image: url(/../images/chapters/wave.png);
+    <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
+    background-size: 50% 120px; animation: waves 4s linear infinite; opacity: 1; z-index: 14;"></div>
+    <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
     background-size: 50% 250px; animation: waves 7s linear infinite; opacity: 0.75; z-index:11;"></div>
-    <div class="wave" style="background-image: url(/../images/chapters/wave.png);
+    <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
     background-size: 50% 250px; animation: waves 10s linear infinite; opacity: .5; z-index:10;"></div>
-    <div class="wave" style="background-image: url(/../images/chapters/wave.png);
+    <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
     background-size: 50% 270px; animation: waves 8s linear infinite; opacity: 0.6; z-index:12;"></div>
     </div><div class="textcontainer">
 
