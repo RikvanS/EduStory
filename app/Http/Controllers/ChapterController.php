@@ -68,15 +68,15 @@ class ChapterController extends Controller
     }
 
     public function lubeck() {
-        return view('story/1/Lubeck');
+        return view('story/1/lubeck');
     }
 
     public function artDealer() {
-        return view('story/1/artDealer');
+        return view('story/1/artdealer');
     }
 
     public function artGallery() {
-        return view('story/1/artGallery');
+        return view('story/1/artgallery');
     }
 
     public function epilogue() {

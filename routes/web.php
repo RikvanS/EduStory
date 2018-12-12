@@ -55,7 +55,7 @@ Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 
 /*---Farhad------------------------------------------------*/
 
-Route::get('/chapters/1/Lubeck', 'ChapterController@lubeck');
+Route::get('/chapters/1/lubeck', 'ChapterController@lubeck');
 Route::get('/chapters/1/artdealer', 'ChapterController@artDealer');
 Route::get('/chapters/1/artgallery', 'ChapterController@artGallery');
 Route::get('/chapters/1/plague', 'ChapterController@plague');
