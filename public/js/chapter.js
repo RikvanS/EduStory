@@ -1,4 +1,5 @@
-var modal = document.getElementById('logModal');
+var logModal = document.getElementById('logModal');
+var mapModal = document.getElementById('mapModal');
 
 var book = document.getElementById('book-btn');
 var map = document.getElementById('map-btn');
@@ -6,19 +7,23 @@ var map = document.getElementById('map-btn');
 var span = document.getElementsByClassName('close')[0];
 
 book.onclick = function() {
-    modal.style.display = "block";
+    logModal.style.display = "block";
+    mapModal.style.display = "none";
 }
 
 map.onclick = function() {
-    modal.style.display = "block";
+    mapModal.style.display = "block";
+    logModal.style.display = "none";
 }
 
 span.onclick = function() {
-    modal.style.display = "none";
+    logModal.style.display = "none";
 }
 
+
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    console.log('click');
+    if (event.target == mapModal) {
+        mapModal.style.display = "none";
     }
 }
