@@ -1,21 +1,18 @@
 @extends('layouts/chapter')
 
 @section('content')
-<link rel="stylesheet" href="{{URL::asset('css/lubeck.css')}}">
 
-<img src="/images/lubeck/rsz_lubeck.jpg" class="kenburns" width="1585" height="770" alt="market" usemap="#lubek">
+<p>placeholder tekst voor narrative lubeck.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt praesentium fuga necessitatibus distinctio voluptas totam quas quaerat! Dolorum, quos quam totam aliquid ab ex laboriosam reprehenderit, nisi, quidem ut nam?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde voluptatibus, maiores iure laudantium tempore consectetur animi necessitatibus enim repellat. Ex, eveniet ad? Dolores quia quae, provident consequatur amet eum!
+</p>
 
-<map name="lubek" id="Map">
-<area alt="market" title="" href="market1.jpg" shape="rect" coords="637,504,729,556"/>
-<area alt="art" title="" href="{{ url('chapters/1/artdealer') }}" shape="rect" coords="1351,462,1571,623" />
-<area alt="plague" title="" href="{{ url('chapters/1/plague') }}" shape="poly" coords="372,397,370,451,487,441,530,442,549,452,611,434,627,448,666,444,671,408,665,364,673,353,675,342,678,336,678,319,652,317,646,302,642,278,577,271,518,254,487,277,450,276,428,289,399,315" />
-</map>
+<a href="/chapters/1/lubeck">Bezorg het schilderij en kijk rond</a>
 
-
-
+@if(Auth::user()->progression->lubeckstory == true)
 <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
     Wil je toch naar Visby? Of beter een andere route?</p>
-    @if(Auth::user()->progression->lubeckstory == true)
+ 
 <button id="complete-story">Testknop spelvoltooiing</button>
 @endif
 

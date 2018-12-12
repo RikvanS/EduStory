@@ -54,7 +54,7 @@
 
 
 </div>
-<a href="/chapters/1">Terug naar Lübeck</a>
+<a href="/chapters/1/lubeck">Terug naar Lübeck</a>
 
 <div id="pgallery" class="modal">
         <div id="photomodal" class="modal-content">
