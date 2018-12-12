@@ -31,7 +31,7 @@
                   </section>
                   <section class="parallax">
                     <div class="bg__break">
-                      <div class="capture">Builenpest werd endemisch waar zwarte ratten en vlooien samenleefden in havens en dorpen in gematigde klimaatzones. Als mensen zich verplaatsten verspreidde de ziekte zich. De zwarte rat is een goede klimmer en voedt zich met graan in de ruimen van schepen en op deze manier reisde de rat naar nieuwe havens en infecteerde de rattenpopulatie van de nieuwe bestemming. Ratten overleven de ziekte langer dan mensen, en in deze periode konden de vlooien en daarmee de bacteriën meereizen met de ratten en zo andere levende wezens besmetten.</div>
+                      <div class="capture">Builenpest werd normaal voorkomend waar zwarte ratten en vlooien samenleefden in havens en dorpen in gematigde klimaatzones. Als mensen zich verplaatsten verspreidde de ziekte zich. De zwarte rat is een goede klimmer en voedt zich met graan in de ruimen van schepen en op deze manier reisde de rat naar nieuwe havens en infecteerde de rattenpopulatie van de nieuwe bestemming. Ratten overleven de ziekte langer dan mensen, en in deze periode konden de vlooien en daarmee de bacteriën meereizen met de ratten en zo andere levende wezens besmetten.</div>
                     </div>
                   </section>
                   <section>
@@ -44,7 +44,7 @@
                 </article>
                 </div>
                  
-   
+                <a href="/chapters/1/lubeck">Terug naar Lübeck</a>
 <script src="{{ URL::asset('js/plague2.js') }}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/path/to/parallax.js"></script>

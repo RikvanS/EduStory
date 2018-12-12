@@ -1,0 +1,117 @@
+.map {
+    background-image: url(../images/chapters/Hanza-map-rsz.png);
+    width: 1103px;
+    height: 755px;
+    position: relative;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+}
+
+#mapModal {
+    overflow: hidden;
+}
+
+.nametag {
+    width: auto;
+    height: 18px;
+    background-color: rgba(255, 255, 250, 0.849);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Almendra';
+    font-size: 14px;
+    padding: 2.5px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+}
+
+.city {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.city:hover {
+    transform: scale(1.1);
+}
+
+#gro-name {
+    top: 436px;
+    left: 285px;
+}
+
+#groningen-icon {
+    position: absolute;
+    top: 460px;
+    left: 295px;
+}
+
+#lubeck-icon {
+    position: absolute;
+    top: 444px;
+    left: 444px;
+}
+
+#lub-name {
+    top: 434px;
+    left: 408px;
+}
+
+#vis-name {
+    top: 235px;
+    left: 655px;
+}
+
+#visby-icon {
+    position: absolute;
+    top: 220px;
+    left: 690px;
+}
+
+#gda-name {
+    top: 438px;
+    left: 685px;
+}
+
+#gdansk-icon {
+    position: absolute;
+    top: 395px;
+    left: 695px;
+}
+
+#riga-icon {
+    position: absolute;
+    top: 225px;
+    left: 852.5px;
+}
+
+#rig-name {
+    top: 268px;
+    left: 855px;
+}
+
+
+.city-description {
+    position: absolute;
+    background-image: url(../images/chapters/ricepaper_@2X.png);
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    font-family: 'Merriweather';
+    font-size: 10px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+}
+
+.city-title {
+    font-family: 'Almendra';
+    font-size: 24px;
+}
+
+.city-text {
+    font-size: 14px;
+    line-height: 22px;
+}

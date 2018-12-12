@@ -2,6 +2,7 @@
 
 @section('head')
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/hanoi.css') }}">
+<link href="{{ asset('css/memory.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -41,17 +42,50 @@
 @endif
 <div style="display:none" id="progressdiv">
 
-<p>"Goedzo, {{ Auth::user()->name }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
+<p>"Goed gedaan {{ Auth::user()->name }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
 
-<p>Je loopt achter Jan aan van het schip af, de kade op. Daar zet een gespierde man net de laatste kist die je zojuist op het platform hebt gezet, op een platte kar. "Dzięki!" zegt Jan tegen de man. "Kom op, help me deze kar duwen!"</p>
+<p>Je loopt achter Jan aan van het schip af, de kade op. Daar zet een gespierde man net de laatste kist die je zojuist op het platform hebt gezet, op een platte kar. "Dzięki!" zegt Jan tegen de man. "Kom op {{ Auth::user()->name}}, help me deze kar duwen!"</p>
 
-<p>Je pakt 
+<p>Samen met Jan duw je de kar door de drukke straten. Al snel komen jullie aan bij een gigantische bouwplaats. "Nu moeten we die architect zien te vinden..." mompelt Jan. Hij praat met een van de werkers in een taal die je niet kent. De werker loopt weg, en komt al snel terug met een belangrijk uitziende man. "Ah, zijn dit de bouwmaterialen uit Groningen?" vraagt hij.</p>
+
+<p>Je had niet verwacht dat er hier iemand Nederlands zou spreken. "Komt u uit Nederland meneer?" vraag je verbaasd. De man kijkt je glimlachend aan. "De jeugd tegenwoordig weet ook niets van hun vaderland.." zegt hij tegen Jan. Dan zegt hij tegen jou: "Ik kom inderdaad uit Nederland. Ik ben architect, en Nederlandse architecten zijn erg gewild in het buitenland. Wist je dat niet?"</p>
 
 <p>Daarna moeten er bouwmaterialen naar de kerk gebracht worden. Daar leert de protagonist over de bouw vd kerk en architecten.</p>
 
 <p>Vanaf de warenhuizen moet er graan/potas/teer ingeladen worden. Hier leert de protagonist over het effect van oorlogen op handelsroutes.</p>
 
 <p>Optioneel: protagonist krijgt een brief mee van de Duitse Orde voor de Lijfmansorde in Riga.</p>
+
+<p>"We zijn er eindelijk: De markt van Lübeck! Hier kunnen we alles vinden wat we maar willen, van Zweedse haring en koper tot hout en hars uit Riga, vachten uit Visby en honing
+        uit het achterland van Polen. Alle handelaren uit de verre omstreken komen hier samen" vertelde Jan de scheepsmaat.
+        "Laten we kijken hoeveel we hier kunnen krijgen voor onze spullen, misschien kunnen we ons ruim nog wat beter vullen als we slim handelen!"
+    </p>
+    <p>
+        Samen lopen jullie naar een goed gevulde, grote kraam met een grijnzende dikke man erachter.
+        "Welkom vrienden welkom! Kijk gerust naar mijn waren, als ik het niet heb is het nergens in Lübeck te vinden!" bulderde de man.
+        Jan en ik kijken onze ogen uit, de kraam is volgeladen met allerlei spullen:
+        Koper en vis uit Zweden, stof uit Nederland en België, vachten uit Visby, hout en hars uit Riga, graan en honing uit Rusland en Polen en zelfs grote brokken zout genaamd 'potas'.
+    </p>
+    <p>
+        Ik strek mijn hand uit om een mooi groot stuk koper beter te bekijken en stoot per ongeluk tegen de kraam! Hij wankelt twee keer en stort in onder het gewicht van alle spullen!
+        "Wat doe je nou?!" roept de marskramer vol ongeloof. "Kijk nou, alles ligt door elkaar!"
+        Jan en ik kijken elkaar aan vol schrik, wat een ellende.
+        "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
+        <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
+    
+    <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
+        "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
+    
+    
+    <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
+    
+    <div id="game"></div>
+    
+    <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+    @if(Auth::user()->progression->danzigmemory == true)
+    <button id="complete-test">Testknop spelvoltooiing</button>
+    @endif
+    
 
 <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
 </div>
@@ -60,4 +94,5 @@
 @section('scripts')
 <script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/hanoiprogress.js') }}"></script>
+<script src="{{ asset('js/memory.js') }}"></script>
 @endsection

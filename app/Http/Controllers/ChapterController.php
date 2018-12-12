@@ -68,15 +68,22 @@ class ChapterController extends Controller
     }
 
     public function lubeck() {
-        return view('story/1/Lubeck');
+        return view('story/1/lubeck');
     }
+    
 
     public function artDealer() {
-        return view('story/1/artDealer');
+        $user = Auth::user();
+        $user->updateProgression('lubeckstory');
+        return view('story/1/artdealer');
     }
 
     public function artGallery() {
-        return view('story/1/artGallery');
+        return view('story/1/artgallery');
+    }
+
+    public function plague() {
+        return view('story/1/plague');
     }
 
     public function epilogue() {
@@ -84,8 +91,5 @@ class ChapterController extends Controller
         $user->updateProgression('epilogue');
         return view('story/epilogue/epilogue');
     }
-    
-    public function plague() {
-        return view('story/1/plague');
-    }
+
 }

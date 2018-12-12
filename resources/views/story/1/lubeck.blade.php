@@ -11,14 +11,20 @@
 <body>
 @include("includes.sidebar")
 
-<img src="/images/lubeck/rsz_lubeck.jpg" class="kenburns" width="1585" height="770" alt="market" usemap="#lubek">
+<div style="width:100%;">
+        <img id="map" src="/images/lubeck/rsz_lubeck.jpg" usemap="#lubek" border="0" width="100%" height="100%" alt="" />
 
-<map name="lubek" id="Map">
-<area alt="market" title="" href="market1.jpg" shape="rect" coords="637,504,729,556"/>
+<map name="lubek" id="lubek">
+
 <area alt="art" title="" href="{{ url('chapters/1/artdealer') }}" shape="rect" coords="1351,462,1571,623" />
 <area alt="plague" title="" href="{{ url('chapters/1/plague') }}" shape="poly" coords="372,397,370,451,487,441,530,442,549,452,611,434,627,448,666,444,671,408,665,364,673,353,675,342,678,336,678,319,652,317,646,302,642,278,577,271,518,254,487,277,450,276,428,289,399,315" />
 </map>
+
+</div>
+test text please ignore
+<script src="{{ URL::asset('js/lubeck.js') }}"></script>
 <script src="{{ URL::asset('js/chapter.js') }}"></script>
+<script src="{{ URL::asset('js/resize.js') }}"></script>
 
 </body>
 </html>
