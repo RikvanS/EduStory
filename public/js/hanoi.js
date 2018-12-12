@@ -280,3 +280,8 @@ message("Klaar om te beginnen! Klik op een krat om hem te verplaatsen.");
 function drawfinish() {
     document.getElementById('hanoi-row').innerHTML = "<td><img src='" + imgdir + "hoistingup.gif' border=0></td>";
 }
+
+document.getElementById("complete-hanoi").addEventListener('click', function (event) {
+	document.getElementById('progressdiv').style.display = 'block';
+  
+  });
