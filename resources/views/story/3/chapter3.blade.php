@@ -41,5 +41,6 @@
 
 @section('scripts')
 <script src="{{ asset('js/quiz.js') }}"></script>
+<script src="{{ asset('js/quizprogress.js') }}"></script>
 <script src="{{ asset('js/ajax.js') }}"></script>
 @endsection
