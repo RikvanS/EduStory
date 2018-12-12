@@ -22,7 +22,7 @@ body {
     left: 450px;
     position: absolute;
     z-index: 13;
-    animation: rock-boat 3s ease-in-out infinite;
+    animation: rock-boat 2.9s ease-in-out infinite;
 }
 
 .wave {
@@ -41,7 +41,7 @@ body {
     height: 1000px;
     margin: 0;
     padding: 10px 20px;
-    background-color: #006aff;
+    background-color: #0a3042;
     color: #FFFFFA;
     z-index: 18;
 }
@@ -49,7 +49,7 @@ body {
 .continue {
     float: right;
     background: none;
-    color: #006aff;;
+    color: #03a3042;
     background-color: #FFFFFA;
     border: 2px solid transparent;
     border-radius: 5px;
