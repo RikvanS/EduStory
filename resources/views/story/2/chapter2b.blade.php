@@ -38,4 +38,5 @@
 
 @section('scripts')
 <script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/hanoiprogress.js') }}"></script>
 @endsection

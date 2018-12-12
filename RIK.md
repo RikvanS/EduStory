@@ -71,3 +71,10 @@ In overleg met team vandaag vanuit huis aan het werken.
 Voor MVP oplevering 15:00 vanmiddag werkt team aan splash page, ik ga bezig met de logboek modal.
 Deze moet worden ingevuld aan de hand van de bezochte hoofdstukken, hier komen hints naar de afsluitende quiz in Riga.
 
+11/12 16:45
+
+Maandag log vergeten. Maandag en dinsdag gespendeerd aan werkend krijgen van de progressie database koppeling waardoor gebruiker bij inloggen terugkomt op het laatst bezochte punt en de voltooide spellen worden onthouden.
+
+Vanaf dinsdag 12/12 verder met implementeren van de door Farhad aangeleverde segmenten.
+
+---------------

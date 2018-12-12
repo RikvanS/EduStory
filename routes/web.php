@@ -17,7 +17,7 @@ Auth::routes();
 
 /*---Rik------------------------------------------------*/
 
-Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
+Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); 
 Route::get('/chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
 Route::get('/chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
 Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
