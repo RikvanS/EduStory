@@ -7,6 +7,10 @@
     background-repeat: no-repeat;
 }
 
+#mapModal {
+    overflow: hidden;
+}
+
 .nametag {
     width: auto;
     height: 18px;

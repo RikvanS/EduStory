@@ -20,10 +20,13 @@ span.onclick = function() {
     logModal.style.display = "none";
 }
 
-
 window.onclick = function(event) {
     console.log('click');
     if (event.target == mapModal) {
         mapModal.style.display = "none";
     }
+    if(event.target == logModal) {
+        logModal.style.display = "none";
+    }
 }
+
