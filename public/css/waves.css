@@ -22,7 +22,7 @@ body {
     left: 450px;
     position: absolute;
     z-index: 13;
-    animation: rock-boat 3s ease-in-out infinite;
+    animation: rock-boat 2.9s ease-in-out infinite;
 }
 
 .wave {
@@ -41,7 +41,7 @@ body {
     height: 1000px;
     margin: 0;
     padding: 10px 20px;
-    background-color: #006aff;
+    background-color: #0a3042;
     color: #FFFFFA;
     z-index: 18;
 }
@@ -49,18 +49,34 @@ body {
 .continue {
     float: right;
     background: none;
-    color: #006aff;;
+    color: #03a3042;
     background-color: #FFFFFA;
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+    font-family: 'Merriweather';
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    /*animation: float 3s ease-in-out infinite;*/
 }
 
 .continue:hover {
-    background-color: transparent;
-    color: #FFFFFA;
-    border: 2px solid #FFFFFA;; 
+    background-color: rgba(255, 255, 250, 0.596);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
 
 @keyframes waves {
