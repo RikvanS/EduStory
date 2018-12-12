@@ -7,7 +7,21 @@
 @section('content')
 <p><h2>Gdansk</h2></p>
 
-<p>Protagonist moet de kraan met hamsterwielen gebruiken om zware materialen van het schip te laden.</p>
+<p>"{{ Auth::user()->name }}! Wakker worden, snel!" Je slaat je ogen open. Jan staat over je heen gebogen. "Was je in slaap gevallen? Daar hebben we nu geen tijd voor. Kijk maar, we zijn aangekomen in Gdansk!"</p>
+
+<p>Slaperig kijk je om je heen. Dan slaan je ogen wagenwijd open. Je lag zo diep te slapen, dat je helemaal niet doorhad dat het schip niet meer op open zee is. Jullie zijn in een haven! En wat voor een... Overal om je heen liggen grote schepen, ertussen varen allemaal kleine bootjes. Op de kade staan rijen met grote pakhuizen en zie je een wirwar van mensen door elkaar heen lopen.</p>
+
+<p>"Kijk, zie je die toren? Met die kraan eraan? Daar gaan we uitladen. Wat een gezicht hè! Een knap staaltje vakmanschap, het is een van de modernste kraantorens in Europa!'</p>
+
+<p>Je kijkt naar de toren die Jan aanwijst. Wat een vreemde constructie! Het zijn eigenlijk twee torens met een houten kraan ertussen, en daar beneden.. Wat zijn dat? Het lijken wel grote hamsterwielen.</p> 
+
+<p>"Hoe dan?", vraag je. "Hoe werken die hamsterwielen daaronderaan?" Jan kijkt je versuft aan. Hij zegt: "Wat? Ham.. hamsterwielen? Wat zeg je soms toch ook rare dingen." Dat is ook zo! Hamsters komen niet uit Europa, Jan heeft geen idee waar ik het over heb.</p>
+
+<p>Je wijst naar de hamsterwielen. "Ik bedoel die twee grote wielen daar, onderaan de torens. Waar zijn die voor?" Jans ogen beginnen te glimmen. "Die worden gebruikt om zware spullen omhoog te takelen. Kijk, de wielen zijn verbonden met kabels. Er gaan mensen in staan, en als zij gaan lopen dan wordt de vracht op dat platform daar omhoog getakeld! Maar wacht maar, je zult het zo zelf wel zien."</p>
+
+<p>Je kijkt over de reling terwijl het schip aanmeert naast de kraantoren. Je ziet nu inderdaad dat er mensen in de hamsterwielen staan, vier per wiel. Ze beginnen langzaam te bewegen. Een platform dat aan de kabels hangt beweegt naar beneden, tot het vlak boven het dek hangt.</p>
+
+<p>"Zo!", zegt Jan. "Tijd om aan de slag te gaan. Zie je deze stapel kisten? Die moeten opgestapeld worden op het platform. Let op, ze zijn heel zwaar! Vooral die onderop. Zorg ervoor dat je nooit een grotere kist op een kleinere kist zet. Er is nog wat vrije ruimte daar links van de stapel, daar kun je ook wat neerzetten terwijl je de kisten overstapelt naar het platform."</p>
 
 <div id="hanoi-parent">
 
