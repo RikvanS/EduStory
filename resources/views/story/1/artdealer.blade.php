@@ -54,7 +54,9 @@
 
 
 </div>
+@if(Auth::user()->progression->lubeckstory == true)
 <a href="/chapters/1/lubeck">Terug naar Lübeck</a>
+@endif
 
 <div id="pgallery" class="modal">
         <div id="photomodal" class="modal-content">
