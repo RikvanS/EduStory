@@ -44,7 +44,7 @@
                 </article>
                 </div>
                  
-   
+                <a href="/chapters/1/lubeck">Terug naar Lübeck</a>
 <script src="{{ URL::asset('js/plague2.js') }}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/path/to/parallax.js"></script>
