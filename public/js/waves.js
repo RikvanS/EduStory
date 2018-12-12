@@ -1,3 +1,7 @@
+window.onload = function () {
+    lightRain();
+}
+
 var rain = document.getElementsByClassName("regen");
 
 
@@ -24,5 +28,3 @@ function noRain() {
         rain[i].style.display = "none";
     }
 }
-
-lightRain();
