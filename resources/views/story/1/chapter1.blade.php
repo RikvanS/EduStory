@@ -15,6 +15,9 @@
 
 <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
     Wil je toch naar Visby? Of beter een andere route?</p>
+    @if(Auth::user()->progression->lubeckstory == true)
+<button id="complete-story">Testknop spelvoltooiing</button>
+@endif
 
 <div class="buttons" style="display:none" id="progressdiv"> 
     @if(Auth::user()->progression->lubeckchoice == 0)
@@ -37,4 +40,5 @@
 
 @section('scripts')
 <script src="{{ asset('js/ajax.js') }}"></script>
+<script src="{{ asset('js/lubeckstory.js') }}"></script>
 @endsection

@@ -67,11 +67,9 @@ class ChapterController extends Controller
         return view('story/3/chapter3');
     }
 
-    public function lubeck() {
-        return view('story/1/lubeck');
-    }
-
     public function artDealer() {
+        $user = Auth::user();
+        $user->updateProgression('lubeckstory');
         return view('story/1/artdealer');
     }
 
@@ -79,13 +77,14 @@ class ChapterController extends Controller
         return view('story/1/artgallery');
     }
 
+    public function plague() {
+        return view('story/1/plague');
+    }
+
     public function epilogue() {
         $user = Auth::user();
         $user->updateProgression('epilogue');
         return view('story/epilogue/epilogue');
     }
-    
-    public function plague() {
-        return view('story/1/plague');
-    }
+
 }
