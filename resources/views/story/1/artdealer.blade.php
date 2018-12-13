@@ -55,7 +55,7 @@
 
 </div>
 
-<a href="/chapters/1/lubeck">Terug naar Lübeck</a>
+
 
 
 <div id="pgallery" class="modal">
@@ -129,7 +129,10 @@
         </div>
 
 </div>
-    
+<div class="container-container">
+        <a href="/chapters/1/lubeck" class="no-underline"><div class="return-container">Je bent klaar hier, ga terug naar het plein</div></a>
+</div>
+
 <script src="{{ URL::asset('js/artdealer.js') }}"></script>
 <script src="{{ URL::asset('js/artgallery.js') }}"></script>
 <script src="{{ URL::asset('js/chapter.js') }}"></script>

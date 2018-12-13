@@ -191,3 +191,30 @@
     border-color: #f6b93b !important;
     transition: all 0.4s ease 0s;
 	}
+
+	.return-container {
+		background-image: url('/images/lubeck/scroll.png');
+		background-size: auto;
+		background-repeat: no-repeat;
+		opacity: 0.8;
+		width: 200px;
+		height: 135px;
+		bottom: 10px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		font-family: 'Merriweather';
+		color: black;
+		margin: 0 auto;
+	}
+	
+	.no-underline {
+	  text-decoration: none;
+	}
+	
+	.container-container {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
