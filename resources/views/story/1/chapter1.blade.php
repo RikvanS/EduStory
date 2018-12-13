@@ -13,10 +13,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde voluptatib
 <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
     Wil je toch naar Visby? Of beter een andere route?</p>
  
-<button id="complete-story">Testknop spelvoltooiing</button>
 @endif
 
-<div class="buttons" style="display:none" id="progressdiv"> 
+
+@if(Auth::user()->progression->lubeckstory == true)
+<div class="buttons" id="progressdiv"> 
     @if(Auth::user()->progression->lubeckchoice == 0)
     <a href="/chapters/1/setsail1a"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></a>
     <a href="/chapters/1/setsail1b"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></a>
@@ -30,7 +31,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde voluptatib
     <a href="/chapters/1/setsail1b"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></a>
     @endif
 </div>    
-
+@endif
 
 
 @endsection
