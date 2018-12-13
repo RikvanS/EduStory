@@ -141,3 +141,9 @@ ul {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.fixed-return {
+	position: absolute;
+    text-align: center;
+    margin: 0 auto;
+}

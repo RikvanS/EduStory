@@ -22,7 +22,9 @@
 
 </div>
 @if(Auth::user()->progression->lubeckstory == true)
+<div class="fixed-return">
 <a href="/chapters/1">terug</a>
+</div>
 @endif
 <script src="{{ URL::asset('js/lubeck.js') }}"></script>
 <script src="{{ URL::asset('js/chapter.js') }}"></script>
