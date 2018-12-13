@@ -6,6 +6,7 @@
 @endsection
 
 @section('content')
+<div id="head-market" class="head-image"></div>
 <p><h2>Gdansk</h2></p>
 
 <p>Bla bla bla</p>
@@ -33,8 +34,9 @@
 
 <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
 
-<div id="game"></div>
-
+<div id="memory-container">
+    <div id="game"></div>
+</div>
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 @if(Auth::user()->progression->danzigmemory == true)
 <button id="complete-test">Testknop spelvoltooiing</button>
