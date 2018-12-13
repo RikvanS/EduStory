@@ -20,8 +20,14 @@ body {
 
 #memory-container {
     width: 800px;
-    height: 1000px;
-    background-image:  url(../images/chapters/market.jpg);
+    height: 374px;
+    background-image:  url(../images/chapters/market-rsz.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-items: center;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .nav-icon {
