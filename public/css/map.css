@@ -1,5 +1,5 @@
 .map {
-    background-image: url(../images/chapters/Hanza-map-rsz.png);
+    background-image: url(../images/chapters/Hanza-map-rsz.jpg);
     width: 1103px;
     height: 755px;
     position: relative;
@@ -92,7 +92,8 @@
 
 .city-description {
     position: absolute;
-    background-image: url(../images/chapters/ricepaper_@2X.png);
+    background-color: white;
+    background-image: url(../images/chapters/ricepaper_@2X.jpg);
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
