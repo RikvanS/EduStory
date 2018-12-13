@@ -6,8 +6,11 @@
 <div id="logModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
+        @if (Auth::user()->progression->prologuenameage == true)
+        <h1 id="log-title">Logboek van {{  Auth::user()->name }}</h1>      
+        @else
         <h1 id="log-title">Logboek</h1>
-
+        @endif
 {{-- Standaard --}}
         <div>
             <p class="space-top"><h2>--Het avontuur begint--</h2></p>
