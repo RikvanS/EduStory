@@ -59,16 +59,17 @@ body {
     width: 60%;
     font-size: 18px;
 }
-
+/* 
 #log-title {
     margin: 0 auto;
-}
+} */
 
 .close {
     color: black;
-    float: right;
+    /* float: right; */
     font-size: 28px;
     font-weight: bold;
+    justify-self: flex-end;
 }
 
 .close:hover {

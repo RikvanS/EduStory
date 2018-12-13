@@ -175,3 +175,7 @@ ul {
     font-family: 'Merriweather';
     color: black;
 }
+
+.return-container:hover {
+    transform: scale(1.1);
+}
