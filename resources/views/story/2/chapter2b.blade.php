@@ -8,6 +8,8 @@
 @section('content')
 <p><h2>Gdansk</h2></p>
 
+<p>Bla bla bla</p>
+
 <p>"We zijn er eindelijk: De markt van Lübeck! Hier kunnen we alles vinden wat we maar willen, van Zweedse haring en koper tot hout en hars uit Riga, vachten uit Visby en honing
     uit het achterland van Polen. Alle handelaren uit de verre omstreken komen hier samen" vertelde Jan de scheepsmaat.
     "Laten we kijken hoeveel we hier kunnen krijgen voor onze spullen, misschien kunnen we ons ruim nog wat beter vullen als we slim handelen!"

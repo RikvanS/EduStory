@@ -85,6 +85,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 
 h2, h1 {
@@ -92,7 +93,7 @@ h2, h1 {
 }
 
 p {
-
+    align-self: flex-start;
     font-family: 'Merriweather';
     line-height: 34px;
     font-size: 18px;
