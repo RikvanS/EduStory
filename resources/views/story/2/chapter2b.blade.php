@@ -40,7 +40,7 @@
 @if(Auth::user()->progression->danzighanoi == true)
 <button id="complete-hanoi">Testknop spelvoltooiing</button>
 @endif
-<div style="display:none" id="progressdiv">
+<div style="display:none" id="sub-content">
 
 <p>"Goed gedaan {{ Auth::user()->name }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
 
@@ -86,8 +86,9 @@
     <button id="complete-test">Testknop spelvoltooiing</button>
     @endif
     
-
-<p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
+    <div style="display:none" id="progressdiv">
+        <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
+    </div>
 </div>
 @endsection
 

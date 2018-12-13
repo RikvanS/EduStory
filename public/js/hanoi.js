@@ -223,7 +223,7 @@ function game_over(forceMsg) {
         message("Je hebt gewonnen!", forceMsg);
         game_is_over = true;
         endpost = filledpost;
-        document.getElementById('progressdiv').style.display = 'block';
+        document.getElementById('sub-content').style.display = 'block';
         loadDoc('GET', '/chapters/danzig/danzig-hanoi', workplease);
 
     }            
