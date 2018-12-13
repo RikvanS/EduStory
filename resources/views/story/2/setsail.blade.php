@@ -7,6 +7,8 @@
             "Ik geloof van niet" antwoord je. Jan houdt maar niet op met praten. "Lubeck is de plaats waar onze handelssamenwerking is onstaan!
             Al vanaf de 12e eeuw hebben ze economische verdragen gemaakt met andere steden. Heel goed voor de handel. Daarom doen wij er als Groningers ook aan mee. Ze kopen hier onder andere heel erg veel stoffen in.
             De "Koningin van de Hanze" noemen ze deze stad ook wel."</p>
-    <a href="/chapters/3"><button type="button" class="continue">Arriveer in Riga</button></a> 
+    <a href="/chapters/3" onclick="loadDoc('GET', '/storeriga', workplease)"><button type="button" class="continue">Arriveer in Riga</button></a> 
         </div>
 @endsection
+
+<script src="{{ URL::asset('js/ajax.js') }}"></script>

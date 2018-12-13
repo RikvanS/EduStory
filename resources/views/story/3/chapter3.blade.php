@@ -35,7 +35,7 @@
 @endif
 
 <div style="display:none" id="progressdiv">
-    <p><a href="/chapters/epilogue">Ga naar epiloog</a></p>
+    <p><a href="/chapters/epilogue" onclick="loadDoc('GET', '/storeepilogue', workplease)">Ga naar epiloog</a></p>
     </div>
 @endsection
 
