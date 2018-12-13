@@ -5,7 +5,11 @@ body {
     background-size:cover;
     background-repeat:no-repeat;
 } */
-
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 body {
     background-color:black;
 }
@@ -140,4 +144,41 @@ ul {
 .close:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+
+#map {
+    background-size: cover;
+    border:0; 
+    width:100%;
+    height:100%;
+}
+
+#map-div {
+    position: relative;
+}
+
+.return-container {
+    /* border-radius: 25px;
+    border: blanchedalmond; */
+    /* background-color: rgb(222, 184, 135, 0.7); */
+    background-image: url('/images/lubeck/scroll.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    /* background-color: rgba(211, 189, 141, 0.7); */
+    width: 200px;
+    height: 135px;
+    /* padding: 10px; */
+    position: absolute;
+    left: 40%;
+    /* right: 45%; */
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: black;
 }
