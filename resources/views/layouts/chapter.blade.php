@@ -15,12 +15,15 @@
     @yield('head')
 </head>
 <body>
+    @yield("parallax")
+
+    
     @include('includes/sidebar')
     <div class="container">
         @yield('content')
               
     </div>
-    <
+    
     <script src="{{ URL::asset('js/chapter.js') }}"></script>
 
     @yield('scripts')

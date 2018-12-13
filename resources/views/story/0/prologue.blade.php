@@ -1,21 +1,50 @@
 @extends('layouts/chapter')
 
+
+
+
+<div>
+        <p>
+         "wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
+         Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je. Je vindt eindelijk een rustig moment om over te steken. 
+         Langs het water lopend verwonder je je over de gebouwen waar je langs loopt, ze zien er oud uit. Een balk steekt uit de bovenste verdieping van een pakhuis. 
+         Je kijkt omhoog, en let niet op waar je loopt. Je stapt zo in het water!
+        </p>
+    </div>
+@section('parallax')
+<section class="para" id="hero"> 
+   <p><h2>Proloog</h2></p>
+<p>!! Paralax van golven terwijl de protagonist in het water valt hier !!!!!!!!!!!!!!!</p>
+
+
+
+        <div class="layer layer-bg" data-speed="0.20"> </div>
+        <div class="layer layer-one" data-speed="0.40"> </div>
+        <div class="layer layer-two" data-speed="0.50"> </div>
+        <div class="layer layer-three" data-speed="0.70"> </div>
+        <div class="layer layer-four" data-speed="0.85"> </div>
+        <div class="layer layer-five" data-speed="1.00"> </div>
+              </section>
+
+@endsection
 @section('content')
 
-    <p><h2>Proloog</h2></p>
+ 
 
-<div>
-    <p>
-     "wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
-     Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je. Je vindt eindelijk een rustig moment om over te steken. 
-     Langs het water lopend verwonder je je over de gebouwen waar je langs loopt, ze zien er oud uit. Een balk steekt uit de bovenste verdieping van een pakhuis. 
-     Je kijkt omhoog, en let niet op waar je loopt. Je stapt zo in het water!
-    </p>
+    
+
+    
+       
+
+   
+        
+            
+<div class="percamentus">
+    <div class="color">
+    
 </div>
 
-<div>
-    <p>!! Paralax van golven terwijl de protagonist in het water valt hier !!</p>
-</div>
+
 
 <div>
     <p>
@@ -47,10 +76,13 @@
 
 <br>
 
-</body>
 
+</div>
 @endsection
 
 @section('scripts')
 <script src="{{ URL::asset('js/ajax.js') }}"></script>
+<script src="{{ URL::asset('js/parallax.js') }}"></script>
+<script src="{{ URL::asset('js/app.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 @endsection

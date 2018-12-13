@@ -1,8 +1,8 @@
 body {
-    background-image: url(../images/chapters/parchment.jpg);
     margin: 0 auto;
     padding-top: 250px;
     padding-bottom: 150px;
+    padding:0;
 }
 
 /* .head-image {
@@ -205,3 +205,81 @@ p::first-letter {
 .dynamic-content-shown {
     display: block;
 } */
+
+/* parralax custom css */
+
+  
+ 
+  #hero {
+    height: 1000px;
+    position: relative;
+    background-color: white;
+    z-index: -2;
+  }
+  .layer {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-height: 1000px;
+    height:auto;
+    position: fixed;
+    z-index:-1;
+  }
+  
+  .layer-bg {
+    background-image: url("/images/parallax/wave_bg.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+  }
+  
+  .layer-one {
+    background-image: url("/images/parallax/wave_6.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+  }
+  
+  .layer-two {
+    background-image: url("/images/parallax/wave_4.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+  }
+  
+  .layer-three {
+    background-image: url("/images/parallax/wave_3.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+  }
+  .layer-four {
+    background-image: url("/images/parallax/wave_2.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+  }
+
+
+  .layer-five {
+    background-image: url("/images/parallax/wave_1.png");
+    background-repeat: no-repeat;
+    width:100% 100%;
+   
+  }
+  .content {
+    background-color: rgb(3, 47, 94);
+  }
+  
+  section .para {
+    background-size:cover;
+  }
+
+  .percamentus {
+    background-image: url(../images/chapters/parchment.jpg);
+    width:100vw;
+
+  }
+
+  .color {
+
+    height:500px;
+    width:100vw;
+    background:linear-gradient(#01131D, rgba(3, 47, 94, 0));
+  }
