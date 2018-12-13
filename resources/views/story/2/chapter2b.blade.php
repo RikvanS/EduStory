@@ -89,7 +89,7 @@
             <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
                     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
             <p>Jullie slaan samen van alles in en slepen het op de platte kar weer terug naar het schip. Als alles is uitgeladen, kruip je uitgeput onder een deken in een hoek van het ruim. Vlak voor je in slaap valt, hoor je de kapitein nog roepen: "Hijs de masten! Beman het kraaiennest! Bemanning, het is tijd om uit te varen naar onze eindbestemming: Riga!"</p>
-        <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
+        <p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)">Vaar naar Riga</a></p>
     </div>
 </div>
 @endsection
