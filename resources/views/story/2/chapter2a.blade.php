@@ -29,9 +29,9 @@
     </div>
   </div>
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
-
+@if(Auth::user()->progression->visbybattleship == true)
   <button id="complete-battleship">Testknop spelvoltooiing</button>
-  <input type="hidden" id="test-id" value="test">
+ @endif
 
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
@@ -52,8 +52,9 @@
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 <br>
+@if(Auth::user()->progression->visbyboatrepair == true)
 <button id="complete-slide">Testknop spelvoltooiing</button>
-
+@endif
 <div style="display:none" id="progressdiv">
 <p>Uiteindelijk gaat hij weer het schip in en gaat door naar Riga</p>
 <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>

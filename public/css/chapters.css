@@ -59,16 +59,17 @@ body {
     width: 60%;
     font-size: 18px;
 }
-
+/* 
 #log-title {
     margin: 0 auto;
-}
+} */
 
 .close {
     color: black;
-    float: right;
+    /* float: right; */
     font-size: 28px;
     font-weight: bold;
+    justify-self: flex-end;
 }
 
 .close:hover {
@@ -85,6 +86,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 
 h2, h1 {
@@ -92,7 +94,7 @@ h2, h1 {
 }
 
 p {
-
+    align-self: flex-start;
     font-family: 'Merriweather';
     line-height: 34px;
     font-size: 18px;

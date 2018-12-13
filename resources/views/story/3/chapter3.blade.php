@@ -26,10 +26,21 @@
         <button id="submit">Klaar</button>
         <div id="results"></div>
         </div>
-        <script src="../js/quiz.js"></script>
-<p><a href="/chapters/epilogue">Ga naar epiloog</a></p>
+
+
+
+
+@if(Auth::user()->progression->rigaquiz == true)
+<button id="complete-rigaquiz">Testknop spelvoltooiing</button>
+@endif
+
+<div style="display:none" id="progressdiv">
+    <p><a href="/chapters/epilogue">Ga naar epiloog</a></p>
+    </div>
 @endsection
 
 @section('scripts')
+<script src="{{ asset('js/quiz.js') }}"></script>
+<script src="{{ asset('js/quizprogress.js') }}"></script>
 <script src="{{ asset('js/ajax.js') }}"></script>
 @endsection

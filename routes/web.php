@@ -17,7 +17,7 @@ Auth::routes();
 
 /*---Rik------------------------------------------------*/
 
-Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); /*fix this */
+Route::get('/chapters/lubeck/lubeck-story', 'ProgressionController@lubeckstory'); 
 Route::get('/chapters/lubeck/lubeck-choice1', 'ProgressionController@gotovisby');
 Route::get('/chapters/lubeck/lubeck-choice2', 'ProgressionController@gotodanzig');
 Route::get('/chapters/visby/visby-battleship', 'ProgressionController@visbybattleship');
@@ -52,4 +52,11 @@ Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
 Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
 /*---Anna------------------------------------------------*/
 
+
 /*---Farhad------------------------------------------------*/
+
+Route::get('/chapters/1/lubeck', 'ChapterController@lubeck');
+Route::get('/chapters/1/artdealer', 'ChapterController@artDealer');
+Route::get('/chapters/1/artgallery', 'ChapterController@artGallery');
+Route::get('/chapters/1/plague', 'ChapterController@plague');
+
