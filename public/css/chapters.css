@@ -33,6 +33,30 @@ body {
     background-size: cover;
 }
 
+#visby-head-image {
+    background: url('../images/chapters/visby header.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#riga-head-image {
+    background: url('../images/chapters/riga.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#lubeck-head-image {
+    background: url('../images/chapters/lubeck1.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #memory-container {
     width: 800px;
     height: 374px;
