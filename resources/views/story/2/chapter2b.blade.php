@@ -6,7 +6,9 @@
 @endsection
 
 @section('content')
-<div id="danzig-head-image" class="head-image"></div>
+<div id="danzig-head-image" class="head-image">
+    <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
 
 <p><h2>Gdansk</h2></p>
 
