@@ -27,7 +27,35 @@
             C: "Metaalwerkers"
         },
         correctAnswer: "A"
-    }
+    },
+    {
+        question: "Hoe komt Riga aan haar naam?",
+        answers: {
+            A: "Het is de oude Lijfse term voor warenhuizen",
+            B: "Het was de favoriete hond van bisschop Albert von Buxthoeveden",
+            C: "Vikingen vonden de stad zo lelijk dat ze het Riga noemden, vrij vertaald 'achtereind van een varken'"
+        },
+        correctAnswer: "A"
+    },
+    {
+        question: "Om welk bijzonder ambacht staat Riga bekend?",
+        answers: {
+            A: "Leer looien",
+            B: "IJzer smeden",
+            C: "Munten slaan"
+        },
+        correctAnswer: "C"
+    },
+    {
+        question: "Wanneer werd Riga lid van de Hanze liga?",
+        answers: {
+            A: "1444",
+            B: "1357",
+            C: "1282"
+        },
+        correctAnswer: "C"
+    },
+
 ];
 
 function buildQuiz() {
