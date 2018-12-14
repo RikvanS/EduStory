@@ -5,7 +5,16 @@
 
 <p><h2>Visby</h2></p>
 
-<p>Als het schip Visby nadert, wordt het aangevallen door piraten! Hier komt een zeeslagspelletje.</p>
+<p>Met een bezorgde blik op zijn gezicht, zie je de kapitein op jullie aflopen. Hij tikt Jan aan. "Denk je dat Stortebeker toch niet voor de haven van Visby rondvaart?" vraagt hij.
+  "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een <i>wie</i>. 
+  Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kustensteden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
+  "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. 
+  <div class="container">
+      <img src="/images/chapters/stortebeker.jpg"><br>
+      <i>Piraat Stortebeker</i>
+  </div>    
+  Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
+  Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van Piraten!</p>
 <div id="main">
     <div class="board">
       <div class="displays">
@@ -35,7 +44,6 @@
 
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
-<p>Na de slag neemt de protagonist een scheepsmaat mee naar de ziekenhuiskerk.</p>
 
 <p>Protagonist ontmoet een Finse handelaar die hem info geeft over Visby: een herdistributiestad die wordt lastiggevallen door piraten.</p>
 
