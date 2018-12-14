@@ -10,8 +10,6 @@
         
 </p>
 
-Testje
-
 <a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
 
 @if(Auth::user()->progression->lubeckstory == true)
