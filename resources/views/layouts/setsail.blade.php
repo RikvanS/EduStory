@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/waves.css') }}">
+
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
-    <div id="bliksem"></div>
-    <div id="raincontainer">
+    <!--<div id="bliksem"></div>-->
+    <!--<div id="raincontainer">
         <script>
             for (var i = 0; i < 196; i++) {
                 document.write("<div class='regen'></div>");
@@ -20,7 +21,7 @@
                 document.write("<div class='regen' class='extraregen'></div>");
             }
         </script>
-            </div>
+            </div>-->
     <div class="ocean">
         <div class="boat" style="background-image: url(/../images/chapters/ship-good.png)"></div>
     <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
