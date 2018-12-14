@@ -45,11 +45,12 @@
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
 
-<p>Protagonist ontmoet een Finse handelaar die hem info geeft over Visby: een herdistributiestad die wordt lastiggevallen door piraten.</p>
+<p>Protagonist ontmoet een Finse handelaar die hem info geeft over Visby: een herdistributiestad die wordt lastiggevallen door piraten.
+De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p>
 
-<p>De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p>
-
-<p>De boot is beschadigd tijdens het gevecht, en nu moet hij gerepareerd worden:</p>
+<p>"Wat een mazzel dat jullie de piraten hebben overleefd!" zegt een jongetje die bij jullie is komen staan. "Absoluut!" Roept Jan uit. "Maar helaas is ons schip wel beschadigd geraakt.
+  Laten we iemand zoeken die het schip kan repareren."
+</p>
 
 <div class="container">
 <div id="diff-set">
@@ -66,7 +67,9 @@
 <button id="complete-slide">Testknop spelvoltooiing</button>
 @endif
 <div style="display:none" id="progressdiv">
-<p>Uiteindelijk gaat hij weer het schip in en gaat door naar Riga</p>
+
+  <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
+
 <p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)">Vaar naar Riga</a></p>
 </div>
 </div>

@@ -55,6 +55,15 @@
         },
         correctAnswer: "C"
     }
+    {
+        question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
+        answers: {
+            A: "Kofschip",
+            B: "Koopschip",
+            C: "Koggeschip"
+        },
+        correctAnswer: "C"
+    }
     
 ];
 
