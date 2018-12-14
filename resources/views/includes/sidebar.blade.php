@@ -9,7 +9,7 @@
                 @if (Auth::user()->progression->prologuenameage == true)
                 <h1>Logboek van {{  Auth::user()->name }}</h1>      
                 @else
-                {{-- <h1 id="log-title">Logboek</h1> --}}
+                <h1 id="log-title">Logboek</h1>
                 @endif
         <a href="/" class="no-underline"><h1>Terug naar start</h1></a>
         <a class="no-underline" href="{{ route('logout') }}"
@@ -25,10 +25,7 @@
         </div>
 
 
-        <div>
-
-{{-- Logout en back to splash knoppen --}}
-    
+        <div>   
     
     
 {{-- Standaard --}}

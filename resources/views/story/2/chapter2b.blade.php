@@ -38,6 +38,7 @@
         </tr>
         <script src="/js/hanoi.js"></script>
 </div>
+
 @if(Auth::user()->progression->danzighanoi == true)
 <button id="complete-hanoi">Testknop spelvoltooiing</button>
 @endif
