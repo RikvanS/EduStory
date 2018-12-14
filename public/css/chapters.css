@@ -251,3 +251,9 @@ p::first-letter {
 .dynamic-content-shown {
     display: block;
 } */
+
+#stortebeker {
+    border-radius: 50%;
+    height: 646px;
+    width: 500px;
+}
