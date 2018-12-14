@@ -1,7 +1,7 @@
 body {
     background-image: url(../images/chapters/parchment.jpg);
     margin: 0 auto;
-    padding-top: 400px;
+    padding-top: 500px;
     padding-bottom: 150px;
 }
 
@@ -9,12 +9,20 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-bottom: 5px rgba(0, 0, 0, 0.288) solid;
     margin-bottom: 20px;
 }
 
 #head-market {
+    background-size: cover;
+}
+
+#danzig-head-image {
+    background: url('../images/chapters/danzig_header2.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -53,7 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 99;
+    z-index: 10;
 }
 
 .modal {

@@ -6,7 +6,8 @@
 @endsection
 
 @section('content')
-<div id="head-market" class="head-image"></div>
+<div id="danzig-head-image" class="head-image"></div>
+
 <p><h2>Gdansk</h2></p>
 
 
@@ -77,13 +78,8 @@
         "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
         <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
     
-
-    
-
     <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
     <div id="memory-container">
-
-  
     <div id="game"></div>
     </div>
     

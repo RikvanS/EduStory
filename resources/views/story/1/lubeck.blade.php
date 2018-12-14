@@ -17,7 +17,7 @@
 <a href="/chapters/1"><div class="return-container">Je bent klaar hier, ga terug naar Lübeck</div></a>
 
 @endif
-        <img id="map" src="/images/lubeck/rsz_lubeck.jpg" usemap="#lubek"  alt="" />
+        <img id="map" src="/images/lubeck/rsz_lubeck-min.jpg" usemap="#lubek"  alt="" />
 
 <map name="lubek" id="lubek">
 
