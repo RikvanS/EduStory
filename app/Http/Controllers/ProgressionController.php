@@ -48,4 +48,44 @@ class ProgressionController extends Controller
         $user = Auth::user();
         $user->updateProgression('rigaquiz');
     }
+
+    public function storeLubeck() {
+        $user = Auth::user();
+        $user->updateProgression('lubeck');
+    }
+
+    public function storeVisby() {
+        $user = Auth::user();
+        $user->updateProgression('visby');
+    }
+
+    public function storeDanzig() {
+        $user = Auth::user();
+        $user->updateProgression('danzig');
+    }
+
+    public function storeRiga() {
+        $user = Auth::user();
+        $user->updateProgression('riga');
+    }
+
+    public function storeEpilogue() {
+        $user = Auth::user();
+        $user->updateProgression('epilogue');
+    }
+
+    public function storeSetsail1() {
+        $user = Auth::user();
+        $user->updateProgression('setsail1');
+    }
+
+    public function storeSetsail2() {
+        $user = Auth::user();
+        $user->updateProgression('setsail2');
+    }
+
+    public function storeSetsail3() {
+        $user = Auth::user();
+        $user->updateProgression('setsail3');
+    }
 }
