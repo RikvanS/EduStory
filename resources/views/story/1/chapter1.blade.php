@@ -1,7 +1,6 @@
 @extends('layouts/chapter')
 
 @section('content')
-
 <div class="chapter-title">lubeck</div>
 
 <p>     Eindelijk varen jullie de volgende haven binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.

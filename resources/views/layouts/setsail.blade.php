@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/waves.css') }}">
 
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet"> 
-    <title>Document</title>
+    <title>Edustory</title>
 </head>
 <body>
     <!--<div id="bliksem"></div>-->
