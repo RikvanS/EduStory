@@ -31,9 +31,13 @@
     background-size: 50% 250px; animation: waves 10s linear infinite; opacity: .5; z-index:10;"></div>
     <div class="wave" style="background-image: url(/../images/chapters/wave-gradient4.png);
     background-size: 50% 270px; animation: waves 8s linear infinite; opacity: 0.6; z-index:12;"></div>
-    </div><div class="textcontainer">
-
-@yield('content')
+    </div>
+    
+<div class="textcontainer">
+    <div class="textcontainer-child">
+        @yield('content')
+    </div>
+</div>
 
         <script src="{{ asset('js/waves.js') }}"></script>
 </body>
