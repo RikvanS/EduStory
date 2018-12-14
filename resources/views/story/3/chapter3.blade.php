@@ -5,6 +5,9 @@
 </head> 
 
 @section('content')
+<div id="riga-head-image" class="head-image">
+        <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
 <p><h2>Riga</h2></p>
 
 <p>     Na een lange tocht, komt eindelijk de haven in zicht. De ervaren zeelieden beginnen het koggeschip aan te meren en uit te laden.

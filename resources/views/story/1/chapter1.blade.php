@@ -1,6 +1,9 @@
 @extends('layouts/chapter')
 
 @section('content')
+<div id="lubeck-head-image" class="head-image">
+        <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
 
 <p>     Eindelijk varen jullie de volgende haven binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
         “Welkom in Lubeck, {{ Auth::user()->name }} ! Strek je benen vooral en kijk even rond, maar vergeet niet waarvoor we hier zijn gekomen. 

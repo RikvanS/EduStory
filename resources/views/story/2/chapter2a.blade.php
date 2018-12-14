@@ -1,20 +1,23 @@
 @extends('layouts/chapter')
 
 @section('content')
+<div id="visby-head-image" class="head-image">
+    <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
 
 <p><h2>Visby</h2></p>
 
 <p>Met een bezorgde blik op zijn gezicht, zie je de kapitein op jullie aflopen. Hij tikt Jan aan. "Denk je dat Stortebeker toch niet voor de haven van Visby rondvaart?" vraagt hij.
   "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een persoon. 
-  Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kustensteden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
+  Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kuststeden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
   "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. </p>
   <div class="container">
       <img src="/images/chapters/stortebeker.jpg"><br>
       <i>Piraat Stortebeker</i>
     </div> 
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
-  Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van Piraten!</p>
+  Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!</p>
 <div id="main">
     <div class="board">
       <div class="displays">
@@ -59,12 +62,13 @@ De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p
   <input type="radio" name="diff" value="6" onclick="init();"> 6x6
 </div>
 <canvas id="canvas"></canvas>
-</div>
+
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 <br>
 @if(Auth::user()->progression->visbyboatrepair == true)
 <button id="complete-slide">Testknop spelvoltooiing</button>
+</div>
 @endif
 <div style="display:none" id="progressdiv">
 
