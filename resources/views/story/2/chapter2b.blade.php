@@ -10,7 +10,7 @@
     <img class="parchment-border" src="/images/chapters/parchment-top.png">
 </div>
 
-<p><h2>Gdansk</h2></p>
+<div class="chapter-title">gdansk</div>
 
 
 <p>"{{ Auth::user()->name }}! Wakker worden, snel!" Je slaat je ogen open. Jan staat over je heen gebogen. "Was je in slaap gevallen? Daar hebben we nu geen tijd voor. Kijk maar, we zijn aangekomen in Gdansk!"</p>

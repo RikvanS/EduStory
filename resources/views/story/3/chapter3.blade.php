@@ -5,7 +5,7 @@
 </head> 
 
 @section('content')
-<p><h2>Riga</h2></p>
+<div class="chapter-title">riga</div>
 
 <p>     Na een lange tocht, komt eindelijk de haven in zicht. De ervaren zeelieden beginnen het koggeschip aan te meren en uit te laden.
         Jullie zijn inmiddels zo ver van je vertrouwde Nederland af, dat er hier zelfs al sneeuw ligt.
