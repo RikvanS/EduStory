@@ -11,12 +11,6 @@
 
 <a href="/chapters/1/lubeck">Bezorg het schilderij en kijk rond</a>
 
-{{-- @if(Auth::user()->progression->lubeckstory == true)
-
- 
-@endif --}}
-
-
 @if(Auth::user()->progression->lubeckstory == true)
 <div class="buttons" id="progressdiv"> 
     @if(Auth::user()->progression->lubeckchoice == 0)
