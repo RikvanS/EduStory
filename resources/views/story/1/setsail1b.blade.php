@@ -8,7 +8,7 @@
          “Gdansk! Wat een gekke naam he? We noemen het ook wel Danzig hoor, in Holland. Ondanks de Duitstalige overheersing, wonen er hier mensen vanuit heel Europa. 
          Scandinavische, Engelse en Schotse kooplieden! Handig om je talen te oefenen. <i> Willkommen in Gdansk! </i> ”
     </p>
-    <a href="/chapters/2b"> <button type="button" class="continue">Arriveer in Gdansk</button></a> 
+    <a href="/chapters/2b" onclick="loadDoc('GET', '/storedanzig', workplease)">  <button type="button" class="continue">Arriveer in Gdansk</button></a> 
     </div>
 @endsection
 
