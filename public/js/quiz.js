@@ -27,7 +27,7 @@
             C: "Metaalwerkers"
         },
         correctAnswer: "A"
-    }
+    },
     {
         question: "Hoe werd Lubeck ook wel genoemd?",
         answers: {
@@ -36,7 +36,7 @@
             C: "De Keizer van de Hanze"
         },
         correctAnswer: "B"
-    }
+    },
     {
         question: "Wat is een gilde?",
         answers: {
@@ -45,7 +45,7 @@
             C: "Een speciaal soort huis"
         },
         correctAnswer: "A"
-    }
+    },
     {
         question: "Op welk eiland ligt de plaats Visby?",
         answers: {
@@ -54,7 +54,7 @@
             C: "Gotland"
         },
         correctAnswer: "C"
-    }
+    },
     {
         question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
         answers: {
