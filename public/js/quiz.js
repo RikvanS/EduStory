@@ -35,6 +35,10 @@
             A: "Het is de oude Lijfse term voor warenhuizen",
             B: "Het was de favoriete hond van bisschop Albert von Buxthoeveden",
             C: "Vikingen vonden de stad zo lelijk dat ze het Riga noemden, vrij vertaald 'achtereind van een varken'"
+        },
+        correctAnswer: "A"
+    },
+    {
 
         question: "Hoe werd Lubeck ook wel genoemd?",
         answers: {
@@ -61,6 +65,10 @@
             A: "Leer looien",
             B: "IJzer smeden",
             C: "Munten slaan"
+        },
+        correctAnswer: "C"
+    }
+    {
       
         question: "Op welk eiland ligt de plaats Visby?",
         answers: {
@@ -79,7 +87,7 @@
         },
         correctAnswer: "C"
     },
-
+{
         question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
         answers: {
             A: "Kofschip",
