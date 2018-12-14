@@ -5,6 +5,8 @@
         <img class="parchment-border" src="/images/chapters/parchment-top.png">
 </div>
 
+<div class="chapter-title">lubeck</div>
+
 <p>     Eindelijk varen jullie de volgende haven binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
         “Welkom in Lubeck, {{ Auth::user()->name }} ! Strek je benen vooral en kijk even rond, maar vergeet niet waarvoor we hier zijn gekomen. 
         We kunnen niet vertrekken voordat je bij de kunsthandelaar langs bent geweest. En er zijn hier genoeg andere gebouwen om te ontdekken” zegt hij terwijl hij op de kade stapt. “Tot straks!”. 
@@ -12,13 +14,7 @@
         
 </p>
 
-<a href="/chapters/1/lubeck">Bezorg het schilderij en kijk rond</a>
-
-{{-- @if(Auth::user()->progression->lubeckstory == true)
-
- 
-@endif --}}
-
+<a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
 
 @if(Auth::user()->progression->lubeckstory == true)
 <div class="buttons" id="progressdiv"> 

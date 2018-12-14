@@ -6,7 +6,7 @@
 </div>
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
 
-<p><h2>Visby</h2></p>
+<div class="chapter-title">visby</div>
 
 <p>Met een bezorgde blik op zijn gezicht, zie je de kapitein op jullie aflopen. Hij tikt Jan aan. "Denk je dat Stortebeker toch niet voor de haven van Visby rondvaart?" vraagt hij.
   "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een persoon. 
@@ -74,7 +74,7 @@ De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p
 
   <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
 
-<p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)">Vaar naar Riga</a></p>
+<p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)"><button type="button" id="button-d" class="button" >Vaar naar Riga</button></a></p>
 </div>
 </div>
 

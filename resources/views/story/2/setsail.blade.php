@@ -9,7 +9,7 @@
                 Een heel bekend gebouw is het <i> Zwarthoofdenhuis </i> ,  een Gildehuis voor Duitse kooplieden.” 
                 “Wat is een gildehuis?” vraag ik aan hem. “Dat vertel ik je wel wanneer we aangekomen zijn!” 
     </p>
-    <a href="/chapters/3"><button type="button" class="continue">Arriveer in Riga</button></a> 
+    <a href="/chapters/3" onclick="loadDoc('GET', '/storeriga', workplease)"><button type="button" class="continue">Arriveer in Riga</button></a> 
         </div>
 @endsection
 

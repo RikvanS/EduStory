@@ -10,7 +10,6 @@
 
 </head>
 <body>
-@include("includes.sidebar")
 
 <div id="map-div" style="width:100%;">
         @if(Auth::user()->progression->lubeckstory == true)
