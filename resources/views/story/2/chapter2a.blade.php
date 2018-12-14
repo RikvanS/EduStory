@@ -57,7 +57,7 @@
 @endif
 <div style="display:none" id="progressdiv">
 <p>Uiteindelijk gaat hij weer het schip in en gaat door naar Riga</p>
-<p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
+<p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)">Vaar naar Riga</a></p>
 </div>
 </div>
 @endsection

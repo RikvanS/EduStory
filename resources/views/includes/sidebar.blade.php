@@ -5,38 +5,129 @@
     </div>
 <div id="logModal" class="modal">
     <div class="modal-content">
+        <div class="functionality-buttons">
+                @if (Auth::user()->progression->prologuenameage == true)
+                <h1>Logboek van {{  Auth::user()->name }}</h1>      
+                @else
+                <h1 id="log-title">Logboek</h1>
+                @endif
+        <a href="/" class="no-underline"><h1>Terug naar start</h1></a>
+        <a class="no-underline" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();">
+         <h1>Logout</h1>
+     </a>
+
+     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+         @csrf
+     </form> 
         <span class="close">&times;</span>
-        <h1 id="log-title">Logboek</h1>
-        <p>Modal text</p>
-        <!-- Default Dynamic Section -->
-<div id="default-content" class="dynamic-content">
-    Standaard info logboek, altijd zichtbaar
-  </div>
-  <!-- Dynamic Section 1 -->
-  @if(Auth::user()->progression->lubeck == true)
-  <div id="lubeck" class="dynamic-content">
-    Lübeck section
-  </div>
-  @endif
-  <!-- Dynamic Section 2 -->
-  @if(Auth::user()->progression->visby == true)
-  <div id="visby" class="dynamic-content">
-    Visby section
-  </div>
-  @endif
-  <!-- Dynamic Section 3 -->
-  @if(Auth::user()->progression->danzig == true)
-  <div id="danzig" class="dynamic-content">
-    Danzig section
-  </div>
-  @endif
-  @if(Auth::user()->progression->riga == true)
-  <div id="riga" class="dynamic-content">
-    Riga section
-  </div>
-  @endif
+        </div>
+
+
+        <div>   
+    
+    
+{{-- Standaard --}}
+            <a href="/chapters/prologue" class="log-redirect"> <p class="space-top"><h2>--Het avontuur begint--</h2></p></a>
+            <p>Het begon allemaal op een doodgewone middag in Groningen. Ik viel in de gracht, maar toen ik eruit klom was alles anders!</p>
+
+
+{{-- Name-age --}}
+            @if (Auth::user()->progression->prologuenameage == true)
+            <p>Ik weet niet hoe, maar ik ben beland in het jaar 1393. Een man denkt dat ik de nieuwe scheepsmaat op zijn schip ben, en ik word meegenomen op reis.</p>
+            @endif
+
+{{-- Setsail 1 --}}
+
+            @if (Auth::user()->progression->setsail1 == true)
+            <p>Het handelsschip zal via Lubeck en Visby naar Riga reizen. Dit zijn allemaal steden die bij het Hanzeverbond horen: een handelssamenwerking tussen Europese steden. In Lubeck is dit allemaal begonnen, zij heet 'de Koningin van de Hanze'.</p>
+            @endif 
+
+{{-- Gearriveerd in Lubeck --}}
+
+            @if (Auth::user()->progression->lubeck == true)
+            <a href="/chapters/1" class="log-redirect"><p class="space-top"><h2>--Lubeck--</h2></p></a>
+            <p>In Lubeck krijg ik de opdracht een schilderij uit Nederland af te leveren bij een kunsthandelaar.</p>
+            @endif 
+
+{{-- Schilderij afgeleverd en plague doctor bezocht --}}
+
+            @if (Auth::user()->progression->lubeckstory == true)
+            <p>Op weg naar de handelaar komt ik in een soort ziekenhuis terecht. De dokter vertelt me dat handelssteden zoals Lubeck zwaar getroffen zijn door de Zwarte Dood, omdat er in havens zoveel mensen langs reizen en er veel ratten zijn die de ziekte verspreiden.</p>
+            <p>De kunsthandelaar vertelt me dat Nederlandse schilderijen ontzettend populair zijn in Lubek. De rijke mensen kopen graag schilderijen uit Nederland om te laten zien hoe rijk ze zijn.</p>
+            @endif 
+
+{{-- Setsail 2a --}}
+            @if (Auth::user()->progression->setsail2 == true && Auth::user()->progression->lubeckchoice == 1)
+            <p>We krijgen te horen dat er piraten in Visby zijn! We besluiten om toch naar Visby te reizen.</p>
+            <p>HIER KOMT INFO OVER WAT {{Auth::user()->name}} OP WEG NAAR VISBY TIJDENS DE SETSAIL LEERT</p>
+            @endif 
+
+{{-- Visby gearriveerd --}}
+            @if (Auth::user()->progression->visby == true && Auth::user()->progression->lubeckchoice == 1)
+            <a href="/chapters/2a" class="log-redirect"><p class="space-top"><h2>--Visby--</h2></p></a>
+            <p>Bij aankomst in Visby komen we in een gevecht met de piraten terecht.</p>
+            @endif
+
+{{-- Visby na zeeslag --}}
+            @if (Auth::user()->progression->visbybattleship == true && Auth::user()->progression->lubeckchoice == 1)
+            <p>We hebben het gevecht overleefd, maar ons schip is zwaar beschadigd. We moeten het repareren.</p>
+            @endif
+
+{{-- Visby na puzzel --}}
+            @if (Auth::user()->progression->visbyboatrepair == true && Auth::user()->progression->lubeckchoice == 1)
+            <p>Nadat we het schip hebben gerepareerd, varen we verder naar Riga.</p>
+            @endif
+
+{{-- Setsail 2b --}}
+            @if (Auth::user()->progression->setsail2 == true && Auth::user()->progression->lubeckchoice == 2)
+            <p>We krijgen te horen dat er piraten in Visby zijn! We besluiten om de veilige weg te reizen: we gaan naar Gdansk.</p>
+            <p>HIER KOMT INFO OVER WAT {{Auth::user()->name}} OP WEG NAAR VISBY TIJDENS DE SETSAIL NAAR GDANSK LEERT</p>
+            @endif 
+
+{{-- Gearriveerd in gdansk --}}
+            @if (Auth::user()->progression->danzig == true && Auth::user()->progression->lubeckchoice == 2)
+            <a href="/chapters/2b" class="log-redirect"><p class="space-top"><h2>--Gdansk--</h2></p></a>
+            <p>Bij aankomst in Gdansk moeten we vracht uitladen met een bijzonder kraan met hamsterwielen.</p>
+            @endif
+
+{{-- Gdansk na hanoi --}}
+            @if (Auth::user()->progression->danzighanoi == true && Auth::user()->progression->lubeckchoice == 2)
+            <p>Daarna brengen we bouwmaterialen naar de bouwplaats van een grote kerk. De architect is Nederlands! Blijkbaar zijn Nederlandse architecten heel populair in het buitenland in deze tijd.</p>
+            @endif
+
+{{-- Gdansk na memory --}}
+            @if (Auth::user()->progression->danzigmemory == true && Auth::user()->progression->lubeckchoice == 2)
+            <p>Op de markt van Gdansk moet ik helpen met het sorteren van producten van over de hele wereld: Zweedse vis en koper, Nederlandse en Belgische stoffen, schapenvachten uit Visby, hout en hars uit Riga, graan en honing uit Rusland en potas en teer uit Polen.</p>
+            @endif
+
+{{-- Setsail 3 --}}
+
+            @if (Auth::user()->progression->setsail3 == true)
+            <p>Hier komt een logboekitem over de reis naar Riga.</p>
+            @endif
+
+{{-- Riga gearriveerd --}}
+            @if (Auth::user()->progression->riga == true)
+           <a href="/chapters/3" class="log-redirect"><h2 class="space-top">--Riga--</h2></a>
+            <p>Als we in Riga arriveren gebeurt er iets.</p>
+            @endif
+
+
+{{-- Riga na quiz --}}
+            @if (Auth::user()->progression->rigaquiz == true)
+            <p>In Riga deed ik ook een quiz.</p>
+            @endif
+
+{{-- Epiloog --}}
+            @if (Auth::user()->progression->epilogue == true)
+            <p>In Riga gebeurde er iets waarna ik weer wakker werd in mijn eigen bed, in de 21e eeuw. Was het nou allemaal een droom?</p>
+            @endif
+        </div>
     </div>
 </div>
+
 <div id="mapModal" class="modal">
         <div class="map">
             <img src="/images/chapters/iconfinder_castle_345367.svg" id="groningen-icon" class="city">

@@ -14,15 +14,21 @@ class ChapterController extends Controller
     }
 
     public function prologueSetSail() {
-        $user = Auth::user();
-        $user->updateProgression('setsail1');
-        return view('story/0/setsail');
+        sleep(0.5);
+        if (Auth::user()->progression->setsail1 == true) {
+            return view('story/0/setsail');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function one() {
-        $user = Auth::user();
-        $user->updateProgression('lubeck');
-        return view('story/1/chapter1');
+        sleep(0.5);
+        if (Auth::user()->progression->lubeck == true) {
+            return view('story/1/chapter1');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     /*public function oneSetSail() {
@@ -32,39 +38,57 @@ class ChapterController extends Controller
     }*/
 
     public function oneASetSail() {
-        $user = Auth::user();
-        $user->updateProgression('setsail2');
-        return view('story/1/setsail1a');
+        sleep(0.5);
+        if (Auth::user()->progression->setsail2 == true) {
+            return view('story/1/setsail1a');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function oneBSetSail() {
-        $user = Auth::user();
-        $user->updateProgression('setsail2');
-        return view('story/1/setsail1b');
+        sleep(0.5);
+        if (Auth::user()->progression->setsail2 == true) {
+            return view('story/1/setsail1b');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function twoA() {
-        $user = Auth::user();
-        $user->updateProgression('visby');
-        return view('story/2/chapter2a');
+        sleep(0.5);
+        if (Auth::user()->progression->visby == true) {
+            return view('story/2/chapter2a');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function twoB() {
-        $user = Auth::user();
-        $user->updateProgression('danzig');
-        return view('story/2/chapter2b');
+        sleep(0.5);
+        if (Auth::user()->progression->danzig == true) {
+            return view('story/2/chapter2b');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function twoSetSail() {
-        $user = Auth::user();
-        $user->updateProgression('setsail3');
-        return view('story/2/setsail');
+        sleep(0.5);
+        if (Auth::user()->progression->setsail3 == true) {
+            return view('story/2/setsail');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function three() {
-        $user = Auth::user();
-        $user->updateProgression('riga');
-        return view('story/3/chapter3');
+        sleep(0.5);
+        if (Auth::user()->progression->riga == true) {
+            return view('story/3/chapter3');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
     public function lubeck() {
@@ -87,9 +111,12 @@ class ChapterController extends Controller
     }
 
     public function epilogue() {
-        $user = Auth::user();
-        $user->updateProgression('epilogue');
-        return view('story/epilogue/epilogue');
+        sleep(0.5);
+        if (Auth::user()->progression->riga == true) {
+            return view('story/epilogue/epilogue');
+        } else {
+            return view('story/0/prologue');
+        }
     }
 
 }

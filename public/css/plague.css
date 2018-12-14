@@ -98,3 +98,34 @@ html, body {
     width:960px;
     margin: 0 auto;
   }
+
+  .return-container {
+    background-image: url('/images/lubeck/scroll.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 200px;
+    height: 135px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: black;
+    margin: 0 auto;
+}
+
+.return-container:hover {
+  transform: scale(1.1);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.container-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
