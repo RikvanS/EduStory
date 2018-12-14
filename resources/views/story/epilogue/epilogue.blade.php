@@ -1,7 +1,7 @@
 @extends('layouts/chapter')
 
 @section('content')
-<p><h2>Epiloog</h2></p>
+<div class="chapter-title">epiloog</div>
 
 <p>Hier komt een stuk verhaal waarin de protagonist weer teruggaat naar zijn/haar eigen tijd.</p>
 

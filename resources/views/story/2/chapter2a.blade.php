@@ -3,7 +3,7 @@
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
 
-<p><h2>Visby</h2></p>
+<div class="chapter-title">visby</div>
 
 <p>Als het schip Visby nadert, wordt het aangevallen door piraten! Hier komt een zeeslagspelletje.</p>
 <div id="main">

@@ -5,7 +5,7 @@
 </head> 
 
 @section('content')
-<p><h2>Riga</h2></p>
+<div class="chapter-title">riga</div>
 
 <p>In Riga leert de protagonist over de geschiedenis van Riga als handelsstad.</p>
 
