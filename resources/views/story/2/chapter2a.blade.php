@@ -3,7 +3,7 @@
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/battleship.css') }}">
 
-<p><h2>Visby</h2></p>
+<div class="chapter-title">visby</div>
 
 <p>Met een bezorgde blik op zijn gezicht, zie je de kapitein op jullie aflopen. Hij tikt Jan aan. "Denk je dat Stortebeker toch niet voor de haven van Visby rondvaart?" vraagt hij.
   "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een persoon. 
