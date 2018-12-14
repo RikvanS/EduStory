@@ -77,13 +77,8 @@
         "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
         <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
     
-
-    
-
     <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
     <div id="memory-container">
-
-  
     <div id="game"></div>
     </div>
     

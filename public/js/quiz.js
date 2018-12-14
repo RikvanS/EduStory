@@ -1,32 +1,32 @@
 (function() {
     const myQuestions = [
         {
-        question: "Who is the strongest?",
-        answers: {
-            A: "Superman",
-            B: "The Terminator",
-            C: "Waluigi, obviously"
+            question: "In welke stad is het Hanzeverbond ontstaan?",
+            answers: {
+                A: "Groningen",
+                B: "Lubeck",
+                C: "Visby",
+                D: "Gdansk"
+            },
+            correctAnswer: "B"
         },
-        correctAnswer: "C"
+        {
+        question: "Hoe wordt de kraantoren in de haven van Gdansk aangedreven?",
+        answers: {
+            A: "De kraan werkt op stoomkracht",
+            B: "Door mensen die in grote wielen lopen",
+            C: "Sterke ossen trekken de vracht via een katrol omhoog"
+        },
+        correctAnswer: "B"
     },
     {
-        question: "What is the best site ever created?",
+        question: "Van welk beroep waren Nederlanders erg gewild in het buitenland?",
         answers: {
-            A: "SitePoint",
-            B: "Simple Steps Code",
-            C: "Trick question; they're both the best"
+            A: "Architecten",
+            B: "Boeren",
+            C: "Metaalwerkers"
         },
-        correctAnswer: "C"
-    },
-    {
-        question: "Where is Waldo really?",
-        answers: {
-            A: "Antarctica",
-            B: "Exploring the Pacific Ocean",
-            C: "Sitting in a tree",
-            D: "Minding his own business, so stop asking"
-        },
-        correctAnswer: "D"
+        correctAnswer: "A"
     }
 ];
 
