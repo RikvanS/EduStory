@@ -33,8 +33,6 @@
 
 </p>
 
-<p>Informatie over muntenslaan.</p>
-
 <p>Optioneel: protagonist geeft brief af bij Lijfmansorde.</p>
 
 <p>"Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 

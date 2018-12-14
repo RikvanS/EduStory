@@ -6,14 +6,14 @@
 <p><h2>Visby</h2></p>
 
 <p>Met een bezorgde blik op zijn gezicht, zie je de kapitein op jullie aflopen. Hij tikt Jan aan. "Denk je dat Stortebeker toch niet voor de haven van Visby rondvaart?" vraagt hij.
-  "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een <i>wie</i>. 
+  "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een persoon. 
   Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kustensteden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
-  "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. 
+  "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. </p>
   <div class="container">
       <img src="/images/chapters/stortebeker.jpg"><br>
       <i>Piraat Stortebeker</i>
-  </div>    
-  Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
+    </div> 
+ <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
   Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van Piraten!</p>
 <div id="main">
     <div class="board">
@@ -51,12 +51,14 @@
 
 <p>De boot is beschadigd tijdens het gevecht, en nu moet hij gerepareerd worden:</p>
 
+<div class="container">
 <div id="diff-set">
   <input type="radio" name="diff" value="4" onclick="init();" checked> 4x4
   <input type="radio" name="diff" value="5" onclick="init();"> 5x5
   <input type="radio" name="diff" value="6" onclick="init();"> 6x6
 </div>
 <canvas id="canvas"></canvas>
+</div>
 
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 <br>
@@ -68,6 +70,7 @@
 <p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)">Vaar naar Riga</a></p>
 </div>
 </div>
+
 @endsection
 
 @section('scripts')
