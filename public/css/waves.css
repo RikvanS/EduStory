@@ -44,6 +44,12 @@ body {
     background-color: #0a3042;
     color: #FFFFFA;
     z-index: 18;
+    display: flex;
+}
+
+.textcontainer-child {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .sailtitle {

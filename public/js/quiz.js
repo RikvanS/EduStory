@@ -1,33 +1,102 @@
 (function() {
     const myQuestions = [
         {
-        question: "Who is the strongest?",
+            question: "In welke stad is het Hanzeverbond ontstaan?",
+            answers: {
+                A: "Groningen",
+                B: "Lubeck",
+                C: "Visby",
+                D: "Gdansk"
+            },
+            correctAnswer: "B"
+        },
+        {
+        question: "Hoe wordt de kraantoren in de haven van Gdansk aangedreven?",
         answers: {
-            A: "Superman",
-            B: "The Terminator",
-            C: "Waluigi, obviously"
+            A: "De kraan werkt op stoomkracht",
+            B: "Door mensen die in grote wielen lopen",
+            C: "Sterke ossen trekken de vracht via een katrol omhoog"
+        },
+        correctAnswer: "B"
+    },
+    {
+        question: "Van welk beroep waren Nederlanders erg gewild in het buitenland?",
+        answers: {
+            A: "Architecten",
+            B: "Boeren",
+            C: "Metaalwerkers"
+        },
+        correctAnswer: "A"
+    },
+    {
+
+        question: "Hoe komt Riga aan haar naam?",
+        answers: {
+            A: "Het is de oude Lijfse term voor warenhuizen",
+            B: "Het was de favoriete hond van bisschop Albert von Buxthoeveden",
+            C: "Vikingen vonden de stad zo lelijk dat ze het Riga noemden, vrij vertaald 'achtereind van een varken'"
+        },
+        correctAnswer: "A"
+    },
+    {
+
+        question: "Hoe werd Lubeck ook wel genoemd?",
+        answers: {
+            A: "Hanzehoofdstad",
+            B: "De koningin van de Hanze",
+            C: "De Keizer van de Hanze"
+        },
+        correctAnswer: "B"
+    },
+    {
+        question: "Wat is een gilde?",
+        answers: {
+            A: "Een verbond van vakmensen",
+            B: "Een vereniging voor mensen met dezelfde hobby",
+            C: "Een speciaal soort huis"
+
+        },
+        correctAnswer: "A"
+    },
+    {
+
+        question: "Om welk bijzonder ambacht staat Riga bekend?",
+        answers: {
+            A: "Leer looien",
+            B: "IJzer smeden",
+            C: "Munten slaan"
         },
         correctAnswer: "C"
     },
     {
-        question: "What is the best site ever created?",
+      
+        question: "Op welk eiland ligt de plaats Visby?",
         answers: {
-            A: "SitePoint",
-            B: "Simple Steps Code",
-            C: "Trick question; they're both the best"
+            A: "Langeland",
+            B: "Ijsland",
+            C: "Gotland"
         },
         correctAnswer: "C"
     },
     {
-        question: "Where is Waldo really?",
+        question: "Wanneer werd Riga lid van de Hanze liga?",
         answers: {
-            A: "Antarctica",
-            B: "Exploring the Pacific Ocean",
-            C: "Sitting in a tree",
-            D: "Minding his own business, so stop asking"
+            A: "1444",
+            B: "1357",
+            C: "1282"
         },
-        correctAnswer: "D"
+        correctAnswer: "C"
+    },
+{
+        question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
+        answers: {
+            A: "Kofschip",
+            B: "Koopschip",
+            C: "Koggeschip"
+        },
+        correctAnswer: "C"
     }
+    
 ];
 
 function buildQuiz() {

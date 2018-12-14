@@ -2,9 +2,11 @@
 
 @section('content')
 
-<p>placeholder tekst voor narrative lubeck.
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt praesentium fuga necessitatibus distinctio voluptas totam quas quaerat! Dolorum, quos quam totam aliquid ab ex laboriosam reprehenderit, nisi, quidem ut nam?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde voluptatibus, maiores iure laudantium tempore consectetur animi necessitatibus enim repellat. Ex, eveniet ad? Dolores quia quae, provident consequatur amet eum!
+<p>     Eindelijk varen jullie de volgende haven binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
+        “Welkom in Lubeck, {{ Auth::user()->name }} ! Strek je benen vooral en kijk even rond, maar vergeet niet waarvoor we hier zijn gekomen. 
+        We kunnen niet vertrekken voordat je bij de kunsthandelaar langs bent geweest. En er zijn hier genoeg andere gebouwen om te ontdekken” zegt hij terwijl hij op de kade stapt. “Tot straks!”. 
+        Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
+        
 </p>
 
 <a href="/chapters/1/lubeck">Bezorg het schilderij en kijk rond</a>
