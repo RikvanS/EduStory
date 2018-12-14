@@ -165,6 +165,10 @@ p::first-letter {
     background-image: url(../images/chapters/epilogue.jpg);
 }
 
+#button-f {
+    background-image: url(../images/chapters/gotoart.jpg);
+}
+
 .button:hover {
     cursor: pointer;
     border: 2px solid #000;
