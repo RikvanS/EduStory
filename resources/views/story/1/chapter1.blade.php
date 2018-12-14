@@ -38,6 +38,5 @@
 
 @section('scripts')
 <script src="{{ asset('js/ajax.js') }}"></script>
-<script src="{{ asset('js/lubeckstory.js') }}"></script>
 <script src="{{ URL::asset('js/ajax.js') }}"></script>
 @endsection
