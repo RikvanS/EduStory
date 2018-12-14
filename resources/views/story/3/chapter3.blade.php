@@ -50,9 +50,9 @@
         <div class="quiz-container">
             <div id="quiz"></div>
         </div>
-        <button id="previous">Vorige vraag</button>
-        <button id="next">Volgende vraag</button>
-        <button id="submit">Klaar</button>
+        <div id="previous"><button class="quizbutton" >Vorige vraag</button></div>
+        <div id="next"><button class="quizbutton" >Volgende vraag</button></div>
+        <div id="submit"><button class="quizbutton" >Klaar</button></div>
         <div id="results"></div>
         </div>
 
