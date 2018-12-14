@@ -67,7 +67,7 @@
             C: "Munten slaan"
         },
         correctAnswer: "C"
-    }
+    },
     {
       
         question: "Op welk eiland ligt de plaats Visby?",
