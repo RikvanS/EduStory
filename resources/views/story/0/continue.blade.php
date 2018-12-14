@@ -2,4 +2,4 @@
 
 <p>Welkom bij onze bemanning! De volgende bestemming is Lubeck. Hijs de zeilen!</p>
 
-<p><a href="/chapters/prologue/setsail" onclick="loadDoc('GET', '/storesetsail1', workplease)">Vaar naar Lubeck</a></p>
+<p><a href="/chapters/prologue/setsail" onclick="loadDoc('GET', '/storesetsail1', workplease)"><button type="button" id="button-c" class="button"> Vaar naar Lubeck</button></a></p>

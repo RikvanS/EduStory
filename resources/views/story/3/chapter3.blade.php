@@ -58,7 +58,7 @@
 @endif
 
 <div style="display:none" id="progressdiv">
-    <p><a href="/chapters/epilogue" onclick="loadDoc('GET', '/storeepilogue', workplease)">Ga naar epiloog</a></p>
+    <p><a href="/chapters/epilogue" onclick="loadDoc('GET', '/storeepilogue', workplease)"><button type="button" id="button-e" class="button" >Ga naar epiloog</button></a></p>
     </div>
 @endsection
 
