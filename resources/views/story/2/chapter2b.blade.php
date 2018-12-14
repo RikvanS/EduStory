@@ -6,7 +6,8 @@
 @endsection
 
 @section('content')
-<div id="head-market" class="head-image"></div>
+<div id="danzig-head-image" class="head-image"></div>
+
 <p><h2>Gdansk</h2></p>
 
 
