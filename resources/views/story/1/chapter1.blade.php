@@ -1,6 +1,7 @@
 @extends('layouts/chapter')
 
 @section('content')
+<div class="chapter-title">lubeck</div>
 
 <p>     Eindelijk varen jullie de volgende haven binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
         “Welkom in Lubeck, {{ Auth::user()->name }} ! Strek je benen vooral en kijk even rond, maar vergeet niet waarvoor we hier zijn gekomen. 
@@ -38,6 +39,5 @@
 
 @section('scripts')
 <script src="{{ asset('js/ajax.js') }}"></script>
-<script src="{{ asset('js/lubeckstory.js') }}"></script>
 <script src="{{ URL::asset('js/ajax.js') }}"></script>
 @endsection

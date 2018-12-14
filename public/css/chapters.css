@@ -117,8 +117,19 @@ body {
     text-align: left;
 }
 
-h2, h1 {
+/* h2, h1 {
     font-family: 'Almendra';
+} */
+
+@font-face {
+    font-family: GloucesterInitialen;
+    src: url('../fonts/GloucesterInitialen.ttf');
+}
+
+.chapter-title {
+    font-family: 'GloucesterInitialen';
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.863);
 }
 
 p {

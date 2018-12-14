@@ -154,7 +154,7 @@
             </div>
             <div id="gda-description" class="city-description" style="display:none">
                 <h2 class="city-title">Gdansk</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text">Gdansk is een bruisende handelsstad in 1393. Goederen uit het achterland worden via de Vistularivier naar Gdansk gebracht en verder verhandeld.<br /> De haven staat vol pakhuizen en een bijzondere kraantoren.</p>
             </div>
             <div id="rig-description" class="city-description" style="display:none">
                 <h2 class="city-title">Riga</h2>

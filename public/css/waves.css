@@ -38,7 +38,7 @@ body {
 
 .textcontainer {
     position: absolute;
-    min-height: calc(100% - 420px);
+    min-height: calc(100% - 400px);
     margin: 0;
     /*padding: 10px 20px;*/
     background-color: #0a3042;
