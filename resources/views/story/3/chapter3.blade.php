@@ -18,6 +18,7 @@
 
        <div class="container">
             <img src="/images/chapters/snowriga.jpg">
+            <i>Het Zwarthoofdenhuis in Riga</i>
        </div>
 
 <p>

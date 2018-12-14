@@ -28,6 +28,43 @@
         },
         correctAnswer: "A"
     }
+    {
+        question: "Hoe werd Lubeck ook wel genoemd?",
+        answers: {
+            A: "Hanzehoofdstad",
+            B: "De koningin van de Hanze",
+            C: "De Keizer van de Hanze"
+        },
+        correctAnswer: "B"
+    }
+    {
+        question: "Wat is een gilde?",
+        answers: {
+            A: "Een verbond van vakmensen",
+            B: "Een vereniging voor mensen met dezelfde hobby",
+            C: "Een speciaal soort huis"
+        },
+        correctAnswer: "A"
+    }
+    {
+        question: "Op welk eiland ligt de plaats Visby?",
+        answers: {
+            A: "Langeland",
+            B: "Ijsland",
+            C: "Gotland"
+        },
+        correctAnswer: "C"
+    }
+    {
+        question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
+        answers: {
+            A: "Kofschip",
+            B: "Koopschip",
+            C: "Koggeschip"
+        },
+        correctAnswer: "C"
+    }
+    
 ];
 
 function buildQuiz() {
