@@ -47,6 +47,15 @@ Route::post('/chapters/prologue/checkage', 'AjaxController@checkAge');
 Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 
+Route::get('/storelubeck', 'ProgressionController@storeLubeck');
+Route::get('/storevisby', 'ProgressionController@storeVisby');
+Route::get('/storedanzig', 'ProgressionController@storeDanzig');
+Route::get('/storeriga', 'ProgressionController@storeRiga');
+Route::get('/storeepilogue', 'ProgressionController@storeEpilogue');
+Route::get('/storesetsail1', 'ProgressionController@storeSetsail1');
+Route::get('/storesetsail2', 'ProgressionController@storeSetsail2');
+Route::get('/storesetsail3', 'ProgressionController@storeSetsail3');
+
 /*---Falco------------------------------------------------*/
 Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
 Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');

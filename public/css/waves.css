@@ -1,8 +1,9 @@
 body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0 auto;
     background: linear-gradient(rgb(100, 100, 100), #fff);
+    max-height: 100vh;
 }
 
 
@@ -38,7 +39,7 @@ body {
 
 .textcontainer {
     position: absolute;
-    height: 1000px;
+    min-height: calc(100% - 420px);
     margin: 0;
     padding: 10px 20px;
     background-color: #0a3042;
@@ -49,7 +50,7 @@ body {
 .continue {
     float: right;
     background: none;
-    color: #03a3042;
+    color: #0a3042;
     background-color: #FFFFFA;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -132,7 +133,7 @@ p::first-letter {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100%;
+    height: 400px;
     animation: flash 5s infinite;
 }
 
@@ -143,5 +144,5 @@ p::first-letter {
 
   @keyframes drop {
     from{top: 0px;}
-    to{top: 1000px;}
+    to{top: 95%;}
 }

@@ -12,3 +12,5 @@
     <a href="/chapters/3"><button type="button" class="continue">Arriveer in Riga</button></a> 
         </div>
 @endsection
+
+<script src="{{ URL::asset('js/ajax.js') }}"></script>
