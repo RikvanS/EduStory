@@ -27,7 +27,76 @@
             C: "Metaalwerkers"
         },
         correctAnswer: "A"
+    },
+    {
+
+        question: "Hoe komt Riga aan haar naam?",
+        answers: {
+            A: "Het is de oude Lijfse term voor warenhuizen",
+            B: "Het was de favoriete hond van bisschop Albert von Buxthoeveden",
+            C: "Vikingen vonden de stad zo lelijk dat ze het Riga noemden, vrij vertaald 'achtereind van een varken'"
+        },
+        correctAnswer: "A"
+    },
+    {
+
+        question: "Hoe werd Lubeck ook wel genoemd?",
+        answers: {
+            A: "Hanzehoofdstad",
+            B: "De koningin van de Hanze",
+            C: "De Keizer van de Hanze"
+        },
+        correctAnswer: "B"
+    },
+    {
+        question: "Wat is een gilde?",
+        answers: {
+            A: "Een verbond van vakmensen",
+            B: "Een vereniging voor mensen met dezelfde hobby",
+            C: "Een speciaal soort huis"
+
+        },
+        correctAnswer: "A"
+    },
+    {
+
+        question: "Om welk bijzonder ambacht staat Riga bekend?",
+        answers: {
+            A: "Leer looien",
+            B: "IJzer smeden",
+            C: "Munten slaan"
+        },
+        correctAnswer: "C"
+    },
+    {
+      
+        question: "Op welk eiland ligt de plaats Visby?",
+        answers: {
+            A: "Langeland",
+            B: "Ijsland",
+            C: "Gotland"
+        },
+        correctAnswer: "C"
+    },
+    {
+        question: "Wanneer werd Riga lid van de Hanze liga?",
+        answers: {
+            A: "1444",
+            B: "1357",
+            C: "1282"
+        },
+        correctAnswer: "C"
+    },
+{
+        question: "Wat voor schepen werden veel gebruikt door de Hanzelieden? ",
+        answers: {
+            A: "Kofschip",
+            B: "Koopschip",
+            C: "Koggeschip"
+        },
+        correctAnswer: "C"
     }
+    
 ];
 
 function buildQuiz() {
