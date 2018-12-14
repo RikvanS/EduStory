@@ -7,8 +7,9 @@
 .grid {
   max-width: 960px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  grid-template-rows:  33% 33% 33%; 
   justify-content: space-evenly;
 }
 
@@ -24,8 +25,8 @@
 .card,
 .back,
 .front {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .back,
@@ -35,7 +36,7 @@
 }
 
 .front {
-  background: url('/images/memory/qm.jpg') no-repeat center center / contain;
+  background: url('/images/memory/question.png') no-repeat center center / contain;
 }
 
 .back {
