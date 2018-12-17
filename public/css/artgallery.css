@@ -228,3 +228,8 @@
 	  display: none;
 	}
 
+.comment {
+	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
