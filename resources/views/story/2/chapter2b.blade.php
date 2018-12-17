@@ -95,12 +95,10 @@
             <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
                     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
             <p>Jullie slaan samen van alles in en slepen het op de platte kar weer terug naar het schip. Als alles is uitgeladen, kruip je uitgeput onder een deken in een hoek van het ruim. Vlak voor je in slaap valt, hoor je de kapitein nog roepen: "Hijs de masten! Beman het kraaiennest! Bemanning, het is tijd om uit te varen naar onze eindbestemming: Riga!"</p>
-<<<<<<< HEAD
-        <a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)"><button type="button" id="button-d" class="button">Vaar naar Riga</button></a>
-=======
-        <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
->>>>>>> 727e9b259bb161abb4453282b650cc4820135557
-    </div>
+            <div class="riga-center">
+            <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
+            </div>
+        </div>
 </div>
 @endsection
 
