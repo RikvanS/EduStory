@@ -310,3 +310,7 @@ p::first-letter {
     display: flex;
     justify-content: center;
 }
+
+#progressdiv {
+    width: 100%;
+}
