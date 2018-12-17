@@ -13,8 +13,6 @@ function choice1() {
     }
 }
 
-
-
 function choice2() {
     var x = document.getElementById("reaction-3");
     var y = document.getElementById("photogallery");
@@ -36,8 +34,10 @@ function choice3() {
             console.log("check");
             i.style.display = "none";
         }
-}
 
+        document.getElementById('hidden-progress-div').style.display='block';
+
+}
 
 var t = document.getElementById("pgallery");
 var x = document.getElementById("photogallery");
@@ -46,7 +46,6 @@ x.onclick = function() {
     
     pgallery.style.display = "block";
 } 
-
 
 var span = document.getElementsByClassName('hide')[0];
 
