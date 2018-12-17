@@ -280,10 +280,6 @@ p::first-letter {
     justify-content: space-around;
 }
 
-/* Logboek modal tekst segmenten
-.dynamic-content {
-    display:none;
-
 .game-completed {
     background-image: url('/images/lubeck/scroll.png');
     background-size: auto;
