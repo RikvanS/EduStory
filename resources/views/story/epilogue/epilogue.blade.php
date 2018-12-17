@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="chapter-title">epiloog</div>
+    <p><h1 class="sailtext">Epiloog</h1></p>
 
     <p class="sailtext">"Wat een wind he?" roept Jan, terwijl hij je het schip rondleidt. Je ziet Groningen steeds kleiner worden terwijl jullie wegvaren. "Ben je al eens eerder in Lubeck geweest?"
             "Ik geloof van niet" antwoord je. Jan houdt maar niet op met praten. "Lubeck is de plaats waar onze handelssamenwerking is onstaan!
