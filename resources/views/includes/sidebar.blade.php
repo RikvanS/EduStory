@@ -9,7 +9,7 @@
                 @if (Auth::user()->progression->prologuenameage == true)
                 <h1>Logboek van {{  Auth::user()->name }}</h1>      
                 @else
-                {{-- <h1 id="log-title">Logboek</h1> --}}
+                <h1 id="log-title">Logboek</h1>
                 @endif
         <a href="/" class="no-underline"><h1>Terug naar start</h1></a>
         <a class="no-underline" href="{{ route('logout') }}"
@@ -25,10 +25,7 @@
         </div>
 
 
-        <div>
-
-{{-- Logout en back to splash knoppen --}}
-    
+        <div>   
     
     
 {{-- Standaard --}}
@@ -143,23 +140,23 @@
             <div class="nametag" id="gda-name">Gdansk</div>
             <div class="nametag" id="vis-name">Visby</div>
             <div class="nametag" id="rig-name">Riga</div>
-            <div id="gro-description" style="display:none" class="city-description">
+            <div id="gro-description" class="city-description">
                 <h2 class="city-title">Groningen</h2>
                 <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
             </div>
-            <div id="lub-description" class="city-description">
+            <div id="lub-description" class="city-description" style="display:none">
                 <h2 class="city-title">Lubeck</h2>
                 <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
             </div>
-            <div id="vis-description" class="city-description">
+            <div id="vis-description" class="city-description" style="display:none">
                 <h2 class="city-title">Visby</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text"> Visby ligt op het eiland Gotland. Het stadje stamt uit het Viking tijdperk en en wordt beschermd door steile kliffen. In de 13e eeuw groeide Visby van handelspost uit tot indrukwekkende stad, omringd door een grote sterke muur.  Halverwege de 14e eeuw sloeg de plaag toe in Visby en daardoor verloor het zijn goede positie in het handelsgebied. Later zouden oorlog en piraterij hun sporen achterlaten op het eens zo vredige Visby.</p>
             </div>
-            <div id="gda-description" class="city-description">
+            <div id="gda-description" class="city-description" style="display:none">
                 <h2 class="city-title">Gdansk</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text">Gdansk is een bruisende handelsstad in 1393. Goederen uit het achterland worden via de Vistularivier naar Gdansk gebracht en verder verhandeld.<br /> De haven staat vol pakhuizen en een bijzondere kraantoren.</p>
             </div>
-            <div id="rig-description" class="city-description">
+            <div id="rig-description" class="city-description" style="display:none">
                 <h2 class="city-title">Riga</h2>
                 <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
             </div>        

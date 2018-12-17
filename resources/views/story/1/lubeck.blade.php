@@ -10,14 +10,13 @@
 
 </head>
 <body>
-@include("includes.sidebar")
 
 <div id="map-div" style="width:100%;">
         @if(Auth::user()->progression->lubeckstory == true)
 <a href="/chapters/1"><div class="return-container">Je bent klaar hier, ga terug naar Lübeck</div></a>
 
 @endif
-        <img id="map" src="/images/lubeck/rsz_lubeck.jpg" usemap="#lubek"  alt="" />
+        <img id="map" src="/images/lubeck/rsz_lubeck-min.jpg" usemap="#lubek"  alt="" />
 
 <map name="lubek" id="lubek">
 
@@ -29,7 +28,6 @@
 </div>
 
 <script src="{{ URL::asset('js/lubeck.js') }}"></script>
-<script src="{{ URL::asset('js/chapter.js') }}"></script>
 <script src="{{ URL::asset('js/resize.js') }}"></script>
 
 </body>

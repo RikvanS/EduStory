@@ -47,7 +47,7 @@
     background-color: #FFFFFA;
 }
 
-button {
+.quizbutton {
     font-family: 'Merriweather';
     font-size: 16px;
     background-color: #279;
@@ -57,15 +57,12 @@ button {
     padding: 20px;
     cursor: pointer;
     margin-bottom: 15px;
+    margin-top: 30px;
     z-index: 3;
 }
 
 button:hover{
     background-color: #38a;
-}
-
-#complete-rigaquiz {
-    
 }
 
 .quiz-background {
@@ -78,7 +75,7 @@ button:hover{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-
+    z-index: 0;
 
 }
 

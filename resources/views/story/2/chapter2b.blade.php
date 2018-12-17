@@ -6,7 +6,11 @@
 @endsection
 
 @section('content')
-<p><h2>Gdansk</h2></p>
+<div id="danzig-head-image" class="head-image">
+    <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
+
+<div class="chapter-title">gdansk</div>
 
 
 <p>"{{ Auth::user()->name }}! Wakker worden, snel!" Je slaat je ogen open. Jan staat over je heen gebogen. "Was je in slaap gevallen? Daar hebben we nu geen tijd voor. Kijk maar, we zijn aangekomen in Gdansk!"</p>
@@ -38,12 +42,15 @@
         </tr>
         <script src="/js/hanoi.js"></script>
 </div>
+
+<br>
 @if(Auth::user()->progression->danzighanoi == true)
-<button id="complete-hanoi">Testknop spelvoltooiing</button>
+<div id="complete-hanoi" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 @endif
+
 <div style="display:none" id="sub-content">
 
-<p>"Goed gedaan {{ Auth::user()->name }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
+<p>"Goed gedaan, {{ Auth::user()->gender }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
 
 <p>Je loopt achter Jan aan van het schip af, de kade op. Daar zet een gespierde man net de laatste kist die je zojuist op het platform hebt gezet, op een platte kar. "Dzięki!" zegt Jan tegen de man. "Kom op {{ Auth::user()->name}}, help me deze kar duwen!"</p>
 
@@ -75,22 +82,23 @@
         "Het spijt me ontzettend meneer! We ruimen het gelijk op!"</p>
         <p>Alle koopwaar van de marskramer ligt door elkaar! Zoek de juiste spullen hieronder bij elkaar:</p>
     
-
-    
-    
+    <p>Uiteindelijk mag de protagonist meehelpen met kiezen wat voor koopwaar ze inslaan om in Riga te verkopen.</p>
+    <div id="memory-container">
     <div id="game"></div>
-    
-    <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+    </div>
+  <br>
     @if(Auth::user()->progression->danzigmemory == true)
-    <button id="complete-test">Testknop spelvoltooiing</button>
+    <div id="complete-test" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
     @endif
     
     <div style="display:none" id="progressdiv">
             <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
                     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
             <p>Jullie slaan samen van alles in en slepen het op de platte kar weer terug naar het schip. Als alles is uitgeladen, kruip je uitgeput onder een deken in een hoek van het ruim. Vlak voor je in slaap valt, hoor je de kapitein nog roepen: "Hijs de masten! Beman het kraaiennest! Bemanning, het is tijd om uit te varen naar onze eindbestemming: Riga!"</p>
-        <p><a href="/chapters/2/setsail">Vaar naar Riga</a></p>
-    </div>
+            <div class="travel-center">
+            <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
+            </div>
+        </div>
 </div>
 @endsection
 

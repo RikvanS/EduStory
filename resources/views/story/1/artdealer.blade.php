@@ -2,13 +2,13 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
-<img src="{{URL::asset('/images/lubeck/artdealer.jpg')}}">
+<img src="{{URL::asset('/images/lubeck/artdealer-min.jpg')}}">
 
 
-
+<br>
 <div class="comments">
 <div class="comment bubble1">
-        Welkom bij een van de grootste kunsthandelaar van Lubeck. Wat kan ik voor je doen?
+        Welkom bij een van de grootste kunsthandelaars van Lubeck. Wat kan ik voor je doen?
 
 </div>
 
@@ -38,25 +38,20 @@
 
 </div>
 
+<div style="display:none;" id="reaction-4" class="comment bubble1">
+
+        1000 Penningen is ongeveer een half jaar werk voor een ongeschoolde arbeider. Je vraagt teveel. Ik geef je 250 penningen voor het schilderij.
+</div>
+
 <div style="display:none;" id="reaction-3" class="comment bubble1">
 
         De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grote deels zijn onze opdrachtgevers
         de kerk en adelijke families. Maak alsjeblieft niets stuk.
 </div>
 
-
-<div style="display:none;" id="reaction-4" class="comment bubble1">
-
-        1000 Penningen is ongeveer een half jaar werk voor een ongeschoolde arbeider. Je vraagt teveel. Ik geef je 250 penningen voor het schilderij.
-</div>
-
 <button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a>
 
-
 </div>
-
-
-
 
 <div id="pgallery" class="modal">
         <div id="photomodal" class="modal-content">
@@ -129,7 +124,8 @@
         </div>
 
 </div>
-<div class="container-container">
+<br>
+<div class="container-container" id="hidden-progress-div">
         <a href="/chapters/1/lubeck" class="no-underline"><div class="return-container">Je bent klaar hier, ga terug naar het plein</div></a>
 </div>
 
