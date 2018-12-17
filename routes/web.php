@@ -30,15 +30,15 @@ Route::get('/chapters/riga/riga-quiz', 'ProgressionController@rigaquiz');
 
 /*---Dorieke------------------------------------------------*/
 
-Route::get('/chapters/prologue', 'ChapterController@prologue');
-Route::get('/chapters/prologue/setsail', 'ChapterController@prologueSetSail');
-Route::get('/chapters/1', 'ChapterController@one');
-Route::get('/chapters/1/setsail', 'ChapterController@oneSetSail');
-Route::get('/chapters/2a', 'ChapterController@twoA');
-Route::get('/chapters/2b', 'ChapterController@twoB');
-Route::get('/chapters/2/setsail', 'ChapterController@twoSetSail');
-Route::get('/chapters/3', 'ChapterController@three');
-Route::get('/chapters/epilogue', 'ChapterController@epilogue');
+Route::get('/chapters/prologue', 'ChapterController@prologue')->middleware('auth');
+Route::get('/chapters/prologue/setsail', 'ChapterController@prologueSetSail')->middleware('auth');
+Route::get('/chapters/1', 'ChapterController@one')->middleware('auth');
+Route::get('/chapters/1/setsail', 'ChapterController@oneSetSail')->middleware('auth');
+Route::get('/chapters/2a', 'ChapterController@twoA')->middleware('auth');
+Route::get('/chapters/2b', 'ChapterController@twoB')->middleware('auth');
+Route::get('/chapters/2/setsail', 'ChapterController@twoSetSail')->middleware('auth');
+Route::get('/chapters/3', 'ChapterController@three')->middleware('auth');
+Route::get('/chapters/epilogue', 'ChapterController@epilogue')->middleware('auth');
 
 Route::post('/chapters/prologue/checkname', 'AjaxController@checkName');
 Route::get('/chapters/prologue/askname', 'AjaxController@askName');
@@ -60,15 +60,15 @@ Route::get('/storesetsail2', 'ProgressionController@storeSetsail2');
 Route::get('/storesetsail3', 'ProgressionController@storeSetsail3');
 
 /*---Falco------------------------------------------------*/
-Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail');
-Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail');
+Route::get('/chapters/1/setsail1a', 'ChapterController@oneASetSail')->middleware('auth');
+Route::get('/chapters/1/setsail1b', 'ChapterController@oneBSetSail')->middleware('auth');
 /*---Anna------------------------------------------------*/
 
 
 /*---Farhad------------------------------------------------*/
 
-Route::get('/chapters/1/lubeck', 'ChapterController@lubeck');
-Route::get('/chapters/1/artdealer', 'ChapterController@artDealer');
-Route::get('/chapters/1/artgallery', 'ChapterController@artGallery');
-Route::get('/chapters/1/plague', 'ChapterController@plague');
+Route::get('/chapters/1/lubeck', 'ChapterController@lubeck')->middleware('auth');
+Route::get('/chapters/1/artdealer', 'ChapterController@artDealer')->middleware('auth');
+Route::get('/chapters/1/artgallery', 'ChapterController@artGallery')->middleware('auth');
+Route::get('/chapters/1/plague', 'ChapterController@plague')->middleware('auth');
 
