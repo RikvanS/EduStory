@@ -299,3 +299,8 @@ p::first-letter {
 #text-padding {
     padding: 20px;
 }
+
+.riga-center {
+    display: flex;
+    justify-content: center;
+}
