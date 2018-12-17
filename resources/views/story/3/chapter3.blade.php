@@ -69,7 +69,12 @@
 @endsection
 
 @section('scripts')
-<script src="{{ asset('js/quiz.js') }}"></script>
+@if (Auth::user()->progression->lubeckchoice == 1)
+<script src="{{ asset('js/quizvisby.js') }}"></script>
+@else 
+<script src="{{ asset('js/quizdanzig.js') }}"></script>
+@endif
+
 <script src="{{ asset('js/quizprogress.js') }}"></script>
 <script src="{{ asset('js/ajax.js') }}"></script>
 @endsection
