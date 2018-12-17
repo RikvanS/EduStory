@@ -30,12 +30,16 @@
 
     @if(Auth::user()->progression->lubeckchoice == 1)
     <p>Je hebt gekozen voor Visby!</p>
+    <div class="travel-center">
     <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
+    </div>
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 2)
     <p>Je hebt gekozen voor Gdansk!</p>
+    <div class="travel-center">
     <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>
+    </div>
     @endif
 </div>    
 @endif
