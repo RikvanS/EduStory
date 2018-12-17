@@ -22,18 +22,18 @@
 
     <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
         Wil je toch naar Visby? Of beter een andere route?</p>
-    <a href="/chapters/1/setsail1a" onclick="loadDoc('GET', '/storesetsail2', workplease)"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></a>
-    <a href="/chapters/1/setsail1b" onclick="loadDoc('GET', '/storesetsail2', workplease)"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></a>
+    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
+    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 1)
     <p>Je hebt gekozen voor Visby!</p>
-    <a href="/chapters/1/setsail1a" onclick="loadDoc('GET', '/storesetsail2', workplease)"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></a>
+    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 2)
     <p>Je hebt gekozen voor Gdansk!</p>
-    <a href="/chapters/1/setsail1b" onclick="loadDoc('GET', '/storesetsail2', workplease)"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></a>
+    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>
     @endif
 </div>    
 @endif

@@ -14,7 +14,6 @@ class ChapterController extends Controller
     }
 
     public function prologueSetSail() {
-        sleep(1);
         if (Auth::user()->progression->setsail1 == true) {
             return view('story/0/setsail');
         } else {
@@ -23,7 +22,6 @@ class ChapterController extends Controller
     }
 
     public function one() {
-        sleep(1);
         if (Auth::user()->progression->lubeck == true) {
             return view('story/1/chapter1');
         } else {
@@ -38,7 +36,6 @@ class ChapterController extends Controller
     }*/
 
     public function oneASetSail() {
-        sleep(1);
         if (Auth::user()->progression->setsail2 == true) {
             return view('story/1/setsail1a');
         } else {
@@ -47,7 +44,6 @@ class ChapterController extends Controller
     }
 
     public function oneBSetSail() {
-        sleep(1);
         if (Auth::user()->progression->setsail2 == true) {
             return view('story/1/setsail1b');
         } else {
@@ -56,7 +52,6 @@ class ChapterController extends Controller
     }
 
     public function twoA() {
-        sleep(1);
         if (Auth::user()->progression->visby == true) {
             return view('story/2/chapter2a');
         } else {
@@ -65,7 +60,6 @@ class ChapterController extends Controller
     }
 
     public function twoB() {
-        sleep(1);
         if (Auth::user()->progression->danzig == true) {
             return view('story/2/chapter2b');
         } else {
@@ -74,7 +68,6 @@ class ChapterController extends Controller
     }
 
     public function twoSetSail() {
-        sleep(1);
         if (Auth::user()->progression->setsail3 == true) {
             return view('story/2/setsail');
         } else {
@@ -83,7 +76,6 @@ class ChapterController extends Controller
     }
 
     public function three() {
-        sleep(1);
         if (Auth::user()->progression->riga == true) {
             return view('story/3/chapter3');
         } else {
@@ -111,7 +103,6 @@ class ChapterController extends Controller
     }
 
     public function epilogue() {
-        sleep(1);
         if (Auth::user()->progression->riga == true) {
             return view('story/epilogue/epilogue');
         } else {
