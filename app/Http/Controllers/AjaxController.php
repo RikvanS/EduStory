@@ -60,6 +60,10 @@ class AjaxController extends Controller
         return view('story/0/checkgender', ['gender' => $gender]);
     }
 
+    public function askGender() {
+        return view('story/0/askgender');
+    }
+
     public function storeGender(Request $request) {
         $user = Auth::user();
         $gender = request('gender');
@@ -72,5 +76,4 @@ class AjaxController extends Controller
             return view('story/0/askgender');
         }
     }
-
 }

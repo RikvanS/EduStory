@@ -48,6 +48,7 @@ Route::get('/chapters/prologue/askage', 'AjaxController@askAge');
 Route::post('/chapters/prologue/storeage', 'AjaxController@storeAge');
 Route::post('/chapters/prologue/checkgender', 'AjaxController@checkGender');
 Route::post('/chapters/prologue/storegender', 'AjaxController@storeGender');
+Route::get('/chapters/prologue/askgender', 'AjaxController@askGender');
 
 Route::get('/storelubeck', 'ProgressionController@storeLubeck');
 Route::get('/storevisby', 'ProgressionController@storeVisby');
