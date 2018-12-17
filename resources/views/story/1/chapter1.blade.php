@@ -22,8 +22,10 @@
 
     <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
         Wil je toch naar Visby? Of beter een andere route?</p>
-    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
-    <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>
+        <div class="visby-danzig">
+            <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
+            <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>       
+        </div>    
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 1)
