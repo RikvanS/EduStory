@@ -40,7 +40,7 @@ body {
     position: absolute;
     min-height: calc(100% - 400px);
     margin: 0;
-    /*padding: 10px 20px;*/
+    /* padding: 10px 20px; */
     background-color: #0a3042;
     color: #FFFFFA;
     z-index: 18;
@@ -61,8 +61,13 @@ body {
     padding: 10px 20px;
 }
 
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
 .continue {
-    float: right;
+    /* float: right; */
     background: none;
     color: #0a3042;
     background-color: #FFFFFA;
