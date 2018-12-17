@@ -129,7 +129,7 @@
         </div>
 
 </div>
-<div class="container-container">
+<div class="container-container" id="hidden-progress-div">
         <a href="/chapters/1/lubeck" class="no-underline"><div class="return-container">Je bent klaar hier, ga terug naar het plein</div></a>
 </div>
 

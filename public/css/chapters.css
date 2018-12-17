@@ -141,10 +141,6 @@ body {
     text-align: left;
 }
 
-/* h2, h1 {
-    font-family: 'Almendra';
-} */
-
 @font-face {
     font-family: GloucesterInitialen;
     src: url('../fonts/GloucesterInitialen.ttf');
@@ -287,8 +283,29 @@ p::first-letter {
 /* Logboek modal tekst segmenten
 .dynamic-content {
     display:none;
+
+.game-completed {
+    background-image: url('/images/lubeck/scroll.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 200px;
+    height: 135px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: black;
+    margin: 0 auto;
 }
 
-.dynamic-content-shown {
-    display: block;
-} */
+.game-completed:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#text-padding {
+    padding: 20px;
+}
