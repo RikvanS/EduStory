@@ -58,3 +58,17 @@ t.onclick = function(event) {
 span.onclick = function() {
     pgallery.style.display = "none";
 }
+
+document.getElementById('photogallery').addEventListener('click', cleanup);
+
+function cleanup() {
+   
+    var x = document.getElementById("reaction-1");
+    var y = document.getElementById("reaction-3");
+    var z = document.getElementById("reaction-4");
+
+    if (y.style.display === 'block') {
+        x.style.display = "none";
+        z.style.display = "none";
+    }
+}

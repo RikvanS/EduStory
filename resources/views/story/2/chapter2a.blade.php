@@ -71,7 +71,7 @@ De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p
 <div style="display:none" id="progressdiv">
 
   <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
-<div class="riga-center">
+<div class="travel-center">
 <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
 </div>
 </div>
