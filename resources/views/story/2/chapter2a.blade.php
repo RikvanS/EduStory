@@ -40,9 +40,9 @@
         <span class='text'></span></div>
     </div>
   </div>
-<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+
 @if(Auth::user()->progression->visbybattleship == true)
-  <button id="complete-battleship">Testknop spelvoltooiing</button>
+  <div id="complete-battleship" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
  @endif
 
 
@@ -67,14 +67,18 @@ De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p
 <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 <br>
 @if(Auth::user()->progression->visbyboatrepair == true)
-<button id="complete-slide">Testknop spelvoltooiing</button>
+<div id="complete-slide" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 </div>
 @endif
 <div style="display:none" id="progressdiv">
 
   <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
 
+<<<<<<< HEAD
+<a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)"><button type="button" id="button-d" class="button" >Vaar naar Riga</button></a>
+=======
   <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
+>>>>>>> 727e9b259bb161abb4453282b650cc4820135557
 </div>
 </div>
 

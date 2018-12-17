@@ -58,9 +58,9 @@
 
 
 
-
+<br>
 @if(Auth::user()->progression->rigaquiz == true)
-<button id="complete-rigaquiz">Testknop spelvoltooiing</button>
+<div id="complete-rigaquiz" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 @endif
 
 <div style="display:none" id="progressdiv">
