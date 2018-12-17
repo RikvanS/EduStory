@@ -10,24 +10,6 @@
             },
             correctAnswer: "B"
         },
-        {
-        question: "Hoe wordt de kraantoren in de haven van Gdansk aangedreven?",
-        answers: {
-            A: "De kraan werkt op stoomkracht",
-            B: "Door mensen die in grote wielen lopen",
-            C: "Sterke ossen trekken de vracht via een katrol omhoog"
-        },
-        correctAnswer: "B"
-    },
-    {
-        question: "Van welk beroep waren Nederlanders erg gewild in het buitenland?",
-        answers: {
-            A: "Architecten",
-            B: "Boeren",
-            C: "Metaalwerkers"
-        },
-        correctAnswer: "A"
-    },
     {
 
         question: "Hoe komt Riga aan haar naam?",
