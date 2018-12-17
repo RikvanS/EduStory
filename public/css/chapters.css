@@ -278,6 +278,12 @@ p::first-letter {
     background-color: rgba(173, 216, 230, 0.726);
 }
 
+.visby-danzig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 /* Logboek modal tekst segmenten
 .dynamic-content {
     display:none;
