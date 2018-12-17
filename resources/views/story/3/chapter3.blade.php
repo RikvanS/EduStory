@@ -5,7 +5,13 @@
 </head> 
 
 @section('content')
+
+<div id="riga-head-image" class="head-image">
+        <img class="parchment-border" src="/images/chapters/parchment-top.png">
+</div>
+
 <div class="chapter-title">riga</div>
+
 
 <p>     Na een lange tocht, komt eindelijk de haven in zicht. De ervaren zeelieden beginnen het koggeschip aan te meren en uit te laden.
         Jullie zijn inmiddels zo ver van je vertrouwde Nederland af, dat er hier zelfs al sneeuw ligt.
