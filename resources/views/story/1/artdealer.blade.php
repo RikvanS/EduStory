@@ -5,7 +5,7 @@
 <img src="{{URL::asset('/images/lubeck/artdealer-min.jpg')}}">
 
 
-
+<br>
 <div class="comments">
 <div class="comment bubble1">
         Welkom bij een van de grootste kunsthandelaars van Lubeck. Wat kan ik voor je doen?
