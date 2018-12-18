@@ -1,6 +1,6 @@
 body {
-
     padding-top:0;
+    overflow-x: hidden;
 }
   #hero {
     height: 2000px;
@@ -25,14 +25,14 @@ body {
     height:auto;
     position: fixed;
     z-index:-2;
-    border:solid green 1px;
+    /* border:solid green 1px; */
   }
   
   .layer-bg {
     background-image: url("/images/parallax/wave_bg2.png");
     background-repeat: no-repeat;
     width:100% 100%;
-    border:solid red 1px;
+    /* border:solid red 1px; */
     
   }
   
