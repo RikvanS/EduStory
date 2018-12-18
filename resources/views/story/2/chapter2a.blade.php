@@ -50,7 +50,8 @@
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
 
-<p>"Komop  {{ Auth::user()->name }}" zegt Jan, "We zijn hier niet voor niks! We moeten nog scheepshuiden kopen voor onze handel in Riga." Samen met je reisgenoot loop je door de mensen, totdat Jan een bekend gezicht ziet. 
+<p>Op het nippertje zijn jullie aan de piraten ontkomen en varen jullie snel de haven van Visby binnen. Terwijl de vaste bemannening begint met hun taken, neemt Jan je mee. 
+  "Komop  {{ Auth::user()->name }}" zegt Jan, "We zijn hier niet voor niks! We moeten nog scheepshuiden kopen voor onze handel in Riga." Samen met je reisgenoot loop je door de mensen, totdat Jan een bekend gezicht ziet. 
   "Lars!" roept Jan uit. Een lange, blonde man draait zich om en begroet Jan met een flinke handdruk. Daarna kijkt Lars naar jou, pakt je hand en schud hem zo stevig dat je je hand bijna geplet voelt worden. 
   Jan ziet het en geeft je met een schaterlach nog een flinke schouderklop toe. "Bij handelen hoort een stevige handdruk!" legt hij uit. </p>
 <p>Terwijl jullie de schaapshuiden naar de boot brengen, komt er een jongen nieuwsgierig bij jullie kijken. 
