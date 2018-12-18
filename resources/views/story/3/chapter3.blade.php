@@ -27,8 +27,9 @@
         
         
        <div class="container">
+
            <div class="fadein">
-            <img src="/images/chapters/snowriga.jpg">
+            <img src="/images/chapters/snowriga_rsz.jpg">
             <i>Het Zwarthoofdenhuis in Riga</i>
         </div>
        </div>
@@ -61,13 +62,18 @@
         en de klanten liever naar bakker A dan naar bakker B gaan. Tot slot zorgt het gilde voor saamhorigheid en behartigt het de belangen van hun leden. 
         De gilden hebben grote economische en politieke macht en kunnen dus echt dingen voor elkaar krijgen.”
 
-</p>
+</p>    
+    <div class="container">
+        <img src="/images/chapters/rigatown.jpg">
+    </div>
 
-<p>Optioneel: protagonist geeft brief af bij Lijfmansorde.</p>
 
-<p>"Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
-    Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
-    "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
+<p>     Samen met Jan loop je naar de koopman voor de schapenhuiden toe. Jan begint tegen de handelaar te praten, in een taal die je niet helemaal verstaat. 
+        Wat handig dat Jan zoveel talen spreekt. Hij stoot je aan, en gebaart je om de hand te schudden van de koopman, wat je deze keer met al je kracht doet. 
+        Tevreden met jullie opbrengst lopen jullie weer richting de boot. 
+        "Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
+        Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
+        "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
 
 <div class="quiz-background">
         <div class="quiz-container">

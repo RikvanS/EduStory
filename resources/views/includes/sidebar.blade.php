@@ -142,11 +142,13 @@
             <div class="nametag" id="rig-name">Riga</div>
             <div id="gro-description" class="city-description">
                 <h2 class="city-title">Groningen</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text">Groningen lag in de middeleeuwen op een strategische plek:  hoog genoeg op het noordelijkste puntje van de Hondsrug  zodat het water er niet bij kon als er stormvloeden waren. Anderzijds goed bereikbaar vanaf het water via onder andere het Reitdiep. Hierdoor groeide Groningen in de middeleeuwen uit tot een welvarend handelscentrum. Pakhuizen zoals die aan het Hoge der A lagen vol graan, wol en huiden. Deze werden verhandeld in Engeland, maar ook in Duitsland, Denemarken en het Baltisch gebied.  </p>
             </div>
             <div id="lub-description" class="city-description" style="display:none">
                 <h2 class="city-title">Lubeck</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text">Rond 1200 werd de haven van Lübeck het hoofdvertrekpunt van kolonisten op weg naar de Baltische gebieden die veroverd waren door de Lijfse en later Duitse Orde.
+                        In de 14e eeuw werd Lübeck de onbetwiste koningin van alle Hanze steden, aangezien het veruit het machtigste, rijkste en grootste lid van het verbond was.
+                        Lübeck voerde, samen met de Hanze liga, veel oorlog met Denemarken en Noorwegen om het handelsprivilege te beschermen.</p>
             </div>
             <div id="vis-description" class="city-description" style="display:none">
                 <h2 class="city-title">Visby</h2>
@@ -158,7 +160,9 @@
             </div>
             <div id="rig-description" class="city-description" style="display:none">
                 <h2 class="city-title">Riga</h2>
-                <p class="city-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu malesuada tortor. Nunc quis nunc in arcu volutpat consectetur. Maecenas accumsan ultricies efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida justo blandit, tempus metus ac, placerat elit.</p>
+                <p class="city-text"> De stad Riga is rond het eind van de 12e eeuw gesticht, echter kwamen de vikingen eeuwen hiervoor al langs het gebied wat ooit Riga zou worden op weg om handel te drijven in Constantinopel. In 1282 werd Riga lid van de Hanze.
+                        De naam Riga komt van het oude Lijfse woord voor pakhuis, wat aangeeft dat er in dit gebied al rijk werd gehandeld lang voordat het lid werd van de Hanze liga.
+                        Riga stond in deze tijd eveneens bekend om hun innovatieve werk op het gebied van munten slaan. De Aartsbisschoppen van Riga herontdekten technieken die sinds de oude Romeinen niet meer werden gebruikt!</p>
             </div>        
         </div>
     <script src="{{ asset('js/map.js') }}"></script>

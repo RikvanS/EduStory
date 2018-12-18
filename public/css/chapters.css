@@ -3,9 +3,7 @@ body {
     background-position: left top;
     margin: 0 auto;
     padding-top: 500px;
-    padding-bottom: 150px;
     overflow-x:hidden;
-  
 }
 
  .head-image {
@@ -136,7 +134,7 @@ body {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,15 +280,8 @@ p::first-letter {
     justify-content: space-around;
 }
 
-.dynamic-content-shown {
-    display: block;
-} */
-
-
-
-
 .game-completed {
-    background-image: url('/images/lubeck/scroll.png');
+    background-image: url('../images/chapters/scroll.png');
     background-size: auto;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -324,9 +315,6 @@ p::first-letter {
     width: 100%;
 }
 
----------------
-
-
 .fadein {
     padding: auto;
     font-size: 60px;
@@ -354,11 +342,6 @@ p::first-letter {
       opacity: 1;
     }
   }
-
-
-
-
-  
 
   picture {
     min-width: 240px;
@@ -396,3 +379,14 @@ p::first-letter {
     padding: 1em;
   }
   
+
+.proloog {
+    padding-top: 50px;
+    /* display: flex; */
+    
+}
+/* 
+.proloogtext {
+    align-content: left;
+} */
+
