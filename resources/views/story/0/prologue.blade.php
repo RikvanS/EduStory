@@ -46,7 +46,8 @@
 </div>
 
 
-
+{{-- @section('content') --}}
+<div class="container">
 <div>
     <p>
       Wat een schrik! Het duurt even voordat je doorhebt dat je gewoon in het water gevallen bent. Je komt boven water en opent je ogen weer. Je ziet de kade, en zwemt die kant op. 
@@ -79,6 +80,7 @@
 </div>
 @endif
 
+</div>
 </div>
 @endsection
 
