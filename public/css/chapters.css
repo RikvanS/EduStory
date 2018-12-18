@@ -285,13 +285,6 @@ p::first-letter {
     display: block;
 } */
 
-<<<<<<< HEAD
-#stortebeker {
-    border-radius: 50%;
-    height: 646px;
-    width: 500px;
-}
-=======
 
 
 
@@ -329,4 +322,7 @@ p::first-letter {
 #progressdiv {
     width: 100%;
 }
->>>>>>> f174484eb8070924d67eaf9a7533b8e9462afafd
+
+.layer-bg {
+    background: linear-gradient(#2F80ED, #56CCF2);
+}

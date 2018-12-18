@@ -6,7 +6,7 @@
 @section('content')
 <div class="proloog">
 <p><h2>Proloog</h2></p>
-<div>
+<div id="sky">
     <p>
      "Wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
      Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je heen. Je vindt eindelijk een rustig moment om over te steken. 
