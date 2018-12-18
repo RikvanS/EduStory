@@ -28,7 +28,7 @@
         
        <div class="container">
            <div class="fadein">
-            <img src="/images/chapters/snowriga.jpg">
+            <img src="/images/chapters/snowriga_rsz.jpg">
             <i>Het Zwarthoofdenhuis in Riga</i>
         </div>
        </div>
@@ -49,39 +49,30 @@
                     </p>
             </div>
             <picture> <img src="/images/chapters/bread.jpg" alt=""/></picture>
+
           </div>
-<p>
-        “Je zou me nog over die gildes vertellen” herinner je hem. “Oh ja!” zegt Jan. Jullie lopen ondertussen het centrum van Riga in. 
-        “Een gilde is eigenlijk een soort vereniging van mensen die hetzelfde beroep uitoefenen. 
-        Het gilde stelt regels op voor hun leden en zorgen voor de uitwisseling van kennis en ervaring. 
-        Zo heb je het timmermansgilde, het bakkersgilde en dus ook het koopmannengilde. 
-        Het gilde zorgt ervoor dat alleen hun leden hun beroep mogen uitoefenen, om bakker in een stad te mogen zijn moest je je dus aansluiten bij het bakkersgilde. 
-        Ook stelt het gilde ook regels op voor haar leden en controleert deze. Bijvoorbeeld de prijs- en kwaliteitsafspraken. 
-        Zo zorgt het bakkersgilde er bijvoorbeeld voor dat al haar leden hun brood voor dezelfde prijs verkopen zodat er geen concurrentie ontstaat
-        en de klanten liever naar bakker A dan naar bakker B gaan. Tot slot zorgt het gilde voor saamhorigheid en behartigt het de belangen van hun leden. 
-        De gilden hebben grote economische en politieke macht en kunnen dus echt dingen voor elkaar krijgen.”
 
-</p>
-
+          <div class="view-poll">
+                <div class="caption">
+                        <p>"Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
+                                Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
+                                "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
+                </div>
+                <div class="quiz-background">
+                        <div class="quiz-container">
+                            <div id="quiz"></div>
+                        </div>
+                        <div id="previous"><button class="quizbutton" >Vorige vraag</button></div>
+                        <div id="next"><button class="quizbutton" >Volgende vraag</button></div>
+                        <div id="submit"><button class="quizbutton" >Klaar</button></div>
+                        <div id="results"></div>
+                        </div>
+                
+               
+                
+              </div>
 <p>Optioneel: protagonist geeft brief af bij Lijfmansorde.</p>
 
-<p>"Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
-    Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
-    "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
-
-<div class="quiz-background">
-        <div class="quiz-container">
-            <div id="quiz"></div>
-        </div>
-        <div id="previous"><button class="quizbutton" >Vorige vraag</button></div>
-        <div id="next"><button class="quizbutton" >Volgende vraag</button></div>
-        <div id="submit"><button class="quizbutton" >Klaar</button></div>
-        <div id="results"></div>
-        </div>
-
-
-
-<br>
 @if(Auth::user()->progression->rigaquiz == true)
 <div id="complete-rigaquiz" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 @endif
