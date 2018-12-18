@@ -211,24 +211,25 @@ p::first-letter {
   
  
   #hero {
-    height: 1000px;
+    height: 2000px;
     position: relative;
     background-color: white;
     z-index: -2;
   }
+
   .layer {
-    background-position: bottom center;
+    
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    min-height: 1000px;
+    min-height: 1200px;
     height:auto;
     position: fixed;
     z-index:-1;
   }
   
   .layer-bg {
-    background-image: url("/images/parallax/wave_bg.png");
+    background-image: url("/images/parallax/wave_bg2.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
@@ -283,3 +284,5 @@ p::first-letter {
     width:100vw;
     background:linear-gradient(#01131D, rgba(3, 47, 94, 0));
   }
+
+

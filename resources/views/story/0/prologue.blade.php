@@ -12,9 +12,13 @@
         </p>
     </div>
 @section('parallax')
+
+
 <section class="para" id="hero"> 
    <p><h2>Proloog</h2></p>
 <p>!! Paralax van golven terwijl de protagonist in het water valt hier !!!!!!!!!!!!!!!</p>
+
+<div class="pakhuis" data-speed="0.10"> </div>
 
 
 
