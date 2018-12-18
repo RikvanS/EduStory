@@ -13,11 +13,8 @@
 
 <div id="map-div" style="width:100%;">
         @if(Auth::user()->progression->lubeckstory == true)
-        <div class="return-container-container">
                 <a href="/chapters/1"><div class="return-container">Je bent klaar hier, ga terug naar Lübeck</div></a>
-        </div>
-
-@endif
+        @endif
         <img id="map" src="/images/lubeck/rsz_lubeck-min.jpg" usemap="#lubek"  alt="" />
 
 <map name="lubek" id="lubek">
