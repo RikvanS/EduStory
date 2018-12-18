@@ -151,6 +151,8 @@ body {
     font-family: 'GloucesterInitialen';
     font-size: 100px;
     color: rgba(0, 0, 0, 0.863);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -318,10 +320,13 @@ p::first-letter {
 
 .proloog {
     padding-top: 50px;
-    /* display: flex; */
-    
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
-/* 
+ 
 .proloogtext {
-    align-content: left;
-} */
+    width: 600px;
+    font-family: 'Merriweather';
+} 
