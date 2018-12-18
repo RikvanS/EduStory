@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     padding-top: 500px;
     padding-bottom: 150px;
+  
 }
 
  .head-image {
@@ -279,6 +280,13 @@ p::first-letter {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.dynamic-content-shown {
+    display: block;
+} */
+
+
+
 
 .game-completed {
     background-image: url('/images/lubeck/scroll.png');

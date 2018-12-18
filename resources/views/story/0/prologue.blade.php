@@ -1,9 +1,11 @@
 @extends('layouts/chapter')
+@section('head')
+<link rel="stylesheet" href="{{ URL::asset('css/parallax.css') }}">
 
+@endsection
 @section('content')
-
-    <p><h2>Proloog</h2></p>
-
+<div class="proloog">
+<p><h2>Proloog</h2></p>
 <div>
     <p>
      "Wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
@@ -13,9 +15,37 @@
     </p>
 </div>
 
-<div>
-    <p>!! Paralax van golven terwijl de protagonist in het water valt hier !!</p>
+
 </div>
+
+<section class="para" id="hero"> 
+   
+        <div class="layer layer-bg" data-speed="0.20"> </div>
+        <div class="layer layer-one" data-speed="0.40"> </div>
+        <div class="layer layer-two" data-speed="0.50"> </div>
+        <div class="layer layer-three" data-speed="0.70"> </div>
+        <div class="layer layer-four" data-speed="0.85"> </div>
+        <div class="layer layer-five" data-speed="1.00"> </div>
+ </section>
+
+
+
+
+ 
+    
+
+    
+       
+
+   
+        
+            
+<div class="percamentus">
+    <div class="color">
+    
+</div>
+
+
 
 <div>
     <p>
@@ -49,8 +79,12 @@
 </div>
 @endif
 
+</div>
 @endsection
 
 @section('scripts')
 <script src="{{ URL::asset('js/ajax.js') }}"></script>
+<script src="{{ URL::asset('js/parallax.js') }}"></script>
+<script src="{{ URL::asset('js/app.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 @endsection
