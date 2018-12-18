@@ -281,15 +281,8 @@ p::first-letter {
     justify-content: space-around;
 }
 
-.dynamic-content-shown {
-    display: block;
-} */
-
-
-
-
 .game-completed {
-    background-image: url('/images/lubeck/scroll.png');
+    background-image: url('../images/chapters/scroll.png');
     background-size: auto;
     background-repeat: no-repeat;
     opacity: 0.8;
