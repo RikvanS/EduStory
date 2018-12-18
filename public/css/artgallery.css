@@ -133,7 +133,10 @@
 }
 
 #photomodal {
-    height:450px;
+	height:450px;
+	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
@@ -207,6 +210,7 @@
 		font-family: 'Merriweather';
 		color: black;
 		margin: 0 auto;
+		
 	}
 
 	.return-container:hover {
@@ -221,4 +225,11 @@
 	  display: flex;
 	  flex-direction: column;
 	  align-items: center;
+	  display: none;
 	}
+
+.comment {
+	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}

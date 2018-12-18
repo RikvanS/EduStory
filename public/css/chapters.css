@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     padding-top: 500px;
     padding-bottom: 150px;
+  
 }
 
  .head-image {
@@ -141,10 +142,6 @@ body {
     text-align: left;
 }
 
-/* h2, h1 {
-    font-family: 'Almendra';
-} */
-
 @font-face {
     font-family: GloucesterInitialen;
     src: url('../fonts/GloucesterInitialen.ttf');
@@ -278,17 +275,58 @@ p::first-letter {
     background-color: rgba(173, 216, 230, 0.726);
 }
 
-/* Logboek modal tekst segmenten
-.dynamic-content {
-    display:none;
+.visby-danzig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .dynamic-content-shown {
     display: block;
 } */
 
+<<<<<<< HEAD
 #stortebeker {
     border-radius: 50%;
     height: 646px;
     width: 500px;
 }
+=======
+
+
+
+.game-completed {
+    background-image: url('/images/lubeck/scroll.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 200px;
+    height: 135px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: black;
+    margin: 0 auto;
+}
+
+.game-completed:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#text-padding {
+    padding: 20px;
+}
+
+.travel-center {
+    display: flex;
+    justify-content: center;
+}
+
+#progressdiv {
+    width: 100%;
+}
+>>>>>>> f174484eb8070924d67eaf9a7533b8e9462afafd

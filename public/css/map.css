@@ -137,3 +137,9 @@
     text-decoration: none;
     color: black;
 }
+
+.modal-content {
+    background-image: url('../images/lubeck/artdealer/paper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

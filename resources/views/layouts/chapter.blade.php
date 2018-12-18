@@ -15,6 +15,9 @@
     @yield('head')
 </head>
 <body>
+
+
+    
     @include('includes/sidebar')
     <div class="container">
         @yield('content')
