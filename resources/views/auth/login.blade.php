@@ -40,11 +40,12 @@
                 <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                 <label class="form-check-label" for="remember">
                     {{ __('Onthoud Mij') }}
-                </label>
+                </label>    
             </div>
             <button type="submit" class="nav-item" id="register-btn">
                 {{ __('Inloggen') }}
             </button>
+            <p>Nog geen account? <a href="/register">registreer je dan hier</a></p>
         </form>
         @if ($errors->any())
         <div class="notification">

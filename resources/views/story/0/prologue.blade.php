@@ -70,16 +70,16 @@
       "Ik heet trouwens Jan! Jij bent de nieuwe scheepshulp toch? Kom snel, want iedereen is net klaar met laden en lossen, we gaan zo varen. Maar voordat we wegvaren wil ik graag wel wat van je weten"
     </p>
 </div>
-
+@if(Auth::user()->progression->prologuenameage == true)
+    @include('story/0/continue')
+@else
 <div id="change-div">
     <p>Wat is jouw naam?</p>
     @csrf
     <input id="name" name="name" type="text" class="text">
     <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
 </div>
-
-<br>
-
+@endif
 
 </div>
 @endsection

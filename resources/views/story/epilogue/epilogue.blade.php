@@ -1,25 +1,28 @@
-@extends('layouts/chapter')
-@section('head')
-<link rel="stylesheet" href="{{ URL::asset('css/epiloog.css') }}">
-
-@endsection
+@extends('layouts/setsail')
 
 @section('content')
-<p><h2>Epiloog</h2></p>
 
-<p>Hier komt een stuk verhaal waarin de protagonist weer teruggaat naar zijn/haar eigen tijd.</p>
-<div class="hallucination" id="hallucination">
-        <div class="colors" id="colors">
-          <div class="text" id="text"></>
-        </div>
-      </div>
+    <p><h1 class="sailtext">Epiloog</h1></p>
 
-<p>--- Einde ---</p>
-@endsection
+    <p class="sailtext">"Wat een wind he?" roept Jan, terwijl hij je het schip rondleidt. Je ziet Groningen steeds kleiner worden terwijl jullie wegvaren. "Ben je al eens eerder in Lubeck geweest?"
+            "Ik geloof van niet" antwoord je. Jan houdt maar niet op met praten. "Lubeck is de plaats waar onze handelssamenwerking is onstaan!
+            Al vanaf de 12e eeuw hebben ze economische verdragen gemaakt met andere steden. Heel goed voor de handel. Daarom doen wij er als Groningers ook aan mee. Ze kopen hier onder andere heel erg veel stoffen in.
+            De "Koningin van de Hanze" noemen ze deze stad ook wel."</p>
+        <div class="sleeping">
+        <span id="first">Z</span>
+        <span id="second">Z</span>
+        <span id="third">Z</span>
+    <div id="dream-text">
+    <p>Door het schommelen van de boot val je in een rustige, diepe slaap. Je droomt over de avonturen die je op deze reis beleefd hebt, maar ook over Groningen, de plek waar je vandaan komt. </p>
+    </div>
+</div>
+<div id="sky">
+    <div id="End">
+        <h1>Einde</h1>
+        <h2>Het Hanze avontuur is ten einde</h2>
+    </div>
+</div>
+<!--<a href="/chapters/1" onclick="loadDoc('GET', '/storelubeck', workplease)"> <button type="button" class="continue">Einde spel</button></a>--> 
+ @endsection
 
-@section('scripts')
-<script src="{{ URL::asset('js/epiloog.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/6to5/3.6.5/browser-polyfill.js"></script>
-    
-@endsection
+ <script src="{{ URL::asset('js/ajax.js') }}"></script>

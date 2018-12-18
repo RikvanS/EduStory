@@ -1,17 +1,74 @@
 body {
+    background-image: url(../images/chapters/parchment.jpg);
+    background-position: left top;
     margin: 0 auto;
-    padding-top: 250px;
+    padding-top: 500px;
     padding-bottom: 150px;
     padding:0;
 }
 
-/* .head-image {
+ .head-image {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 250px;
-    border-bottom: 5px rgba(0, 0, 0, 0.288) solid;
-} */
+    height: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.parchment-border {
+    margin-top: auto;
+
+}
+
+#head-market {
+    background-size: cover;
+}
+
+#danzig-head-image {
+    background: url('../images/chapters/danzig_header2.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#visby-head-image {
+    background: url('../images/chapters/visby header.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#riga-head-image {
+    background: url('../images/chapters/riga.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#lubeck-head-image {
+    background: url('../images/chapters/lubeck1.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#memory-container {
+    width: 800px;
+    height: 374px;
+    background-image:  url(../images/chapters/market-rsz.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-items: center;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+}
 
 .nav-icon {
     height: 60px;
@@ -36,6 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 10;
 }
 
 .modal {
@@ -60,15 +118,11 @@ body {
     font-size: 18px;
 }
 
-#log-title {
-    margin: 0 auto;
-}
-
 .close {
     color: black;
-    float: right;
     font-size: 28px;
     font-weight: bold;
+    justify-self: flex-end;
 }
 
 .close:hover {
@@ -85,14 +139,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 
-h2, h1 {
-    font-family: 'Almendra';
+@font-face {
+    font-family: GloucesterInitialen;
+    src: url('../fonts/GloucesterInitialen.ttf');
+}
+
+.chapter-title {
+    font-family: 'GloucesterInitialen';
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.863);
 }
 
 p {
-
+    align-self: flex-start;
     font-family: 'Merriweather';
     line-height: 34px;
     font-size: 18px;
@@ -121,6 +183,22 @@ p::first-letter {
 
 #button-b {
     background-image: url(../images/chapters/rsz_harbour.jpg);
+}
+
+#button-c {
+    background-image: url(../images/chapters/lubeck.jpg);
+}
+
+#button-d {
+    background-image: url(../images/chapters/rigabutton.jpg);
+}
+
+#button-e {
+    background-image: url(../images/chapters/epilogue.jpg);
+}
+
+#button-f {
+    background-image: url(../images/chapters/gotoart.jpg);
 }
 
 .button:hover {
@@ -197,9 +275,10 @@ p::first-letter {
     background-color: rgba(173, 216, 230, 0.726);
 }
 
-/* Logboek modal tekst segmenten
-.dynamic-content {
-    display:none;
+.visby-danzig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .dynamic-content-shown {
@@ -286,3 +365,37 @@ p::first-letter {
   }
 
 
+.game-completed {
+    background-image: url('/images/lubeck/scroll.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 200px;
+    height: 135px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: black;
+    margin: 0 auto;
+}
+
+.game-completed:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#text-padding {
+    padding: 20px;
+}
+
+.travel-center {
+    display: flex;
+    justify-content: center;
+}
+
+#progressdiv {
+    width: 100%;
+}

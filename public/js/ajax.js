@@ -1,4 +1,4 @@
-function loadDoc(method, url, myFunction, div, input) {
+function loadDoc(method, url, myFunction, target, input) {
     if (window.XMLHttpRequest) {
         var xhttp = new XMLHttpRequest();
     } else {
@@ -6,7 +6,7 @@ function loadDoc(method, url, myFunction, div, input) {
     }
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            myFunction(this, div);
+            myFunction(this, target);
         }                    
     }
     xhttp.open(method, url, true);
@@ -21,10 +21,14 @@ function loadDoc(method, url, myFunction, div, input) {
     }
 }
 
-function changeDiv(xhttp, div) {
-    document.getElementById(div).innerHTML = xhttp.responseText;
+function changeDiv(xhttp, target) {
+    document.getElementById(target).innerHTML = xhttp.responseText;
 }
 
 function workplease() {
     console.log('workplease called');
+}
+
+function nextChapter(xhttp, target) {
+    location.href = target;
 }

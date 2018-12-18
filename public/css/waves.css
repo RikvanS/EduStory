@@ -1,10 +1,10 @@
 body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0 auto;
     background: linear-gradient(rgb(100, 100, 100), #fff);
+    max-height: 100vh;
 }
-
 
 .ocean {
     position: relative;
@@ -22,7 +22,7 @@ body {
     left: 450px;
     position: absolute;
     z-index: 13;
-    animation: rock-boat 3s ease-in-out infinite;
+    animation: rock-boat 2.9s ease-in-out infinite;
 }
 
 .wave {
@@ -38,29 +38,65 @@ body {
 
 .textcontainer {
     position: absolute;
-    height: 1000px;
+    min-height: calc(100% - 400px);
     margin: 0;
-    padding: 10px 20px;
-    background-color: #006aff;
+    /* padding: 10px 20px; */
+    background-color: #0a3042;
     color: #FFFFFA;
     z-index: 18;
+    display: flex;
+}
+
+.textcontainer-child {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sailtitle {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sailtext {
+    padding: 10px 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
 }
 
 .continue {
-    float: right;
+    /* float: right; */
     background: none;
-    color: #006aff;;
+    color: #0a3042;
     background-color: #FFFFFA;
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+    font-family: 'Merriweather';
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    /*animation: float 3s ease-in-out infinite;*/
 }
 
 .continue:hover {
-    background-color: transparent;
-    color: #FFFFFA;
-    border: 2px solid #FFFFFA;; 
+    background-color: rgba(255, 255, 250, 0.596);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
 
 @keyframes waves {
@@ -116,7 +152,7 @@ p::first-letter {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100%;
+    height: 400px;
     animation: flash 5s infinite;
 }
 
@@ -127,5 +163,122 @@ p::first-letter {
 
   @keyframes drop {
     from{top: 0px;}
-    to{top: 1000px;}
+    to{top: 95%;}
+}
+
+.container {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.sleeping {
+    width: 100%;
+    height: 200px;
+    background-color: #0a3042;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+#dream-text {
+    position: absolute;
+    width: 60%;
+    margin-left: 25%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Merriweather';
+    line-height: 22px;
+    animation: blur 15s ease-in-out infinite;
+    opacity: 0;
+}
+
+@keyframes blur {
+    0% {
+        text-shadow: 0 0 100px #fff;
+        opacity: 0;
+    }
+    5% {
+        text-shadow: 0 0 90px #fff;
+    }
+    15% {
+
+    }
+    20% {
+        text-shadow: 0 0 0px #fff;
+    }
+    30% {
+        opacity: 0.8
+    }
+    80% {
+        text-shadow: 0 0 0px #fff;
+    }
+    85% {
+        opacity: 1;
+    }
+    90% {
+        text-shadow: 0 0 90px #fff;
+    }
+    100% {
+        text-shadow: 0 0 100px #fff;
+        opacity: 0;
+    }
+
+}
+
+span {
+    font-size: 80px;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    animation: sleep 9s linear infinite;
+    opacity: 0;
+    font-family: 'Merriweather';
+}
+
+#second {
+    animation-delay: 3s;
+}
+
+#third {
+    animation-delay: 6s;
+}
+
+@keyframes sleep {
+    0% {
+        transform: translate(0.0) scale(0.3);
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0;
+    }
+
+    3% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(90%, -50%) scale(0.65);
+    }
+    
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(180%, -100%) scale(1);
+        opacity: 0;
+    }
+}
+
+#sky {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#0a3042, #6DD5FA, #fff);
+    display: flex;
+    flex-direction: column;
+}
+
+#end {
+    margin: 0 auto;
 }

@@ -159,8 +159,8 @@ function animate(x,y,name) {
 }
 
 function clicked(i,j) {
-    document.forms[0].message.focus(); // get rid of annoying outline in MSIE
-    document.forms[0].message.blur();
+    // document.forms[0].message.focus(); // get rid of annoying outline in MSIE
+    // document.forms[0].message.blur();
     
     if (game_is_over) {
         drawfinish();
@@ -223,8 +223,9 @@ function game_over(forceMsg) {
         message("Je hebt gewonnen!", forceMsg);
         game_is_over = true;
         endpost = filledpost;
-        document.getElementById('progressdiv').style.display = 'block';
+        document.getElementById('sub-content').style.display = 'block';
         loadDoc('GET', '/chapters/danzig/danzig-hanoi', workplease);
+        drawfinish();
 
     }            
     return game_is_over;            
