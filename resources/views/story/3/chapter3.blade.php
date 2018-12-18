@@ -23,7 +23,7 @@
        </p>
 
        <div class="container">
-            <img src="/images/chapters/snowriga.jpg">
+            <img src="/images/chapters/snowriga_rsz.jpg">
             <i>Het Zwarthoofdenhuis in Riga</i>
        </div>
 
