@@ -13,7 +13,7 @@
   Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kuststeden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
   "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. </p>
   <div class="container">
-      <img src="/images/chapters/stortebeker.jpg"><br>
+      <img src="/images/chapters/stortebeker_rsz.jpg"><br>
       <i>Piraat Stortebeker</i>
     </div> 
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
