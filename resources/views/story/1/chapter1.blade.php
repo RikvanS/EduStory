@@ -9,20 +9,28 @@
 
 <p>De lange reis van Groningen naar Lübeck verloopt voorspoedig. Je raakt onderweg goed bevriend met Jan. Hij stelt je voor aan de rest van de bemanning, en hij leert je veel over het leven van varende handelslieden in 1393. Hij kan zulke mooie verhalen vertellen over het leven op zee! Ook al zou je soms willen dat hij even ophield met vertellen zodat je wat tijd voor jezelf kan nemen.</p>
 
-<p>     Na een paar weken varen jullie eindelijk de haven van Lübeck binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
-        “Welkom in Lübeck, {{ Auth::user()->name }}! Ik heb gelijk een opdracht voor je. Dit schilderij moet worden afgelevered bij de kunstehandelaar in de haven. We kunnen pas verder reizen als je dat hebt gedaan! Maar neem ook vooral de tijd om even je benen te strekken en rond te kijken, er zijn hier genoeg interessante plekken om te verkennen!" zegt hij terwijl hij op de kade stapt. “Tot straks!”. 
-        Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
+<p>     Na wat voelt als weken later varen jullie eindelijk de haven van Lübeck binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
+        “Welkom in Lübeck, {{ Auth::user()->name }}! Ik heb gelijk een opdracht voor je. Dit schilderij moet worden afgelevered bij de kunsthandelaar in de haven. We kunnen pas verder reizen als je dat hebt gedaan! Maar neem ook vooral de tijd om even je benen te strekken en rond te kijken, er zijn hier genoeg interessante plekken om te verkennen." zegt hij terwijl hij op de kade stapt. “Tot straks!”</p>
+        <p>Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
         
 </p>
 
 <a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
 
 @if(Auth::user()->progression->lubeckstory == true)
+<p>"Is het gelukt, {{ Auth::user()->name }}?" vraagt Jan als je weer aan boord van het schip stapt. "Jazeker!" zeg je, en je vertelt Jan wat je allemaal hebt gezien in Lübeck. Jan kijkt je vrolijk aan. "Jij bent wel een 
+
+    @if(Auth::user()->gender == "jongen")
+    nieuwsgierige jongen,
+    @else
+    nieuwsgierig meisje,
+    @endif
+    of niet?" Hij wil nog wat zeggen, maar dan komt er iemand over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
+    <p>"Dat ziet er niet goed uit," zegt Jan, "moet je eens kijken hoe de kapitein kijkt." Je kijkt goed. De kapitein zijn gezicht staat op onweer! Wat zou er aan de hand zijn?</p>
+    <p>Even later komt de kapitein weer aan boord en loopt naar Jan toe. "Slecht nieuws?" vraagt Jan. De mond van de kapitein vertrekt. "Helaas wel ja. Er gaan geruchten dat Visby is aangevallen door piraten. Niemand weet precies wat er gebeurd is, en of de kust nu weer veilig is of niet. Wat doen we nu? Gaan we gewoon naar Visby? Of zullen we de route aanpassen, en dan via Gdansk naar Riga varen?"</p>
+
 <div class="buttons" id="progressdiv"> 
     @if(Auth::user()->progression->lubeckchoice == 0)
-
-    <p> Vlak voor jullie willen vertrekken, komt er een scheepsjongen aangerend. Hij heeft slecht nieuws: er gaan geruchten over piraten in Visby.
-        Wil je toch naar Visby? Of beter een andere route?</p>
         <div class="visby-danzig">
             <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
             <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>       
@@ -30,14 +38,14 @@
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 1)
-    <p>Je hebt gekozen voor Visby!</p>
+    <p>Na lang overleg besluiten jullie om toch naar Visby te gaan. De piraten zullen inmiddels vast weer weg zijn.</p>
     <div class="travel-center">
     <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1a')"><button type="button" id="button-a" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice1', workplease)">Vaar naar Visby</button></div>
     </div>
     @endif
 
     @if(Auth::user()->progression->lubeckchoice == 2)
-    <p>Je hebt gekozen voor Gdansk!</p>
+    <p>Na lang overleg besluiten jullie om het zekere voor het onzekere te nemen, en via Gdansk naar Riga te reizen.</p>
     <div class="travel-center">
     <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>
     </div>
