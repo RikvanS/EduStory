@@ -77,7 +77,17 @@
             C: "Koggeschip"
         },
         correctAnswer: "C"
+    },
+    {
+        question: "Hoe heet de Nederlandse piraat die ook veel Hanzelieden overviel? ",
+        answers: {
+            A: "Stortebeker",
+            B: "Stortemelk",
+            C: "Stortebaard"
+        },
+        correctAnswer: "A"
     }
+    
     
 ];
 
