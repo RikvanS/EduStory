@@ -52,8 +52,28 @@ class AjaxController extends Controller
             'age' => ['required', 'integer']
         ]);
         $user->update($age);
-        $user->updateProgression('prologuenameage');
-        return view('story/0/continue');
+            return view('story/0/askgender');
     }
 
+    public function checkGender(Request $request) {
+        $gender = request('gender');
+        return view('story/0/checkgender', ['gender' => $gender]);
+    }
+
+    public function askGender() {
+        return view('story/0/askgender');
+    }
+
+    public function storeGender(Request $request) {
+        $user = Auth::user();
+        $gender = request('gender');
+        $array = ['gender' => $gender];
+        if ($gender == 'jongen' || $gender == 'meisje') {
+            $user->update($array);
+            $user->updateProgression('prologuenameage');
+            return view('story/0/continue');
+        } else {
+            return view('story/0/askgender');
+        }
+    }
 }

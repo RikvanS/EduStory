@@ -23,7 +23,7 @@
        </p>
 
        <div class="container">
-            <img src="/images/chapters/snowriga.jpg">
+            <img src="/images/chapters/snowriga_rsz.jpg">
             <i>Het Zwarthoofdenhuis in Riga</i>
        </div>
 
@@ -58,18 +58,25 @@
 
 
 
-
+<br>
 @if(Auth::user()->progression->rigaquiz == true)
-<button id="complete-rigaquiz">Testknop spelvoltooiing</button>
+<div id="complete-rigaquiz" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 @endif
 
 <div style="display:none" id="progressdiv">
-    <p><a href="/chapters/epilogue" onclick="loadDoc('GET', '/storeepilogue', workplease)"><button type="button" id="button-e" class="button" >Ga naar epiloog</button></a></p>
+    <div class="travel-center">
+    <button type="button" id="button-e" class="button" onclick="loadDoc('GET', '/storeepilogue', nextChapter, '/chapters/epilogue')">Ga naar epiloog</button>
     </div>
+</div>
 @endsection
 
 @section('scripts')
-<script src="{{ asset('js/quiz.js') }}"></script>
+@if (Auth::user()->progression->lubeckchoice == 1)
+<script src="{{ asset('js/quizvisby.js') }}"></script>
+@else 
+<script src="{{ asset('js/quizdanzig.js') }}"></script>
+@endif
+
 <script src="{{ asset('js/quizprogress.js') }}"></script>
 <script src="{{ asset('js/ajax.js') }}"></script>
 @endsection

@@ -9,46 +9,13 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 body {
     background-color:black;
 }
 
-
-img .kenburns {
-	-webkit-animation: kenburns-bottom-right 5s ease-out reverse both;
-	        animation: kenburns-bottom-right 5s ease-out reverse both;
-}
-
-
-@-webkit-keyframes kenburns {
-    0% {
-      -webkit-transform: scale(1) translate(0, 0);
-              transform: scale(1) translate(0, 0);
-      -webkit-transform-origin: 84% 84%;
-              transform-origin: 84% 84%;
-    }
-    100% {
-      -webkit-transform: scale(1.25) translate(20px, 15px);
-              transform: scale(1.25) translate(20px, 15px);
-      -webkit-transform-origin: right bottom;
-              transform-origin: right bottom;
-    }
-  }
-  @keyframes kenburns {
-    0% {
-      -webkit-transform: scale(1) translate(0, 0);
-              transform: scale(1) translate(0, 0);
-      -webkit-transform-origin: 84% 84%;
-              transform-origin: 84% 84%;
-    }
-    100% {
-      -webkit-transform: scale(1.25) translate(20px, 15px);
-              transform: scale(1.25) translate(20px, 15px);
-      -webkit-transform-origin: right bottom;
-              transform-origin: right bottom;
-    }
-  }
   
 
 
@@ -148,10 +115,9 @@ ul {
 
 
 #map {
-    background-size: cover;
     border:0; 
-    width:100%;
-    height:100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 #map-div {
@@ -165,8 +131,8 @@ ul {
     opacity: 0.8;
     width: 200px;
     height: 135px;
-    position: absolute;
-    left: 40%;
+    position: fixed;
+    left: calc(50% - 100px);
     bottom: 10px;
     text-align: center;
     display: flex;

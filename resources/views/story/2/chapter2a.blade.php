@@ -12,10 +12,16 @@
   "Misschien hebben we geluk gehad, kapitein" antwoord Jan. De sfeer voelt gespannen aan. "Wat is een stortebeker?" vraag je aan Jan. "Haha, Stortebeker is een persoon. 
   Een beruchte Nederlandse piraat op deze wateren! Niet alleen de kuststeden hier op zee worden overvallen, maar ook onze Ijsselsteden als Kampen en Deventer."
   "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. </p>
+  
+  
   <div class="container">
-      <img src="/images/chapters/stortebeker.jpg" id="stortebeker"><br>
-      <h3>Piraat Stortebeker</h3>
+
+      <img src="/images/chapters/stortebeker_rsz.jpg"><br>
+      <i>Piraat Stortebeker</i>
     </div> 
+
+    
+
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
   Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!</p>
 <div id="main">
@@ -40,9 +46,9 @@
         <span class='text'></span></div>
     </div>
   </div>
-<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+
 @if(Auth::user()->progression->visbybattleship == true)
-  <button id="complete-battleship">Testknop spelvoltooiing</button>
+  <div id="complete-battleship" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
  @endif
 
 
@@ -63,24 +69,23 @@ De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p
 </div>
 <canvas id="canvas"></canvas>
 
-
-<!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
 <br>
 @if(Auth::user()->progression->visbyboatrepair == true)
-<button id="complete-slide">Testknop spelvoltooiing</button>
+<div id="complete-slide" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 </div>
 @endif
 <div style="display:none" id="progressdiv">
 
   <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
-
-<p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)"><button type="button" id="button-d" class="button" >Vaar naar Riga</button></a></p>
+<div class="travel-center">
+<button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
+</div>
 </div>
 </div>
 
 @endsection
 
-@section('scripts')
+@section('scripts')	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/battleship.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slidegame.js') }}"></script>

@@ -43,12 +43,14 @@
         <script src="/js/hanoi.js"></script>
 </div>
 
+<br>
 @if(Auth::user()->progression->danzighanoi == true)
-<button id="complete-hanoi">Testknop spelvoltooiing</button>
+<div id="complete-hanoi" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
 @endif
+
 <div style="display:none" id="sub-content">
 
-<p>"Goed gedaan {{ Auth::user()->name }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
+<p>"Goed gedaan, {{ Auth::user()->gender }}. Je bent sterker dan je lijkt! Kom, we kunnen de rest van het uitladen aan de rest overlaten. Wij moeten die zware kisten nu snel afleveren."</p>
 
 <p>Je loopt achter Jan aan van het schip af, de kade op. Daar zet een gespierde man net de laatste kist die je zojuist op het platform hebt gezet, op een platte kar. "Dzięki!" zegt Jan tegen de man. "Kom op {{ Auth::user()->name}}, help me deze kar duwen!"</p>
 
@@ -84,18 +86,19 @@
     <div id="memory-container">
     <div id="game"></div>
     </div>
-    
-    <!-- onderstaande knop verwijderen voordat product live gaat, enkel voor testdoeleinden --> 
+  <br>
     @if(Auth::user()->progression->danzigmemory == true)
-    <button id="complete-test">Testknop spelvoltooiing</button>
+    <div id="complete-test" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
     @endif
     
     <div style="display:none" id="progressdiv">
             <p> De marskramer haalt opgelucht adem, zijn koopwaar ligt er weer goed bij. 
                     "Laten we meteen onze koopwaar voor Riga inslaan." oppert Jan. </p>
             <p>Jullie slaan samen van alles in en slepen het op de platte kar weer terug naar het schip. Als alles is uitgeladen, kruip je uitgeput onder een deken in een hoek van het ruim. Vlak voor je in slaap valt, hoor je de kapitein nog roepen: "Hijs de masten! Beman het kraaiennest! Bemanning, het is tijd om uit te varen naar onze eindbestemming: Riga!"</p>
-        <p><a href="/chapters/2/setsail" onclick="loadDoc('GET', '/storesetsail3', workplease)"><button type="button" id="button-d" class="button">Vaar naar Riga</button></a></p>
-    </div>
+            <div class="travel-center">
+            <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
+            </div>
+        </div>
 </div>
 @endsection
 
