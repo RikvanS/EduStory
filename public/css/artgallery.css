@@ -133,7 +133,10 @@
 }
 
 #photomodal {
-    height:450px;
+	height:450px;
+	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
@@ -224,3 +227,9 @@
 	  align-items: center;
 	  display: none;
 	}
+
+.comment {
+	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}

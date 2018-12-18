@@ -64,8 +64,10 @@
 @endif
 
 <div style="display:none" id="progressdiv">
+    <div class="travel-center">
     <button type="button" id="button-e" class="button" onclick="loadDoc('GET', '/storeepilogue', nextChapter, '/chapters/epilogue')">Ga naar epiloog</button>
     </div>
+</div>
 @endsection
 
 @section('scripts')
