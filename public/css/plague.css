@@ -114,6 +114,7 @@ html, body {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .return-container:hover {

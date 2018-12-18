@@ -300,6 +300,7 @@ p::first-letter {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .game-completed:hover {
