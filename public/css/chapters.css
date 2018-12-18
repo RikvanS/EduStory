@@ -235,7 +235,7 @@ p::first-letter {
     /*box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);*/
 }
 
-.bubble1:after {
+.bubble2:after {
     content: "";
     display: block;
     position: absolute;
@@ -249,7 +249,7 @@ p::first-letter {
     
 }
 
-.bubble2:after {
+.bubble1:after {
     content: "";
     display: block;
     position: absolute;
@@ -300,6 +300,7 @@ p::first-letter {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .game-completed:hover {
