@@ -12,11 +12,12 @@
 <div id="infomodal" class="modal">
     <div class="modal-content">
             <h2 id="info-title">Over Edustory</h2>
-            <p>EduStory is een educatief en interactief verhaal, gericht op basisschool kinderen van groep 7 en 8.
-   Deze website is vrij om te gebruiken, voor beide het gebruik thuis alsmede op school.
-   Als richtlijnen houden wij bij onze stof de leerlijnen van Nationaal Expertisecentrum Leerplanontwikkeling SLO aan.
-   <br><br>Het bedrijf achter EduStory is Pixel Monkeys, die bestaat uit 5 web designers uit Groningen.
-   Bij Pixel Monkeys draait een product om inhoud, vormgeving en een positieve user experience.</p>
+            <p>EduStory is een educatief en interactief verhaal, gericht op basisschool kinderen van groep 7/8,
+                gemaakt door 5 junior webdevelopers uit Groningen met een passie voor geschiedenis met als doel het leren leuk te maken.
+            </p>
+            <p>Wij hebben geprobeerd zo historisch accuraat mogelijk te werk te gaan. Onze focus ligt echter bij het programmeren en zodoende garanderen we geen volledige correctheid.
+            </p>
+            <p>De EduStory beleving is optimaal op een groot scherm of iPad.</p>
     </div>
 </div>
 <div class="container">
