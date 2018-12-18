@@ -15,7 +15,7 @@
     @yield('head')
 </head>
 <body>
-    @yield("parallax")
+
 
     
     @include('includes/sidebar')

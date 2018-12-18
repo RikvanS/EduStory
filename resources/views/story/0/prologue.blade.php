@@ -1,40 +1,37 @@
 @extends('layouts/chapter')
+@section('head')
+<link rel="stylesheet" href="{{ URL::asset('css/parallax.css') }}">
 
-
-
-
+@endsection
+@section('content')
+<div class="proloog">
+<p><h2>Proloog</h2></p>
 <div>
-        <p>
-         "wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
-         Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je. Je vindt eindelijk een rustig moment om over te steken. 
-         Langs het water lopend verwonder je je over de gebouwen waar je langs loopt, ze zien er oud uit. Een balk steekt uit de bovenste verdieping van een pakhuis. 
-         Je kijkt omhoog, en let niet op waar je loopt. Je stapt zo in het water!
-        </p>
-    </div>
-@section('parallax')
+    <p>
+     "wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
+     Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je. Je vindt eindelijk een rustig moment om over te steken. 
+     Langs het water lopend verwonder je je over de gebouwen waar je langs loopt, ze zien er oud uit. Een balk steekt uit de bovenste verdieping van een pakhuis. 
+     Je kijkt omhoog, en let niet op waar je loopt. Je stapt zo in het water!
+    </p>
+</div>
 
+
+</div>
 
 <section class="para" id="hero"> 
-   <p><h2>Proloog</h2></p>
-<p>!! Paralax van golven terwijl de protagonist in het water valt hier !!!!!!!!!!!!!!!</p>
-
-<div class="pakhuis" data-speed="0.10"> </div>
-
-
-
+   
         <div class="layer layer-bg" data-speed="0.20"> </div>
         <div class="layer layer-one" data-speed="0.40"> </div>
         <div class="layer layer-two" data-speed="0.50"> </div>
         <div class="layer layer-three" data-speed="0.70"> </div>
         <div class="layer layer-four" data-speed="0.85"> </div>
         <div class="layer layer-five" data-speed="1.00"> </div>
-              </section>
+ </section>
 
-@endsection
-@section('content')
+
+
 
  
-
     
 
     
