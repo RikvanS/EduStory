@@ -3,8 +3,7 @@ body {
     background-position: left top;
     margin: 0 auto;
     padding-top: 500px;
-    /* padding-bottom: 150px;
-   */
+    overflow-x:hidden;
 }
 
  .head-image {
@@ -316,6 +315,71 @@ p::first-letter {
     width: 100%;
 }
 
+.fadein {
+    padding: auto;
+    font-size: 60px;
+    font-weight: bold;
+    color: #0f0f0f;
+    text-align: center;
+    opacity: 0;
+  }
+  
+  span {
+    height: auto;
+    display: block;
+  }
+  
+  .active{
+    animation: fadein 3s;
+    opacity: 1;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  picture {
+    min-width: 240px;
+  }
+  picture img {
+    width: 100%;
+  }
+  .view-poll {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+    transition: all 2s;
+    overflow-x:hidden;
+  }
+  .view-poll:nth-of-type(even) {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .view-poll:nth-of-type(even) picture {
+    order: -1;
+  }
+  .view-poll.in-view {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  .view-poll picture {
+    flex: 1;
+  }
+  .view-poll .caption {
+    flex: 1;
+    padding: 1em;
+  }
+  
+
 .proloog {
     padding-top: 50px;
     /* display: flex; */
@@ -325,3 +389,4 @@ p::first-letter {
 .proloogtext {
     align-content: left;
 } */
+

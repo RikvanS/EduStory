@@ -14,6 +14,7 @@
 <div id="map-div" style="width:100%;">
         @if(Auth::user()->progression->lubeckstory == true)
 
+
 <a href="/chapters/1"><div class="return-container"><div id="text-padding">Je bent klaar hier, ga terug naar Lübeck</div></div></a>
 
 @endif
