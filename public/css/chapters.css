@@ -504,3 +504,9 @@ p::first-letter {
 #canvas {
     margin-bottom: 50px;
 }
+
+.lubeck-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

@@ -25,26 +25,12 @@
         <div class="layer layer-four" data-speed="0.85"> </div>
         <div class="layer layer-five" data-speed="1.00"> </div>
  </section>
-
-
-
-
- 
-    
-
-    
-       
-
-   
-        
             
 <div class="percamentus">
     <div class="color">
     
 </div>
 
-
-{{-- @section('content') --}}
 <div class="container">
 <div>
     <p>
