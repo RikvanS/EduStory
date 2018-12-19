@@ -461,3 +461,31 @@ p::first-letter {
     position: relative;
     width: 100px;
 }
+
+
+@media only screen and (device-width: 768px) {
+
+    body {
+        background-image: url(../images/chapters/parchment.jpg);
+        background-position: cover;
+        margin: 0 auto;
+        padding-top: 500px;
+        overflow-x:hidden;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 250, 0);
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        /* padding-top: 25px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+
+    
+
+  }
