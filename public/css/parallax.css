@@ -1,6 +1,6 @@
 body {
-
     padding-top:0;
+    overflow-x: hidden;
 }
   #hero {
     height: 2000px;
@@ -11,7 +11,7 @@ body {
   }
 .proloog {
     
-    height:800px;
+    height:1500px;
     position: relative;
     margin-top:0px;
 
@@ -21,47 +21,47 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    min-height: 1200px;
+    min-height: 1600px;
     height:auto;
     position: fixed;
     z-index:-2;
-    border:solid green 1px;
+    /* border:solid green 1px; */
   }
   
   .layer-bg {
-    background-image: url("/images/parallax/wave_bg2.png");
+    background-image: url("/images/parallax/wave_bg_new2.svg");
     background-repeat: no-repeat;
     width:100% 100%;
-    border:solid red 1px;
+    /* border:solid red 1px; */
     
   }
   
   .layer-one {
-    background-image: url("/images/parallax/wave_6.png");
+    background-image: url("/images/parallax/wave_5_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   
   .layer-two {
-    background-image: url("/images/parallax/wave_4.png");
+    background-image: url("/images/parallax/wave_4_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   
   .layer-three {
-    background-image: url("/images/parallax/wave_3.png");
+    background-image: url("/images/parallax/wave_3_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   .layer-four {
-    background-image: url("/images/parallax/wave_2.png");
+    background-image: url("/images/parallax/wave_2_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
 
 
   .layer-five {
-    background-image: url("/images/parallax/wave_1.png");
+    background-image: url("/images/parallax/wave_1_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
    

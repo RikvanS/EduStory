@@ -14,19 +14,19 @@
   "Wow" antwoord je terug. Echte piraten.. wie had dat ooit gedacht! Je raakt in gedachten verzonken over de piratenverhalen die je kent. </p>
   
 
+
     <span></span>
 <div class="fadein">
-    <img src="/images/chapters/stortebeker.jpg"><br>
+    <img src="/images/chapters/stortebeker_rsz.jpg"><br>
 <i>Piraat Stortebeker</i>
 </div>
 
-
 <span></span>
 
-    
-
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.
-  Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!</p>
+  Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!
+  Verdedig jezelf door je vloot goed te plaatsen, en daarna de locatie van de boten van de piraat te vinden! 
+  De rode stippen geven aan dat je de boot van de tegenstander hebt geraakt. Wie als eerste alle boten van de ander heeft laten zinken, heeft gewonnen.</p>
 <div id="main">
     <div class="board">
       <div class="displays">
@@ -57,11 +57,13 @@
 
 <div class='section-progress-div' id="sub-content" style="display:none;">
 
-<p>Protagonist ontmoet een Finse handelaar die hem info geeft over Visby: een herdistributiestad die wordt lastiggevallen door piraten.
-De protagonist slaat schapenhuiden in, deze wil de kapitein verkopen in Riga.</p>
-
-<p>"Wat een mazzel dat jullie de piraten hebben overleefd!" zegt een jongetje die bij jullie is komen staan. "Absoluut!" Roept Jan uit. "Maar helaas is ons schip wel beschadigd geraakt.
-  Laten we iemand zoeken die het schip kan repareren."
+<p>Op het nippertje zijn jullie aan de piraten ontkomen en varen jullie snel de haven van Visby binnen. Terwijl de vaste bemannening begint met hun taken, neemt Jan je mee. 
+  "Komop  {{ Auth::user()->name }}" zegt Jan, "We zijn hier niet voor niks! We moeten nog scheepshuiden kopen voor onze handel in Riga." Samen met je reisgenoot loop je door de mensen, totdat Jan een bekend gezicht ziet. 
+  "Lars!" roept Jan uit. Een lange, blonde man draait zich om en begroet Jan met een flinke handdruk. Daarna kijkt Lars naar jou, pakt je hand en schud hem zo stevig dat je je hand bijna geplet voelt worden. 
+  Jan ziet het en geeft je met een schaterlach nog een flinke schouderklop toe. "Bij handelen hoort een stevige handdruk!" legt hij uit. </p>
+<p>Terwijl jullie de schaapshuiden naar de boot brengen, komt er een jongen nieuwsgierig bij jullie kijken. 
+  "Wat een mazzel dat jullie de piraten hebben overleefd!" zegt het jongetje die bij jullie is komen staan. "Absoluut!" Roept Jan uit. "Maar helaas is ons schip wel beschadigd geraakt.
+  Laten we iemand zoeken die het schip kan repareren. Misschien kan jij ons helpen door deze puzzel op te lossen."
 </p>
 
 <div class="container">

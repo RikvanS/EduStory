@@ -27,8 +27,10 @@
         
         
        <div class="container">
+
            <div class="fadein">
             <img src="/images/chapters/snowriga_rsz.jpg">
+            <br>
             <i>Het Zwarthoofdenhuis in Riga</i>
         </div>
        </div>
@@ -54,7 +56,10 @@
 
           <div class="view-poll">
                 <div class="caption">
-                        <p>"Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
+                        <p>     Samen met Jan loop je naar de koopman voor de schapenhuiden toe. Jan begint tegen de handelaar te praten, in een taal die je niet helemaal verstaat. 
+                                Wat handig dat Jan zoveel talen spreekt. Hij stoot je aan, en gebaart je om de hand te schudden van de koopman, wat je deze keer met al je kracht doet. 
+                                Tevreden met jullie opbrengst lopen jullie weer richting de boot.  <br>
+                                "Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
                                 Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
                                 "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
                 </div>
@@ -71,7 +76,9 @@
                
                 
               </div>
-<p>Optioneel: protagonist geeft brief af bij Lijfmansorde.</p>
+    
+
+<br>
 
 @if(Auth::user()->progression->rigaquiz == true)
 <div id="complete-rigaquiz" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>

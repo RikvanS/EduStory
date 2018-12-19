@@ -3,9 +3,7 @@ body {
     background-position: left top;
     margin: 0 auto;
     padding-top: 500px;
-    padding-bottom: 150px;
     overflow-x:hidden;
-  
 }
 
  .head-image {
@@ -136,7 +134,7 @@ body {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,22 +178,27 @@ p::first-letter {
 
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
+    margin-bottom: 100px;
 }
 
 #button-b {
     background-image: url(../images/chapters/rsz_harbour.jpg);
+    margin-bottom: 100px;
 }
 
 #button-c {
     background-image: url(../images/chapters/lubeck.jpg);
+    margin-bottom: 100px;
 }
 
 #button-d {
     background-image: url(../images/chapters/rigabutton.jpg);
+    margin-bottom: 100px;
 }
 
 #button-e {
     background-image: url(../images/chapters/epilogue.jpg);
+    margin-bottom: 100px;
 }
 
 #button-f {
@@ -282,15 +285,8 @@ p::first-letter {
     justify-content: space-around;
 }
 
-.dynamic-content-shown {
-    display: block;
-} */
-
-
-
-
 .game-completed {
-    background-image: url('/images/lubeck/scroll.png');
+    background-image: url('../images/chapters/scroll.png');
     background-size: auto;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -324,9 +320,6 @@ p::first-letter {
     width: 100%;
 }
 
----------------
-
-
 .fadein {
     padding: auto;
     font-weight: bold;
@@ -354,11 +347,6 @@ p::first-letter {
     }
   }
 
-
-
-
-  
-
   picture {
     min-width: 240px;
   }
@@ -366,9 +354,11 @@ p::first-letter {
     width: 100%;
   }
   .view-poll {
+    margin-top:100px;
+    
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-start;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
@@ -395,3 +385,14 @@ p::first-letter {
     padding: 1em;
   }
   
+
+.proloog {
+    padding-top: 50px;
+    /* display: flex; */
+    
+}
+/* 
+.proloogtext {
+    align-content: left;
+} */
+

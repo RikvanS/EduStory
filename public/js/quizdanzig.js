@@ -60,13 +60,13 @@
     },
     {
 
-        question: "Om welk bijzonder ambacht staat Riga bekend?",
+        question: "Waar in Groningen speelde de Hanze handel zich voornamelijk af?",
         answers: {
-            A: "Leer looien",
-            B: "IJzer smeden",
-            C: "Munten slaan"
+            A: "Herestraat",
+            B: "Reitdiep en de hoge der A",
+            C: "Grote markt"
         },
-        correctAnswer: "C"
+        correctAnswer: "B"
     },
     {
         question: "Wanneer werd Riga lid van de Hanze liga?",

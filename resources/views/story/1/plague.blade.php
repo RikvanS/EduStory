@@ -43,9 +43,9 @@
                   </section>
                 </article>
                 </div>
-                 <div class="container-container">
-                <a href="/chapters/1/lubeck" class="no-underline"><div class="return-container">Je bent klaar hier, ga terug naar het plein</div></a>
-                 </div>
+                 {{-- <div class="container-container"> --}}
+                <a href="/chapters/1/lubeck" class="no-underline"><div class="return-container"><div id="text-padding">Je bent klaar hier, ga terug naar het plein</div></div></a>
+                 {{-- </div> --}}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 </body>
