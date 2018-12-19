@@ -7,9 +7,9 @@
 
 <div class="chapter-title">lubeck</div>
 
-<p>De lange reis van Groningen naar Lübeck verloopt voorspoedig. Je raakt onderweg goed bevriend met Jan. Hij stelt je voor aan de rest van de bemanning, en hij leert je veel over het leven van varende handelslieden in 1393. Hij kan zulke mooie verhalen vertellen over het leven op zee! Ook al zou je soms willen dat hij even ophield met vertellen zodat je wat tijd voor jezelf kan nemen.</p>
+<p>De lange reis van Groningen naar Lübeck verloopt voorspoedig. Onderweg neemt Jan je onder zijn hoede. Hij stelt je voor aan de rest van de bemanning en hij leert je veel over het leven van varende handelslieden in 1393. Hij kan zulke mooie verhalen vertellen over het leven op zee! Ook al zou je soms willen dat hij even ophield met vertellen zodat je wat tijd voor jezelf kan nemen.</p>
 
-<p>     Na wat voelt als weken later varen jullie eindelijk de haven van Lübeck binnen. Door het lawaai van de zeemeeuwen, hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
+<p>     Na wat voelt als weken reizen varen jullie eindelijk de haven van Lübeck binnen. Door het lawaai van de zeemeeuwen hoor je je nieuwe reismaatje Jan bijna niet. Maar Jan geeft nooit op.
         “Welkom in Lübeck, {{ Auth::user()->name }}! Ik heb gelijk een opdracht voor je. Dit schilderij moet worden afgelevered bij de kunsthandelaar in de haven. We kunnen pas verder reizen als je dat hebt gedaan! Maar neem ook vooral de tijd om even je benen te strekken en rond te kijken, er zijn hier genoeg interessante plekken om te verkennen." zegt hij terwijl hij op de kade stapt. “Tot straks!”</p>
         <p>Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
         
