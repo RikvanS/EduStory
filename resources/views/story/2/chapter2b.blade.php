@@ -23,6 +23,9 @@
 
 <p>"Hoe dan?", vraag je. "Hoe werken die hamsterwielen daaronderaan?" Jan kijkt je versuft aan. Hij zegt: "Wat? Ham.. hamsterwielen? Wat zeg je soms toch ook rare dingen." Dat is ook zo! Hamsters komen niet uit Europa, Jan heeft geen idee waar ik het over heb.</p>
 
+<img src="/images/chapters/treadmillcrane.jpg" alt="Hamsterwielen in middeleeuwse kraantorens"><br>
+<i>Hamsterwielen in middeleeuwse kraantorens</i>
+
 <p>Je wijst naar de hamsterwielen. "Ik bedoel die twee grote wielen daar, onderaan de torens. Waar zijn die voor?" Jans ogen beginnen te glimmen. "Die worden gebruikt om zware spullen omhoog te takelen. Kijk, de wielen zijn verbonden met kabels. Er gaan mensen in staan, en als zij gaan lopen dan wordt de vracht op dat platform daar omhoog getakeld! Maar wacht maar, je zult het zo zelf wel zien."</p>
 
 <p>Je kijkt over de reling terwijl het schip aanmeert naast de kraantoren. Je ziet nu inderdaad dat er mensen in de hamsterwielen staan, vier per wiel. Ze beginnen langzaam te bewegen. Een platform dat aan de kabels hangt beweegt naar beneden, tot het vlak boven het dek hangt.</p>
