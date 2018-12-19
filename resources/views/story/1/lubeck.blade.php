@@ -19,7 +19,7 @@
 
 @endif
 
-        <img id="map" src="/images/lubeck/rsz_lubeck-min.jpg" usemap="#lubek"  alt="" />
+        <img id="map" src="/images/lubeck/lubeck.gif" usemap="#lubek"  alt="" />
 
 <map name="lubek" id="lubek">
 
