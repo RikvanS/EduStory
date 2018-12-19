@@ -80,7 +80,6 @@
     
 
 
-
 <br>
 
 @if(Auth::user()->progression->rigaquiz == true)

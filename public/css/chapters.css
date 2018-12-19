@@ -181,27 +181,22 @@ p::first-letter {
 
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
-    margin-bottom: 100px;
 }
 
 #button-b {
     background-image: url(../images/chapters/rsz_harbour.jpg);
-    margin-bottom: 100px;
 }
 
 #button-c {
     background-image: url(../images/chapters/lubeck.jpg);
-    margin-bottom: 100px;
 }
 
 #button-d {
     background-image: url(../images/chapters/rigabutton.jpg);
-    margin-bottom: 100px;
 }
 
 #button-e {
     background-image: url(../images/chapters/epilogue.jpg);
-    margin-bottom: 100px;
 }
 
 #button-f {
@@ -238,7 +233,7 @@ p::first-letter {
     /*box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);*/
 }
 
-.bubble2:after {
+.bubble1:after {
     content: "";
     display: block;
     position: absolute;
@@ -252,7 +247,7 @@ p::first-letter {
     
 }
 
-.bubble1:after {
+.bubble2:after {
     content: "";
     display: block;
     position: absolute;
@@ -303,7 +298,6 @@ p::first-letter {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .game-completed:hover {
@@ -400,7 +394,7 @@ p::first-letter {
     margin-bottom: 100px;   
 }
 
-.text {
+.input-text {
     padding: 10px;
     width: 200px;
     height: 20px;
@@ -491,6 +485,14 @@ p::first-letter {
         align-items: center;
         text-align: left;
     }
+
+    .proloogtext {
+        
+        font-family: 'Merriweather';
+        margin:0 auto;
+        text-align: center;
+    } 
+
 }
 
 #diff-set {
@@ -502,15 +504,6 @@ p::first-letter {
     color: white;
 }
 
-
-    .proloogtext {
-        
-        font-family: 'Merriweather';
-        margin:0 auto;
-        text-align: center;
-    } 
-
-
 #canvas {
     margin-bottom: 50px;
 }
@@ -520,3 +513,4 @@ p::first-letter {
     justify-content: space-around;
     flex-direction: row;
 }
+

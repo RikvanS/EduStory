@@ -174,9 +174,10 @@ p::first-letter {
 .sleeping {
     width: 100%;
     height: 200px;
-    background-color: #0a3042;
+    background-color: #0a304200;
     position: relative;
     margin-bottom: 200px;
+    margin-left: 50px;
 }
 
 #dream-text {
@@ -184,11 +185,12 @@ p::first-letter {
     width: 60%;
     margin-left: 25%;
     padding: 20px;
-    color: #fff;
+    color: #000;
     font-family: 'Merriweather';
     line-height: 22px;
-    animation: blur 15s ease-in-out infinite;
+    /*animation: blur 15s ease-in-out infinite;*/
     opacity: 0;
+    z-index: 100;
 }
 
 @keyframes blur {
@@ -231,6 +233,7 @@ span {
     bottom: 10px;
     left: 10px;
     animation: sleep 9s linear infinite;
+    animation-iteration-count: 2.7;
     opacity: 0;
     font-family: 'Merriweather';
 }
@@ -270,15 +273,94 @@ span {
         opacity: 0;
     }
 }
-
+/*
 #sky {
     width: 100%;
-    height: 800px;
-    background: linear-gradient(#0a3042, #6DD5FA, #fff);
+    height: 400px;
+    background: linear-gradient(#0a3042, #fff);
     display: flex;
     flex-direction: column;
 }
-
+*/
 #end {
     margin: 0 auto;
+    top: 30px;
+    left: 200px;
+    color: #000;
+    width: 600px;
+    position: absolute;
+    opacity: 1;
+}
+
+#warehouse {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/chapters/newhogedera2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: fade 10s linear;
+    animation-iteration-count: 3;
+    opacity: 1;
+}
+
+@keyframes fade {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#zzz {
+    top: 460px;
+    left: 40%;
+    position: absolute;
+}
+
+.nav-item {
+    padding: 10px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+    border: 2px solid transparent;
+    position: absolute;
+    bottom: 100px;
+    left: 430px;
+    animation: appear linear 30s;
+    animation-iteration-count: 1;
+}
+
+.nav-item:hover {
+    border: 2px solid #000;
+    background-color: lightblue;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    98% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sail-container {
+    padding-bottom: 150px;
 }

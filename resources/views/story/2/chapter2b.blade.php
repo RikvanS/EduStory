@@ -23,8 +23,15 @@
 
 <p>"Hoe dan?", vraag je. "Hoe werken die hamsterwielen daaronderaan?" Jan kijkt je versuft aan. Hij zegt: "Wat? Ham.. hamsterwielen? Wat zeg je soms toch ook rare dingen." Dat is ook zo! Hamsters komen niet uit Europa, Jan heeft geen idee waar ik het over heb.</p>
 
-<img src="/images/chapters/treadmillcrane.jpg" alt="Hamsterwielen in middeleeuwse kraantorens"><br>
-<i>Hamsterwiel in middeleeuwse kraan</i>
+<div class="container">
+        <div class="view-poll">
+                <picture> <img src="/images/chapters/treadmillcrane.jpg"  width="300px" alt="Hamsterwielen in middeleeuwse kraantorens"> </picture>
+                <i>Hamsterwiel in middeleeuwse kraan</i>
+                <br>
+              </div>
+            </div>
+
+
 
 <p>Je wijst naar de hamsterwielen. "Ik bedoel die twee grote wielen daar, onderaan de torens. Waar zijn die voor?" Jans ogen beginnen te glimmen. "Die worden gebruikt om zware spullen omhoog te takelen. Kijk, de wielen zijn verbonden met kabels. Er gaan mensen in staan, en als zij gaan lopen dan wordt de vracht op dat platform daar omhoog getakeld! Maar wacht maar, je zult het zo zelf wel zien."</p>
 
@@ -61,10 +68,15 @@
 
 <p>Je had niet verwacht dat er hier iemand Nederlands zou spreken. "Komt u uit Nederland meneer?" vraag je verbaasd. De man kijkt je glimlachend aan. "De jeugd tegenwoordig weet ook niets van hun vaderland.." zegt hij tegen Jan. Dan zegt hij tegen jou: "Ik kom inderdaad uit Nederland. Ik ben architect, en ik ben hier om de hoofdarchitect Heinrich Ungaredin mee te helpen met het bouwen van de mooiste kerk in Europa. Nederlandse architecten zijn erg gewild in het buitenland. Wist je dat niet?"</p>
 
-<div id="construction">
-    <img id="contruction-img" src="/images/chapters/construction.jpg" alt="Middeleeuwse bouwplaats" width="400px"><br>
-    <i>Middeleeuwse bouwplaats</i>
-</div>
+
+<div class="container">
+        <div class="view-poll">
+                <picture>  <img id="contruction-img" src="/images/chapters/construction.jpg" alt="Middeleeuwse bouwplaats" width="400px"> </picture>
+                <i>Middeleeuwse bouwplaats</i> <br>
+        
+              </div>
+            </div>
+
 
 <p>Je had geen idee. Je wilt meer vragen, maar dan zegt Jan: "Maar goed, genoeg gekletst! Het is tijd om naar de handelsmarkt te gaan. Volg mij!" Je volgt Jan naar de drukke handelsplaats vlakbij de haven. Hij zegt: "Laten we kijken hoeveel we hier kunnen krijgen voor onze spullen, misschien kunnen we ons ruim nog wat beter vullen als we slim handelen!"
     </p>
@@ -104,4 +116,6 @@
 <script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/hanoiprogress.js') }}"></script>
 <script src="{{ asset('js/memory.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/visbyeffect.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 @endsection
