@@ -75,7 +75,7 @@
 <div id="change-div">
     <p>Wat is jouw naam?</p>
     @csrf
-    <input id="name" name="name" type="text" class="text">
+    <input id="name" name="name" type="input-text" class="text">
     <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
 </div>
 @endif
