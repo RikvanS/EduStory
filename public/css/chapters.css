@@ -461,3 +461,9 @@ p::first-letter {
     position: relative;
     width: 100px;
 }
+
+#construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
