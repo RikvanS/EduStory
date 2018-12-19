@@ -5,9 +5,9 @@
 @endsection
 @section('content')
 <div class="proloog">
-<p><h2>Proloog</h2></p>
-<div>
-    <p>
+<h2 class="proloogtext">Proloog</h2>
+    <p class="proloogtext">
+    
      "Wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
      Fietsers, auto's en stadsbussen rijden allemaal in rap tempo langs je heen. Je vindt eindelijk een rustig moment om over te steken. 
      Langs het water lopend verwonder je je over de gebouwen om je heen, ze zien er oud uit. Een balk steekt uit de bovenste verdieping van een pakhuis. 
@@ -15,8 +15,6 @@
     </p>
 </div>
 
-
-</div>
 
 <section class="para" id="hero"> 
    
@@ -78,7 +76,7 @@
     <p>Wat is jouw naam?</p>
     @csrf
     <input id="name" name="name" type="text" class="text">
-    <button onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
+    <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
 </div>
 @endif
 

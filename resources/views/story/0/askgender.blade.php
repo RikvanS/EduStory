@@ -1,7 +1,11 @@
 <p>Ben je een jongen? Of ben je een meisje?</p>
 @csrf
-<select name="gender" id="gender">
-    <option value="jongen">Jongen</option>
-    <option value="meisje">Meisje</option>
+<div class="select-container">
+<div class="select">
+<select class="select-gender" name="gender" id="gender">
+    <option class="select-gender" value="jongen">Jongen</option>
+    <option class="select-gender" value="meisje">Meisje</option>
 </select>
-<button onclick="loadDoc('POST', '/chapters/prologue/checkgender', changeDiv, 'change-div', 'gender')">Bevestig</button>
+</div>
+</div>
+<button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkgender', changeDiv, 'change-div', 'gender')">Bevestig</button>
