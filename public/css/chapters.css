@@ -180,27 +180,22 @@ p::first-letter {
 
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
-    margin-bottom: 100px;
 }
 
 #button-b {
     background-image: url(../images/chapters/rsz_harbour.jpg);
-    margin-bottom: 100px;
 }
 
 #button-c {
     background-image: url(../images/chapters/lubeck.jpg);
-    margin-bottom: 100px;
 }
 
 #button-d {
     background-image: url(../images/chapters/rigabutton.jpg);
-    margin-bottom: 100px;
 }
 
 #button-e {
     background-image: url(../images/chapters/epilogue.jpg);
-    margin-bottom: 100px;
 }
 
 #button-f {
@@ -237,7 +232,7 @@ p::first-letter {
     /*box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);*/
 }
 
-.bubble2:after {
+.bubble1:after {
     content: "";
     display: block;
     position: absolute;
@@ -251,7 +246,7 @@ p::first-letter {
     
 }
 
-.bubble1:after {
+.bubble2:after {
     content: "";
     display: block;
     position: absolute;
@@ -302,7 +297,6 @@ p::first-letter {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .game-completed:hover {
@@ -325,16 +319,17 @@ p::first-letter {
 
 .fadein {
     padding: auto;
+    font-size: 60px;
     font-weight: bold;
     color: #0f0f0f;
     text-align: center;
     opacity: 0;
   }
   
-  span {
+  /* span {
     height: auto;
     display: block;
-  }
+  } */
   
   .active{
     animation: fadein 3s;
@@ -399,7 +394,7 @@ p::first-letter {
     margin-bottom: 100px;   
 }
 
-.text {
+.input-text {
     padding: 10px;
     width: 200px;
     height: 20px;
@@ -469,7 +464,7 @@ p::first-letter {
 }
 
 
-@media only screen and (device-width: 768px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
     body {
         background-image: url(../images/chapters/parchment.jpg);
@@ -491,8 +486,31 @@ p::first-letter {
         text-align: left;
     }
 
-
-    
+    .proloogtext {
+        
+        font-family: 'Merriweather';
+        margin:0 auto;
+        text-align: center;
+    } 
 
 }
+
+#diff-set {
+    background-image: url('../images/wood.jpeg');
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#canvas {
+    margin-bottom: 50px;
+}
+
+
+#canvas {
+    margin-bottom: 50px;
+}
+
 
