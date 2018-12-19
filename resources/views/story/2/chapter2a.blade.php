@@ -15,13 +15,13 @@
   
 
 
-    <span></span>
+    {{-- <span></span> --}}
 <div class="fadein">
     <img src="/images/chapters/stortebeker_rsz.jpg"><br>
 <i>Piraat Stortebeker</i>
 </div>
 
-<span></span>
+{{-- <span></span> --}}
 
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.</p>
   <p>Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!

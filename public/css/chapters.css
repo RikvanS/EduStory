@@ -331,10 +331,10 @@ p::first-letter {
     opacity: 0;
   }
   
-  span {
+  /* span {
     height: auto;
     display: block;
-  }
+  } */
   
   .active{
     animation: fadein 3s;
