@@ -158,4 +158,7 @@ const resetGuesses = () => {
 
 document.getElementById("complete-test").addEventListener('click', function (event) {
   document.getElementById('progressdiv').style.display = 'block';
+  $('html,body').animate({
+    scrollTop: $("#progressdiv").offset().top
+ });
 });
