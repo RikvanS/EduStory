@@ -72,14 +72,13 @@
                         <div id="submit"><button class="quizbutton" >Klaar</button></div>
                         <div id="results"></div>
                         </div>
-<<<<<<< HEAD
+
             
                
                 
               </div>
     
-=======
->>>>>>> 54e0b17644476b274693860095a26a5caf15a379
+
 
 <br>
 

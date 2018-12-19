@@ -26,15 +26,6 @@
         <div class="layer layer-five" data-speed="1.00"> </div>
  </section>
 
-
-
-
- 
-    
-
-    
-       
-
    
         
             

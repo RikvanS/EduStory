@@ -501,7 +501,7 @@ p::first-letter {
     color: white;
 }
 
-<<<<<<< HEAD
+
     .proloogtext {
         
         font-family: 'Merriweather';
@@ -510,8 +510,14 @@ p::first-letter {
     } 
 
 }
-=======
+
 #canvas {
     margin-bottom: 50px;
 }
->>>>>>> 54e0b17644476b274693860095a26a5caf15a379
+
+
+#canvas {
+    margin-bottom: 50px;
+}
+
+
