@@ -67,6 +67,7 @@ body {
     justify-items: center;
     padding: 20px;
     border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
 }
 
 .nav-icon {
@@ -507,9 +508,9 @@ p::first-letter {
     margin-bottom: 50px;
 }
 
-
-#canvas {
-    margin-bottom: 50px;
+.lubeck-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
-
 
