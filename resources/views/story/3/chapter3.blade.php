@@ -73,6 +73,14 @@
                         <div id="results"></div>
                         </div>
 
+            
+               
+                
+              </div>
+    
+
+
+
 <br>
 
 @if(Auth::user()->progression->rigaquiz == true)

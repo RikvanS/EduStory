@@ -84,25 +84,29 @@ body {
     background:linear-gradient(#01131D, rgba(3, 47, 94, 0));
   } 
 
-  @media only screen and (device-width: 768px) {
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
     
 
     body {
         padding-top:0;
         overflow-x: hidden;
+        max-width: 50%;
     }
       #hero {
         height: 2000px;
         position: absolute;
         background-color: white;
         z-index: -1;
-        width:100%;
+        width:100vw;
       }
     .proloog {
         
         height:1500px;
+        align-content: center;
         position: relative;
         margin-top:0px;
+        width:100vw;
+        
     
     }
       .layer {
@@ -120,7 +124,7 @@ body {
       .layer-bg {
         background-image: url("/images/parallax/wave_bg_new2.svg");
         background-repeat: no-repeat;
-        width:100% 100%;
+        
         /* border:solid red 1px; */
         
       }
@@ -128,31 +132,31 @@ body {
       .layer-one {
         background-image: url("/images/parallax/wave_5_high.png");
         background-repeat: no-repeat;
-        width:100% 100%;
+        
       }
       
       .layer-two {
         background-image: url("/images/parallax/wave_4_high.png");
         background-repeat: no-repeat;
-        width:100% 100%;
+      
       }
       
       .layer-three {
         background-image: url("/images/parallax/wave_3_high.png");
         background-repeat: no-repeat;
-        width:100% 100%;
+       
       }
       .layer-four {
         background-image: url("/images/parallax/wave_2_high.png");
         background-repeat: no-repeat;
-        width:100% 100%;
+        
       }
     
     
       .layer-five {
         background-image: url("/images/parallax/wave_1_high.png");
         background-repeat: no-repeat;
-        width:100% 100%;
+        
        
       }
       .content {
@@ -162,7 +166,7 @@ body {
     
       .percamentus {
         background-image: url(../images/chapters/parchment.jpg);
-        width:auto;
+        
     
       }
     
