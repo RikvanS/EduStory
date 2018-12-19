@@ -1,6 +1,6 @@
 html, body {
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(235,235,235);
+  font-family: 'Merriweather';
+  color: rgb(235,235,235);
   background-color:rgb(20,20,20);
   margin-top:0px;
   margin-bottom:4px;
@@ -114,6 +114,7 @@ html, body {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .return-container:hover {
