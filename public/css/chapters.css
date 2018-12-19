@@ -490,9 +490,17 @@ p::first-letter {
         align-items: center;
         text-align: left;
     }
-
-
-    
-
 }
 
+#diff-set {
+    background-image: url('../images/wood.jpeg');
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#canvas {
+    margin-bottom: 50px;
+}

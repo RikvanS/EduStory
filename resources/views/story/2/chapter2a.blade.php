@@ -68,9 +68,10 @@
 
 <div class="container">
 <div id="diff-set">
-  <input type="radio" name="diff" value="4" onclick="init();" checked> 4x4
-  <input type="radio" name="diff" value="5" onclick="init();"> 5x5
-  <input type="radio" name="diff" value="6" onclick="init();"> 6x6
+  <p>Kies de moeilijkheidsgraad</p>
+  <input type="radio" name="diff" value="4" onclick="init();" checked> Makkelijk
+  <input type="radio" name="diff" value="5" onclick="init();"> Gemiddeld
+  <input type="radio" name="diff" value="6" onclick="init();"> Moeilijk
 </div>
 <canvas id="canvas"></canvas>
 
