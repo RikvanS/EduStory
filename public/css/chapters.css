@@ -3,8 +3,7 @@ body {
     background-position: left top;
     margin: 0 auto;
     padding-top: 500px;
-    /* padding-bottom: 150px;
-   */
+    overflow-x:hidden;
 }
 
  .head-image {
@@ -318,6 +317,71 @@ p::first-letter {
     width: 100%;
 }
 
+.fadein {
+    padding: auto;
+    font-size: 60px;
+    font-weight: bold;
+    color: #0f0f0f;
+    text-align: center;
+    opacity: 0;
+  }
+  
+  span {
+    height: auto;
+    display: block;
+  }
+  
+  .active{
+    animation: fadein 3s;
+    opacity: 1;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  picture {
+    min-width: 240px;
+  }
+  picture img {
+    width: 100%;
+  }
+  .view-poll {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+    transition: all 2s;
+    overflow-x:hidden;
+  }
+  .view-poll:nth-of-type(even) {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .view-poll:nth-of-type(even) picture {
+    order: -1;
+  }
+  .view-poll.in-view {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  .view-poll picture {
+    flex: 1;
+  }
+  .view-poll .caption {
+    flex: 1;
+    padding: 1em;
+  }
+  
+
 .proloog {
     padding-top: 50px;
     display: flex; 
@@ -330,3 +394,63 @@ p::first-letter {
     width: 600px;
     font-family: 'Merriweather';
 } 
+
+#change-div {
+    margin-bottom: 100px;   
+}
+
+.text {
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Merriweather';
+    font-size: 16px;
+}
+
+.change-btn {
+    padding: 10px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+    border: 2px solid black;
+}
+
+.change-btn:hover {
+    background-color: rgba(255, 255, 250, 0.596);
+} 
+
+.select-container .select select {
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;
+    
+}
+
+.select {
+    width: 100px;
+    font-family: 'Merriweather';
+}
+
+.select-container {
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    width: 100px;
+}

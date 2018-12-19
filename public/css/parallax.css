@@ -25,7 +25,6 @@ body {
     height:auto;
     position: fixed;
     z-index:-2;
-    top: 1000px;
     /* border:solid green 1px; */
   }
   

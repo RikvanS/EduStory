@@ -13,6 +13,8 @@
 <div class="chapter-title">riga</div>
 
 
+
+
 <p>     Na een lange tocht, komt eindelijk de haven in zicht. De ervaren zeelieden beginnen het koggeschip aan te meren en uit te laden.
         Jullie zijn inmiddels zo ver van je vertrouwde Nederland af, dat er hier zelfs al sneeuw ligt.
         Gelukkig heb je de warme jas gekregen van die aardige vrouw.
@@ -21,12 +23,34 @@
         Je kijk rond, maar eigenlijk lijken alle huizen hetzelfde, ze zijn er allemaal super ouderwets uit. 
         Je knikt maar gewoon en doet alsof je weet waar hij het over heeft. 
        </p>
-
+       
+        
+        
        <div class="container">
+
+           <div class="fadein">
             <img src="/images/chapters/snowriga_rsz.jpg">
             <i>Het Zwarthoofdenhuis in Riga</i>
+        </div>
        </div>
 
+       <div class="view-poll">
+            <div class="caption">
+                    <p>
+                            “Je zou me nog over die gildes vertellen” herinner je hem. “Oh ja!” zegt Jan. Jullie lopen ondertussen het centrum van Riga in. 
+                            “Een gilde is eigenlijk een soort vereniging van mensen die hetzelfde beroep uitoefenen. 
+                            Het gilde stelt regels op voor hun leden en zorgen voor de uitwisseling van kennis en ervaring. 
+                            Zo heb je het timmermansgilde, het bakkersgilde en dus ook het koopmannengilde. 
+                            Het gilde zorgt ervoor dat alleen hun leden hun beroep mogen uitoefenen, om bakker in een stad te mogen zijn moest je je dus aansluiten bij het bakkersgilde. 
+                            Ook stelt het gilde ook regels op voor haar leden en controleert deze. Bijvoorbeeld de prijs- en kwaliteitsafspraken. 
+                            Zo zorgt het bakkersgilde er bijvoorbeeld voor dat al haar leden hun brood voor dezelfde prijs verkopen zodat er geen concurrentie ontstaat
+                            en de klanten liever naar bakker A dan naar bakker B gaan. Tot slot zorgt het gilde voor saamhorigheid en behartigt het de belangen van hun leden. 
+                            De gilden hebben grote economische en politieke macht en kunnen dus echt dingen voor elkaar krijgen.”
+                    
+                    </p>
+            </div>
+            <picture> <img src="/images/chapters/bread.jpg" alt=""/></picture>
+          </div>
 <p>
         “Je zou me nog over die gildes vertellen” herinner je hem. “Oh ja!” zegt Jan. Jullie lopen ondertussen het centrum van Riga in. 
         “Een gilde is eigenlijk een soort vereniging van mensen die hetzelfde beroep uitoefenen. 
@@ -83,5 +107,6 @@
 @endif
 
 <script src="{{ asset('js/quizprogress.js') }}"></script>
+<script src="{{ asset('js/rigaeffect.js') }}"></script>
 <script src="{{ asset('js/ajax.js') }}"></script>
 @endsection
