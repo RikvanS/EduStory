@@ -469,7 +469,7 @@ p::first-letter {
 }
 
 
-@media only screen and (device-width: 768px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
     body {
         background-image: url(../images/chapters/parchment.jpg);
@@ -501,6 +501,17 @@ p::first-letter {
     color: white;
 }
 
+
+    .proloogtext {
+        
+        font-family: 'Merriweather';
+        margin:0 auto;
+        text-align: center;
+    } 
+
+}
+
 #canvas {
     margin-bottom: 50px;
 }
+
