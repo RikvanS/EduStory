@@ -67,6 +67,7 @@ body {
     justify-items: center;
     padding: 20px;
     border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
 }
 
 .nav-icon {
@@ -150,6 +151,8 @@ body {
     font-family: 'GloucesterInitialen';
     font-size: 100px;
     color: rgba(0, 0, 0, 0.863);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -178,27 +181,22 @@ p::first-letter {
 
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
-    margin-bottom: 100px;
 }
 
 #button-b {
     background-image: url(../images/chapters/rsz_harbour.jpg);
-    margin-bottom: 100px;
 }
 
 #button-c {
     background-image: url(../images/chapters/lubeck.jpg);
-    margin-bottom: 100px;
 }
 
 #button-d {
     background-image: url(../images/chapters/rigabutton.jpg);
-    margin-bottom: 100px;
 }
 
 #button-e {
     background-image: url(../images/chapters/epilogue.jpg);
-    margin-bottom: 100px;
 }
 
 #button-f {
@@ -235,7 +233,7 @@ p::first-letter {
     /*box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.815);*/
 }
 
-.bubble2:after {
+.bubble1:after {
     content: "";
     display: block;
     position: absolute;
@@ -249,7 +247,7 @@ p::first-letter {
     
 }
 
-.bubble1:after {
+.bubble2:after {
     content: "";
     display: block;
     position: absolute;
@@ -300,7 +298,6 @@ p::first-letter {
     font-family: 'Merriweather';
     color: black;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .game-completed:hover {
@@ -323,17 +320,16 @@ p::first-letter {
 
 .fadein {
     padding: auto;
-    font-size: 60px;
     font-weight: bold;
     color: #0f0f0f;
     text-align: center;
     opacity: 0;
   }
   
-  span {
+  /* span {
     height: auto;
     display: block;
-  }
+  } */
   
   .active{
     animation: fadein 3s;
@@ -352,13 +348,8 @@ p::first-letter {
   picture {
     min-width: 240px;
   }
-  picture img {
-    width: 100%;
-  }
   .view-poll {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    margin-top:100px;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
@@ -388,11 +379,138 @@ p::first-letter {
 
 .proloog {
     padding-top: 50px;
-    /* display: flex; */
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+ 
+.proloogtext {
+    width: 600px;
+    font-family: 'Merriweather';
+} 
+
+#change-div {
+    margin-bottom: 100px;   
+}
+
+.input-text {
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Merriweather';
+    font-size: 16px;
+}
+
+.change-btn {
+    padding: 10px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+    border: 2px solid black;
+}
+
+.change-btn:hover {
+    background-color: rgba(255, 255, 250, 0.596);
+} 
+
+.select-container .select select {
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;
     
 }
-/* 
-.proloogtext {
-    align-content: left;
-} */
+
+
+.select {
+    width: 100px;
+    font-family: 'Merriweather';
+}
+
+.select-container {
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    width: 100px;
+}
+
+#construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bread-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    body {
+        background-image: url(../images/chapters/parchment.jpg);
+        background-position: cover;
+        margin: 0 auto;
+        padding-top: 500px;
+        overflow-x:hidden;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 250, 0);
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        /* padding-top: 25px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .proloogtext {
+        
+        font-family: 'Merriweather';
+        margin:0 auto;
+        text-align: center;
+    } 
+
+}
+
+#diff-set {
+    background-image: url('../images/wood.jpeg');
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#canvas {
+    margin-bottom: 50px;
+}
+
+.lubeck-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 

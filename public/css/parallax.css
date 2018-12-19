@@ -11,7 +11,7 @@ body {
   }
 .proloog {
     
-    height:800px;
+    height:1500px;
     position: relative;
     margin-top:0px;
 
@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    min-height: 1200px;
+    min-height: 1600px;
     height:auto;
     position: fixed;
     z-index:-2;
@@ -29,7 +29,7 @@ body {
   }
   
   .layer-bg {
-    background-image: url("/images/parallax/wave_bg2.png");
+    background-image: url("/images/parallax/wave_bg_new2.svg");
     background-repeat: no-repeat;
     width:100% 100%;
     /* border:solid red 1px; */
@@ -37,31 +37,31 @@ body {
   }
   
   .layer-one {
-    background-image: url("/images/parallax/wave_6.png");
+    background-image: url("/images/parallax/wave_5_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   
   .layer-two {
-    background-image: url("/images/parallax/wave_4.png");
+    background-image: url("/images/parallax/wave_4_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   
   .layer-three {
-    background-image: url("/images/parallax/wave_3.png");
+    background-image: url("/images/parallax/wave_3_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
   .layer-four {
-    background-image: url("/images/parallax/wave_2.png");
+    background-image: url("/images/parallax/wave_2_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
   }
 
 
   .layer-five {
-    background-image: url("/images/parallax/wave_1.png");
+    background-image: url("/images/parallax/wave_1_high.png");
     background-repeat: no-repeat;
     width:100% 100%;
    
@@ -84,3 +84,97 @@ body {
     background:linear-gradient(#01131D, rgba(3, 47, 94, 0));
   } 
 
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+
+    body {
+        padding-top:0;
+        overflow-x: hidden;
+        max-width: 50%;
+    }
+      #hero {
+        height: 2000px;
+        position: absolute;
+        background-color: white;
+        z-index: -1;
+        width:100vw;
+      }
+    .proloog {
+        
+        height:1500px;
+        align-content: center;
+        position: relative;
+        margin-top:0px;
+        width:100vw;
+        
+    
+    }
+      .layer {
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        min-height: 1600px;
+        height:auto;
+        position: fixed;
+        z-index:-2;
+        /* border:solid green 1px; */
+      }
+      
+      .layer-bg {
+        background-image: url("/images/parallax/wave_bg_new2.svg");
+        background-repeat: no-repeat;
+        
+        /* border:solid red 1px; */
+        
+      }
+      
+      .layer-one {
+        background-image: url("/images/parallax/wave_5_high.png");
+        background-repeat: no-repeat;
+        
+      }
+      
+      .layer-two {
+        background-image: url("/images/parallax/wave_4_high.png");
+        background-repeat: no-repeat;
+      
+      }
+      
+      .layer-three {
+        background-image: url("/images/parallax/wave_3_high.png");
+        background-repeat: no-repeat;
+       
+      }
+      .layer-four {
+        background-image: url("/images/parallax/wave_2_high.png");
+        background-repeat: no-repeat;
+        
+      }
+    
+    
+      .layer-five {
+        background-image: url("/images/parallax/wave_1_high.png");
+        background-repeat: no-repeat;
+        
+       
+      }
+      .content {
+        background-color: rgb(3, 47, 94);
+      }
+      
+    
+      .percamentus {
+        background-image: url(../images/chapters/parchment.jpg);
+        
+    
+      }
+    
+      .color {
+    
+        height:500px;
+        width:auto;
+        background:linear-gradient(#01131D, rgba(3, 47, 94, 0));
+      } 
+    
+}

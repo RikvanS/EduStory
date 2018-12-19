@@ -25,9 +25,9 @@
     @else
     nieuwsgierig meisje,
     @endif
-    of niet?" Hij wil nog wat zeggen, maar dan komt er iemand over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
+    of niet?" Hij wil nog wat zeggen, maar dan komt er een jongen over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
     <p>"Dat ziet er niet goed uit," zegt Jan, "moet je eens kijken hoe de kapitein kijkt." Je kijkt goed. De kapitein zijn gezicht staat op onweer! Wat zou er aan de hand zijn?</p>
-    <p>Even later komt de kapitein weer aan boord en loopt naar Jan toe. "Slecht nieuws?" vraagt Jan. De mond van de kapitein vertrekt. "Helaas wel ja. Er gaan geruchten dat Visby is aangevallen door piraten. Niemand weet precies wat er gebeurd is, en of de kust nu weer veilig is of niet. Wat doen we nu? Gaan we gewoon naar Visby? Of zullen we de route aanpassen, en dan via Gdansk naar Riga varen?"</p>
+    <p>Even later komt de kapitein weer aan boord en loopt naar Jan toe. "Slecht nieuws?" vraagt Jan. De mond van de kapitein vertrekt. "Helaas wel ja. Er gaan geruchten dat Visby is aangevallen door piraten. Niemand weet precies wat er gebeurd is, en of de kust nu weer veilig is of niet. Wat doen we nu? Gaan we gewoon naar Visby? Of zullen we de route aanpassen, en via Gdansk naar Riga varen?"</p>
 
 <div class="buttons" id="progressdiv"> 
     @if(Auth::user()->progression->lubeckchoice == 0)

@@ -15,13 +15,13 @@
   
 
 
-    <span></span>
+    {{-- <span></span> --}}
 <div class="fadein">
     <img src="/images/chapters/stortebeker_rsz.jpg"><br>
 <i>Piraat Stortebeker</i>
 </div>
 
-<span></span>
+{{-- <span></span> --}}
 
  <p> Terwijl je over de horizon tuurt, schrik je van de bellen die opeens aan boord overal op het dek klinken.</p>
   <p>Met de haven van Visby in zicht, worden jullie toch nog verrast door een aanval van piraten!
@@ -68,9 +68,10 @@
 
 <div class="container">
 <div id="diff-set">
-  <input type="radio" name="diff" value="4" onclick="init();" checked> 4x4
-  <input type="radio" name="diff" value="5" onclick="init();"> 5x5
-  <input type="radio" name="diff" value="6" onclick="init();"> 6x6
+  <p>Kies de moeilijkheidsgraad</p>
+  <input type="radio" name="diff" value="4" onclick="init();" checked> Makkelijk
+  <input type="radio" name="diff" value="5" onclick="init();"> Gemiddeld
+  <input type="radio" name="diff" value="6" onclick="init();"> Moeilijk
 </div>
 <canvas id="canvas"></canvas>
 
@@ -81,7 +82,7 @@
 @endif
 <div style="display:none" id="progressdiv">
 
-  <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
+  <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan." Snel klimmen jullie aan boord. Op naar de volgende bestemming! </p>
 <div class="travel-center">
 <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
 </div>
