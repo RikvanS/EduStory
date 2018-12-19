@@ -138,6 +138,9 @@ if (matches == 9) {
   
   document.getElementById('progressdiv').style.display = 'block';
   loadDoc('GET', '/chapters/danzig/danzig-memory', workplease);
+  $('html,body').animate({
+    scrollTop: $("#progressdiv").offset().top
+ });
 };
 });
 
