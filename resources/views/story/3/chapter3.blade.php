@@ -50,7 +50,9 @@
                     
                     </p>
             </div>
-            <picture> <img src="/images/chapters/bread.jpg" alt=""/></picture>
+            <div class="bread-flex">
+             <img class="center-bread" src="/images/chapters/bread.jpg" alt=""/>
+            </div>
 
           </div>
 

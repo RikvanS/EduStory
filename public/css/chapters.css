@@ -454,3 +454,9 @@ p::first-letter {
     position: relative;
     width: 100px;
 }
+
+.bread-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
