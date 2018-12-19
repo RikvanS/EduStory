@@ -353,15 +353,8 @@ p::first-letter {
   picture {
     min-width: 240px;
   }
-  picture img {
-    width: 100%;
-  }
   .view-poll {
     margin-top:100px;
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
@@ -464,6 +457,13 @@ p::first-letter {
 }
 
 
+.bread-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 @media only screen and (device-width: 768px) {
 
     body {
@@ -490,3 +490,4 @@ p::first-letter {
     
 
 }
+
