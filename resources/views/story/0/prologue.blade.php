@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 <div class="proloog">
-<h2 class="proloogtext">Proloog</h2>
+<h2 class="proloogtext">Proloog</h2> <br>
     <p class="proloogtext">
     
      "Wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
@@ -25,15 +25,6 @@
         <div class="layer layer-four" data-speed="0.85"> </div>
         <div class="layer layer-five" data-speed="1.00"> </div>
  </section>
-
-
-
-
- 
-    
-
-    
-       
 
    
         
@@ -59,9 +50,15 @@
       Je bedankt haar en loopt een van de pakhuizen binnen om op te warmen. De inrichting is anders dan je gewend bent, maar je kan goed zien dat dit een gebouw is van mensen die veel geld verdienen. Er hangen schilderijen aan de muur.
     </p> 
 </div>
+
 <div class="container">
-      <img src="/images/chapters/groningenkunst.jpg">
-</div>
+<div class="view-poll">
+        <picture> <img src="/images/chapters/groningenkunst.jpg"> </picture>
+
+      </div>
+    </div>
+
+
 <div>
     <p>
       "Mooi he?" hoor je achter je iemand zeggen. Je kijkt om en ziet een man staan. "De baas heeft dit schilderij vorig jaar gekregen, omdat hij zo trots is op onze mooie stad".
@@ -89,4 +86,5 @@
 <script src="{{ URL::asset('js/parallax.js') }}"></script>
 <script src="{{ URL::asset('js/app.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="{{ asset('js/visbyeffect.js') }}"></script>
 @endsection

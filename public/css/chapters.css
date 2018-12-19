@@ -326,10 +326,10 @@ p::first-letter {
     opacity: 0;
   }
   
-  span {
+  /* span {
     height: auto;
     display: block;
-  }
+  } */
   
   .active{
     animation: fadein 3s;
@@ -348,13 +348,8 @@ p::first-letter {
   picture {
     min-width: 240px;
   }
-  picture img {
-    width: 100%;
-  }
   .view-poll {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    margin-top:100px;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
@@ -440,6 +435,7 @@ p::first-letter {
     
 }
 
+
 .select {
     width: 100px;
     font-family: 'Merriweather';
@@ -454,3 +450,67 @@ p::first-letter {
     position: relative;
     width: 100px;
 }
+
+#construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bread-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    body {
+        background-image: url(../images/chapters/parchment.jpg);
+        background-position: cover;
+        margin: 0 auto;
+        padding-top: 500px;
+        overflow-x:hidden;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 250, 0);
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        /* padding-top: 25px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .proloogtext {
+        
+        font-family: 'Merriweather';
+        margin:0 auto;
+        text-align: center;
+    } 
+
+}
+
+#diff-set {
+    background-image: url('../images/wood.jpeg');
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#canvas {
+    margin-bottom: 50px;
+}
+
+
+#canvas {
+    margin-bottom: 50px;
+}
+
+
