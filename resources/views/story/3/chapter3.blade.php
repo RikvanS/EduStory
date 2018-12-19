@@ -50,19 +50,19 @@
                     
                     </p>
             </div>
-            <picture> <img src="/images/chapters/bread.jpg" alt=""/></picture>
+            <div class="bread-flex">
+             <img class="center-bread" src="/images/chapters/bread.jpg" alt=""/>
+            </div>
 
           </div>
 
-          <div class="view-poll">
-                <div class="caption">
                         <p>     Samen met Jan loop je naar de koopman voor de schapenhuiden toe. Jan begint tegen de handelaar te praten, in een taal die je niet helemaal verstaat. 
                                 Wat handig dat Jan zoveel talen spreekt. Hij stoot je aan, en gebaart je om de hand te schudden van de koopman, wat je deze keer met al je kracht doet. 
                                 Tevreden met jullie opbrengst lopen jullie weer richting de boot.  <br>
                                 "Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
                                 Door deze gekke reis ben je blij dat er iemand bij je is die op je let. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
                                 "Weet je nog wat je allemaal geleerd hebt?" vraagt hij.</p>
-                </div>
+
                 <div class="quiz-background">
                         <div class="quiz-container">
                             <div id="quiz"></div>
@@ -72,11 +72,6 @@
                         <div id="submit"><button class="quizbutton" >Klaar</button></div>
                         <div id="results"></div>
                         </div>
-                
-               
-                
-              </div>
-    
 
 <br>
 
