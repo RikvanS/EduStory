@@ -2,16 +2,19 @@ function choice1() {
     var i = document.getElementById("reaction-4");
     var x = document.getElementById("reaction-1");
     var y = document.getElementById("reaction-2");
+    var w = document.getElementById("reaction-3");
     var t = document.getElementById("choice");
     if (x.style.display === "none") {
         x.style.display = "block";
         t.style.display = "none";
         y.style.display = "block";
+        w.style.display = "none"
 
     } else {
         x.style.display = "none";
         y.style.display= "none";
         i.style.display="none";
+        
     }
 }
 
@@ -86,22 +89,14 @@ x.onclick = function() {
 
 var span = document.getElementsByClassName('hide')[0];
 
-// t.onclick = function(event) {
+t.onclick = function(event) {
     
-//     console.log("test2");
-//     if (event.target == t) {
-//         t.style.display = "none";
-//     }
-// } 
-function pgallery(){
-    
-if (t.style.display === "none") {
-    t.style.display = "block";
-   
-} else {
-    t.style.display = "none";
-    
-}}
+    console.log("test2");
+    if (event.target == t) {
+        t.style.display = "none";
+    }
+} 
+
 
 
 span.onclick = function() {

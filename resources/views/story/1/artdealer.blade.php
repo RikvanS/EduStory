@@ -18,7 +18,7 @@
 <body>
 @include('includes/sidebar')
 <div id="artdeal">
-
+        
 </div>
 
 
@@ -107,13 +107,13 @@
 
 
 
-<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a> </button>
+<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a> </button>      
 
 </div>
 
 <div style="display:none;" onclick="pgallery()" id="pgallery" class="modal">
         <div id="photomodal" class="modal-content">
-            <span id="hide">&times;</span>
+            <span class="hide">&times;</span>
             
             
             <div id="left"></div>
