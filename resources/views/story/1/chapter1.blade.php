@@ -32,9 +32,9 @@
     meid
     @endif 
     heeft voor het eerst iets verkocht!" Jan lijkt helemaal trots te zijn. Je raakt een beetje verlegen.</p>
-    <p>De grote kapitein kijkt je aan, en tussen zijn grote baard zie je een glimlach verschijnen. "Gefeliceerd" zegt hij, terwijl hij je hand pakt. Ondertussen schudt hij je hand zo enthousiast, dat het voelt alsof je hand geplet wordt.
+    <p>De grote kapitein kijkt je aan, en tussen zijn grote baard zie je een glimlach verschijnen. "Gefeliciteerd" zegt hij, terwijl hij je hand pakt. Ondertussen schudt hij je hand zo enthousiast, dat het voelt alsof je hand geplet wordt.
     Jan ziet het en geeft je met een schaterlach nog een flinke schouderklop toe. "Bij handelen hoort een stevige handdruk!" legt hij uit. 
-    De kapitein heeft nog wat zeggen, maar dan komt er een jongen over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
+    De kapitein wil nog wat zeggen, maar dan komt er een jongen over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
     <p>"Dat ziet er niet goed uit," zegt Jan, "moet je eens kijken hoe de kapitein kijkt." Je kijkt goed. De kapitein zijn gezicht staat op onweer! Wat zou er aan de hand zijn?</p>
     <p>Even later komt de kapitein weer aan boord en loopt naar Jan toe. "Slecht nieuws?" vraagt Jan. De mond van de kapitein vertrekt. "Helaas wel ja. Er gaan geruchten dat Visby is aangevallen door piraten. Niemand weet precies wat er gebeurd is, en of de kust nu weer veilig is of niet. Wat doen we nu? Gaan we gewoon naar Visby? Of zullen we de route aanpassen, en via Gdansk naar Riga varen?"</p>
 

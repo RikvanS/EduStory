@@ -58,7 +58,7 @@
 <div class='section-progress-div' id="sub-content" style="display:none;">
 
 <p>Op het nippertje zijn jullie aan de piraten ontkomen. Jullie varen snel de haven van Visby binnen. Terwijl de vaste bemannening begint met hun taken, neemt Jan je mee. 
-  "Komop  {{ Auth::user()->name }}" zegt Jan, "We zijn hier niet voor niks! We moeten nog schaapshuiden kopen voor onze handel in Riga." Samen met je reisgenoot loop je door de mensen, totdat Jan een bekend gezicht ziet. 
+  "Kom op  {{ Auth::user()->name }}" zegt Jan, "We zijn hier niet voor niks! We moeten nog schaapshuiden kopen voor onze handel in Riga." Samen met je reisgenoot loop je door de mensenmassa, totdat Jan een bekend gezicht ziet. 
   "Lars!" roept Jan uit. Een lange, blonde man draait zich om en begroet Jan met een flinke handdruk. Je hoort ze praten over de mooie ligging van Gotland, terwijl ze de aankoop afhandelen. Jan is echt de meest enthousiaste zeeman die je ooit hebt ontmoet.</p>
 <p>Terwijl jullie de schaapshuiden naar de boot brengen, komt er een jongen nieuwsgierig bij jullie kijken. 
   "Wat een mazzel dat jullie de piraten hebben overleefd!" zegt het jongetje dat bij jullie is komen staan. "Absoluut!" Roept Jan uit. "Maar helaas is ons schip wel beschadigd.
