@@ -496,13 +496,13 @@ p::first-letter {
     background-image: url('../images/wood.jpeg');
     padding: 10px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: center;
     color: white;
 }
 
 #canvas {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .lubeck-flex {
@@ -512,5 +512,5 @@ p::first-letter {
 }
 
 #chapter-bottom-div {
-    height: 80px;
+    height: 60px;
 }
