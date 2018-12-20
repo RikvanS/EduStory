@@ -290,14 +290,12 @@ p::first-letter {
     opacity: 0.8;
     width: 200px;
     height: 135px;
-    bottom: 10px;
     text-align: center;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-family: 'Merriweather';
     color: black;
-    margin: 0 auto;
 }
 
 .game-completed:hover {
@@ -513,3 +511,6 @@ p::first-letter {
     flex-direction: row;
 }
 
+#chapter-bottom-div {
+    height: 80px;
+}
