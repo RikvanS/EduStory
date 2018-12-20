@@ -242,6 +242,9 @@ function gameOver(){
     reinitPuzzle();
     document.getElementById('progressdiv').style.display = 'block';
     loadDoc('GET', '/chapters/visby/visby-boatrepair', workplease);
+    $('html,body').animate({
+        scrollTop: $("#progressdiv").offset().top
+     });
 };
 
 //Verwijder dit voordat product live gaat, testknop functionaliteit. Niet live laten gaan!
