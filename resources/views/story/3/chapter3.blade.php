@@ -59,7 +59,7 @@
           </div>
 
                         <p>     Samen met Jan loop je naar de koopman waar jullie de schapenhuiden af moeten leveren. Jan begint tegen de handelaar te praten in een taal die je niet helemaal verstaat. 
-                                Wat handig dat Jan zoveel talen spreekt. Hij stoot je aan, en gebaart je om de hand te schudden van de koopman, wat je deze keer met al je kracht doet. 
+                                Wat handig dat Jan zoveel talen spreekt. Hij stoot je aan en gebaart je om de hand te schudden van de koopman, wat je deze keer met al je kracht doet. 
                                 Tevreden met jullie opbrengst lopen jullie weer richting de boot.  <br>
                                 "Je bent een goeie scheepsmaat, {{ Auth::user()->name }}" zegt Jan, en hij slaat een arm om je heen. 
                                 Je bent blij dat er iemand is die op je let tijdens deze gekke reis. "Dankjewel Jan, zonder jou had ik niet geweten wat ik had moeten doen!" vertel je hem.
