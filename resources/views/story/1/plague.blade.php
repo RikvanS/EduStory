@@ -37,7 +37,7 @@
                           “Je klinkt als een gezegend mens!” roept de man uit. “Wanneer je nog nooit familie aan de pest hebt verloren. 
                           Al jaren teistert deze straf van God onze steden. In de tijd van mijn eigen grootvader, die ook pestdokter was, hebben we zo ongeveer de helft van onze bevolking aan de Zwarte Dood verloren. 
                           Ook nu is deze plaag weer terug in onze stad. Blijf weg bij de zieken en probeer hun lucht niet in te ademen!”<br>
-                          De Zwarte Dood.. dit onderwerp komt je vaag bekend voor. Had iemand uit je klas er niet een spreekbeurt over gedaan vorige week? 
+                          De Zwarte Dood. dit onderwerp komt je vaag bekend voor. Had iemand uit je klas er niet een spreekbeurt over gedaan vorige week? 
                           Na even zoeken kom je de samenvatting die was uitgedeeld in de klas verfrommeld tegen in je broekzak: 
                            </p>
                     </div>

@@ -80,7 +80,7 @@
                         <div class="talktext">
                                         
 
-                                           <p>             De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grote deels zijn onze opdrachtgevers
+                                           <p>             De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grotendeels zijn onze opdrachtgevers
                                                         de kerk en adelijke families. Maak alsjeblieft niets stuk. </p>
                                                 
                                                 

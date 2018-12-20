@@ -70,7 +70,7 @@
             @if (Auth::user()->progression->visby == true && Auth::user()->progression->lubeckchoice == 1)
 
             <a href="/chapters/2a" class="log-redirect"><p class="space-top"><h2  class="log-title space-top">--Visby--</h2></p></a>
-            <p id="log-almendra">Bij aankomst in Visby belandden we in een gevecht met de beruchte piraat Stortebeker! Dit wordt spannend, maar als iedereen goed oplet en zijn werk doet redden we het wel!</p>
+            <p id="log-almendra">Bij aankomst in Visby belanden we in een gevecht met de beruchte piraat Stortebeker! Dit wordt spannend, maar als iedereen goed oplet en zijn werk doet redden we het wel!</p>
 
             @endif
 
