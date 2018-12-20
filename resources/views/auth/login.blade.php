@@ -45,7 +45,7 @@
             <button type="submit" class="nav-item" id="register-btn">
                 {{ __('Inloggen') }}
             </button>
-            <p>Nog geen account? <a href="/register">registreer je dan hier</a></p>
+            <p>Nog geen account? <a href="/register">Registreer je dan hier</a></p>
         </form>
         @if ($errors->any())
         <div class="notification">
