@@ -5,7 +5,7 @@
     <p><h1 class="sailtext">Epiloog</h1></p>
 
     <p class="sailtext">Samen met de rest van de bemanning begin je aan de terugreis naar Groningen.
-        Vanwege het koude weer in Riga, is het op het dek van het schip hardstikke koud! Je bent ook best moe, dus je gaat beneden deks om even bij te kunnen komen.
+        Vanwege het koude weer in Riga is het op het dek van het schip niet te harden! Je bent ook best moe, dus je gaat benedendeks om even bij te kunnen komen.
 Je hebt zoveel meegemaakt, dat je hoofd er bijna van draait! Zelfs Jan is stil. Tussen een lading stoffen, bestemd voor Groningse kooplieden, ga je even zitten.<br><br>
 Door het schommelen van de boot val je in een rustige, diepe slaap.</p>
 <div id="zzz">
@@ -41,7 +41,7 @@ Is dat nou de florijn die Jan je had gegeven?..
     <p>Door het schommelen van de boot val je in een rustige, diepe slaap. Je droomt over de avonturen die je op deze reis beleefd hebt, maar ook over Groningen, de plek waar je vandaan komt. Het voelt alweer zo lang geleden dat je je familie, je vrienden en de martinitoren voor het laatst hebt gezien.</p>
     </div>-->
     <div id="End">
-        <p>Je droomt over de avonturen die je op deze reis beleefd hebt, maar ook over Groningen, de plek waar je vandaan komt. Het voelt alweer zo lang geleden dat je je familie en familie hebt gezien.<br><i>"Hallo?"</i><br>Langzaam wordt je wakker. "Hallo?" hoor je nog een keer. Jan zeker weer. "Jan, niet nu, ik ben hardstikke moe" antwoord je terwijl je probeert verder te slapen. "Ik ben geen Jan, en je moet wakker worden!" hoor je. Nu schrik je wakker! "Huh! Waar ben ik?" "Op mijn boot. Je was in het water gevallen." Je bent nog helemaal slaperig en snapt er niks meer van. Je kijkt om je heen en ziet de binnenkant van een hele moderne woonboot. Dan kijk je naar buiten en zie je een bekend gebouw. Je bent weer terug op de plek waar het allemaal begon.</p>
+        <p>Je droomt over de avonturen die je op deze reis beleefd hebt, maar ook over Groningen, de plek waar je vandaan komt. Het voelt alweer zo lang geleden dat je je familie en vrienden hebt gezien.<br><i>"Hallo?"</i><br>Langzaam word je wakker. "Hallo?" hoor je nog een keer. Jan zeker weer. "Jan, niet nu, ik ben hartstikke moe" antwoord je terwijl je probeert verder te slapen. "Ik ben geen Jan, en je moet wakker worden!" hoor je. Nu schrik je wakker! "Huh! Waar ben ik?" "Op mijn boot. Je was in het water gevallen." Je bent nog helemaal slaperig en snapt er niks meer van. Je kijkt om je heen en ziet de binnenkant van een hele moderne woonboot. Dan kijk je naar buiten en zie je een bekend gebouw. Je bent weer terug op de plek waar het allemaal begon.</p>
     </div>
     <a href="{{ route('logout') }}"
            onclick="event.preventDefault();

@@ -17,7 +17,8 @@
             </p>
             <p>Wij hebben geprobeerd zo historisch accuraat mogelijk te werk te gaan. Onze focus ligt echter bij het programmeren en zodoende garanderen we geen volledige correctheid.
             </p>
-            <p>De EduStory beleving is optimaal op een groot scherm of iPad.</p>
+            <p>De EduStory beleving is optimaal op een groot scherm of iPad met Chrome of Firefox. Internet Explorer wordt helaas niet ondersteund.</p>
+            <p>EduStory is een project zonder winstoogmerk voor educatieve doeleinden. Alle door ons gebruikte afbeeldingen worden gebruikt in overeenstemming met het Fair Use beleid. Mocht u eigenaar zijn van een door ons gebruikte afbeelding en bezwaar maken verwijderen wij de betreffende afbeelding direct. </p>
     </div>
 </div>
 <div class="container">
