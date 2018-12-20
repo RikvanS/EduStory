@@ -2,7 +2,8 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
-<img src="{{URL::asset('/images/lubeck/artdealer-min.jpg')}}">
+<div id="artdeal">
+</div>
 
 
 <br>
