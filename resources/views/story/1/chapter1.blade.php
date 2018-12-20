@@ -5,7 +5,7 @@
         <img class="parchment-border" src="/images/chapters/parchment-top.png">
 </div>
 
-<div class="chapter-title">Lübeck</div>
+<div class="chapter-title">Lubeck</div>
 
 <p>De lange reis van Groningen naar Lübeck verloopt voorspoedig. Onderweg neemt Jan je onder zijn hoede. Hij stelt je voor aan de rest van de bemanning en hij leert je veel over het leven van varende handelslieden in 1393. Hij kan zulke mooie verhalen vertellen over het leven op zee! Ook al zou je soms willen dat hij even ophield met vertellen zodat je wat tijd voor jezelf kan nemen.</p>
 
