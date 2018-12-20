@@ -386,8 +386,7 @@ p::first-letter {
 }
  
 .proloogtext {
-    width: 600px;
-    font-family: 'Merriweather';
+    width: 90%;
 } 
 
 #change-div {
