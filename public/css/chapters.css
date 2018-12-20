@@ -18,7 +18,9 @@ body {
 
 .parchment-border {
     margin-top: auto;
-
+    background-image: url('../images/chapters/parchment-top.png');
+    min-width: 3250px;
+    overflow-x: hidden;
 }
 
 #head-market {
@@ -524,4 +526,5 @@ p::first-letter {
 
 #chapter-bottom-div {
     height: 60px;
+    background-color: white;
 }

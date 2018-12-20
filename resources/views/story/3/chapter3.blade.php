@@ -46,7 +46,7 @@
                             Zo heb je het timmermansgilde, het bakkersgilde en dus ook het koopmansgilde. 
                             Het gilde zorgt ervoor dat alleen haar leden hun beroep mogen uitoefenen. Om bakker in een stad te mogen zijn moet je je bijvoorbeeld aansluiten bij het bakkersgilde. 
                             Ook stelt het gilde regels op voor haar leden en controleert deze. Bijvoorbeeld de prijs- en kwaliteitsafspraken. 
-                            Zo zorgt het bakkersgilde er bijvoorbeeld voor dat al haar leden hun brood voor dezelfde prijs verkopen. Hierdoor ontstaat er geen concurrentie
+                            Zo zorgt het bakkersgilde er voor dat al haar leden hun brood voor dezelfde prijs verkopen. Hierdoor ontstaat er geen concurrentie
                             waardoor de klanten liever naar bakker A dan naar bakker B gaan. Tot slot zorgt het gilde voor saamhorigheid en behartigt het de belangen van haar leden. 
                             De gilden hebben grote economische en politieke macht en kunnen dus echt dingen voor elkaar krijgen."
                     
@@ -95,6 +95,8 @@
     <button type="button" id="button-e" class="button" onclick="loadDoc('GET', '/storeepilogue', nextChapter, '/chapters/epilogue')">Ga naar epiloog</button>
     </div>
 </div>
+<div id="chapter-bottom-div">
+        </div>
 @endsection
 
 @section('scripts')

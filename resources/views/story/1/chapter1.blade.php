@@ -45,7 +45,7 @@
             <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>       
         </div>    
     @endif
-
+    </div>
     @if(Auth::user()->progression->lubeckchoice == 1)
     <p>Na lang overleg besluiten jullie om toch naar Visby te gaan. De piraten zullen inmiddels vast weer weg zijn.</p>
     <div class="travel-center">
@@ -62,7 +62,8 @@
 </div>    
 @endif
 
-
+<div id="chapter-bottom-div">
+    </div>
 @endsection
 
 @section('scripts')

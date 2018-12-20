@@ -77,6 +77,8 @@
 </div>
 
 @endif
+<div id="chapter-bottom-div">
+    </div>
 
 </div>
 </div>
