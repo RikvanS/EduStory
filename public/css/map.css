@@ -177,3 +177,8 @@
 .close {
     justify-self: flex-end;
 }
+
+#log-almendra {
+    font-family: 'Almendra';
+    font-size: 20px;
+}
