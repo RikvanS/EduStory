@@ -48,8 +48,8 @@
 
             @if (Auth::user()->progression->lubeck == true)
 
-            <a href="/chapters/1" class="log-redirect"><p class="space-top"><h2>--Lübeck--</h2></p></a>
-            <p>In Lubeck krijg ik van Jan de opdracht een schilderij uit Nederland af te leveren bij een kunsthandelaar. Gelukkig mag ik ook nog even rondkijken, er is zoveel te zien!</p>
+            <a href="/chapters/1" class="log-redirect"><p class="space-top"><h2 class="log-title space-top">--Lübeck--</h2></p></a>
+            <p>In Lübeck krijg ik van Jan de opdracht een schilderij uit Nederland af te leveren bij een kunsthandelaar. Gelukkig mag ik ook nog even rondkijken, er is zoveel te zien!</p>
 
             @endif 
 
@@ -69,7 +69,7 @@
 {{-- Visby gearriveerd --}}
             @if (Auth::user()->progression->visby == true && Auth::user()->progression->lubeckchoice == 1)
 
-            <a href="/chapters/2a" class="log-redirect"><p class="space-top"><h2>--Visby--</h2></p></a>
+            <a href="/chapters/2a" class="log-redirect"><p class="space-top"><h2  class="log-title space-top">--Visby--</h2></p></a>
             <p>Bij aankomst in Visby belandden we in een gevecht met de beruchte piraat Stortebeker! Dit wordt spannend, maar als iedereen goed oplet en zijn werk doet redden we het wel!</p>
 
             @endif
@@ -95,7 +95,7 @@
 {{-- Gearriveerd in gdansk --}}
             @if (Auth::user()->progression->danzig == true && Auth::user()->progression->lubeckchoice == 2)
 
-            <a href="/chapters/2b" class="log-redirect"><p class="space-top"><h2>--Gdansk--</h2></p></a>
+            <a href="/chapters/2b" class="log-redirect"><p class="space-top"><h2  class="log-title space-top">--Gdansk--</h2></p></a>
             <p>Bij aankomst in Gdansk moeten we vracht uitladen met een bijzondere kraan met hamsterwielen.
                 De wielen worden aangedreven door mensen die erin lopen, wat slim gedaan! 
             </p>
@@ -105,7 +105,7 @@
 {{-- Gdansk na hanoi --}}
             @if (Auth::user()->progression->danzighanoi == true && Auth::user()->progression->lubeckchoice == 2)
             <p> Ik heb geholpen met kisten opstapelen bij het uitladen. We hadden niet veel ruimte dus moest er veel heen en weer getild worden, maar uiteindelijk is alles uitgeladen met die bijzondere kraan!
-                Daarna brengen we bouwmaterialen naar de bouwplaats van een grote kerk. De architect is Nederlands! Blijkbaar zijn Nederlandse architecten heel populair in het buitenland in deze tijd.</p>
+                Daarna brachten we bouwmaterialen naar de bouwplaats van een grote kerk. De architect is Nederlands! Blijkbaar zijn Nederlandse architecten heel populair in het buitenland in deze tijd.</p>
             @endif
 
 {{-- Gdansk na memory --}}
@@ -128,9 +128,9 @@
 {{-- Riga gearriveerd --}}
             @if (Auth::user()->progression->riga == true)
 
-           <a href="/chapters/3" class="log-redirect"><h2 class="space-top">--Riga--</h2></a>
+           <a href="/chapters/3" class="log-redirect"><h2 class="log-title space-top">--Riga--</h2></a>
             <p>Jan vertelde me dat Riga al sinds 1282 lid is van het Hanzeverbond. Al meer dan 100 jaar!</p>
-            <p>Hij legde me ook beter uit wat gildes zijn en hoe ze werken. Het klinkt wat ingewikkeld maar ook erg slim! Zulke samenwerking doen we in onze tijd ook nog steeds!</p>
+            <p>Hij legde me ook beter uit wat gildes zijn en hoe ze werken. Het klinkt wat ingewikkeld maar ook erg slim! Zulke samenwerking hebben we in onze tijd ook nog steeds!</p>
 
             @endif
 
