@@ -1,8 +1,10 @@
 @extends('layouts/chapter')
-<head>
+
+@section('head')
+<link rel="stylesheet" href="{{ asset('css/chapter3.css') }}">
 <link rel="stylesheet" href="{{ asset('css/quiz.css') }}">
 <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet">
-</head> 
+@endsection
 
 @section('content')
 
@@ -28,7 +30,7 @@
         
        <div class="container">
 
-           <div class="fadein">
+           <div class="fadein" id="zwarthoofdenhuis">
             <img src="/images/chapters/snowriga_rsz.jpg">
             <br>
             <i>Het Zwarthoofdenhuis in Riga</i>
@@ -76,7 +78,7 @@
             
                
                 
-              </div>
+
     
 
 
@@ -87,6 +89,8 @@
 @endif
 
 <div style="display:none" id="progressdiv">
+        <p>"Je wist alles nog! Wat heb jij goed opgelet tijdens de reis {{ Auth::user()->name }}!" zegt Jan. Je ziet de bewondering in zijn ogen en je voelt je best trots! Je hebt eigenlijk heel veel geleerd tijdens deze reis.</p>
+        <p>"Ga je weer mee terug naar het schip? Vanavond zetten we weer koers terug naar Groningen. Tijd om naar huis te gaan!" Naar huis! Wat is het lang geleden dat jullie in Groningen waren... Je volgt Jan terug naar het schip.</p>
     <div class="travel-center">
     <button type="button" id="button-e" class="button" onclick="loadDoc('GET', '/storeepilogue', nextChapter, '/chapters/epilogue')">Ga naar epiloog</button>
     </div>
