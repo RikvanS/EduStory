@@ -265,7 +265,7 @@ p::first-letter {
 }
 
 .choice {
-    width: 420px;
+    width: 360px;
     text-align: left;
     background: none;
 	color: inherit;
@@ -489,18 +489,7 @@ p::first-letter {
         flex-direction: column;
         align-items: center;
         text-align: left;
-    }
-}
-
-#diff-set {
-    background-image: url('../images/wood.jpeg');
-    padding: 10px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-}
-
+    } 
 
     .proloogtext {
         
@@ -511,8 +500,13 @@ p::first-letter {
 
 }
 
-#canvas {
-    margin-bottom: 50px;
+#diff-set {
+    background-image: url('../images/wood.jpeg');
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 
 
