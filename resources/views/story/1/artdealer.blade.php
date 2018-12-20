@@ -1,20 +1,35 @@
-@extends('layouts/chapter')
-
-@section('content')
-<link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"> <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <meta name="csrf-token" content="{{ csrf_token() }}">
+                <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }}">
+                <link rel="stylesheet" href="{{ URL::asset('css/chapters.css') }}">
+                <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet"> 
+                <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+                <title>Artgallery</title>
+</head>
+<body>
+@include('includes/sidebar')
 <div id="artdeal">
 
 </div>
 
 
 
-<div class="righty talk-bubble tri-right border round btm-left-in">
+<div id="begin" class="righty talk-bubble tri-right border round btm-left-in">
                 <div class="talktext">
                   <p>Welkom bij een van de grootste kunsthandelaars van Lubeck. Wat kan ik voor je doen?</p>
                 </div>
               </div>
 
-              <div class="lefty talk-bubble tri-right border round btm-right-in">
+              <div id ="choice" class="lefty talk-bubble tri-right border round btm-right-in">
                         <div class="talktext">
                                        
 
@@ -41,7 +56,7 @@
                                 
                                               
                                         
-                                                 <p>      <button type="button" onclick="choice3()" class="reaction-1" id="choice-3"><p>Ik wil er 1000 penningen voor hebben. </p>
+                           <button type="button" onclick="choice3()"  id="choice-3"><p>Ik wil er 1000 penningen voor hebben. </p>
                                                         
                                                     
                                         
@@ -61,7 +76,7 @@
                 </div>
               </div>
 
-              <div id="reaction-3" style="display:none;" class=" lefty talk-bubble tri-right border round btm-right-in">
+              <div id="reaction-3" style="display:none;" class=" righty talk-bubble tri-right border round btm-left-in">
                         <div class="talktext">
                                         
 
@@ -72,15 +87,33 @@
                         </div>
                       </div>
 
+                <div style="display:none;" id="reaction-5" class="lefty talk-bubble tri-right border round btm-right-in">
+                       <div class="talktext">
+                                                
+                                                              
+                                <button type="button" onclick="choice4()" class="choice" id="choice-4"><p>Ok. </p>                  
+                               
+                                                                        
+                                                                    
+                                                        
+                                                      
+                       </div>
+                      </div>
 
 
-<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a>
+
+
+
+
+
+
+<button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a> </button>
 
 </div>
 
-<div id="pgallery" class="modal">
+<div style="display:none;" onclick="pgallery()" id="pgallery" class="modal">
         <div id="photomodal" class="modal-content">
-            <span class="hide">&times;</span>
+            <span id="hide">&times;</span>
             
             
             <div id="left"></div>
@@ -157,4 +190,8 @@
 <script src="{{ URL::asset('js/artdealer.js') }}"></script>
 <script src="{{ URL::asset('js/artgallery.js') }}"></script>
 <script src="{{ URL::asset('js/chapter.js') }}"></script>
-@endsection
+
+
+
+</body>
+</html>

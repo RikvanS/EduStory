@@ -1,5 +1,9 @@
 body {
-	padding-top: 0px;
+	padding-top:160px !important;
+	overflow:hidden;
+	
+	
+	
 }
 #wrapper {
 	position:absolute;
@@ -141,7 +145,7 @@ body {
 .hide {
     color: black;
     float: right;
-    font-size: 28px;
+	font-size: 28px;
     font-weight: bold;
 }
 
@@ -153,7 +157,9 @@ body {
 #photogallery {
     
         color: #494949 !important;
-        margin:0 auto;
+		position: absolute;
+		top: 600px;
+		left:780px;
         text-transform: uppercase;
         background: #ffffff;
         padding: 20px;
@@ -169,6 +175,9 @@ body {
     transition: all 0.4s ease 0s;
     }
 
+<<<<<<< HEAD
+
+=======
 .reaction-1 {
     color: #494949 !important;
     margin:0 auto;
@@ -179,13 +188,8 @@ body {
     border-radius: 6px;
     display: inline-block;
 }
+>>>>>>> 0ddf773de5bc132b4d97f7594a9a5f118f5dfe4a
 
-.reaction-1:hover {
-    color: #ffffff !important;
-    background: #f6b93b;
-    border-color: #f6b93b !important;
-    transition: all 0.4s ease 0s;
-	}
 
 	.return-container {
 		background-image: url('/images/lubeck/scroll.png');
@@ -466,20 +470,31 @@ body {
 
   .lefty{
 	position: absolute;
-	top:400px;
+	top:300px;
 	left:100px;
   }
 
   .righty {
 	position: absolute;
-	top:400px;
+	top:300px;
 	right:100px;
   }
 
   #artdeal {
-	background:url(../images/lubeck/artdealer-min.jpg);
+	background:url(../images/lubeck/artdealer-min.jpeg);
 	background-repeat:no-repeat;
-	height:	1300px;
-	width:1200px;
+	height:	100vw !important;;
+	width:100vw !important;
+	margin-left:300px !important; 
+	 
 	position: relative;
+	
+  }
+
+
+  #hidden-progress-div {
+	position:absolute;
+	top: 50px;
+	left:10px;
+
   }
