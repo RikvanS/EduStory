@@ -36,8 +36,6 @@ html, body {
   }
   .parallax .bg__foo {
     background-image: url("/images/lubeck/plague-min.jpg");
-    
-
   }
 
   .parallax .bg__bar {
@@ -55,8 +53,6 @@ html, body {
   .parallax .bg__break {
     box-shadow: inset 0 0 1em #111;
     background-image: url('/images/lubeck/plaguehouse/ratconvert.jpg');
-    
-     
   }
   
   .parallax .capture {
@@ -130,7 +126,6 @@ html, body {
   flex-direction: column;
   align-items: center;
 }
-
 
 #text-padding {
   padding: 20px;

@@ -1,10 +1,3 @@
-/*
-
-body {
-    background-image: url(rsz_lubeck.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-} */
 body, html {
     width: 100%;
     height: 100%;
@@ -16,10 +9,6 @@ body {
     background-color:black;
 }
 
-  
-
-
-  
 .sheen {
     position: relative;
     overflow: hidden;
@@ -36,9 +25,7 @@ body {
     background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.5) 50%, transparent);
     transform: rotateZ(60deg) translate(-1em, 4em);
   }
-  
 
-  
 ul {
     list-style-type: none;
 }
@@ -58,7 +45,6 @@ ul {
     transform: scale(1.1);
     cursor: pointer;
 }
-
 
 .sidebar {
     position: fixed;
