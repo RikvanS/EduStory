@@ -89,7 +89,6 @@
     left: 855px;
 }
 
-
 .city-description {
     position: absolute;
     background-color: white;
@@ -176,4 +175,9 @@
 
 .close {
     justify-self: flex-end;
+}
+
+#log-almendra {
+    font-family: 'Almendra';
+    font-size: 20px;
 }
