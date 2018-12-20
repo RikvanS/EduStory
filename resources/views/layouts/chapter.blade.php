@@ -7,15 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ URL::asset('css/chapters.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/loading.css') }}">
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet"> 
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+
     <title>EduStory @yield('title')</title>
     @yield('head')
 </head>
 <body>
+    <div id="loading">
+        <img id="loadwheel" src="/images/chapters/loadwheel.gif">
+    </div>
 
 
     
@@ -27,5 +32,6 @@
     <script type="text/javascript" src="{{ asset('js/rigaeffect.js') }}"></script>
 
     @yield('scripts')
+    <script src="{{ URL::asset('js/loading.js') }}"></script>
 </body>
 </html>
