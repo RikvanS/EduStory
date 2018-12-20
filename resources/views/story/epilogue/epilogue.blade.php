@@ -21,7 +21,18 @@ Door het schommelen van de boot val je in een rustige, diepe slaap.</p>
     <div id="dream-text">
     <p>Door het schommelen van de boot val je in een rustige, diepe slaap. Je droomt over de avonturen die je op deze reis beleefd hebt, maar ook over Groningen, de plek waar je vandaan komt. Het voelt alweer zo lang geleden dat je je familie, je vrienden en de martinitoren voor het laatst hebt gezien.</p>
     </div>
+   
 </div>
+    <p class="sailtext">  "Hallo?"<br>
+Langzaam wordt je wakker. "Hallo?" hoor je nog een keer. Jan zeker weer. "Jan, niet nu, ik ben hardstikke moe" antwoord je terwijl je probeert verder te slapen.  
+"Ik ben geen Jan, en je moet wakker worden!" hoor je. Nu schrik je wakker! "Huh! Waar ben ik?" "Op mijn boot. Je was in het water gevallen."
+Je bent nog helemaal slaperig en snapt er niks meer van. Je kijkt om je heen en ziet de binnenkant van een hele moderne woonboot. En een onbekende vrouw die je aanstaart. 
+Waarom komt ze je zo bekend voor? Je ziet dat ze een warme deken over je heen heeft gelegd. "Je viel in het water. We hebben je er uit gehaald en warm gemaakt, 
+maar je wou maar niet wakker worden. Gelukkig ben je weer wakker. Ik zal een taxi voor je bellen".<br>
+Nadat je de vrouw bedankt hebt, ga je naar buiten voor de taxi. Je bent moe en je snapt niet helemaal wat er nou gebeurd is. Was alles nou een droom? 
+Terwijl je aan het hoge der A staat te wachten, zoek je in je jaszak naar geld. Je telt je euro's, maar ziet er een onbekende muntstuk tussen. 
+Is dat nou de florijn die Jan je had gegeven?.. 
+    </p>
 <div id="sky">
 </div>-->
 <div id="warehouse">
