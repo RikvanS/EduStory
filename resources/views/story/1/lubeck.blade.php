@@ -4,12 +4,16 @@
 
 <head>
 
+<link rel="stylesheet" href="{{ URL::asset('css/loading.css') }}">
 <link rel="stylesheet" href="{{URL::asset('css/lubeck.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 
 </head>
 <body>
+<div id="loading">
+        <img id="loadwheel" src="/images/chapters/loadwheel.gif">
+</div>
 
 <div id="map-div" style="width:100%;">
         @if(Auth::user()->progression->lubeckstory == true)
@@ -32,6 +36,6 @@
 
 <script src="{{ URL::asset('js/lubeck.js') }}"></script>
 <script src="{{ URL::asset('js/resize.js') }}"></script>
-
+<script src="{{ URL::asset('js/loading.js') }}"></script>
 </body>
 </html>

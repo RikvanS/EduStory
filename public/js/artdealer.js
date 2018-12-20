@@ -100,38 +100,6 @@ t.onclick = function(event) {
 
 
 span.onclick = function() {
-
-    
     console.log("test3");
     t.style.display = "none";
 }
-
-
-
-
-
-
-// document.getElementById('choice-1').addEventListener('click', cleanupchoice1);
-
-// function cleanupchoice1() {
-//     if (document.getElementById("reaction-3").style.display === 'block') {
-//         document.getElementById("reaction-3").style.display = 'none';
-//     }
-//     if (document.getElementById("photogallery").style.display === 'block') {
-//         document.getElementById("photogallery").style.display = 'none';
-//     }
-// }
-
-// document.getElementById('choice-2').addEventListener('click', cleanupchoice2);
-
-// function cleanupchoice2() {
-//     if (document.getElementById("reaction-1").style.display === 'block') {
-//         document.getElementById("reaction-1").style.display = 'none';
-//     }
-//     if (document.getElementById("reaction-2").style.display === 'block') {
-//         document.getElementById("reaction-2").style.display = 'none';
-// }
-//     if (document.getElementById("reaction-4").style.display === 'block') {
-//     document.getElementById("reaction-4").style.display = 'none';
-// }
-// }
