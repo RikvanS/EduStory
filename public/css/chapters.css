@@ -349,7 +349,7 @@ p::first-letter {
     min-width: 240px;
   }
   .view-poll {
-    margin-top:100px;
+    margin: 20px 0px;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
