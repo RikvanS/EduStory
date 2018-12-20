@@ -1,0 +1,57 @@
+@keyframes blinkZ {
+    from {
+      opacity:1;
+      transform:scale(1);
+    }
+    30%{ 
+      opacity:0.1;
+      transform:scale(0.9);
+  
+    }
+    to{
+      opacity:1;
+      transform:scale(0.85);
+  
+    }
+  }
+  
+  @keyframes spinHue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+  .hallucination {
+    height:100vh;
+    width:100vw;
+    background:black;
+    background-repeat:repeat;
+    will-change: background-image background-size;
+        animation:spinHue 1s infinite;
+  }
+
+    .colors {
+      will-change:background-color;
+      width:100%;
+      height:100%;
+      transition:background-color 1s ease-out;
+      
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+      .text {
+        font-family:monospace;
+        text-transform:uppercase;
+        font-size:8rem;
+        background-color:black;
+        color:white;
+        animation: blink 50ms infinite ease-out;
+      }
+
+  body {
+    margin:0;
+  }

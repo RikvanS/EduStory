@@ -138,6 +138,9 @@ if (matches == 9) {
   
   document.getElementById('progressdiv').style.display = 'block';
   loadDoc('GET', '/chapters/danzig/danzig-memory', workplease);
+  $('html,body').animate({
+    scrollTop: $("#progressdiv").offset().top
+ });
 };
 });
 
@@ -158,4 +161,7 @@ const resetGuesses = () => {
 
 document.getElementById("complete-test").addEventListener('click', function (event) {
   document.getElementById('progressdiv').style.display = 'block';
+  $('html,body').animate({
+    scrollTop: $("#progressdiv").offset().top
+ });
 });

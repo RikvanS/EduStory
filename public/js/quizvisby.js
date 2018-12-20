@@ -42,20 +42,20 @@
     },
     {
 
-        question: "Om welk bijzonder ambacht staat Riga bekend?",
+        question: "Waar in Groningen speelde de Hanze handel zich voornamelijk af?",
         answers: {
-            A: "Leer looien",
-            B: "IJzer smeden",
-            C: "Munten slaan"
+            A: "Herestraat",
+            B: "Reitdiep en de hoge der A",
+            C: "Grote markt"
         },
-        correctAnswer: "C"
+        correctAnswer: "B"
     },
     {
       
         question: "Op welk eiland ligt de plaats Visby?",
         answers: {
             A: "Langeland",
-            B: "Ijsland",
+            B: "IJsland",
             C: "Gotland"
         },
         correctAnswer: "C"
@@ -77,7 +77,17 @@
             C: "Koggeschip"
         },
         correctAnswer: "C"
+    },
+    {
+        question: "Hoe heet de Nederlandse piraat die ook veel Hanzelieden overviel? ",
+        answers: {
+            A: "Stortebeker",
+            B: "Stortemelk",
+            C: "Stortebaard"
+        },
+        correctAnswer: "A"
     }
+    
     
 ];
 
@@ -135,6 +145,9 @@ function showResults() {
     if (numCorrect === myQuestions.length) {
     document.getElementById('progressdiv').style.display = 'block';
     loadDoc('GET', '/chapters/riga/riga-quiz', workplease);
+    $('html,body').animate({
+		scrollTop: $("#progressdiv").offset().top
+	 });
     }
 
     resultsContainer.innerHTML = 'Je hebt ' + numCorrect + ' van de ' + myQuestions.length + ' vragen juist beantwoord!';

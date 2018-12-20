@@ -1,4 +1,10 @@
-
+body {
+	padding-top:10px !important;
+	overflow:hidden;
+	
+	
+	
+}
 #wrapper {
 	position:absolute;
 	top:50%;
@@ -103,11 +109,7 @@
 }
 
 #reaction-1 {
-   
   display: none;
-
-
-
 }
 
 .modal {
@@ -143,7 +145,7 @@
 .hide {
     color: black;
     float: right;
-    font-size: 28px;
+	font-size: 28px;
     font-weight: bold;
 }
 
@@ -152,21 +154,19 @@
     transform: scale(1.1);
 }
 
-
 #photogallery {
     
         color: #494949 !important;
-        margin:0 auto;
+		position: absolute;
+		top: 390px;
+		left:740px;
         text-transform: uppercase;
         background: #ffffff;
         padding: 20px;
         border: 4px solid #494949 !important;
         border-radius: 6px;
         display: inline-block;
-        
-
 }
-
 
 #photogallery:hover {
     color: #ffffff !important;
@@ -176,24 +176,6 @@
     }
 
 
-.reaction-1 {
-    color: #494949 !important;
-    margin:0 auto;
-    text-transform: uppercase;
-    background: #ffffff;
-    padding: 20px;
-    border: 4px solid #494949 !important;
-    border-radius: 6px;
-    display: inline-block;
-
-}
-
-.reaction-1:hover {
-    color: #ffffff !important;
-    background: #f6b93b;
-    border-color: #f6b93b !important;
-    transition: all 0.4s ease 0s;
-	}
 
 	.return-container {
 		background-image: url('/images/lubeck/scroll.png');
@@ -210,7 +192,7 @@
 		font-family: 'Merriweather';
 		color: black;
 		margin: 0 auto;
-		
+		margin-bottom: 50px;
 	}
 
 	.return-container:hover {
@@ -229,7 +211,287 @@
 	}
 
 .comment {
-	background-image: url('../images/lubeck/artdealer/canvas.jpeg');
+	background-image: url('../images/chapters/vintagepaper.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+  .container {
+	padding: 5% 5%;
+  }
+  
+  .talk-bubble {
+	  margin: 40px;
+	display: inline-block;
+	position: relative;
+	  width: 380px;
+	  height: auto;
+	  background-color: lightyellow;
+}
+	
+.border{
+	border: 8px solid #666;
+}
+
+  .round{
+	border-radius: 30px;
+	  -webkit-border-radius: 30px;
+	  -moz-border-radius: 30px;
+}
+  
+  .tri-right.border.left-top:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: -40px;
+	  right: auto;
+	top: -8px;
+	  bottom: auto;
+	  border: 32px solid;
+	  border-color: #666 transparent transparent transparent;
+	}
+	
+  .tri-right.left-top:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: -20px;
+	  right: auto;
+	top: 0px;
+	  bottom: auto;
+	  border: 22px solid;
+	  border-color: lightyellow transparent transparent transparent;
+  }
+  
+  .tri-right.border.left-in:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: -40px;
+	  right: auto;
+	top: 30px;
+	  bottom: auto;
+	  border: 20px solid;
+	  border-color: #666 #666 transparent transparent;
+	}
+	
+  .tri-right.left-in:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: -20px;
+	  right: auto;
+	top: 38px;
+	  bottom: auto;
+	  border: 12px solid;
+	  border-color: lightyellow lightyellow transparent transparent;
+  }
+  
+  .tri-right.border.btm-left:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  left: -8px;
+	right: auto;
+	top: auto;
+	  bottom: -40px;
+	  border: 32px solid;
+	  border-color: transparent transparent transparent #666;
+	}
+	
+  .tri-right.btm-left:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  left: 0px;
+	right: auto;
+	top: auto;
+	  bottom: -20px;
+	  border: 22px solid;
+	  border-color: transparent transparent transparent lightyellow;
+  }
+  
+  .tri-right.border.btm-left-in:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  left: 30px;
+	right: auto;
+	top: auto;
+	  bottom: -40px;
+	  border: 20px solid;
+	  border-color: #666 transparent transparent #666;
+	}
+	
+  .tri-right.btm-left-in:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  left: 38px;
+	right: auto;
+	top: auto;
+	  bottom: -20px;
+	  border: 12px solid;
+	  border-color: lightyellow transparent transparent lightyellow;
+  }
+  
+  .tri-right.border.btm-right-in:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: 30px;
+	  bottom: -40px;
+	  border: 20px solid;
+	  border-color: #666 #666 transparent transparent;
+	}
+	
+  .tri-right.btm-right-in:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: 38px;
+	  bottom: -20px;
+	  border: 12px solid;
+	  border-color: lightyellow lightyellow transparent transparent;
+  }
+
+  .tri-right.border.btm-right:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: -8px;
+	  bottom: -40px;
+	  border: 20px solid;
+	  border-color: #666 #666 transparent transparent;
+	}
+	
+  .tri-right.btm-right:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: 0px;
+	  bottom: -20px;
+	  border: 12px solid;
+	  border-color: lightyellow lightyellow transparent transparent;
+  }
+  
+  .tri-right.border.right-in:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: -40px;
+	top: 30px;
+	  bottom: auto;
+	  border: 20px solid;
+	  border-color: #666 transparent transparent #666;
+	}
+	
+  .tri-right.right-in:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: -20px;
+	top: 38px;
+	  bottom: auto;
+	  border: 12px solid;
+	  border-color: lightyellow transparent transparent lightyellow;
+  }
+  
+  .tri-right.border.right-top:before {
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: -40px;
+	top: -8px;
+	  bottom: auto;
+	  border: 32px solid;
+	  border-color: #666 transparent transparent transparent;
+	}
+	
+  .tri-right.right-top:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	left: auto;
+	  right: -20px;
+	top: 0px;
+	  bottom: auto;
+	  border: 20px solid;
+	  border-color: lightyellow transparent transparent transparent;
+  }
+  
+  .talktext{
+	padding: 1em;
+	  text-align: left;
+	line-height: 1.5em;
+	}
+	
+  .talktext p{
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+  }
+
+  .lefty{
+	position: absolute;
+	top:300px;
+	left:100px;
+  }
+
+  .righty {
+	position: absolute;
+	top:300px;
+	right:100px;
+  }
+
+  #artdeal {
+	background:url(../images/lubeck/artdealer-min.jpeg);
+	background-repeat:no-repeat;
+	height:	100vw !important;;
+	width:100vw !important;
+	margin-left:300px !important; 
+	 
+	position: relative;
+	
+  }
+
+
+  #hidden-progress-div {
+	position:absolute;
+	top: 650px;
+	left:710px;
+
+  }
+
+  #choice-3 {
+	  border:none;
+	  background-color:transparent;
+
+  }
+  #choice-3:hover {
+	border:none;
+	background-color:lightblue;
+
 }
