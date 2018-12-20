@@ -55,7 +55,7 @@
         question: "Op welk eiland ligt de plaats Visby?",
         answers: {
             A: "Langeland",
-            B: "Ijsland",
+            B: "IJsland",
             C: "Gotland"
         },
         correctAnswer: "C"
