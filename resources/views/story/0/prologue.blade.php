@@ -25,25 +25,20 @@
         <div class="layer layer-four" data-speed="0.85"> </div>
         <div class="layer layer-five" data-speed="1.00"> </div>
  </section>
-
-   
-        
             
 <div class="percamentus">
     <div class="color">
     
 </div>
 
-
-{{-- @section('content') --}}
 <div class="container">
 <div>
     <p>
       Wat een schrik! Het duurt even voordat je doorhebt dat je gewoon in het water gevallen bent. Je komt boven water en opent je ogen weer. Je ziet de kade, en zwemt die kant op. 
-      Gelukkig steekt iemand zijn hand uit, en die tilt je de kade op. De man lijkt totaal anders dan wat je bent gewend. Zijn kleding lijkt uit een toneelstuk te komen. 
+      Gelukkig steekt iemand zijn hand uit en tilt je de kade op. De man lijkt totaal anders dan wat je gewend bent. Zijn kleding lijkt uit een toneelstuk te komen. 
 
-      Je bent nog wel aan de A kade, maar het lijkt anders dan eerder. Wat is er aan de hand? Alles lijkt net uit een film, of heel ouderwets.</p>
-      <p>De grote pakhuizen zien er nieuw uit, er worden goederen in- en uitgeladen. Je ziet zakken met graan, wol en huiden voorbij komen. Het komt uit hele ouderwetse boten, niet uit de vrachtwagens die je hier normaal gesproken ziet laden en lossen.
+      Je bent nog wel aan de A-kade, maar het lijkt anders dan eerder. Wat is er aan de hand? Alles lijkt net uit een film; het ziet er heel ouderwets uit.</p>
+      <p>De grote ouderwetse pakhuizen zien er wel uit alsof ze nog maar net gebouwd zijn, er worden goederen in- en uitgeladen. Je ziet zakken met graan, wol en huiden voorbij komen. Het komt uit hele ouderwetse boten, niet uit de vrachtwagens die je hier normaal gesproken ziet laden en lossen.
       Je loopt iets verder en je komt bij het Reitdiep. Ook hier zijn mensen overal bezig, en ze lijken nog steeds verkleed te zijn.</p> 
       <p>Er komt een vrouw met een kind op de arm naar je toegelopen, ze reikt je een jas aan omdat je er zo koud en nat uitziet.
       
@@ -61,8 +56,8 @@
 
 <div>
     <p>
-      "Mooi he?" hoor je achter je iemand zeggen. Je kijkt om en ziet een man staan. "De baas heeft dit schilderij vorig jaar gekregen, omdat hij zo trots is op onze mooie stad".
-      "Vorig jaar?" hoor je jezelf zeggen. "Ja" zegt de man, "in 1390 is de kunstenaar er aan begonnen". 1390? Voordat je verder kan vragen, neemt de man je mee naar buiten.
+      "Mooi he?" hoor je achter je iemand zeggen. Je kijkt om en ziet een man staan. "De baas heeft dit schilderij speciaal laten maken, omdat hij zo trots is op onze mooie stad. De kunstenaar is er bijna drie jaar mee bezig geweest! Hij is er in 1390 al aan begonnen."
+      1390? Voordat je verder kan vragen, neemt de man je mee naar buiten.
       "Ik heet trouwens Jan! Jij bent de nieuwe scheepshulp toch? Kom snel, want iedereen is net klaar met laden en lossen, we gaan zo varen. Maar voordat we wegvaren wil ik graag wel wat van je weten"
     </p>
 </div>
