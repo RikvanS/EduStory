@@ -1,5 +1,6 @@
 <p>Ben je een jongen? Of ben je een meisje?</p>
 @csrf
+<div class="buttons">
 <div class="select-container">
 <div class="select">
 <select class="select-gender" name="gender" id="gender">
@@ -9,3 +10,4 @@
 </div>
 </div>
 <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkgender', changeDiv, 'change-div', 'gender')">Bevestig</button>
+</div>

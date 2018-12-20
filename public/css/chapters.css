@@ -179,6 +179,11 @@ p::first-letter {
     opacity: 1;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
 }
@@ -391,7 +396,7 @@ p::first-letter {
 } 
 
 #change-div {
-    margin-bottom: 100px;   
+    margin-bottom: 100px;
 }
 
 .input-text {
@@ -424,6 +429,7 @@ p::first-letter {
 } 
 
 .select-container .select select {
+    -webkit-appearance: none;
     background: transparent;
     line-height: 1;
     border: 0;
@@ -431,10 +437,14 @@ p::first-letter {
     border-radius: 0;
     position: relative;
     z-index: 10;
-    font-size: 1em;
-    
+    font-size: 18px;
+    font-family: 'Merriweather';
+    width: 100px;   
 }
 
+.select-container .select select:hover {
+    cursor: pointer;
+}
 
 .select {
     width: 100px;
