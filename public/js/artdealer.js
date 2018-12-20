@@ -84,7 +84,7 @@ x.onclick = function() {
     t.style.display = "block";
 } 
 
-var span = document.getElementById('hide');
+var span = document.getElementsByClassName('hide')[0];
 
 // t.onclick = function(event) {
     

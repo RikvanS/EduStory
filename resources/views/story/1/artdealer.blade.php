@@ -18,7 +18,7 @@
 <body>
 @include('includes/sidebar')
 <div id="artdeal">
-        
+
 </div>
 
 

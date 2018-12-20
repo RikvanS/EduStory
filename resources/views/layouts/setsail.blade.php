@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ URL::asset('css/loading.css') }}">
     <link rel="stylesheet" href="{{ asset('css/waves.css') }}">
 
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet"> 
     <title>Edustory</title>
 </head>
 <body>
+        <div id="loading">
+                <img id="loadwheel" src="/images/chapters/loadwheel.gif">
+            </div>
     <!--<div id="bliksem"></div>-->
     <!--<div id="raincontainer">
         <script>
@@ -41,5 +45,6 @@
 </div>
 
         <script src="{{ asset('js/waves.js') }}"></script>
+        <script src="{{ URL::asset('js/loading.js') }}"></script>
 </body>
 </html>

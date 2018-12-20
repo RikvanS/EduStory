@@ -109,11 +109,7 @@ body {
 }
 
 #reaction-1 {
-   
   display: none;
-
-
-
 }
 
 .modal {
@@ -146,18 +142,17 @@ body {
 }
 
 
-#hide {
+.hide {
     color: black;
     float: right;
 	font-size: 28px;
     font-weight: bold;
 }
 
-#hide:hover {
+.hide:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-
 
 #photogallery {
     
@@ -171,10 +166,7 @@ body {
         border: 4px solid #494949 !important;
         border-radius: 6px;
         display: inline-block;
-        
-
 }
-
 
 #photogallery:hover {
     color: #ffffff !important;
@@ -183,7 +175,20 @@ body {
     transition: all 0.4s ease 0s;
     }
 
+<<<<<<< HEAD
 
+=======
+.reaction-1 {
+    color: #494949 !important;
+    margin:0 auto;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    border-radius: 6px;
+    display: inline-block;
+}
+>>>>>>> 0ddf773de5bc132b4d97f7594a9a5f118f5dfe4a
 
 
 	.return-container {
@@ -225,28 +230,10 @@ body {
 	background-repeat: no-repeat;
 }
 
-
-
-
-
-/*
-
-css for new speech bubbles
-*/
-
-
-
-  
-  /* CSS talk bubble */
-/* General CSS Setup */
-
-  
-  /* container */
   .container {
 	padding: 5% 5%;
   }
   
-  /* CSS talk bubble */
   .talk-bubble {
 	  margin: 40px;
 	display: inline-block;
@@ -254,18 +241,18 @@ css for new speech bubbles
 	  width: 380px;
 	  height: auto;
 	  background-color: lightyellow;
-  }
-  .border{
+}
+	
+.border{
 	border: 8px solid #666;
-  }
+}
+
   .round{
 	border-radius: 30px;
 	  -webkit-border-radius: 30px;
 	  -moz-border-radius: 30px;
+}
   
-  }
-  
-  /* Right triangle placed top left flush. */
   .tri-right.border.left-top:before {
 	  content: ' ';
 	  position: absolute;
@@ -277,7 +264,8 @@ css for new speech bubbles
 	  bottom: auto;
 	  border: 32px solid;
 	  border-color: #666 transparent transparent transparent;
-  }
+	}
+	
   .tri-right.left-top:after{
 	  content: ' ';
 	  position: absolute;
@@ -291,7 +279,6 @@ css for new speech bubbles
 	  border-color: lightyellow transparent transparent transparent;
   }
   
-  /* Right triangle, left side slightly down */
   .tri-right.border.left-in:before {
 	  content: ' ';
 	  position: absolute;
@@ -303,7 +290,8 @@ css for new speech bubbles
 	  bottom: auto;
 	  border: 20px solid;
 	  border-color: #666 #666 transparent transparent;
-  }
+	}
+	
   .tri-right.left-in:after{
 	  content: ' ';
 	  position: absolute;
@@ -317,7 +305,6 @@ css for new speech bubbles
 	  border-color: lightyellow lightyellow transparent transparent;
   }
   
-  /*Right triangle, placed bottom left side slightly in*/
   .tri-right.border.btm-left:before {
 	  content: ' ';
 	  position: absolute;
@@ -329,7 +316,8 @@ css for new speech bubbles
 	  bottom: -40px;
 	  border: 32px solid;
 	  border-color: transparent transparent transparent #666;
-  }
+	}
+	
   .tri-right.btm-left:after{
 	  content: ' ';
 	  position: absolute;
@@ -343,7 +331,6 @@ css for new speech bubbles
 	  border-color: transparent transparent transparent lightyellow;
   }
   
-  /*Right triangle, placed bottom left side slightly in*/
   .tri-right.border.btm-left-in:before {
 	  content: ' ';
 	  position: absolute;
@@ -355,7 +342,8 @@ css for new speech bubbles
 	  bottom: -40px;
 	  border: 20px solid;
 	  border-color: #666 transparent transparent #666;
-  }
+	}
+	
   .tri-right.btm-left-in:after{
 	  content: ' ';
 	  position: absolute;
@@ -369,7 +357,6 @@ css for new speech bubbles
 	  border-color: lightyellow transparent transparent lightyellow;
   }
   
-  /*Right triangle, placed bottom right side slightly in*/
   .tri-right.border.btm-right-in:before {
 	  content: ' ';
 	  position: absolute;
@@ -380,7 +367,8 @@ css for new speech bubbles
 	  bottom: -40px;
 	  border: 20px solid;
 	  border-color: #666 #666 transparent transparent;
-  }
+	}
+	
   .tri-right.btm-right-in:after{
 	  content: ' ';
 	  position: absolute;
@@ -392,21 +380,7 @@ css for new speech bubbles
 	  border: 12px solid;
 	  border-color: lightyellow lightyellow transparent transparent;
   }
-  /*
-	  left: -8px;
-	right: auto;
-	top: auto;
-	  bottom: -40px;
-	  border: 32px solid;
-	  border-color: transparent transparent transparent #666;
-	  left: 0px;
-	right: auto;
-	top: auto;
-	  bottom: -20px;
-	  border: 22px solid;
-	  border-color: transparent transparent transparent lightyellow;
-  
-  /*Right triangle, placed bottom right side slightly in*/
+
   .tri-right.border.btm-right:before {
 	  content: ' ';
 	  position: absolute;
@@ -417,7 +391,8 @@ css for new speech bubbles
 	  bottom: -40px;
 	  border: 20px solid;
 	  border-color: #666 #666 transparent transparent;
-  }
+	}
+	
   .tri-right.btm-right:after{
 	  content: ' ';
 	  position: absolute;
@@ -430,7 +405,6 @@ css for new speech bubbles
 	  border-color: lightyellow lightyellow transparent transparent;
   }
   
-  /* Right triangle, right side slightly down*/
   .tri-right.border.right-in:before {
 	  content: ' ';
 	  position: absolute;
@@ -442,7 +416,8 @@ css for new speech bubbles
 	  bottom: auto;
 	  border: 20px solid;
 	  border-color: #666 transparent transparent #666;
-  }
+	}
+	
   .tri-right.right-in:after{
 	  content: ' ';
 	  position: absolute;
@@ -456,7 +431,6 @@ css for new speech bubbles
 	  border-color: lightyellow transparent transparent lightyellow;
   }
   
-  /* Right triangle placed top right flush. */
   .tri-right.border.right-top:before {
 	  content: ' ';
 	  position: absolute;
@@ -468,7 +442,8 @@ css for new speech bubbles
 	  bottom: auto;
 	  border: 32px solid;
 	  border-color: #666 transparent transparent transparent;
-  }
+	}
+	
   .tri-right.right-top:after{
 	  content: ' ';
 	  position: absolute;
@@ -482,32 +457,27 @@ css for new speech bubbles
 	  border-color: lightyellow transparent transparent transparent;
   }
   
-  /* talk bubble contents */
   .talktext{
 	padding: 1em;
 	  text-align: left;
 	line-height: 1.5em;
-  }
+	}
+	
   .talktext p{
-	/* remove webkit p margins */
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
   }
-
 
   .lefty{
 	position: absolute;
 	top:300px;
 	left:100px;
-
-
   }
 
   .righty {
 	position: absolute;
 	top:300px;
 	right:100px;
-
   }
 
   #artdeal {

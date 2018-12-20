@@ -1,6 +1,7 @@
 @extends('layouts/chapter')
 
 @section('head')
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/danzig.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/hanoi.css') }}">
 <link href="{{ asset('css/memory.css') }}" rel="stylesheet">
 @endsection
@@ -98,7 +99,9 @@
     </div>
   <br>
     @if(Auth::user()->progression->danzigmemory == true)
-    <div id="complete-test" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
+    <div id="second-progress-container">
+        <div id="complete-test" class="game-completed"><div id="text-padding">Ik heb dit spel al eens gespeeld, ik wil door met het verhaal!</div></div>
+    </div>
     @endif
     
     <div style="display:none" id="progressdiv">
@@ -110,6 +113,8 @@
             </div>
         </div>
 </div>
+<div id="chapter-bottom-div">
+    </div>
 @endsection
 
 @section('scripts')

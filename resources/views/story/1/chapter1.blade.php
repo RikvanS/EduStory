@@ -14,8 +14,9 @@
         <p>Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
         
 </p>
-
-<a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
+<div id="artgallery-button">
+    <a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
+</div>
 
 @if(Auth::user()->progression->lubeckstory == true)
 <p>"Is het gelukt, {{ Auth::user()->name }}?" vraagt Jan als je weer aan boord van het schip stapt. "Jazeker!" zeg je, en je vertelt Jan wat je allemaal hebt gezien in Lübeck. Jan kijkt je vrolijk aan. "Jij bent wel een 
@@ -25,7 +26,15 @@
     @else
     nieuwsgierig meisje,
     @endif
-    of niet? Uitstekend gedaan! Kijk eens hier, deze heb jij wel verdiend." Jan geeft je een goudkleurige munt. "Dat is een Florijn," zegt Jan, "bewaar hem maar goed!" Hij wil nog wat zeggen, maar dan komt er een jongen over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
+    of niet? Uitstekend gedaan!" Jan roept ondertussen de kapitein erbij. "Deze {{ Auth::user()->age }}-jarige  @if(Auth::user()->gender == "jongen")
+    jongen
+    @else
+    meid
+    @endif 
+    heeft voor het eerst iets verkocht!" Jan lijkt helemaal trots te zijn. Je raakt een beetje verlegen.</p>
+    <p>De grote kapitein kijkt je aan, en tussen zijn grote baard zie je een glimlach verschijnen. "Gefeliceerd" zegt hij, terwijl hij je hand pakt. Ondertussen schudt hij je hand zo enthousiast, dat het voelt alsof je hand geplet wordt.
+    Jan ziet het en geeft je met een schaterlach nog een flinke schouderklop toe. "Bij handelen hoort een stevige handdruk!" legt hij uit. 
+    De kapitein heeft nog wat zeggen, maar dan komt er een jongen over de kade aanrennen. Hij schreeuwt iets naar jullie. Je verstaat hem niet, maar de kapitein gaat van boord en begint een gesprek met de jongen. </p>
     <p>"Dat ziet er niet goed uit," zegt Jan, "moet je eens kijken hoe de kapitein kijkt." Je kijkt goed. De kapitein zijn gezicht staat op onweer! Wat zou er aan de hand zijn?</p>
     <p>Even later komt de kapitein weer aan boord en loopt naar Jan toe. "Slecht nieuws?" vraagt Jan. De mond van de kapitein vertrekt. "Helaas wel ja. Er gaan geruchten dat Visby is aangevallen door piraten. Niemand weet precies wat er gebeurd is, en of de kust nu weer veilig is of niet. Wat doen we nu? Gaan we gewoon naar Visby? Of zullen we de route aanpassen, en via Gdansk naar Riga varen?"</p>
 
@@ -36,7 +45,7 @@
             <div onclick="loadDoc('GET', '/storesetsail2', nextChapter, '/chapters/1/setsail1b')"><button type="button" id="button-b" class="button" onclick="loadDoc('GET', '/chapters/lubeck/lubeck-choice2', workplease)">Vaar naar Gdansk</button></div>       
         </div>    
     @endif
-
+    </div>
     @if(Auth::user()->progression->lubeckchoice == 1)
     <p>Na lang overleg besluiten jullie om toch naar Visby te gaan. De piraten zullen inmiddels vast weer weg zijn.</p>
     <div class="travel-center">
@@ -53,7 +62,8 @@
 </div>    
 @endif
 
-
+<div id="chapter-bottom-div">
+    </div>
 @endsection
 
 @section('scripts')

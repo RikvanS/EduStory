@@ -48,13 +48,10 @@
 }
 
 .selected {
-
   transform: rotateY(180deg);
-
 }
 
 .match {
-
   background-image: none !important;
 }
 

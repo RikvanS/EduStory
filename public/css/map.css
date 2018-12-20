@@ -89,7 +89,6 @@
     left: 855px;
 }
 
-
 .city-description {
     position: absolute;
     background-color: white;
@@ -128,9 +127,7 @@
 .functionality-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     justify-content: space-between;
-
 }
 
 .no-underline {
@@ -139,7 +136,48 @@
 }
 
 .modal-content {
-    background-image: url('../images/lubeck/artdealer/paper.png');
+    background-image: url('../images/lubeck/artdealer/logpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.log-item {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 175px;
+    background-color: rgba(173, 216, 230, 0.521);
+    cursor: pointer;
+    font-family: 'Almendra';
+    font-size: 18px;
+    border-radius: 5px;
+    color: #000;
+    border: 2px solid;
+}
+
+#start {
+    justify-self: flex-start;
+}
+
+#logout {
+    justify-self: flex-end;
+}
+
+.log-item:hover {
+    border: 2px solid #000;
+    background-color: lightblue;
+}
+
+.log-title {
+    font-family: 'Almendra';
+}
+
+.close {
+    justify-self: flex-end;
+}
+
+#log-almendra {
+    font-family: 'Almendra';
+    font-size: 20px;
 }

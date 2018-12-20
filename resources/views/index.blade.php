@@ -1,8 +1,13 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <link href="{{ asset('css/splash.css') }}" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Open+Sans|Almendra|Merriweather" rel="stylesheet">
+<link rel="stylesheet" href="{{ URL::asset('css/loading.css') }}">
 
 <body>
+<div id="loading">
+    <img id="loadwheel" src="/images/chapters/loadwheel.gif">
+</div>
+
 <img src="../images/character-splash.png" id="character">
 <div class="headtitle">
     <h1 id="title">EduStory<h1>
@@ -52,6 +57,7 @@
 @endguest
 </div>
 <script src="{{ asset('js/infomodal.js') }}"></script>
+<script src="{{ URL::asset('js/loading.js') }}"></script>
 </body>
 @section('scripts')
 

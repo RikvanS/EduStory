@@ -1,11 +1,16 @@
 @extends('layouts/chapter')
 @section('head')
+<link rel="stylesheet" href="{{ URL::asset('css/prologue.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 <link rel="stylesheet" href="{{ URL::asset('css/parallax.css') }}">
 
 @endsection
 @section('content')
 <div class="proloog">
-<h2 class="proloogtext">Proloog</h2> <br>
+<div class="proloogtitel">
+    <h1 class="proloogtext">Proloog</h1>
+</div>
+ <br>
     <p class="proloogtext">
     
      "Wat een drukte hier!" zeg je tegen jezelf. Je staat te wachten bij de A-brug in het centrum van Groningen. 
@@ -67,10 +72,13 @@
 <div id="change-div">
     <p>Wat is jouw naam?</p>
     @csrf
-    <input id="name" name="name" type="input-text" class="text">
-    <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
+    <input id="name" name="name" type="text" class="input-text">
+    <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Helemaal juist</button>
 </div>
+
 @endif
+<div id="chapter-bottom-div">
+    </div>
 
 </div>
 </div>
