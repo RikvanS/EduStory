@@ -4,32 +4,32 @@
             <img id="map-btn" class="nav-icon" src="/images/chapters/map.svg">
     </div>
 <div id="logModal" class="modal">
-    <div class="modal-content">
+    <div class="modal-content">                
         <div class="functionality-buttons">
                 @if (Auth::user()->progression->prologuenameage == true)
-                <h1>Logboek van {{  Auth::user()->name }}</h1>      
+                <h1 class="log-title">Logboek van {{  Auth::user()->name }}</h1>      
                 @else
-                <h1 id="log-title">Logboek</h1>
+                <h1 class="log-title">Logboek</h1>
                 @endif
-        <a href="/" class="no-underline"><h1>Terug naar start</h1></a>
+                
+        <a href="/" class="no-underline"><button class="log-item" id="start">Terug naar start</button></a>
         <a class="no-underline" href="{{ route('logout') }}"
         onclick="event.preventDefault();
                       document.getElementById('logout-form').submit();">
-         <h1>Logout</h1>
+         <button class="log-item" id="logout">Uitloggen</button>
      </a>
 
      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
          @csrf
-     </form> 
-        <span class="close">&times;</span>
-        </div>
-
+     </form>
+     <span class="close">&times;</span>
+    </div>
 
         <div>   
     
     
 {{-- Standaard --}}
-            <a href="/chapters/prologue" class="log-redirect"> <p class="space-top"><h2>--Het avontuur begint--</h2></p></a>
+            <a href="/chapters/prologue" class="log-redirect"><h2 class="log-title space-top">--Het avontuur begint--</h2></a>
             <p>Het begon allemaal op een doodgewone middag in Groningen. Ik viel in de gracht, maar toen ik eruit klom was alles anders!</p>
 
 
@@ -47,7 +47,7 @@
 {{-- Gearriveerd in Lubeck --}}
 
             @if (Auth::user()->progression->lubeck == true)
-            <a href="/chapters/1" class="log-redirect"><p class="space-top"><h2>--Lubeck--</h2></p></a>
+            <a href="/chapters/1" class="log-redirect"><h2 class="log-title space-top">--Lubeck--</h2></a>
             <p>In Lubeck krijg ik de opdracht een schilderij uit Nederland af te leveren bij een kunsthandelaar.</p>
             @endif 
 
@@ -66,7 +66,7 @@
 
 {{-- Visby gearriveerd --}}
             @if (Auth::user()->progression->visby == true && Auth::user()->progression->lubeckchoice == 1)
-            <a href="/chapters/2a" class="log-redirect"><p class="space-top"><h2>--Visby--</h2></p></a>
+            <a href="/chapters/2a" class="log-redirect"><h2 class="log-title space-top">--Visby--</h2></a>
             <p>Bij aankomst in Visby komen we in een gevecht met de piraten terecht.</p>
             @endif
 
@@ -88,7 +88,7 @@
 
 {{-- Gearriveerd in gdansk --}}
             @if (Auth::user()->progression->danzig == true && Auth::user()->progression->lubeckchoice == 2)
-            <a href="/chapters/2b" class="log-redirect"><p class="space-top"><h2>--Gdansk--</h2></p></a>
+            <a href="/chapters/2b" class="log-redirect"><h2 class="log-title space-top">--Gdansk--</h2></a>
             <p>Bij aankomst in Gdansk moeten we vracht uitladen met een bijzonder kraan met hamsterwielen.</p>
             @endif
 
@@ -110,7 +110,7 @@
 
 {{-- Riga gearriveerd --}}
             @if (Auth::user()->progression->riga == true)
-           <a href="/chapters/3" class="log-redirect"><h2 class="space-top">--Riga--</h2></a>
+           <a href="/chapters/3" class="log-redirect"><h2 class="space-top" class="log-title">--Riga--</h2></a>
             <p>Als we in Riga arriveren gebeurt er iets.</p>
             @endif
 

@@ -3,7 +3,7 @@
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
 <div id="artdeal">
-        
+
 </div>
 
 

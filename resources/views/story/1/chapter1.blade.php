@@ -14,8 +14,9 @@
         <p>Je ziet genoeg wat je aandacht trekt; een mooie kerk, en de kunsthandel waar Jan het over had. Nieuwsgierig stap je aan land. 
         
 </p>
-
-<a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
+<div id="artgallery-button">
+    <a href="/chapters/1/lubeck"><button type="button" id="button-f" class="button">Bezorg het schilderij en kijk rond</button></a>
+</div>
 
 @if(Auth::user()->progression->lubeckstory == true)
 <p>"Is het gelukt, {{ Auth::user()->name }}?" vraagt Jan als je weer aan boord van het schip stapt. "Jazeker!" zeg je, en je vertelt Jan wat je allemaal hebt gezien in Lübeck. Jan kijkt je vrolijk aan. "Jij bent wel een 

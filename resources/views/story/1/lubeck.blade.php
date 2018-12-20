@@ -15,7 +15,7 @@
         @if(Auth::user()->progression->lubeckstory == true)
 
 
-<a href="/chapters/1#button-f"><div class="return-container"><div id="text-padding">Je bent klaar hier, ga terug naar Lübeck</div></div></a>
+<a href="/chapters/1#artgallery-button"><div class="return-container"><div id="text-padding">Je bent klaar hier, ga terug naar Lübeck</div></div></a>
 
 @endif
 
