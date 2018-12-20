@@ -54,7 +54,8 @@
 </div>    
 @endif
 
-
+<div id="chapter-bottom-div">
+    </div>
 @endsection
 
 @section('scripts')

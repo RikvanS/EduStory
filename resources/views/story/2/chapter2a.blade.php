@@ -88,7 +88,8 @@
 </div>
 </div>
 </div>
-
+<div id="chapter-bottom-div">
+  </div>
 @endsection
 
 @section('scripts')	
