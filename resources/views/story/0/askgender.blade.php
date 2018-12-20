@@ -9,5 +9,5 @@
 </select>
 </div>
 </div>
-<button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkgender', changeDiv, 'change-div', 'gender')">Bevestig</button>
+<button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkgender', changeDiv, 'change-div', 'gender')">Correct</button>
 </div>
