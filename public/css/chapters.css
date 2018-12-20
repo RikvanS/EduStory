@@ -319,7 +319,7 @@ p::first-letter {
 }
 
 .fadein {
-    padding: auto;
+    padding: 20px;
     font-weight: bold;
     color: #0f0f0f;
     text-align: center;
