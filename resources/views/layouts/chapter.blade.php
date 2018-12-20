@@ -22,7 +22,8 @@
     @include('includes/sidebar')
     <div class="container">
         @yield('content')
-              
+        <div id="chapter-bottom-div">
+        </div>          
     </div>
     <script src="{{ URL::asset('js/chapter.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/rigaeffect.js') }}"></script>

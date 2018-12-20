@@ -82,7 +82,7 @@
 @endif
 <div style="display:none" id="progressdiv">
 
-  <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan."</p>
+  <p>"Ons mooie koggeschip is weer zo goed als nieuw! laten we snel aan boord gaan." Snel klimmen jullie aan boord. Op naar de volgende bestemming! </p>
 <div class="travel-center">
 <button type="button" id="button-d" class="button" onclick="loadDoc('GET', '/storesetsail3', nextChapter, '/chapters/2/setsail')">Vaar naar Riga</button>
 </div>

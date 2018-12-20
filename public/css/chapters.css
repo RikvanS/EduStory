@@ -69,7 +69,7 @@ body {
     justify-items: center;
     padding: 20px;
     border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .nav-icon {
@@ -181,6 +181,11 @@ p::first-letter {
     opacity: 1;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
 #button-a {
     background-image: url(../images/chapters/rsz_2stad.png);
 }
@@ -263,7 +268,7 @@ p::first-letter {
 }
 
 .choice {
-    width: 420px;
+    width: 360px;
     text-align: left;
     background: none;
 	color: inherit;
@@ -292,14 +297,12 @@ p::first-letter {
     opacity: 0.8;
     width: 200px;
     height: 135px;
-    bottom: 10px;
     text-align: center;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-family: 'Merriweather';
     color: black;
-    margin: 0 auto;
 }
 
 .game-completed:hover {
@@ -321,7 +324,7 @@ p::first-letter {
 }
 
 .fadein {
-    padding: auto;
+    padding: 20px;
     font-weight: bold;
     color: #0f0f0f;
     text-align: center;
@@ -351,7 +354,7 @@ p::first-letter {
     min-width: 240px;
   }
   .view-poll {
-    margin-top:100px;
+    margin: 20px 0px;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
@@ -388,12 +391,11 @@ p::first-letter {
 }
  
 .proloogtext {
-    width: 600px;
-    font-family: 'Merriweather';
+    width: 90%;
 } 
 
 #change-div {
-    margin-bottom: 100px;   
+    margin-bottom: 100px;
 }
 
 .input-text {
@@ -426,6 +428,7 @@ p::first-letter {
 } 
 
 .select-container .select select {
+    -webkit-appearance: none;
     background: transparent;
     line-height: 1;
     border: 0;
@@ -433,10 +436,14 @@ p::first-letter {
     border-radius: 0;
     position: relative;
     z-index: 10;
-    font-size: 1em;
-    
+    font-size: 18px;
+    font-family: 'Merriweather';
+    width: 100px;   
 }
 
+.select-container .select select:hover {
+    cursor: pointer;
+}
 
 .select {
     width: 100px;
@@ -486,7 +493,8 @@ p::first-letter {
         flex-direction: column;
         align-items: center;
         text-align: left;
-    }
+
+    } 
 
     .proloogtext {
         
@@ -501,13 +509,13 @@ p::first-letter {
     background-image: url('../images/wood.jpeg');
     padding: 10px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: center;
     color: white;
 }
 
 #canvas {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .lubeck-flex {
@@ -516,3 +524,6 @@ p::first-letter {
     flex-direction: row;
 }
 
+#chapter-bottom-div {
+    height: 60px;
+}

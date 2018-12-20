@@ -2,52 +2,77 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ URL::asset('css/artgallery.css') }} ">
-<img src="{{URL::asset('/images/lubeck/artdealer-min.jpg')}}">
-
-
-<br>
-<div class="comments">
-<div class="comment bubble1">
-        Welkom bij een van de grootste kunsthandelaars van Lubeck. Wat kan ik voor je doen?
+<div id="artdeal">
 
 </div>
 
 
 
-<div class="comment bubble2">
-        <ul>
+<div class="righty talk-bubble tri-right border round btm-left-in">
+                <div class="talktext">
+                  <p>Welkom bij een van de grootste kunsthandelaars van Lubeck. Wat kan ik voor je doen?</p>
+                </div>
+              </div>
 
-                <li> <button type="button" onclick="choice1()" class="choice" id="choice-1"><p>Ik heb een kunstwerk uit Nederland. </p></li>
-                <li> <button type="button" onclick="choice2()" class="choice" id="choice-2"><p>Ik zou graag jullie kunstwerken willen bekijken.  </p></li>
-            </ul>
+              <div class="lefty talk-bubble tri-right border round btm-right-in">
+                        <div class="talktext">
+                                       
 
-</div>
+                                                        <button type="button" onclick="choice1()" class="choice" id="choice-1"><p>Ik heb een kunstwerk uit Nederland. </p>
+                                                        <button type="button" onclick="choice2()" class="choice" id="choice-2"><p>Ik zou graag jullie kunstwerken willen bekijken.  </p>
+                                                   
+                                        
+                        </div>
+                      </div>
 
 
-<div style="display:none;" id="reaction-1" class="comment bubble1">
+                      <div id="reaction-1" style="display:none;" class="righty talk-bubble tri-right border round btm-left-in">
+                                <div class="talktext">
+                                                
 
-        Ah, de beste kunstwerken komen uit Nederland.  Wat zou je er voor willen hebben?
-</div>
+                                                           <p>     Ah, de beste kunstwerken komen uit Nederland.  Wat zou je er voor willen hebben? </p>
+                                                      
+                                </div>
+                              </div>
 
-<div style="display:none;" id="reaction-2" class="comment bubble2">
-        <ul>
 
-                <li> <button type="button" onclick="choice3()" class="reaction-1" id="choice-3"><p>Ik wil er 1000 penningen voor hebben. </p></li>
-                
-            </ul>
+<div style="display:none;" id="reaction-2" class="lefty talk-bubble tri-right border round btm-right-in">
+                <div class="talktext">
+                                
+                                              
+                                        
+                                                 <p>      <button type="button" onclick="choice3()" class="reaction-1" id="choice-3"><p>Ik wil er 1000 penningen voor hebben. </p>
+                                                        
+                                                    
+                                        
+                                      
+                </div>
+              </div>
 
-</div>
 
-<div style="display:none;" id="reaction-4" class="comment bubble1">
 
-        1000 Penningen is ongeveer een half jaar werk voor een ongeschoolde arbeider. Je vraagt teveel. Ik geef je 250 penningen voor het schilderij.
-</div>
+<div style="display:none;" id="reaction-4" class="righty talk-bubble tri-right border round btm-left-in">
+                <div class="talktext">
+                                
 
-<div style="display:none;" id="reaction-3" class="comment bubble1">
+                                             <p>   1000 Penningen is ongeveer een half jaar werk voor een ongeschoolde arbeider. Je vraagt teveel. Ik geef je 250 penningen voor het schilderij. </p>
+                                        
+                                        
+                </div>
+              </div>
 
-        De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grote deels zijn onze opdrachtgevers
-        de kerk en adelijke families. Maak alsjeblieft niets stuk.
-</div>
+              <div id="reaction-3" style="display:none;" class=" lefty talk-bubble tri-right border round btm-right-in">
+                        <div class="talktext">
+                                        
+
+                                           <p>             De kunstwerken hier zijn erg duur, alleen de rijkste handelaren kunnen hier iets kopen. We hebben kunstenaars vanuit heel Europa die naar Lubeck komen om hun dure kunstwerken te verhandelen. Grote deels zijn onze opdrachtgevers
+                                                        de kerk en adelijke families. Maak alsjeblieft niets stuk. </p>
+                                                
+                                                
+                        </div>
+                      </div>
+
+
 
 <button style="display:none;" type="button" onclick="modal()" id="photogallery"  class="artgallery"> <a> Bekijk de gallerij </a>
 
