@@ -73,10 +73,12 @@
     <p>Wat is jouw naam?</p>
     @csrf
     <input id="name" name="name" type="text" class="input-text">
-    <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Bevestig</button>
+    <button class="change-btn" onclick="loadDoc('POST', '/chapters/prologue/checkname', changeDiv, 'change-div', 'name')">Helemaal juist</button>
 </div>
 
 @endif
+<div id="chapter-bottom-div">
+    </div>
 
 </div>
 </div>

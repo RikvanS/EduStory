@@ -95,6 +95,8 @@
     <button type="button" id="button-e" class="button" onclick="loadDoc('GET', '/storeepilogue', nextChapter, '/chapters/epilogue')">Ga naar epiloog</button>
     </div>
 </div>
+<div id="chapter-bottom-div">
+        </div>
 @endsection
 
 @section('scripts')
