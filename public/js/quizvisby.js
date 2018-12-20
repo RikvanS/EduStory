@@ -55,7 +55,7 @@
         question: "Op welk eiland ligt de plaats Visby?",
         answers: {
             A: "Langeland",
-            B: "Ijsland",
+            B: "IJsland",
             C: "Gotland"
         },
         correctAnswer: "C"
@@ -145,6 +145,9 @@ function showResults() {
     if (numCorrect === myQuestions.length) {
     document.getElementById('progressdiv').style.display = 'block';
     loadDoc('GET', '/chapters/riga/riga-quiz', workplease);
+    $('html,body').animate({
+		scrollTop: $("#progressdiv").offset().top
+	 });
     }
 
     resultsContainer.innerHTML = 'Je hebt ' + numCorrect + ' van de ' + myQuestions.length + ' vragen juist beantwoord!';

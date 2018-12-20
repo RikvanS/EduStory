@@ -2,8 +2,10 @@ function choice1() {
     var i = document.getElementById("reaction-4");
     var x = document.getElementById("reaction-1");
     var y = document.getElementById("reaction-2");
+    var t = document.getElementById("choice");
     if (x.style.display === "none") {
         x.style.display = "block";
+        t.style.display = "none";
         y.style.display = "block";
 
     } else {
@@ -27,59 +29,114 @@ function choice2() {
 
 function choice3() {
     var i = document.getElementById("reaction-4");
-    if (i.style.display = "none") {
+    var x = document.getElementById("reaction-5");
+    var t = document.getElementById("reaction-2");
+
+    if (i.style.display == "none" && x.style.display == "none") {
         i.style.display = "block";
+        x.style.display = "block";
+        t.style.display = "none";
     }
         else {
             console.log("check");
             i.style.display = "none";
+            x.style.display = "none";
         }
 
         document.getElementById('hidden-progress-div').style.display='block';
 
 }
 
+function choice4() {
+    var i = document.getElementById("reaction-1");
+    var x = document.getElementById("begin");
+    var m = document.getElementById("reaction-2");
+    var w = document.getElementById("reaction-5");
+    var t = document.getElementById("reaction-4");
+    var y = document.getElementById("choice");
+
+    if (t.style.display = "block") {
+        t.style.display = "none";
+        m.style.display = "none";
+        y.style.display = "none";
+        i.style.display = "none";
+        y.style.display = "block";
+        w.style.display = "none";
+        x.style.display = "block";
+    }
+        else {
+            console.log("check");
+            i.style.display = "none";
+            x.style.display = "none";
+        }
+
+
+}
+
+
 var t = document.getElementById("pgallery");
 var x = document.getElementById("photogallery");
+var y = document.getElementById("photomodal");
+
 
 x.onclick = function() {
     
-    pgallery.style.display = "block";
+    t.style.display = "block";
 } 
 
-var span = document.getElementsByClassName('hide')[0];
+var span = document.getElementById('hide');
 
-t.onclick = function(event) {
-    if (event.target == t) {
-        t.style.display = "none";
-    }
-} 
+// t.onclick = function(event) {
+    
+//     console.log("test2");
+//     if (event.target == t) {
+//         t.style.display = "none";
+//     }
+// } 
+function pgallery(){
+    
+if (t.style.display === "none") {
+    t.style.display = "block";
+   
+} else {
+    t.style.display = "none";
+    
+}}
+
 
 span.onclick = function() {
-    pgallery.style.display = "none";
+
+    
+    console.log("test3");
+    t.style.display = "none";
 }
 
-document.getElementById('choice-1').addEventListener('click', cleanupchoice1);
 
-function cleanupchoice1() {
-    if (document.getElementById("reaction-3").style.display === 'block') {
-        document.getElementById("reaction-3").style.display = 'none';
-    }
-    if (document.getElementById("photogallery").style.display === 'block') {
-        document.getElementById("photogallery").style.display = 'none';
-    }
-}
 
-document.getElementById('choice-2').addEventListener('click', cleanupchoice2);
 
-function cleanupchoice2() {
-    if (document.getElementById("reaction-1").style.display === 'block') {
-        document.getElementById("reaction-1").style.display = 'none';
-    }
-    if (document.getElementById("reaction-2").style.display === 'block') {
-        document.getElementById("reaction-2").style.display = 'none';
-}
-    if (document.getElementById("reaction-4").style.display === 'block') {
-    document.getElementById("reaction-4").style.display = 'none';
-}
-}
+
+
+// document.getElementById('choice-1').addEventListener('click', cleanupchoice1);
+
+// function cleanupchoice1() {
+//     if (document.getElementById("reaction-3").style.display === 'block') {
+//         document.getElementById("reaction-3").style.display = 'none';
+//     }
+//     if (document.getElementById("photogallery").style.display === 'block') {
+//         document.getElementById("photogallery").style.display = 'none';
+//     }
+// }
+
+// document.getElementById('choice-2').addEventListener('click', cleanupchoice2);
+
+// function cleanupchoice2() {
+//     if (document.getElementById("reaction-1").style.display === 'block') {
+//         document.getElementById("reaction-1").style.display = 'none';
+//     }
+//     if (document.getElementById("reaction-2").style.display === 'block') {
+//         document.getElementById("reaction-2").style.display = 'none';
+// }
+//     if (document.getElementById("reaction-4").style.display === 'block') {
+//     document.getElementById("reaction-4").style.display = 'none';
+// }
+// }
